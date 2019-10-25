@@ -39,5 +39,10 @@ namespace Trabalho21_10_2019_1ponto
         {
 
         }
+
+        private void Sistema_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

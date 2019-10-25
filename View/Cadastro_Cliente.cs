@@ -42,5 +42,10 @@ namespace Trabalho21_10_2019_1ponto.View
             //con.Conectar();
             
         }
+
+        private void txt_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
