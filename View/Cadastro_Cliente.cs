@@ -30,16 +30,11 @@ namespace Trabalho21_10_2019_1ponto.View
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
             Model.Cadastro cad = new Model.Cadastro();
-            Dao.Conexao con = new Dao.Conexao();
-
+    
             cad.SetNome(txt_Nome.Text);
             cad.SetEnd(txt_End.Text);
             cad.SetCPF(txt_CPF.Text);
-
-
-
-
-            //con.Conectar();
+                                                      
             
         }
 

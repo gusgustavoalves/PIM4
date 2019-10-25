@@ -8,6 +8,18 @@ namespace Trabalho21_10_2019_1ponto.Model
 {
     class CPF
     {
+        private string cpf;
+
+        public string GetCpf()
+        {
+            return this.cpf;
+        }
+
+        public void SetCpf(string cpf)
+        {
+            this.cpf = cpf;
+        }
+
         public bool ValidaCPF(string cpf)
 
 
@@ -19,6 +31,8 @@ namespace Trabalho21_10_2019_1ponto.Model
             string digito;
             int soma;
             int resto;
+
+            
 
             if (cpf.Length != 11)
             {
@@ -36,7 +50,7 @@ namespace Trabalho21_10_2019_1ponto.Model
 
             for(int cont = 0;cont < 9; cont++)
             {
-                soma = soma + (int.Parse(tempCpf[cont].ToString()) * mult2[cont]);
+                soma += int.Parse(tempCpf[cont].ToString()) * mult1[cont];
             }
 
             resto = soma % 11;
@@ -52,13 +66,13 @@ namespace Trabalho21_10_2019_1ponto.Model
 
             digito = resto.ToString();
 
-            tempCpf = tempCpf = digito;
+            tempCpf = tempCpf + digito;
 
             soma = 0;
 
             for(int cont=0; cont < 10; cont++)
             {
-                soma = soma + (int.Parse(tempCpf[cont].ToString()) * mult2[cont]);
+                soma += int.Parse(tempCpf[cont].ToString()) * mult2[cont];
             }
 
             resto = soma % 11;

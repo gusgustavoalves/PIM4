@@ -32,6 +32,8 @@
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Sistema = new System.Windows.Forms.Panel();
+            this.conexaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +42,8 @@
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroToolStripMenuItem});
+            this.cadastroToolStripMenuItem,
+            this.conexaoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -50,7 +53,7 @@
             // 
             // cadastroToolStripMenuItem
             // 
-            this.cadastroToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.cadastroToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
@@ -71,12 +74,28 @@
             this.Panel_Sistema.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Panel_Sistema.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel_Sistema.Location = new System.Drawing.Point(0, 24);
-            this.Panel_Sistema.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Panel_Sistema.Margin = new System.Windows.Forms.Padding(2);
             this.Panel_Sistema.MinimumSize = new System.Drawing.Size(600, 400);
             this.Panel_Sistema.Name = "Panel_Sistema";
             this.Panel_Sistema.Size = new System.Drawing.Size(634, 428);
             this.Panel_Sistema.TabIndex = 1;
             this.Panel_Sistema.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // conexaoToolStripMenuItem
+            // 
+            this.conexaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem});
+            this.conexaoToolStripMenuItem.Name = "conexaoToolStripMenuItem";
+            this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.conexaoToolStripMenuItem.Text = "Conexao";
+            // 
+            // testeDeConexaoComBancoDeDadosToolStripMenuItem
+            // 
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Name = "testeDeConexaoComBancoDeDadosToolStripMenuItem";
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Text = "Teste de conexao com Banco de Dados";
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.testeDeConexaoComBancoDeDadosToolStripMenuItem_Click);
             // 
             // Sistema
             // 
@@ -86,7 +105,7 @@
             this.Controls.Add(this.Panel_Sistema);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "Sistema";
             this.Text = "Sistema";
@@ -104,6 +123,8 @@
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
         private System.Windows.Forms.Panel Panel_Sistema;
+        private System.Windows.Forms.ToolStripMenuItem conexaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testeDeConexaoComBancoDeDadosToolStripMenuItem;
     }
 }
 

@@ -17,8 +17,8 @@ namespace Trabalho21_10_2019_1ponto.Dao
             {
                 conexao.ConnectionString = @"server=localhost;port=3306;User Id=root;database=cadastro;password=";
                 conexao.Open();
-                MessageBox.Show("Conectado com Sucesso !!!");
-                conexao.Close();
+                //MessageBox.Show("Conectado com Sucesso !!!");
+                //conexao.Close();
             }
             catch
             {
@@ -49,6 +49,21 @@ namespace Trabalho21_10_2019_1ponto.Dao
             else
             {
                 return false;
+            }
+        }
+
+        public void Testeconection()
+        {
+            try
+            {
+                conexao.ConnectionString = @"server=localhost;port=3306;User Id=root;database=cadastro;password=";
+                conexao.Open();
+                MessageBox.Show("Conectado com Sucesso !!!");
+                conexao.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Erro de Conexao Com O Banco de Dados !!!!");
             }
         }
     }

@@ -44,5 +44,12 @@ namespace Trabalho21_10_2019_1ponto
         {
 
         }
+
+        private void testeDeConexaoComBancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Dao.Conexao con = new Dao.Conexao();
+            con.Testeconection();
+
+        }
     }
 }

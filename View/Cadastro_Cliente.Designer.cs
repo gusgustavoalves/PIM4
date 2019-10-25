@@ -73,7 +73,7 @@
             this.button_Cadastrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button_Cadastrar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button_Cadastrar.Location = new System.Drawing.Point(21, 268);
-            this.button_Cadastrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_Cadastrar.Margin = new System.Windows.Forms.Padding(2);
             this.button_Cadastrar.Name = "button_Cadastrar";
             this.button_Cadastrar.Size = new System.Drawing.Size(73, 24);
             this.button_Cadastrar.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.button_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button_Sair.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button_Sair.Location = new System.Drawing.Point(112, 268);
-            this.button_Sair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_Sair.Margin = new System.Windows.Forms.Padding(2);
             this.button_Sair.Name = "button_Sair";
             this.button_Sair.Size = new System.Drawing.Size(73, 24);
             this.button_Sair.TabIndex = 4;
@@ -97,7 +97,7 @@
             // txt_Nome
             // 
             this.txt_Nome.Location = new System.Drawing.Point(87, 14);
-            this.txt_Nome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Nome.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Nome.Name = "txt_Nome";
             this.txt_Nome.Size = new System.Drawing.Size(165, 20);
             this.txt_Nome.TabIndex = 5;
@@ -105,7 +105,7 @@
             // txt_End
             // 
             this.txt_End.Location = new System.Drawing.Point(87, 116);
-            this.txt_End.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_End.Margin = new System.Windows.Forms.Padding(2);
             this.txt_End.Name = "txt_End";
             this.txt_End.Size = new System.Drawing.Size(165, 20);
             this.txt_End.TabIndex = 7;
@@ -115,7 +115,7 @@
             this.txt_CPF.Location = new System.Drawing.Point(87, 64);
             this.txt_CPF.Name = "txt_CPF";
             this.txt_CPF.Size = new System.Drawing.Size(165, 20);
-            this.txt_CPF.TabIndex = 8;
+            this.txt_CPF.TabIndex = 6;
             // 
             // Cadastro_Cliente
             // 
@@ -130,7 +130,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Cadastro_Cliente";
             this.Text = "Cadastro De Cliente";
             this.Load += new System.EventHandler(this.Form_Cadastro_Cliente_Load);
