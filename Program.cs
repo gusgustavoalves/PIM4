@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Trabalho21_10_2019_1ponto.View;
 
 namespace Trabalho21_10_2019_1ponto
 {
@@ -16,7 +17,7 @@ namespace Trabalho21_10_2019_1ponto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sistema());
+            Application.Run(new Tela_Login());
         }
     }
 }

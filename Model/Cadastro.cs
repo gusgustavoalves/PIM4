@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Trabalho21_10_2019_1ponto.Model
 {
-    class Cadastro
+    public class Cadastro
     {
         private string Nome;
         private string CPF;

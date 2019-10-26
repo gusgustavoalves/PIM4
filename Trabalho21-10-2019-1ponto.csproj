@@ -36,6 +36,25 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>v4.5.2\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\Fuzzi-transportes\FuzziTransportes\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>v4.5.2\Google.Protobuf.dll</HintPath>
     </Reference>
@@ -66,8 +85,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -82,7 +103,9 @@
   <ItemGroup>
     <Compile Include="Dao\Cadastra_Cliente.cs" />
     <Compile Include="Dao\Conexao.cs" />
+    <Compile Include="Dao\LoginBD.cs" />
     <Compile Include="Model\Cadastro.cs" />
+    <Compile Include="Model\Logar.cs" />
     <Compile Include="View\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +120,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Tela_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Tela_Login.Designer.cs">
+      <DependentUpon>Tela_Login.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +141,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Tela_Login.resx">
+      <DependentUpon>Tela_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace Trabalho21_10_2019_1ponto.Dao
 {
-    class Conexao
+    public class Conexao
     {
         MySqlConnection conexao = new MySqlConnection();
         private string statusbd;
@@ -39,10 +39,8 @@ namespace Trabalho21_10_2019_1ponto.Dao
         }
 
         public bool Checkconection()
-        {
-            string temp = conexao.State.ToString(Statusbd);
-            Statusbd = temp;
-            if (conexao.State == ConnectionState.Open && temp == "Open")
+        {           
+            if (conexao.State == ConnectionState.Open)
             {
                 return true;
             }
@@ -65,6 +63,10 @@ namespace Trabalho21_10_2019_1ponto.Dao
             {
                 MessageBox.Show("Erro de Conexao Com O Banco de Dados !!!!");
             }
+        }
+        public MySqlConnection traz_Conexao()
+        {
+            return conexao;
         }
     }
 }
