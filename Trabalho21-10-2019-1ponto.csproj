@@ -83,7 +83,6 @@
     <Compile Include="Dao\Cadastra_Cliente.cs" />
     <Compile Include="Dao\Conexao.cs" />
     <Compile Include="Model\Cadastro.cs" />
-    <Compile Include="Model\CPF.cs" />
     <Compile Include="View\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -30,7 +30,7 @@ namespace Trabalho21_10_2019_1ponto.View
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
             Model.Cadastro cad = new Model.Cadastro();
-    
+                
             cad.SetNome(txt_Nome.Text);
             cad.SetEnd(txt_End.Text);
             cad.SetCPF(txt_CPF.Text);
@@ -39,6 +39,11 @@ namespace Trabalho21_10_2019_1ponto.View
         }
 
         private void txt_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void txt_CPF_MaskInputRejected_1(object sender, MaskInputRejectedEventArgs e)
         {
 
         }
