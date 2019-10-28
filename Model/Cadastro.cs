@@ -12,6 +12,7 @@ namespace Trabalho21_10_2019_1ponto.Model
         private string Nome;
         private string CPF;
         private string End;
+        private string tempcpf;
         
 
 
@@ -32,11 +33,10 @@ namespace Trabalho21_10_2019_1ponto.Model
 
         public void SetCPF(string CPF)
         {
-            MessageBox.Show(CPF);
             if (ValidaCPF(CPF))
             {
-                this.CPF = CPF;
-                MessageBox.Show("CPF Valido!!!");
+                this.CPF = tempcpf;
+                //MessageBox.Show("CPF Valido!!!");
             }
             else
             {
@@ -59,11 +59,10 @@ namespace Trabalho21_10_2019_1ponto.Model
         {
                      
         }
-        public bool ValidaCPF(string cpf)
+        public bool ValidaCPF(string CPF)
 
 
         {
-            //MessageBox.Show(cpf);
             int[] mult1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] mult2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
 
@@ -74,35 +73,34 @@ namespace Trabalho21_10_2019_1ponto.Model
 
 
 
-            cpf = cpf.Trim();
-            if (cpf.Contains(".") || cpf.Contains(",") || cpf.Contains("-"))
+                CPF = CPF.Trim();
+            if (CPF.Contains(".") || CPF.Contains(",") || CPF.Contains("-"))
             {
-                if (cpf.Contains("."))
+                if (CPF.Contains("."))
                 {
-                    cpf = cpf.Replace(".", "");
+                    CPF = CPF.Replace(".", "");
                 }
-                if (cpf.Contains("-"))
+                if (CPF.Contains("-"))
                 {
-                    cpf = cpf.Replace("-", "");
+                    CPF = CPF.Replace("-", "");
                 }
-                if (cpf.Contains(","))
+                if (CPF.Contains(","))
                 {
-                    cpf = cpf.Replace(",", "");
+                    CPF = CPF.Replace(",", "");
                 }
                 
             }
-            MessageBox.Show(cpf);
-            if (cpf.Length != 11)
+            if (CPF.Length != 11)
             {
                 return false;
             }
 
-            if (cpf.Distinct().Count() == 1)
+            if (CPF.Distinct().Count() == 1)
             {
                 return false;
             }
 
-            tempCpf = cpf.Substring(0, 9);
+            tempCpf = CPF.Substring(0, 9);
             soma = 0;
 
             for (int cont = 0; cont < 9; cont++)
@@ -143,11 +141,10 @@ namespace Trabalho21_10_2019_1ponto.Model
                 resto = 11 - resto;
                 digito = digito + resto.ToString();
             }
-
-            return cpf.EndsWith(digito);
-
-
-
+            //MessageBox.Show(CPF);
+            tempcpf = CPF;
+            return CPF.EndsWith(digito);
+            
 
         }
 

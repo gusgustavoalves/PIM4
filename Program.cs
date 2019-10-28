@@ -17,7 +17,8 @@ namespace Trabalho21_10_2019_1ponto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Tela_Login());
+            //Application.Run(new Tela_Login());
+            Application.Run(new Sistema());
         }
     }
 }
