@@ -118,7 +118,7 @@
             this.txt_CPF.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CPF.Mask = "000.000.000-00";
             this.txt_CPF.Name = "txt_CPF";
-            this.txt_CPF.Size = new System.Drawing.Size(78, 20);
+            this.txt_CPF.Size = new System.Drawing.Size(84, 20);
             this.txt_CPF.TabIndex = 6;
             this.txt_CPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txt_CPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txt_CPF_MaskInputRejected_1);
