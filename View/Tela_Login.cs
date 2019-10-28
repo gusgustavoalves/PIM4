@@ -24,13 +24,13 @@ namespace Trabalho21_10_2019_1ponto.View
 
         private void button_Logar_Click(object sender, EventArgs e)
         {
-            log.SetUsuario(txt_Usuario.Text);
-            log.SetSenha(txt_Senha.Text);
+            log.Usuario = txt_Usuario.Text;
+            log.Senha = txt_Senha.Text;
             MessageBox.Show(txt_Usuario.Text);
-            MessageBox.Show(txt_Senha.Text);
+            MessageBox.Show(log.Usuario);
             if (txt_Usuario.Text != "" && txt_Senha.Text != "")
             {
-                if (loginbd.Validausuario(log.GetUsuario()))
+                if (loginbd.Validausuario(log.Usuario))
                 {
                     this.Hide();
                     Sistema.Show();

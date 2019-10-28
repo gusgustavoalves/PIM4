@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using Trabalho21_10_2019_1ponto.Model;
 
 namespace Trabalho21_10_2019_1ponto.Dao
 {
@@ -25,14 +26,14 @@ namespace Trabalho21_10_2019_1ponto.Dao
             if (Con.Checkconection())
             {
                 MessageBox.Show("entrou no select do login");
-                MessageBox.Show("USUARIO",Log.GetUsuario()); 
-                MessageBox.Show("Senha",Log.GetSenha());
+                MessageBox.Show(Log.Usuario); 
+                MessageBox.Show(Log.Senha);
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 MySqlCommand command = new MySqlCommand("SELECT * FROM usuario WHERE USUARIO = @usuario AND SENHA = @senha", Con.traz_Conexao());
 
-                command.Parameters.Add("@usuario", MySqlDbType.VarChar).Value = Log.GetUsuario();
-                command.Parameters.Add("@senha", MySqlDbType.VarChar).Value = Log.GetSenha();
+                command.Parameters.Add("@usuario", MySqlDbType.VarChar).Value = Log.Usuario;
+                command.Parameters.Add("@senha", MySqlDbType.VarChar).Value = Log.Senha;
                 adapter.SelectCommand = command;
                 adapter.Fill(table);
                 //command.ExecuteReader();

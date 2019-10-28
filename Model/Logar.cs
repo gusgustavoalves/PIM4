@@ -3,32 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Trabalho21_10_2019_1ponto.Model
 {
     public class Logar
     {
-        private string Usuario;
-        private string Senha;
+        private string usuario;
+        private string senha;
 
-        public string GetUsuario()
-        {
-            return this.Usuario;
-        }
-
-        public void SetUsuario(string Usuario)
-        {
-            this.Usuario = Usuario;
-        }
-
-        public string GetSenha()
-        {
-            return this.Senha;
-        }
-
-        public void SetSenha(string Senha)
-        {
-            this.Senha = Senha;
-        }
+        public string Usuario { get => usuario; set => usuario = value; }
+        public string Senha { get => senha; set => senha = value; }
     }
+
 }
