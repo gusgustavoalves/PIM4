@@ -41,14 +41,20 @@ namespace Trabalho21_10_2019_1ponto.View
 
             if (txt_Nome.Text != "" && txt_CPF.Text != "" && txt_End.Text != "")
             {
-                if (cli.VerCliente(cad))
-                {
-                    MessageBox.Show("Cliente Ja cadastrado !!!");
+                if (cad.GetCPF() != "" && cad.GetCPF() != null) {
+                    if (cli.VerCliente(cad))
+                    {
+                        MessageBox.Show("Cliente Ja cadastrado !!!");
+                    }
+                    else
+                    {
+                        cli.CadastraCliente(cad);
+                        MessageBox.Show("Cliente Cadastrado com Sucesso !!!");
+                    }
                 }
                 else
-                {                    
-                    cli.CadastraCliente(cad);
-                    MessageBox.Show("Cliente Cadastrado com Sucesso !!!");
+                {
+                    MessageBox.Show("Verifique o CPF digitado !!!");
                 }
             }
             else
