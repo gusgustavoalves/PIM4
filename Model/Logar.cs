@@ -12,8 +12,25 @@ namespace Trabalho21_10_2019_1ponto.Model
         private string usuario;
         private string senha;
 
-        public string Usuario { get => usuario; set => usuario = value; }
-        public string Senha { get => senha; set => senha = value; }
+        
+
+        public void SetUsuario(string usuario)
+        {
+            this.usuario = usuario;
+        }
+        public string GetUsuario()
+        {
+            return this.usuario;
+        }
+
+        public void SetSenha(string senha)
+        {
+            this.senha = senha;
+        }
+        public string GetSenha()
+        {
+            return this.senha;
+        }
     }
 
 }
