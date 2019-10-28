@@ -30,7 +30,7 @@ namespace Trabalho21_10_2019_1ponto.View
             MessageBox.Show(log.GetUsuario());
             if (txt_Usuario.Text != "" && txt_Senha.Text != "")
             {
-                if (loginbd.Validausuario(log.GetUsuario()))
+                if (loginbd.Validausuario(log))
                 {
                     this.Hide();
                     Sistema.Show();

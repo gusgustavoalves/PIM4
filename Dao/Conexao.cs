@@ -64,7 +64,7 @@ namespace Trabalho21_10_2019_1ponto.Dao
                 MessageBox.Show("Erro de Conexao Com O Banco de Dados !!!!");
             }
         }
-        public MySqlConnection traz_Conexao()
+        public MySqlConnection Traz_Conexao()
         {
             return conexao;
         }

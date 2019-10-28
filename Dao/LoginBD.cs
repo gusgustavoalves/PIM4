@@ -13,16 +13,10 @@ namespace Trabalho21_10_2019_1ponto.Dao
     public class LoginBD
     {
         Dao.Conexao Con = new Dao.Conexao();
-        Model.Logar Log = new Model.Logar();
+        private bool User_Exists = false;
 
-        private string usu;
-        private string pwd;
-
-        public bool Validausuario(string user)
+        public bool Validausuario(Logar Login)
         {
-            pwd = Log.GetSenha();
-            usu = Log.GetUsuario();
-                        
             if (!Con.Checkconection())
             {
                 Con.Conectar();
@@ -30,29 +24,25 @@ namespace Trabalho21_10_2019_1ponto.Dao
 
             if (Con.Checkconection())
             {
-                MessageBox.Show("entrou no select do login");
-                MessageBox.Show(usu); 
-                MessageBox.Show(pwd);
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
-                MySqlCommand command = new MySqlCommand("SELECT * FROM usuario WHERE USUARIO = @usuario AND SENHA = @senha", Con.traz_Conexao());
+                MySqlCommand command = new MySqlCommand("SELECT * FROM usuario WHERE USUARIO = @usuario AND SENHA = @senha", Con.Traz_Conexao());
 
-                command.Parameters.Add("@usuario", MySqlDbType.VarChar).Value = usu;
-                command.Parameters.Add("@senha", MySqlDbType.VarChar).Value = pwd;
+                command.Parameters.Add("@usuario", MySqlDbType.VarChar).Value = Login.GetUsuario();
+                command.Parameters.Add("@senha", MySqlDbType.VarChar).Value = Login.GetSenha();
                 adapter.SelectCommand = command;
                 adapter.Fill(table);
-                //command.ExecuteReader();
 
                 //Verifica se há uma lina no banco com esse Usuário.
                 if (table.Rows.Count > 0)
                 {
-                    return true;
+                    User_Exists = true;
                 }
 
                 Con.Desconectar();
             }
 
-            return false;
+            return User_Exists;
         }
     }
 }
