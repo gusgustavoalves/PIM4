@@ -26,8 +26,6 @@ namespace Trabalho21_10_2019_1ponto.View
         {
             log.SetUsuario(txt_Usuario.Text);
             log.SetSenha(txt_Senha.Text);
-            MessageBox.Show(txt_Usuario.Text);
-            MessageBox.Show(log.GetUsuario());
             if (txt_Usuario.Text != "" && txt_Senha.Text != "")
             {
                 if (loginbd.Validausuario(log))
@@ -52,6 +50,11 @@ namespace Trabalho21_10_2019_1ponto.View
         }
 
         private void label_Nome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tela_Login_Load(object sender, EventArgs e)
         {
 
         }
