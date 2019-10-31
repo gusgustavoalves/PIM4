@@ -26,7 +26,7 @@ namespace PIM.Dao
             {
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
-                MySqlCommand command = new MySqlCommand("SELECT * FROM usuario WHERE USUARIO = @usuario AND SENHA = @senha", Con.Traz_Conexao());
+                MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO WHERE USUARIO = @usuario AND SENHA = @senha", Con.Traz_Conexao());
 
                 command.Parameters.Add("@usuario", MySqlDbType.VarChar).Value = Login.GetUsuario();
                 command.Parameters.Add("@senha", MySqlDbType.VarChar).Value = Login.GetSenha();
