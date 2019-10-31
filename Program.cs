@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Trabalho21_10_2019_1ponto.View;
+using PIM.View;
 
-namespace Trabalho21_10_2019_1ponto
+namespace PIM
 {
     static class Program
     {

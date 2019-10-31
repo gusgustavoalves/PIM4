@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
-using Trabalho21_10_2019_1ponto.Model;
+using PIM.Model;
 
-namespace Trabalho21_10_2019_1ponto.Dao
+namespace PIM.Dao
 {
     public class LoginBD
     {

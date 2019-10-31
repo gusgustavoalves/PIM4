@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows.Forms;
 
-namespace Trabalho21_10_2019_1ponto.Dao
+namespace PIM.Dao
 {
     public class Conexao
     {

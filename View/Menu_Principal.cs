@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Trabalho21_10_2019_1ponto.View;
+using PIM.View;
 
-namespace Trabalho21_10_2019_1ponto
+namespace PIM
 {
     public partial class Sistema : Form
     {

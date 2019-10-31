@@ -1,4 +1,4 @@
-﻿namespace Trabalho21_10_2019_1ponto
+﻿namespace PIM
 {
     partial class Sistema
     {

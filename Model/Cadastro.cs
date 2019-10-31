@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Trabalho21_10_2019_1ponto.Model
-{
+namespace PIM.Model{
     public class Cadastro
     {
         private string Nome;

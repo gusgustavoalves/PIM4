@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Trabalho21_10_2019_1ponto.Model;
-using Trabalho21_10_2019_1ponto.Dao;
+using PIM.Model;
+using PIM.Dao;
 
-namespace Trabalho21_10_2019_1ponto.View
+namespace PIM.View
 {
     public partial class Tela_Login : Form
     {

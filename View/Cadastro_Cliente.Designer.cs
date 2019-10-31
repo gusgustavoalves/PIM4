@@ -1,4 +1,4 @@
-﻿namespace Trabalho21_10_2019_1ponto.View
+﻿namespace PIM.View
 {
     partial class Cadastro_Cliente
     {
