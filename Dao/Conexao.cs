@@ -15,7 +15,7 @@ namespace PIM.Dao
         {
             try
             {
-                conexao.ConnectionString = @"server = 187.32.22.185; port = 6661; User Id = root; database = pim; password = info2002";
+                conexao.ConnectionString = @"server = 187.32.22.185; port = 6661; User Id = root; database = pim; password = 010101ADS";
                 conexao.Open();
                 //MessageBox.Show("Conectado com Sucesso !!!");
                 //conexao.Close();
@@ -54,7 +54,7 @@ namespace PIM.Dao
         {
             try
             {
-                conexao.ConnectionString = @"server = 187.32.22.185; port = 6661; User Id = root; database = pim; password = info2002";
+                conexao.ConnectionString = @"server = 187.32.22.185; port = 6661; User Id = root; database = pim; password = 010101ADS";
                 conexao.Open();
                 MessageBox.Show("Conectado com Sucesso !!!");
                 conexao.Close();
