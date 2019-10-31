@@ -15,7 +15,7 @@ namespace Trabalho21_10_2019_1ponto.Dao
         {
             try
             {
-                conexao.ConnectionString = @"server=localhost;port=3306;User Id=root;database=cadastro;password=";
+                conexao.ConnectionString = @"server=187.32.22.185;port=6661;User Id=root;database=cadastro;password=";
                 conexao.Open();
                 //MessageBox.Show("Conectado com Sucesso !!!");
                 //conexao.Close();
