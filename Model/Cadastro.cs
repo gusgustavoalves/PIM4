@@ -13,7 +13,7 @@ namespace Trabalho21_10_2019_1ponto.Model
         private string CPF;
         private string End;
         private string tempcpf;
-        
+       
 
 
            public string GetNome()
