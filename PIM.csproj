@@ -251,5 +251,8 @@
   <ItemGroup>
     <None Include="Resources\lock sombra.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
