@@ -253,6 +253,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Design\" />
+    <Folder Include="View\imagens 2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
