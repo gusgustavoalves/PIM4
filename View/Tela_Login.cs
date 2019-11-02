@@ -58,6 +58,16 @@ namespace PIM.View
         {
 
         }
+
+        private void NomeSis_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton1_Sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 

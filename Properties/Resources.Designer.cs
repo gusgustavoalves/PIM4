@@ -59,5 +59,15 @@ namespace PIM.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Frota_manager_logo2 {
+            get {
+                object obj = ResourceManager.GetObject("Frota manager logo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
