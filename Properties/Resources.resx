@@ -121,4 +121,7 @@
   <data name="Frota manager logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Frota manager logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lock sombra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock sombra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

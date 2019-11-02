@@ -248,5 +248,8 @@
   <ItemGroup>
     <None Include="Resources\Frota manager logo2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock sombra.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
