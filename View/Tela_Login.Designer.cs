@@ -142,7 +142,7 @@
             this.bunifuButton1.BackColor1 = System.Drawing.Color.DodgerBlue;
             this.bunifuButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.BackgroundImage")));
             this.bunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton1.ButtonText = "Chama Coleta";
+            this.bunifuButton1.ButtonText = "BOTÃO DE TESTES PARA CHAMAR A COLETA";
             this.bunifuButton1.ButtonTextMarginLeft = 0;
             this.bunifuButton1.ColorContrastOnClick = 45;
             this.bunifuButton1.ColorContrastOnHover = 45;
@@ -157,7 +157,7 @@
             this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton1.Font = new System.Drawing.Font("Sitka Text", 16F, System.Drawing.FontStyle.Bold);
+            this.bunifuButton1.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold);
             this.bunifuButton1.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton1.IconMarginLeft = 11;
@@ -170,7 +170,7 @@
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(10, 419);
+            this.bunifuButton1.Location = new System.Drawing.Point(3, 424);
             this.bunifuButton1.Name = "bunifuButton1";
             stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties15.BorderRadius = 3;
@@ -190,7 +190,7 @@
             stateProperties16.IconLeftImage = null;
             stateProperties16.IconRightImage = null;
             this.bunifuButton1.OnPressedState = stateProperties16;
-            this.bunifuButton1.Size = new System.Drawing.Size(33, 35);
+            this.bunifuButton1.Size = new System.Drawing.Size(266, 25);
             this.bunifuButton1.TabIndex = 10;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextMarginLeft = 0;
@@ -210,7 +210,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PIM.Properties.Resources._12124856;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 178);
+            this.pictureBox2.Location = new System.Drawing.Point(9, 178);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(37, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
