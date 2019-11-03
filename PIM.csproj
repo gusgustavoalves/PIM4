@@ -252,7 +252,7 @@
     <None Include="Resources\lock sombra.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="View\pasta 2\03\" />
+    <Folder Include="View\pasta 2\03\pasta 4\2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
