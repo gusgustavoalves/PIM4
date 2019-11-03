@@ -179,6 +179,7 @@
     <Compile Include="Dao\Conexao.cs" />
     <Compile Include="Dao\LoginBD.cs" />
     <Compile Include="Model\Cadastro.cs" />
+    <Compile Include="Model\excluir essa classe.cs" />
     <Compile Include="Model\Logar.cs" />
     <Compile Include="View\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
@@ -251,8 +252,6 @@
   <ItemGroup>
     <None Include="Resources\lock sombra.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\pasta 2\03\pasta 4\2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
