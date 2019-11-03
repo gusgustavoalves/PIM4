@@ -35,6 +35,10 @@
             this.conexaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Sistema = new System.Windows.Forms.Panel();
+            this.ToolStripMenuItem_Coleta = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem_Consulta_De_Coleta = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem_Nova_Coleta = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem_Sair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +48,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
-            this.conexaoToolStripMenuItem});
+            this.conexaoToolStripMenuItem,
+            this.ToolStripMenuItem_Coleta,
+            this.ToolStripMenuItem_Sair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -66,7 +72,7 @@
             // 
             this.clienteToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -74,7 +80,7 @@
             // 
             this.usuarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             // 
             // conexaoToolStripMenuItem
@@ -106,6 +112,36 @@
             this.Panel_Sistema.Size = new System.Drawing.Size(800, 600);
             this.Panel_Sistema.TabIndex = 1;
             this.Panel_Sistema.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // ToolStripMenuItem_Coleta
+            // 
+            this.ToolStripMenuItem_Coleta.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItem_Nova_Coleta,
+            this.ToolStripMenuItem_Consulta_De_Coleta});
+            this.ToolStripMenuItem_Coleta.Name = "ToolStripMenuItem_Coleta";
+            this.ToolStripMenuItem_Coleta.Size = new System.Drawing.Size(53, 20);
+            this.ToolStripMenuItem_Coleta.Text = "Coleta";
+            this.ToolStripMenuItem_Coleta.Click += new System.EventHandler(this.ToolStripMenuItem_Coleta_Click);
+            // 
+            // ToolStripMenuItem_Consulta_De_Coleta
+            // 
+            this.ToolStripMenuItem_Consulta_De_Coleta.Name = "ToolStripMenuItem_Consulta_De_Coleta";
+            this.ToolStripMenuItem_Consulta_De_Coleta.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItem_Consulta_De_Coleta.Text = "Consulta de Coleta";
+            this.ToolStripMenuItem_Consulta_De_Coleta.Click += new System.EventHandler(this.ToolStripMenuItem_Consulta_De_Coleta_Click);
+            // 
+            // ToolStripMenuItem_Nova_Coleta
+            // 
+            this.ToolStripMenuItem_Nova_Coleta.Name = "ToolStripMenuItem_Nova_Coleta";
+            this.ToolStripMenuItem_Nova_Coleta.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItem_Nova_Coleta.Text = "Nova Coleta";
+            // 
+            // ToolStripMenuItem_Sair
+            // 
+            this.ToolStripMenuItem_Sair.Name = "ToolStripMenuItem_Sair";
+            this.ToolStripMenuItem_Sair.Size = new System.Drawing.Size(38, 20);
+            this.ToolStripMenuItem_Sair.Text = "Sair";
+            this.ToolStripMenuItem_Sair.Click += new System.EventHandler(this.ToolStripMenuItem_Sair_Click);
             // 
             // Sistema
             // 
@@ -139,6 +175,10 @@
         private System.Windows.Forms.ToolStripMenuItem conexaoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testeDeConexaoComBancoDeDadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Coleta;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Nova_Coleta;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Consulta_De_Coleta;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Sair;
     }
 }
 

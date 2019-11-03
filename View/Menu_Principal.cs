@@ -56,5 +56,22 @@ namespace PIM
         {
 
         }
+
+        private void ToolStripMenuItem_Coleta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToolStripMenuItem_Consulta_De_Coleta_Click(object sender, EventArgs e)
+        {
+            // definir código para a instânciamento da tela de Coleta
+            View.frm_Dados_Da_Coleta chamanovacoleta = new View.frm_Dados_Da_Coleta();
+            chamanovacoleta.ShowDialog();
+        }
+
+        private void ToolStripMenuItem_Sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

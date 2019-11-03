@@ -16,5 +16,9 @@ namespace PIM.View
         {
             InitializeComponent();
         }
+
+        private void bunifuTextBox2_Data_Da_Coleta_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

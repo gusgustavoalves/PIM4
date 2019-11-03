@@ -179,25 +179,13 @@
     <Compile Include="Dao\Conexao.cs" />
     <Compile Include="Dao\LoginBD.cs" />
     <Compile Include="Model\Cadastro.cs" />
-    <Compile Include="Model\excluir essa classe.cs" />
+    <Compile Include="Model\Dados_Da_Coleta.cs" />
     <Compile Include="Model\Logar.cs" />
     <Compile Include="View\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Cadastro_Cliente.Designer.cs">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Coleta\Coleta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Coleta\Coleta.Designer.cs">
-      <DependentUpon>Coleta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Coleta\Dados_Das_Mercadorias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Coleta\Dados_Das_Mercadorias.Designer.cs">
-      <DependentUpon>Dados_Das_Mercadorias.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Menu_Principal.cs">
       <SubType>Form</SubType>
@@ -221,12 +209,6 @@
     </Compile>
     <EmbeddedResource Include="View\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Coleta\Coleta.resx">
-      <DependentUpon>Coleta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Coleta\Dados_Das_Mercadorias.resx">
-      <DependentUpon>Dados_Das_Mercadorias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Coleta\Dados_Da_Coleta.resx">
       <DependentUpon>Dados_Da_Coleta.cs</DependentUpon>

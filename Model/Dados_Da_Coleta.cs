@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PIM.Model
 {
-    class excluir_essa_classe
+    class Dados_Da_Coleta
     {
+
     }
 }
