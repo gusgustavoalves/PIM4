@@ -263,8 +263,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Icones e imagens para o sistema\" />
+    <Folder Include="nuvem\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\12124856.png" />
     <Content Include="View\Coleta\Instruções.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
