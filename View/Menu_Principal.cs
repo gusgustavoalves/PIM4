@@ -51,5 +51,10 @@ namespace PIM
             con.Testeconection();
 
         }
+
+        private void conexaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

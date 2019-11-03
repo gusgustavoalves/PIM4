@@ -1,0 +1,12 @@
+﻿No Menu coleta tem as telas de dados de coleta que é chamado ao precionar  nova coleta.
+as telas estão ligadas assim 
+
+botão nova coleta chama tela Dados da Coleta, em dados de coleta temos outra aba que complementa essas 
+informações, é a tela dados das mercadorias.
+
+Menu coleta chamas as telas a baixo
+
+Coleta> 
+	nova coleta> dados da coleta> Dados da mercadoria
+Consulta Coleta> 
+	

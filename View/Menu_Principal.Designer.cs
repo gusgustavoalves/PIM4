@@ -84,6 +84,7 @@
             this.conexaoToolStripMenuItem.Name = "conexaoToolStripMenuItem";
             this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.conexaoToolStripMenuItem.Text = "Conexao";
+            this.conexaoToolStripMenuItem.Click += new System.EventHandler(this.conexaoToolStripMenuItem_Click);
             // 
             // testeDeConexaoComBancoDeDadosToolStripMenuItem
             // 
