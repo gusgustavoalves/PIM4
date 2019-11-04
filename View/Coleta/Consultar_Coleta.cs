@@ -21,5 +21,10 @@ namespace PIM.View.Coleta
         {
 
         }
+
+        private void bunifuButton4_Sair_Nova_Coleta_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

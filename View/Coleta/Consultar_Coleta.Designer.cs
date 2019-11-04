@@ -267,6 +267,7 @@
             this.bunifuButton4_Sair_Nova_Coleta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4_Sair_Nova_Coleta.TextMarginLeft = 0;
             this.bunifuButton4_Sair_Nova_Coleta.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton4_Sair_Nova_Coleta.Click += new System.EventHandler(this.bunifuButton4_Sair_Nova_Coleta_Click);
             // 
             // bunifuButton2_Novo_Veiculo_Em_Coleta
             // 
