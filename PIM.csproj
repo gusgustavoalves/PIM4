@@ -181,11 +181,29 @@
     <Compile Include="Model\Cadastro.cs" />
     <Compile Include="Model\Dados_Da_Coleta.cs" />
     <Compile Include="Model\Logar.cs" />
+    <Compile Include="View\Entregas\Cadastrar_Entregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Entregas\Cadastrar_Entregas.Designer.cs">
+      <DependentUpon>Cadastrar_Entregas.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Cadastro_Cliente.Designer.cs">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Coleta\Consultar_Coleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Coleta\Consultar_Coleta.Designer.cs">
+      <DependentUpon>Consultar_Coleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Entregas\Consulta_Entregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Entregas\Consulta_Entregas.Designer.cs">
+      <DependentUpon>Consulta_Entregas.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Menu_Principal.cs">
       <SubType>Form</SubType>
@@ -195,11 +213,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\Coleta\Dados_Da_Coleta.cs">
+    <Compile Include="View\Coleta\Nova_Coleta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Coleta\Dados_Da_Coleta.Designer.cs">
-      <DependentUpon>Dados_Da_Coleta.cs</DependentUpon>
+    <Compile Include="View\Coleta\Nova_Coleta.Designer.cs">
+      <DependentUpon>Nova_Coleta.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Tela_Login.cs">
       <SubType>Form</SubType>
@@ -210,8 +228,17 @@
     <EmbeddedResource Include="View\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Coleta\Dados_Da_Coleta.resx">
-      <DependentUpon>Dados_Da_Coleta.cs</DependentUpon>
+    <EmbeddedResource Include="View\Coleta\Consultar_Coleta.resx">
+      <DependentUpon>Consultar_Coleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Coleta\Nova_Coleta.resx">
+      <DependentUpon>Nova_Coleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Entregas\Cadastrar_Entregas.resx">
+      <DependentUpon>Cadastrar_Entregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Entregas\Consulta_Entregas.resx">
+      <DependentUpon>Consulta_Entregas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
