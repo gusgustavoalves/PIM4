@@ -1,6 +1,6 @@
 ﻿namespace PIM.View
 {
-    partial class frm_Dados_Da_Coleta
+    partial class frm_Nova_Coleta
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Dados_Da_Coleta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nova_Coleta));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
@@ -1558,7 +1558,7 @@
             this.bunifuCustomLabel1_Nova_Coleta.TabIndex = 21;
             this.bunifuCustomLabel1_Nova_Coleta.Text = "Nova Coleta";
             // 
-            // frm_Dados_Da_Coleta
+            // frm_Nova_Coleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1573,8 +1573,9 @@
             this.Controls.Add(this.bunifuShadowPanel1);
             this.Controls.Add(this.bunifuLabelDados_da_Coleta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frm_Dados_Da_Coleta";
+            this.Name = "frm_Nova_Coleta";
             this.Text = "Dados da Coleta";
+            this.Load += new System.EventHandler(this.frm_Dados_Da_Coleta_Load);
             this.bunifuShadowPanel1.ResumeLayout(false);
             this.bunifuShadowPanel1.PerformLayout();
             this.bunifuShadowPanel2.ResumeLayout(false);

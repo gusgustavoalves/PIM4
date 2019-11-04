@@ -16,5 +16,10 @@ namespace PIM.View.Coleta
         {
             InitializeComponent();
         }
+
+        private void frmConsultar_Coleta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

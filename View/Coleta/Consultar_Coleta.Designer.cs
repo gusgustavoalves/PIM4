@@ -1561,6 +1561,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmConsultar_Coleta";
             this.Text = "Consultar_Coleta";
+            this.Load += new System.EventHandler(this.frmConsultar_Coleta_Load);
             this.bunifuShadowPanel3.ResumeLayout(false);
             this.bunifuShadowPanel3.PerformLayout();
             this.bunifuShadowPanel2.ResumeLayout(false);
