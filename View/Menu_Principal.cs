@@ -66,12 +66,29 @@ namespace PIM
         {
             // definir código para a instânciamento da tela de Coleta
             View.frm_Dados_Da_Coleta chamanovacoleta = new View.frm_Dados_Da_Coleta();
-            chamanovacoleta.ShowDialog();
+            _ojbForm?.Close();
+
+            _ojbForm = new frm_Dados_Da_Coleta
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
         }
 
         private void ToolStripMenuItem_Sair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Deseja encerrar a aplicação ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+
+                Application.Exit();
+        }
+
+        private void ToolStripMenuItem_Nova_Coleta_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
