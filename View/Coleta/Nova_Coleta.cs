@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View
 {
-    public partial class frm_Dados_Da_Coleta : Form
+    public partial class frm_Nova_Coleta : Form
     {
-        public frm_Dados_Da_Coleta()
+        public frm_Nova_Coleta()
         {
             InitializeComponent();
         }
@@ -37,6 +37,11 @@ namespace PIM.View
             // fazer um if para validar se o formulario foi preenchi, se sim show.messeger "deseja sair sem salvar?"
             // se não,  this.Close();
           this.Close();
+        }
+
+        private void frm_Dados_Da_Coleta_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

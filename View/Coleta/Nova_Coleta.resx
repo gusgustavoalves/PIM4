@@ -223,27 +223,6 @@
   <data name="bunifuLabel1_Dados_Da_Mercadoria.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 1.2px; font-family: 'Microsoft Sans Serif'; font-size: 15pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: White; text-align: left; }</value>
   </data>
-  <data name="bunifuLabel1_Motorista_Veiculo.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 1.2px; font-family: 'Microsoft Sans Serif'; font-size: 15pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: White; text-align: left; }</value>
-  </data>
-  <data name="bunifuButton4_Concluir_Cadastro_Cliente.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADsAAAAjCAYAAAAqoHJFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVGhD7c+xDcJAEETRKYUOrLUboAIaJSalANCJDtwA
-        ERXAGf0IXQOMZ6Wf7G7ytLuZHtOhWp3nNr8Nu2w+qFKHXnujR5dWqNLgaBfUYO2CGqxdUIO1C2qwdkEN
-        1i6owdoFNVi7oAZrF9Rg7YIarF1Qg7ULarB2QQ3WLqjB2gX1i11/j05VqxdUabkvx754jh7/vQ1atzpB
-        3ctIH16iDwnCg+IOAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="bunifuButton4_Sair_Nova_Coleta.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADsAAAAjCAYAAAAqoHJFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACSSURBVGhD7dkxEcMwEAXRgxIoQWBKEp/UaQPFBFIZQSJr
-        ttIYwfrfzDana16tut201h6999foJ+x9+qBWjcVnObC1Q53YqwNVUIPVBTVYXVCD1QU1WF1Qg9UFNVhd
-        UIPVBTVYXVCD1QU1WF1Qg9UFNVhdUIPVBTVYXVAndl8fZR1Q5//scyy+y4GlY/g2qHeZqj/ayFOrGSKX
-        hAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="bunifuButton2_Novo_Veiculo_Em_Coleta.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADsAAAAjCAYAAAAqoHJFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -278,6 +257,27 @@
         2P8AImutz5zzZ2bPtls6WY2xD+C53dLJSljwFmFBQFgQEBYEhAUBYUFAWBAQFgSEBQFhQUBYEBAWBIQF
         AWFBQFgQEBYEhAUBYUFAWBAQFgSEBQFhQUBYEBAWBIQFAWFBQFgQEBYEhAUBYUHgL6zrur77MLNn2y2d
         rIB3jXED1UGB4KYh4WIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuLabel1_Motorista_Veiculo.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 1.2px; font-family: 'Microsoft Sans Serif'; font-size: 15pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: White; text-align: left; }</value>
+  </data>
+  <data name="bunifuButton4_Concluir_Cadastro_Cliente.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADsAAAAjCAYAAAAqoHJFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVGhD7c+xDcJAEETRKYUOrLUboAIaJSalANCJDtwA
+        ERXAGf0IXQOMZ6Wf7G7ytLuZHtOhWp3nNr8Nu2w+qFKHXnujR5dWqNLgaBfUYO2CGqxdUIO1C2qwdkEN
+        1i6owdoFNVi7oAZrF9Rg7YIarF1Qg7ULarB2QQ3WLqjB2gX1i11/j05VqxdUabkvx754jh7/vQ1atzpB
+        3ctIH16iDwnCg+IOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuButton4_Sair_Nova_Coleta.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADsAAAAjCAYAAAAqoHJFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACSSURBVGhD7dkxEcMwEAXRgxIoQWBKEp/UaQPFBFIZQSJr
+        ttIYwfrfzDana16tut201h6999foJ+x9+qBWjcVnObC1Q53YqwNVUIPVBTVYXVCD1QU1WF1Qg9UFNVhd
+        UIPVBTVYXVCD1QU1WF1Qg9UFNVhdUIPVBTVYXVAndl8fZR1Q5//scyy+y4GlY/g2qHeZqj/ayFOrGSKX
+        hAAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>
