@@ -66,7 +66,16 @@ namespace PIM.View
 
         private void bunifuButton1_Sair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Deseja encerrar a aplicação ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+
+                Application.Exit();
+
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            View.frm_Nova_Coleta chamanovacoleta = new View.frm_Nova_Coleta();
+            chamanovacoleta.ShowDialog();
         }
     }
 }
