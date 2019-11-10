@@ -47,8 +47,8 @@
             this.conexaoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1045, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -59,14 +59,14 @@
             this.clienteToolStripMenuItem,
             this.usuarioToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -74,7 +74,7 @@
             // 
             this.usuarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             // 
             // conexaoToolStripMenuItem
@@ -82,14 +82,14 @@
             this.conexaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem});
             this.conexaoToolStripMenuItem.Name = "conexaoToolStripMenuItem";
-            this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.conexaoToolStripMenuItem.Text = "Conexao";
             // 
             // testeDeConexaoComBancoDeDadosToolStripMenuItem
             // 
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Name = "testeDeConexaoComBancoDeDadosToolStripMenuItem";
-            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(353, 26);
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Text = "Teste de conexao com Banco de Dados";
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.testeDeConexaoComBancoDeDadosToolStripMenuItem_Click);
             // 
@@ -98,25 +98,25 @@
             this.Panel_Sistema.AccessibleRole = System.Windows.Forms.AccessibleRole.Document;
             this.Panel_Sistema.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Panel_Sistema.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel_Sistema.Location = new System.Drawing.Point(0, 24);
-            this.Panel_Sistema.Margin = new System.Windows.Forms.Padding(2);
-            this.Panel_Sistema.MinimumSize = new System.Drawing.Size(800, 600);
+            this.Panel_Sistema.Location = new System.Drawing.Point(0, 28);
+            this.Panel_Sistema.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Panel_Sistema.MinimumSize = new System.Drawing.Size(1067, 738);
             this.Panel_Sistema.Name = "Panel_Sistema";
-            this.Panel_Sistema.Size = new System.Drawing.Size(800, 600);
+            this.Panel_Sistema.Size = new System.Drawing.Size(1067, 738);
             this.Panel_Sistema.TabIndex = 1;
             this.Panel_Sistema.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Sistema
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(1045, 690);
             this.Controls.Add(this.Panel_Sistema);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(600, 400);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(794, 481);
             this.Name = "Sistema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema";
