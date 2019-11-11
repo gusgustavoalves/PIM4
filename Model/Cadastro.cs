@@ -15,7 +15,7 @@ namespace PIM.Model{
        
 
 
-           public string GetNome()
+        public string GetNome()
         {
             return this.Nome;
         }
