@@ -1,6 +1,6 @@
 ﻿namespace PIM.View.Coleta
 {
-    partial class frmConsultar_Coleta
+    partial class Consultar_Coleta
     {
         /// <summary>
         /// Required designer variable.
