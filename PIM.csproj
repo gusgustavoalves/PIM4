@@ -193,10 +193,10 @@
     <Compile Include="View\Entregas\Entregas.Designer.cs">
       <DependentUpon>Entregas.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Cadastro_Cliente.cs">
+    <Compile Include="View\Cadastros\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Cadastro_Cliente.Designer.cs">
+    <Compile Include="View\Cadastros\Cadastro_Cliente.Designer.cs">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Coleta\Coleta.cs">
@@ -222,7 +222,7 @@
     <EmbeddedResource Include="View\Cadastros\Cadastro_Veiculo.resx">
       <DependentUpon>Cadastro_Veiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Cadastro_Cliente.resx">
+    <EmbeddedResource Include="View\Cadastros\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Coleta\Coleta.resx">
