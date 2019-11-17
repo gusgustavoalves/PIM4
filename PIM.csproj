@@ -297,13 +297,65 @@
   <ItemGroup>
     <None Include="Resources\lock sombra.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Icones e imagens para o sistema\" />
-    <Folder Include="nuvem\" />
-    <Folder Include="View\Coleta\apagar essa pasta\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\12124856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icones e imagens para o sistema\1125716.png" />
+    <Content Include="Icones e imagens para o sistema\1160515.png" />
+    <Content Include="Icones e imagens para o sistema\1212459.png" />
+    <Content Include="Icones e imagens para o sistema\1212462.png" />
+    <Content Include="Icones e imagens para o sistema\1212469.png" />
+    <Content Include="Icones e imagens para o sistema\1212478.png" />
+    <Content Include="Icones e imagens para o sistema\1212485.png" />
+    <Content Include="Icones e imagens para o sistema\12124856.png" />
+    <Content Include="Icones e imagens para o sistema\1212491.png" />
+    <Content Include="Icones e imagens para o sistema\1212492.png" />
+    <Content Include="Icones e imagens para o sistema\1212527.png" />
+    <Content Include="Icones e imagens para o sistema\1212540.png" />
+    <Content Include="Icones e imagens para o sistema\1212545.png" />
+    <Content Include="Icones e imagens para o sistema\1212551.png" />
+    <Content Include="Icones e imagens para o sistema\1212554.png" />
+    <Content Include="Icones e imagens para o sistema\1212562.png" />
+    <Content Include="Icones e imagens para o sistema\1212566.png" />
+    <Content Include="Icones e imagens para o sistema\1212574.png" />
+    <Content Include="Icones e imagens para o sistema\1212577.png" />
+    <Content Include="Icones e imagens para o sistema\1214926.png" />
+    <Content Include="Icones e imagens para o sistema\1395749.png" />
+    <Content Include="Icones e imagens para o sistema\1449312.png" />
+    <Content Include="Icones e imagens para o sistema\1453934.png" />
+    <Content Include="Icones e imagens para o sistema\1611922.png" />
+    <Content Include="Icones e imagens para o sistema\1613057.png" />
+    <Content Include="Icones e imagens para o sistema\1613504.png" />
+    <Content Include="Icones e imagens para o sistema\1904821.png" />
+    <Content Include="Icones e imagens para o sistema\1904867.png" />
+    <Content Include="Icones e imagens para o sistema\1904908.png" />
+    <Content Include="Icones e imagens para o sistema\832793.png" />
+    <Content Include="Icones e imagens para o sistema\832811.png" />
+    <Content Include="Icones e imagens para o sistema\832826.png" />
+    <Content Include="Icones e imagens para o sistema\832827.png" />
+    <Content Include="Icones e imagens para o sistema\832828.png" />
+    <Content Include="Icones e imagens para o sistema\832833.png" />
+    <Content Include="Icones e imagens para o sistema\832845.png" />
+    <Content Include="Icones e imagens para o sistema\832851.png" />
+    <Content Include="Icones e imagens para o sistema\832863.png" />
+    <Content Include="Icones e imagens para o sistema\833514.png" />
+    <Content Include="Icones e imagens para o sistema\analytics.png" />
+    <Content Include="Icones e imagens para o sistema\bill.png" />
+    <Content Include="Icones e imagens para o sistema\favicon.ico" />
+    <Content Include="Icones e imagens para o sistema\Frota manager logo.png" />
+    <Content Include="Icones e imagens para o sistema\Frota manager logo2.png" />
+    <Content Include="Icones e imagens para o sistema\Icone logo fundo branco.ico" />
+    <Content Include="Icones e imagens para o sistema\lock sombra.png" />
+    <Content Include="Icones e imagens para o sistema\lock%281%29.png" />
+    <Content Include="Icones e imagens para o sistema\lock.png" />
+    <Content Include="Icones e imagens para o sistema\maintenance.png" />
+    <Content Include="Icones e imagens para o sistema\online.png" />
+    <Content Include="Icones e imagens para o sistema\password.png" />
+    <Content Include="Icones e imagens para o sistema\save-money.png" />
+    <Content Include="Icones e imagens para o sistema\settings.png" />
+    <Content Include="Icones e imagens para o sistema\shield.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
