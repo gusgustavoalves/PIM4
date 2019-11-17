@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PIM.View;
 using PIM.View.Coleta;
+using PIM.View.Cadastros;
 
 namespace PIM
 {
@@ -60,16 +61,9 @@ namespace PIM
 
         private void ToolStripMenuItem_Coleta_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ToolStripMenuItem_Consulta_De_Coleta_Click(object sender, EventArgs e)
-        {
-            // definir código para a instânciamento da tela de Coleta
-            View.Coleta.frmConsultar_Coleta Consultacoleta = new View.Coleta.frmConsultar_Coleta();
             _ojbForm?.Close();
 
-            _ojbForm = new frmConsultar_Coleta
+            _ojbForm = new frm_Nova_Coleta
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
@@ -78,7 +72,9 @@ namespace PIM
 
             Panel_Sistema.Controls.Add(_ojbForm);
             _ojbForm.Show();
+        
         }
+
 
         private void ToolStripMenuItem_Sair_Click(object sender, EventArgs e)
         {
@@ -92,13 +88,17 @@ namespace PIM
 
         }
 
-        private void ToolStripMenuItem_Nova_Coleta_Click_1(object sender, EventArgs e)
-        {
-            View.frm_Nova_Coleta Novacoleta = new View.frm_Nova_Coleta();
 
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void veiculosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             _ojbForm?.Close();
 
-            _ojbForm = new frm_Nova_Coleta
+            _ojbForm = new Cadastro_Veiculo
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
