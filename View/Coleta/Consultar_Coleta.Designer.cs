@@ -98,9 +98,6 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties61 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties62 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties63 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties64 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             this.bunifuTextBox1_Solicitante = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.bunifuButton2_Pesquisar_Veiculo = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton1_Pesquisar_Motorista = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -138,7 +135,6 @@
             this.bunifuButton4_Excluir = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton3_Pesquisar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton1_Voltar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuButton4_Sair_Nova_Coleta = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuShadowPanel3.SuspendLayout();
             this.bunifuShadowPanel2.SuspendLayout();
             this.bunifuShadowPanel1.SuspendLayout();
@@ -599,7 +595,7 @@
             this.bunifuButton4_Cadastro_Cliente.IdleIconLeftImage = null;
             this.bunifuButton4_Cadastro_Cliente.IdleIconRightImage = null;
             this.bunifuButton4_Cadastro_Cliente.IndicateFocus = false;
-            this.bunifuButton4_Cadastro_Cliente.Location = new System.Drawing.Point(330, 589);
+            this.bunifuButton4_Cadastro_Cliente.Location = new System.Drawing.Point(476, 589);
             this.bunifuButton4_Cadastro_Cliente.Name = "bunifuButton4_Cadastro_Cliente";
             stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties21.BorderRadius = 3;
@@ -1531,7 +1527,7 @@
             this.bunifuButton4_Excluir.IdleIconLeftImage = null;
             this.bunifuButton4_Excluir.IdleIconRightImage = null;
             this.bunifuButton4_Excluir.IndicateFocus = false;
-            this.bunifuButton4_Excluir.Location = new System.Drawing.Point(510, 588);
+            this.bunifuButton4_Excluir.Location = new System.Drawing.Point(289, 588);
             this.bunifuButton4_Excluir.Name = "bunifuButton4_Excluir";
             stateProperties57.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties57.BorderRadius = 3;
@@ -1594,7 +1590,7 @@
             this.bunifuButton3_Pesquisar.IdleIconLeftImage = null;
             this.bunifuButton3_Pesquisar.IdleIconRightImage = null;
             this.bunifuButton3_Pesquisar.IndicateFocus = false;
-            this.bunifuButton3_Pesquisar.Location = new System.Drawing.Point(420, 588);
+            this.bunifuButton3_Pesquisar.Location = new System.Drawing.Point(574, 588);
             this.bunifuButton3_Pesquisar.Name = "bunifuButton3_Pesquisar";
             stateProperties59.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties59.BorderRadius = 3;
@@ -1683,77 +1679,12 @@
             this.bunifuButton1_Voltar.TextMarginLeft = 0;
             this.bunifuButton1_Voltar.UseDefaultRadiusAndThickness = true;
             // 
-            // bunifuButton4_Sair_Nova_Coleta
-            // 
-            this.bunifuButton4_Sair_Nova_Coleta.AllowToggling = false;
-            this.bunifuButton4_Sair_Nova_Coleta.AnimationSpeed = 200;
-            this.bunifuButton4_Sair_Nova_Coleta.AutoGenerateColors = false;
-            this.bunifuButton4_Sair_Nova_Coleta.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton4_Sair_Nova_Coleta.BackColor1 = System.Drawing.Color.Gray;
-            this.bunifuButton4_Sair_Nova_Coleta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton4_Sair_Nova_Coleta.BackgroundImage")));
-            this.bunifuButton4_Sair_Nova_Coleta.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton4_Sair_Nova_Coleta.ButtonText = "Sair";
-            this.bunifuButton4_Sair_Nova_Coleta.ButtonTextMarginLeft = 0;
-            this.bunifuButton4_Sair_Nova_Coleta.ColorContrastOnClick = 45;
-            this.bunifuButton4_Sair_Nova_Coleta.ColorContrastOnHover = 45;
-            this.bunifuButton4_Sair_Nova_Coleta.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.bunifuButton4_Sair_Nova_Coleta.CustomizableEdges = borderEdges8;
-            this.bunifuButton4_Sair_Nova_Coleta.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuButton4_Sair_Nova_Coleta.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.bunifuButton4_Sair_Nova_Coleta.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuButton4_Sair_Nova_Coleta.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.bunifuButton4_Sair_Nova_Coleta.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton4_Sair_Nova_Coleta.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.bunifuButton4_Sair_Nova_Coleta.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton4_Sair_Nova_Coleta.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton4_Sair_Nova_Coleta.IconMarginLeft = 11;
-            this.bunifuButton4_Sair_Nova_Coleta.IconPadding = 10;
-            this.bunifuButton4_Sair_Nova_Coleta.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleBorderColor = System.Drawing.Color.Gray;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleBorderRadius = 3;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleBorderThickness = 1;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleFillColor = System.Drawing.Color.Gray;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleIconLeftImage = null;
-            this.bunifuButton4_Sair_Nova_Coleta.IdleIconRightImage = null;
-            this.bunifuButton4_Sair_Nova_Coleta.IndicateFocus = false;
-            this.bunifuButton4_Sair_Nova_Coleta.Location = new System.Drawing.Point(594, 588);
-            this.bunifuButton4_Sair_Nova_Coleta.Name = "bunifuButton4_Sair_Nova_Coleta";
-            stateProperties63.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties63.BorderRadius = 3;
-            stateProperties63.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties63.BorderThickness = 1;
-            stateProperties63.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties63.ForeColor = System.Drawing.Color.White;
-            stateProperties63.IconLeftImage = null;
-            stateProperties63.IconRightImage = null;
-            this.bunifuButton4_Sair_Nova_Coleta.onHoverState = stateProperties63;
-            stateProperties64.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties64.BorderRadius = 3;
-            stateProperties64.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties64.BorderThickness = 1;
-            stateProperties64.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties64.ForeColor = System.Drawing.Color.White;
-            stateProperties64.IconLeftImage = null;
-            stateProperties64.IconRightImage = null;
-            this.bunifuButton4_Sair_Nova_Coleta.OnPressedState = stateProperties64;
-            this.bunifuButton4_Sair_Nova_Coleta.Size = new System.Drawing.Size(59, 35);
-            this.bunifuButton4_Sair_Nova_Coleta.TabIndex = 28;
-            this.bunifuButton4_Sair_Nova_Coleta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuButton4_Sair_Nova_Coleta.TextMarginLeft = 0;
-            this.bunifuButton4_Sair_Nova_Coleta.UseDefaultRadiusAndThickness = true;
-            this.bunifuButton4_Sair_Nova_Coleta.Click += new System.EventHandler(this.bunifuButton4_Sair_Nova_Coleta_Click);
-            // 
             // frmConsultar_Coleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(665, 636);
             this.Controls.Add(this.bunifuButton4_Excluir);
-            this.Controls.Add(this.bunifuButton4_Sair_Nova_Coleta);
             this.Controls.Add(this.bunifuButton4_Cadastro_Cliente);
             this.Controls.Add(this.bunifuButton3_Pesquisar);
             this.Controls.Add(this.bunifuLabel1_Motorista_Veiculo);
@@ -1816,6 +1747,5 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton4_Excluir;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton3_Pesquisar;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1_Voltar;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton4_Sair_Nova_Coleta;
     }
 }

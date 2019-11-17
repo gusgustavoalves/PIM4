@@ -219,12 +219,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\Coleta\Nova_Coleta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Coleta\Nova_Coleta.Designer.cs">
-      <DependentUpon>Nova_Coleta.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\Tela_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,9 +233,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Coleta\Consultar_Coleta.resx">
       <DependentUpon>Consultar_Coleta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Coleta\Nova_Coleta.resx">
-      <DependentUpon>Nova_Coleta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Entregas\Cadastrar_Entregas.resx">
       <DependentUpon>Cadastrar_Entregas.cs</DependentUpon>
