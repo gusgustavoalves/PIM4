@@ -181,6 +181,12 @@
     <Compile Include="Model\Cadastro.cs" />
     <Compile Include="Model\Dados_Da_Coleta.cs" />
     <Compile Include="Model\Logar.cs" />
+    <Compile Include="View\Cadastros\Cadastro_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cadastros\Cadastro_Veiculo.Designer.cs">
+      <DependentUpon>Cadastro_Veiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Entregas\Cadastrar_Entregas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,6 +231,9 @@
     <Compile Include="View\Tela_Login.Designer.cs">
       <DependentUpon>Tela_Login.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Cadastros\Cadastro_Veiculo.resx">
+      <DependentUpon>Cadastro_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </EmbeddedResource>
