@@ -71,12 +71,6 @@ namespace PIM.View
                 Application.Exit();
 
         }
-
-        private void bunifuButton1_Click(object sender, EventArgs e)
-        {
-            View.frm_Nova_Coleta chamanovacoleta = new View.frm_Nova_Coleta();
-            chamanovacoleta.ShowDialog();
-        }
     }
 }
 
