@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIM.View.Entregas
+namespace PIM.View
 {
-    public partial class frmConsulta_Entregas : Form
+    public partial class Entregas : Form
     {
-        public frmConsulta_Entregas()
+        public Entregas()
         {
             InitializeComponent();
         }

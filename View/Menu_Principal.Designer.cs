@@ -32,13 +32,13 @@
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.veiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Coleta = new System.Windows.Forms.ToolStripMenuItem();
+            this.entregasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.conexaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Sair = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Sistema = new System.Windows.Forms.Panel();
-            this.veiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.entregasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +74,7 @@
             // 
             this.clienteToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -82,9 +82,17 @@
             // 
             this.usuarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             this.usuarioToolStripMenuItem.Click += new System.EventHandler(this.usuarioToolStripMenuItem_Click);
+            // 
+            // veiculosToolStripMenuItem
+            // 
+            this.veiculosToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.veiculosToolStripMenuItem.Name = "veiculosToolStripMenuItem";
+            this.veiculosToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.veiculosToolStripMenuItem.Text = "Veiculos";
+            this.veiculosToolStripMenuItem.Click += new System.EventHandler(this.veiculosToolStripMenuItem_Click);
             // 
             // ToolStripMenuItem_Coleta
             // 
@@ -92,6 +100,13 @@
             this.ToolStripMenuItem_Coleta.Size = new System.Drawing.Size(66, 24);
             this.ToolStripMenuItem_Coleta.Text = "Coleta";
             this.ToolStripMenuItem_Coleta.Click += new System.EventHandler(this.ToolStripMenuItem_Coleta_Click);
+            // 
+            // entregasToolStripMenuItem1
+            // 
+            this.entregasToolStripMenuItem1.Name = "entregasToolStripMenuItem1";
+            this.entregasToolStripMenuItem1.Size = new System.Drawing.Size(80, 24);
+            this.entregasToolStripMenuItem1.Text = "Entregas";
+            this.entregasToolStripMenuItem1.Click += new System.EventHandler(this.entregasToolStripMenuItem1_Click);
             // 
             // conexaoToolStripMenuItem
             // 
@@ -130,20 +145,6 @@
             this.Panel_Sistema.Size = new System.Drawing.Size(1045, 662);
             this.Panel_Sistema.TabIndex = 1;
             this.Panel_Sistema.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // veiculosToolStripMenuItem
-            // 
-            this.veiculosToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.veiculosToolStripMenuItem.Name = "veiculosToolStripMenuItem";
-            this.veiculosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.veiculosToolStripMenuItem.Text = "Veiculos";
-            this.veiculosToolStripMenuItem.Click += new System.EventHandler(this.veiculosToolStripMenuItem_Click);
-            // 
-            // entregasToolStripMenuItem1
-            // 
-            this.entregasToolStripMenuItem1.Name = "entregasToolStripMenuItem1";
-            this.entregasToolStripMenuItem1.Size = new System.Drawing.Size(80, 24);
-            this.entregasToolStripMenuItem1.Text = "Entregas";
             // 
             // Sistema
             // 
