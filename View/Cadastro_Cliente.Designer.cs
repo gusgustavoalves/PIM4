@@ -72,7 +72,7 @@
             // 
             this.button_Cadastrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button_Cadastrar.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button_Cadastrar.Location = new System.Drawing.Point(21, 268);
+            this.button_Cadastrar.Location = new System.Drawing.Point(21, 306);
             this.button_Cadastrar.Margin = new System.Windows.Forms.Padding(2);
             this.button_Cadastrar.Name = "button_Cadastrar";
             this.button_Cadastrar.Size = new System.Drawing.Size(73, 24);
@@ -85,7 +85,7 @@
             // 
             this.button_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button_Sair.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button_Sair.Location = new System.Drawing.Point(112, 268);
+            this.button_Sair.Location = new System.Drawing.Point(153, 306);
             this.button_Sair.Margin = new System.Windows.Forms.Padding(2);
             this.button_Sair.Name = "button_Sair";
             this.button_Sair.Size = new System.Drawing.Size(73, 24);
@@ -128,7 +128,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(484, 361);
+            this.ClientSize = new System.Drawing.Size(701, 399);
             this.Controls.Add(this.txt_CPF);
             this.Controls.Add(this.txt_End);
             this.Controls.Add(this.txt_Nome);
