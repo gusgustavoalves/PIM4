@@ -16,7 +16,6 @@ namespace PIM
     public partial class Sistema : Form
     {
         private Form _ojbForm; 
-        View.Cadastro_Cliente Cadcliente = new View.Cadastro_Cliente();
         public Sistema()
         {
             InitializeComponent();
@@ -63,7 +62,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frm_Nova_Coleta
+            _ojbForm = new Consultar_Coleta
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
