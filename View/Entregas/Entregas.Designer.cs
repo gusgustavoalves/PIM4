@@ -1,6 +1,6 @@
 ﻿namespace PIM.View
 {
-    partial class frmCadastrar_Entregas
+    partial class Entregas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrar_Entregas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Entregas));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
@@ -170,7 +170,8 @@
             this.btn_Sair_ENTREGAS.IdleIconLeftImage = null;
             this.btn_Sair_ENTREGAS.IdleIconRightImage = null;
             this.btn_Sair_ENTREGAS.IndicateFocus = false;
-            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(493, 751);
+            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(657, 924);
+            this.btn_Sair_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Sair_ENTREGAS.Name = "btn_Sair_ENTREGAS";
             stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties1.BorderRadius = 3;
@@ -190,7 +191,7 @@
             stateProperties2.IconLeftImage = null;
             stateProperties2.IconRightImage = null;
             this.btn_Sair_ENTREGAS.OnPressedState = stateProperties2;
-            this.btn_Sair_ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Sair_ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Sair_ENTREGAS.TabIndex = 28;
             this.btn_Sair_ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Sair_ENTREGAS.TextMarginLeft = 0;
@@ -205,10 +206,11 @@
             this.bunifuLabel1_Motorista_Veiculo.CursorType = null;
             this.bunifuLabel1_Motorista_Veiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1_Motorista_Veiculo.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Motorista_Veiculo.Location = new System.Drawing.Point(11, 588);
+            this.bunifuLabel1_Motorista_Veiculo.Location = new System.Drawing.Point(15, 724);
+            this.bunifuLabel1_Motorista_Veiculo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1_Motorista_Veiculo.Name = "bunifuLabel1_Motorista_Veiculo";
             this.bunifuLabel1_Motorista_Veiculo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Motorista_Veiculo.Size = new System.Drawing.Size(163, 31);
+            this.bunifuLabel1_Motorista_Veiculo.Size = new System.Drawing.Size(217, 38);
             this.bunifuLabel1_Motorista_Veiculo.TabIndex = 27;
             this.bunifuLabel1_Motorista_Veiculo.Text = "Motorista/ Veículo";
             this.bunifuLabel1_Motorista_Veiculo.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -251,7 +253,8 @@
             this.btn_Novo_Veiculo_ENTREGAS.IdleIconLeftImage = null;
             this.btn_Novo_Veiculo_ENTREGAS.IdleIconRightImage = null;
             this.btn_Novo_Veiculo_ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Veiculo_ENTREGAS.Location = new System.Drawing.Point(279, 72);
+            this.btn_Novo_Veiculo_ENTREGAS.Location = new System.Drawing.Point(372, 89);
+            this.btn_Novo_Veiculo_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Novo_Veiculo_ENTREGAS.Name = "btn_Novo_Veiculo_ENTREGAS";
             stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties3.BorderRadius = 3;
@@ -271,7 +274,7 @@
             stateProperties4.IconLeftImage = null;
             stateProperties4.IconRightImage = null;
             this.btn_Novo_Veiculo_ENTREGAS.OnPressedState = stateProperties4;
-            this.btn_Novo_Veiculo_ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Novo_Veiculo_ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Novo_Veiculo_ENTREGAS.TabIndex = 19;
             this.btn_Novo_Veiculo_ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Novo_Veiculo_ENTREGAS.TextMarginLeft = 0;
@@ -314,7 +317,8 @@
             this.btn_Novo_Motorista__ENTREGAS.IdleIconLeftImage = null;
             this.btn_Novo_Motorista__ENTREGAS.IdleIconRightImage = null;
             this.btn_Novo_Motorista__ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Motorista__ENTREGAS.Location = new System.Drawing.Point(279, 31);
+            this.btn_Novo_Motorista__ENTREGAS.Location = new System.Drawing.Point(372, 38);
+            this.btn_Novo_Motorista__ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Novo_Motorista__ENTREGAS.Name = "btn_Novo_Motorista__ENTREGAS";
             stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties5.BorderRadius = 3;
@@ -334,7 +338,7 @@
             stateProperties6.IconLeftImage = null;
             stateProperties6.IconRightImage = null;
             this.btn_Novo_Motorista__ENTREGAS.OnPressedState = stateProperties6;
-            this.btn_Novo_Motorista__ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Novo_Motorista__ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Novo_Motorista__ENTREGAS.TabIndex = 18;
             this.btn_Novo_Motorista__ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Novo_Motorista__ENTREGAS.TextMarginLeft = 0;
@@ -367,9 +371,10 @@
             this.textbox_Veiculo_ENTREGAS.IconRight = null;
             this.textbox_Veiculo_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Veiculo_ENTREGAS.Lines = new string[0];
-            this.textbox_Veiculo_ENTREGAS.Location = new System.Drawing.Point(68, 72);
+            this.textbox_Veiculo_ENTREGAS.Location = new System.Drawing.Point(91, 89);
+            this.textbox_Veiculo_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Veiculo_ENTREGAS.MaxLength = 32767;
-            this.textbox_Veiculo_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Veiculo_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Veiculo_ENTREGAS.Modified = false;
             this.textbox_Veiculo_ENTREGAS.Multiline = false;
             this.textbox_Veiculo_ENTREGAS.Name = "textbox_Veiculo_ENTREGAS";
@@ -402,7 +407,7 @@
             this.textbox_Veiculo_ENTREGAS.SelectionLength = 0;
             this.textbox_Veiculo_ENTREGAS.SelectionStart = 0;
             this.textbox_Veiculo_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Veiculo_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Veiculo_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Veiculo_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Veiculo_ENTREGAS.TabIndex = 16;
             this.textbox_Veiculo_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -416,9 +421,10 @@
             // lbl__Veiculo_ENTREGAS
             // 
             this.lbl__Veiculo_ENTREGAS.AutoSize = true;
-            this.lbl__Veiculo_ENTREGAS.Location = new System.Drawing.Point(24, 81);
+            this.lbl__Veiculo_ENTREGAS.Location = new System.Drawing.Point(32, 100);
+            this.lbl__Veiculo_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl__Veiculo_ENTREGAS.Name = "lbl__Veiculo_ENTREGAS";
-            this.lbl__Veiculo_ENTREGAS.Size = new System.Drawing.Size(44, 13);
+            this.lbl__Veiculo_ENTREGAS.Size = new System.Drawing.Size(54, 17);
             this.lbl__Veiculo_ENTREGAS.TabIndex = 17;
             this.lbl__Veiculo_ENTREGAS.Text = "Veículo";
             // 
@@ -449,9 +455,10 @@
             this.textbox__Motorista_ENTREGAS.IconRight = null;
             this.textbox__Motorista_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox__Motorista_ENTREGAS.Lines = new string[0];
-            this.textbox__Motorista_ENTREGAS.Location = new System.Drawing.Point(68, 31);
+            this.textbox__Motorista_ENTREGAS.Location = new System.Drawing.Point(91, 38);
+            this.textbox__Motorista_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox__Motorista_ENTREGAS.MaxLength = 32767;
-            this.textbox__Motorista_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox__Motorista_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox__Motorista_ENTREGAS.Modified = false;
             this.textbox__Motorista_ENTREGAS.Multiline = false;
             this.textbox__Motorista_ENTREGAS.Name = "textbox__Motorista_ENTREGAS";
@@ -484,7 +491,7 @@
             this.textbox__Motorista_ENTREGAS.SelectionLength = 0;
             this.textbox__Motorista_ENTREGAS.SelectionStart = 0;
             this.textbox__Motorista_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox__Motorista_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox__Motorista_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox__Motorista_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox__Motorista_ENTREGAS.TabIndex = 15;
             this.textbox__Motorista_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -498,9 +505,10 @@
             // lbl__Motorista_ENTREGAS
             // 
             this.lbl__Motorista_ENTREGAS.AutoSize = true;
-            this.lbl__Motorista_ENTREGAS.Location = new System.Drawing.Point(18, 41);
+            this.lbl__Motorista_ENTREGAS.Location = new System.Drawing.Point(24, 50);
+            this.lbl__Motorista_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl__Motorista_ENTREGAS.Name = "lbl__Motorista_ENTREGAS";
-            this.lbl__Motorista_ENTREGAS.Size = new System.Drawing.Size(50, 13);
+            this.lbl__Motorista_ENTREGAS.Size = new System.Drawing.Size(66, 17);
             this.lbl__Motorista_ENTREGAS.TabIndex = 15;
             this.lbl__Motorista_ENTREGAS.Text = "Motorista";
             // 
@@ -541,7 +549,8 @@
             this.btn_Concluir__ENTREGAS.IdleIconLeftImage = null;
             this.btn_Concluir__ENTREGAS.IdleIconRightImage = null;
             this.btn_Concluir__ENTREGAS.IndicateFocus = false;
-            this.btn_Concluir__ENTREGAS.Location = new System.Drawing.Point(586, 751);
+            this.btn_Concluir__ENTREGAS.Location = new System.Drawing.Point(781, 924);
+            this.btn_Concluir__ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Concluir__ENTREGAS.Name = "btn_Concluir__ENTREGAS";
             stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties15.BorderRadius = 3;
@@ -561,7 +570,7 @@
             stateProperties16.IconLeftImage = null;
             stateProperties16.IconRightImage = null;
             this.btn_Concluir__ENTREGAS.OnPressedState = stateProperties16;
-            this.btn_Concluir__ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Concluir__ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Concluir__ENTREGAS.TabIndex = 29;
             this.btn_Concluir__ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Concluir__ENTREGAS.TextMarginLeft = 0;
@@ -576,12 +585,13 @@
             this.bunifuShadowPanel3.Controls.Add(this.lbl__Veiculo_ENTREGAS);
             this.bunifuShadowPanel3.Controls.Add(this.textbox__Motorista_ENTREGAS);
             this.bunifuShadowPanel3.Controls.Add(this.lbl__Motorista_ENTREGAS);
-            this.bunifuShadowPanel3.Location = new System.Drawing.Point(11, 618);
+            this.bunifuShadowPanel3.Location = new System.Drawing.Point(15, 761);
+            this.bunifuShadowPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel3.Name = "bunifuShadowPanel3";
             this.bunifuShadowPanel3.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel3.ShadowDept = 2;
             this.bunifuShadowPanel3.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel3.Size = new System.Drawing.Size(646, 116);
+            this.bunifuShadowPanel3.Size = new System.Drawing.Size(861, 143);
             this.bunifuShadowPanel3.TabIndex = 26;
             // 
             // bunifuLabel1_Dados_Da_Mercadoria
@@ -593,10 +603,11 @@
             this.bunifuLabel1_Dados_Da_Mercadoria.CursorType = null;
             this.bunifuLabel1_Dados_Da_Mercadoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1_Dados_Da_Mercadoria.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Location = new System.Drawing.Point(11, 399);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Location = new System.Drawing.Point(15, 491);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1_Dados_Da_Mercadoria.Name = "bunifuLabel1_Dados_Da_Mercadoria";
             this.bunifuLabel1_Dados_Da_Mercadoria.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Size = new System.Drawing.Size(280, 31);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Size = new System.Drawing.Size(373, 38);
             this.bunifuLabel1_Dados_Da_Mercadoria.TabIndex = 25;
             this.bunifuLabel1_Dados_Da_Mercadoria.Text = "Dados da Mercadoria a Coletar";
             this.bunifuLabel1_Dados_Da_Mercadoria.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -605,9 +616,10 @@
             // lbl_Numero_Nfe_ENTREGAS
             // 
             this.lbl_Numero_Nfe_ENTREGAS.AutoSize = true;
-            this.lbl_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(94, 21);
+            this.lbl_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(125, 26);
+            this.lbl_Numero_Nfe_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Numero_Nfe_ENTREGAS.Name = "lbl_Numero_Nfe_ENTREGAS";
-            this.lbl_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(42, 13);
+            this.lbl_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(54, 17);
             this.lbl_Numero_Nfe_ENTREGAS.TabIndex = 16;
             this.lbl_Numero_Nfe_ENTREGAS.Text = "N° NFe";
             // 
@@ -638,9 +650,10 @@
             this.textbox_Numero_Nfe_ENTREGAS.IconRight = null;
             this.textbox_Numero_Nfe_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Numero_Nfe_ENTREGAS.Lines = new string[0];
-            this.textbox_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(140, 11);
+            this.textbox_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(187, 14);
+            this.textbox_Numero_Nfe_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Numero_Nfe_ENTREGAS.MaxLength = 32767;
-            this.textbox_Numero_Nfe_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Numero_Nfe_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Numero_Nfe_ENTREGAS.Modified = false;
             this.textbox_Numero_Nfe_ENTREGAS.Multiline = false;
             this.textbox_Numero_Nfe_ENTREGAS.Name = "textbox_Numero_Nfe_ENTREGAS";
@@ -673,7 +686,7 @@
             this.textbox_Numero_Nfe_ENTREGAS.SelectionLength = 0;
             this.textbox_Numero_Nfe_ENTREGAS.SelectionStart = 0;
             this.textbox_Numero_Nfe_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Numero_Nfe_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Numero_Nfe_ENTREGAS.TabIndex = 15;
             this.textbox_Numero_Nfe_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -711,9 +724,10 @@
             this.textbox_Peso_Para_Coleta_ENTREGAS.IconRight = null;
             this.textbox_Peso_Para_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Peso_Para_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(140, 97);
+            this.textbox_Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(187, 119);
+            this.textbox_Peso_Para_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Peso_Para_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Peso_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Peso_Para_Coleta_ENTREGAS.Modified = false;
             this.textbox_Peso_Para_Coleta_ENTREGAS.Multiline = false;
             this.textbox_Peso_Para_Coleta_ENTREGAS.Name = "textbox_Peso_Para_Coleta_ENTREGAS";
@@ -746,7 +760,7 @@
             this.textbox_Peso_Para_Coleta_ENTREGAS.SelectionLength = 0;
             this.textbox_Peso_Para_Coleta_ENTREGAS.SelectionStart = 0;
             this.textbox_Peso_Para_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Peso_Para_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Peso_Para_Coleta_ENTREGAS.TabIndex = 14;
             this.textbox_Peso_Para_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -784,9 +798,10 @@
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconRight = null;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(508, 11);
+            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(677, 14);
+            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Modified = false;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Multiline = false;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Name = "textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS";
@@ -819,7 +834,7 @@
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.SelectionLength = 0;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.SelectionStart = 0;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(126, 35);
+            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(168, 43);
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TabIndex = 13;
             this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -839,10 +854,11 @@
             this.bunifuLabelDados_da_Entrega.CursorType = null;
             this.bunifuLabelDados_da_Entrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabelDados_da_Entrega.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabelDados_da_Entrega.Location = new System.Drawing.Point(9, 25);
+            this.bunifuLabelDados_da_Entrega.Location = new System.Drawing.Point(12, 31);
+            this.bunifuLabelDados_da_Entrega.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabelDados_da_Entrega.Name = "bunifuLabelDados_da_Entrega";
             this.bunifuLabelDados_da_Entrega.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabelDados_da_Entrega.Size = new System.Drawing.Size(163, 31);
+            this.bunifuLabelDados_da_Entrega.Size = new System.Drawing.Size(217, 38);
             this.bunifuLabelDados_da_Entrega.TabIndex = 22;
             this.bunifuLabelDados_da_Entrega.Text = "Dados da Entrega";
             this.bunifuLabelDados_da_Entrega.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -851,9 +867,10 @@
             // lbl_Data_Coleta_ENTREGAS
             // 
             this.lbl_Data_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl_Data_Coleta_ENTREGAS.Location = new System.Drawing.Point(320, 81);
+            this.lbl_Data_Coleta_ENTREGAS.Location = new System.Drawing.Point(427, 100);
+            this.lbl_Data_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Data_Coleta_ENTREGAS.Name = "lbl_Data_Coleta_ENTREGAS";
-            this.lbl_Data_Coleta_ENTREGAS.Size = new System.Drawing.Size(78, 13);
+            this.lbl_Data_Coleta_ENTREGAS.Size = new System.Drawing.Size(102, 17);
             this.lbl_Data_Coleta_ENTREGAS.TabIndex = 11;
             this.lbl_Data_Coleta_ENTREGAS.Text = "Data da Coleta";
             // 
@@ -871,12 +888,13 @@
             this.bunifuShadowPanel1.Controls.Add(this.lbl_Numero_Entrega_ENTREGAS);
             this.bunifuShadowPanel1.Controls.Add(this.textbox_Solicitante_ENTREGAS);
             this.bunifuShadowPanel1.Controls.Add(this.textbox_Numero_Entrega_ENTREGAS);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(9, 56);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(12, 69);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(646, 175);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(861, 215);
             this.bunifuShadowPanel1.TabIndex = 23;
             // 
             // btn_Novo_Solicitante__ENTREGAS
@@ -916,7 +934,8 @@
             this.btn_Novo_Solicitante__ENTREGAS.IdleIconLeftImage = null;
             this.btn_Novo_Solicitante__ENTREGAS.IdleIconRightImage = null;
             this.btn_Novo_Solicitante__ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Solicitante__ENTREGAS.Location = new System.Drawing.Point(565, 24);
+            this.btn_Novo_Solicitante__ENTREGAS.Location = new System.Drawing.Point(753, 30);
+            this.btn_Novo_Solicitante__ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Novo_Solicitante__ENTREGAS.Name = "btn_Novo_Solicitante__ENTREGAS";
             stateProperties29.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties29.BorderRadius = 3;
@@ -936,7 +955,7 @@
             stateProperties30.IconLeftImage = null;
             stateProperties30.IconRightImage = null;
             this.btn_Novo_Solicitante__ENTREGAS.OnPressedState = stateProperties30;
-            this.btn_Novo_Solicitante__ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Novo_Solicitante__ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Novo_Solicitante__ENTREGAS.TabIndex = 20;
             this.btn_Novo_Solicitante__ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Novo_Solicitante__ENTREGAS.TextMarginLeft = 0;
@@ -969,9 +988,10 @@
             this.textbox_Remetente_ENTREGAS.IconRight = null;
             this.textbox_Remetente_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Remetente_ENTREGAS.Lines = new string[0];
-            this.textbox_Remetente_ENTREGAS.Location = new System.Drawing.Point(97, 123);
+            this.textbox_Remetente_ENTREGAS.Location = new System.Drawing.Point(129, 151);
+            this.textbox_Remetente_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Remetente_ENTREGAS.MaxLength = 32767;
-            this.textbox_Remetente_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Remetente_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Remetente_ENTREGAS.Modified = false;
             this.textbox_Remetente_ENTREGAS.Multiline = false;
             this.textbox_Remetente_ENTREGAS.Name = "textbox_Remetente_ENTREGAS";
@@ -1004,7 +1024,7 @@
             this.textbox_Remetente_ENTREGAS.SelectionLength = 0;
             this.textbox_Remetente_ENTREGAS.SelectionStart = 0;
             this.textbox_Remetente_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Remetente_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Remetente_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Remetente_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Remetente_ENTREGAS.TabIndex = 11;
             this.textbox_Remetente_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1042,9 +1062,10 @@
             this.textbox_Data_Da_Coleta_ENTREGAS.IconRight = null;
             this.textbox_Data_Da_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Data_Da_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Data_Da_Coleta_ENTREGAS.Location = new System.Drawing.Point(404, 71);
+            this.textbox_Data_Da_Coleta_ENTREGAS.Location = new System.Drawing.Point(539, 87);
+            this.textbox_Data_Da_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Data_Da_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Data_Da_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Data_Da_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Data_Da_Coleta_ENTREGAS.Modified = false;
             this.textbox_Data_Da_Coleta_ENTREGAS.Multiline = false;
             this.textbox_Data_Da_Coleta_ENTREGAS.Name = "textbox_Data_Da_Coleta_ENTREGAS";
@@ -1077,7 +1098,7 @@
             this.textbox_Data_Da_Coleta_ENTREGAS.SelectionLength = 0;
             this.textbox_Data_Da_Coleta_ENTREGAS.SelectionStart = 0;
             this.textbox_Data_Da_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Size = new System.Drawing.Size(164, 35);
+            this.textbox_Data_Da_Coleta_ENTREGAS.Size = new System.Drawing.Size(219, 43);
             this.textbox_Data_Da_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Data_Da_Coleta_ENTREGAS.TabIndex = 12;
             this.textbox_Data_Da_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1091,18 +1112,20 @@
             // lbl_Empresa_ENTREGAS
             // 
             this.lbl_Empresa_ENTREGAS.AutoSize = true;
-            this.lbl_Empresa_ENTREGAS.Location = new System.Drawing.Point(43, 34);
+            this.lbl_Empresa_ENTREGAS.Location = new System.Drawing.Point(57, 42);
+            this.lbl_Empresa_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Empresa_ENTREGAS.Name = "lbl_Empresa_ENTREGAS";
-            this.lbl_Empresa_ENTREGAS.Size = new System.Drawing.Size(48, 13);
+            this.lbl_Empresa_ENTREGAS.Size = new System.Drawing.Size(64, 17);
             this.lbl_Empresa_ENTREGAS.TabIndex = 1;
             this.lbl_Empresa_ENTREGAS.Text = "Empresa";
             // 
             // lbl__Remetente_ENTREGAS
             // 
             this.lbl__Remetente_ENTREGAS.AutoSize = true;
-            this.lbl__Remetente_ENTREGAS.Location = new System.Drawing.Point(32, 133);
+            this.lbl__Remetente_ENTREGAS.Location = new System.Drawing.Point(43, 164);
+            this.lbl__Remetente_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl__Remetente_ENTREGAS.Name = "lbl__Remetente_ENTREGAS";
-            this.lbl__Remetente_ENTREGAS.Size = new System.Drawing.Size(59, 13);
+            this.lbl__Remetente_ENTREGAS.Size = new System.Drawing.Size(77, 17);
             this.lbl__Remetente_ENTREGAS.TabIndex = 11;
             this.lbl__Remetente_ENTREGAS.Text = "Remetente";
             // 
@@ -1133,9 +1156,10 @@
             this.textbox_Empresa_ENTREGAS.IconRight = null;
             this.textbox_Empresa_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Empresa_ENTREGAS.Lines = new string[0];
-            this.textbox_Empresa_ENTREGAS.Location = new System.Drawing.Point(97, 24);
+            this.textbox_Empresa_ENTREGAS.Location = new System.Drawing.Point(129, 30);
+            this.textbox_Empresa_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Empresa_ENTREGAS.MaxLength = 32767;
-            this.textbox_Empresa_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Empresa_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Empresa_ENTREGAS.Modified = false;
             this.textbox_Empresa_ENTREGAS.Multiline = false;
             this.textbox_Empresa_ENTREGAS.Name = "textbox_Empresa_ENTREGAS";
@@ -1168,7 +1192,7 @@
             this.textbox_Empresa_ENTREGAS.SelectionLength = 0;
             this.textbox_Empresa_ENTREGAS.SelectionStart = 0;
             this.textbox_Empresa_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Empresa_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Empresa_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Empresa_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Empresa_ENTREGAS.TabIndex = 5;
             this.textbox_Empresa_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1182,18 +1206,20 @@
             // lbl_Solicitante_ENTREGAS
             // 
             this.lbl_Solicitante_ENTREGAS.AutoSize = true;
-            this.lbl_Solicitante_ENTREGAS.Location = new System.Drawing.Point(342, 34);
+            this.lbl_Solicitante_ENTREGAS.Location = new System.Drawing.Point(456, 42);
+            this.lbl_Solicitante_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Solicitante_ENTREGAS.Name = "lbl_Solicitante_ENTREGAS";
-            this.lbl_Solicitante_ENTREGAS.Size = new System.Drawing.Size(56, 13);
+            this.lbl_Solicitante_ENTREGAS.Size = new System.Drawing.Size(73, 17);
             this.lbl_Solicitante_ENTREGAS.TabIndex = 6;
             this.lbl_Solicitante_ENTREGAS.Text = "Solicitante";
             // 
             // lbl_Numero_Entrega_ENTREGAS
             // 
             this.lbl_Numero_Entrega_ENTREGAS.AutoSize = true;
-            this.lbl_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(17, 81);
+            this.lbl_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(23, 100);
+            this.lbl_Numero_Entrega_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Numero_Entrega_ENTREGAS.Name = "lbl_Numero_Entrega_ENTREGAS";
-            this.lbl_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(74, 13);
+            this.lbl_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(98, 17);
             this.lbl_Numero_Entrega_ENTREGAS.TabIndex = 8;
             this.lbl_Numero_Entrega_ENTREGAS.Text = "N° da Entrega";
             // 
@@ -1224,9 +1250,10 @@
             this.textbox_Solicitante_ENTREGAS.IconRight = null;
             this.textbox_Solicitante_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Solicitante_ENTREGAS.Lines = new string[0];
-            this.textbox_Solicitante_ENTREGAS.Location = new System.Drawing.Point(404, 24);
+            this.textbox_Solicitante_ENTREGAS.Location = new System.Drawing.Point(539, 30);
+            this.textbox_Solicitante_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Solicitante_ENTREGAS.MaxLength = 32767;
-            this.textbox_Solicitante_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Solicitante_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Solicitante_ENTREGAS.Modified = false;
             this.textbox_Solicitante_ENTREGAS.Multiline = false;
             this.textbox_Solicitante_ENTREGAS.Name = "textbox_Solicitante_ENTREGAS";
@@ -1259,7 +1286,7 @@
             this.textbox_Solicitante_ENTREGAS.SelectionLength = 0;
             this.textbox_Solicitante_ENTREGAS.SelectionStart = 0;
             this.textbox_Solicitante_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Solicitante_ENTREGAS.Size = new System.Drawing.Size(164, 35);
+            this.textbox_Solicitante_ENTREGAS.Size = new System.Drawing.Size(219, 43);
             this.textbox_Solicitante_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Solicitante_ENTREGAS.TabIndex = 7;
             this.textbox_Solicitante_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1297,9 +1324,10 @@
             this.textbox_Numero_Entrega_ENTREGAS.IconRight = null;
             this.textbox_Numero_Entrega_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Numero_Entrega_ENTREGAS.Lines = new string[0];
-            this.textbox_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(97, 71);
+            this.textbox_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(129, 87);
+            this.textbox_Numero_Entrega_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Numero_Entrega_ENTREGAS.MaxLength = 32767;
-            this.textbox_Numero_Entrega_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Numero_Entrega_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Numero_Entrega_ENTREGAS.Modified = false;
             this.textbox_Numero_Entrega_ENTREGAS.Multiline = false;
             this.textbox_Numero_Entrega_ENTREGAS.Name = "textbox_Numero_Entrega_ENTREGAS";
@@ -1332,7 +1360,7 @@
             this.textbox_Numero_Entrega_ENTREGAS.SelectionLength = 0;
             this.textbox_Numero_Entrega_ENTREGAS.SelectionStart = 0;
             this.textbox_Numero_Entrega_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Numero_Entrega_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Numero_Entrega_ENTREGAS.TabIndex = 9;
             this.textbox_Numero_Entrega_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1356,12 +1384,13 @@
             this.lbl_.Controls.Add(this.lbl__Descricao_Da_Mercadoria_ENTREGAS);
             this.lbl_.Controls.Add(this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS);
             this.lbl_.Controls.Add(this.lbl_Expedidor_ENTREGAS);
-            this.lbl_.Location = new System.Drawing.Point(11, 430);
+            this.lbl_.Location = new System.Drawing.Point(15, 529);
+            this.lbl_.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbl_.Name = "lbl_";
             this.lbl_.PanelColor = System.Drawing.Color.Empty;
             this.lbl_.ShadowDept = 2;
             this.lbl_.ShadowTopLeftVisible = false;
-            this.lbl_.Size = new System.Drawing.Size(646, 142);
+            this.lbl_.Size = new System.Drawing.Size(861, 175);
             this.lbl_.TabIndex = 24;
             // 
             // textbox_Expedidor_ENTREGAS
@@ -1391,9 +1420,10 @@
             this.textbox_Expedidor_ENTREGAS.IconRight = null;
             this.textbox_Expedidor_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Expedidor_ENTREGAS.Lines = new string[0];
-            this.textbox_Expedidor_ENTREGAS.Location = new System.Drawing.Point(508, 54);
+            this.textbox_Expedidor_ENTREGAS.Location = new System.Drawing.Point(677, 66);
+            this.textbox_Expedidor_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Expedidor_ENTREGAS.MaxLength = 32767;
-            this.textbox_Expedidor_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Expedidor_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Expedidor_ENTREGAS.Modified = false;
             this.textbox_Expedidor_ENTREGAS.Multiline = false;
             this.textbox_Expedidor_ENTREGAS.Name = "textbox_Expedidor_ENTREGAS";
@@ -1426,7 +1456,7 @@
             this.textbox_Expedidor_ENTREGAS.SelectionLength = 0;
             this.textbox_Expedidor_ENTREGAS.SelectionStart = 0;
             this.textbox_Expedidor_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Expedidor_ENTREGAS.Size = new System.Drawing.Size(126, 35);
+            this.textbox_Expedidor_ENTREGAS.Size = new System.Drawing.Size(168, 43);
             this.textbox_Expedidor_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Expedidor_ENTREGAS.TabIndex = 12;
             this.textbox_Expedidor_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1464,9 +1494,10 @@
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconRight = null;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Lines = new string[0];
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(140, 54);
+            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(187, 66);
+            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.MaxLength = 32767;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
+            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.MinimumSize = new System.Drawing.Size(133, 43);
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Modified = false;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Multiline = false;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Name = "textbox_Descricao_Da_Mercadoria_ENTREGAS";
@@ -1499,7 +1530,7 @@
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.SelectionLength = 0;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.SelectionStart = 0;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(214, 35);
+            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(285, 43);
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TabIndex = 11;
             this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1513,36 +1544,40 @@
             // lbl__Peso_Para_Coleta_ENTREGAS
             // 
             this.lbl__Peso_Para_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(45, 107);
+            this.lbl__Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(60, 132);
+            this.lbl__Peso_Para_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl__Peso_Para_Coleta_ENTREGAS.Name = "lbl__Peso_Para_Coleta_ENTREGAS";
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(89, 13);
+            this.lbl__Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(118, 17);
             this.lbl__Peso_Para_Coleta_ENTREGAS.TabIndex = 10;
             this.lbl__Peso_Para_Coleta_ENTREGAS.Text = "Peso Para Coleta";
             // 
             // lbl__Descricao_Da_Mercadoria_ENTREGAS
             // 
             this.lbl__Descricao_Da_Mercadoria_ENTREGAS.AutoSize = true;
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(8, 64);
+            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(11, 79);
+            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Name = "lbl__Descricao_Da_Mercadoria_ENTREGAS";
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(126, 13);
+            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(166, 17);
             this.lbl__Descricao_Da_Mercadoria_ENTREGAS.TabIndex = 9;
             this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Text = "Descrição da Mercadoria";
             // 
             // lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS
             // 
             this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(369, 21);
+            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(492, 26);
+            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Name = "lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS";
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(133, 13);
+            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(176, 17);
             this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.TabIndex = 8;
             this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Text = "QTD. Volumes Para coleta";
             // 
             // lbl_Expedidor_ENTREGAS
             // 
             this.lbl_Expedidor_ENTREGAS.AutoSize = true;
-            this.lbl_Expedidor_ENTREGAS.Location = new System.Drawing.Point(448, 66);
+            this.lbl_Expedidor_ENTREGAS.Location = new System.Drawing.Point(597, 81);
+            this.lbl_Expedidor_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Expedidor_ENTREGAS.Name = "lbl_Expedidor_ENTREGAS";
-            this.lbl_Expedidor_ENTREGAS.Size = new System.Drawing.Size(54, 13);
+            this.lbl_Expedidor_ENTREGAS.Size = new System.Drawing.Size(71, 17);
             this.lbl_Expedidor_ENTREGAS.TabIndex = 7;
             this.lbl_Expedidor_ENTREGAS.Text = "Expedidor";
             // 
@@ -1550,17 +1585,18 @@
             // 
             this.bunifuCustomLabel1_Entregas.AutoSize = true;
             this.bunifuCustomLabel1_Entregas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1_Entregas.Location = new System.Drawing.Point(7, 4);
+            this.bunifuCustomLabel1_Entregas.Location = new System.Drawing.Point(9, 5);
+            this.bunifuCustomLabel1_Entregas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Entregas.Name = "bunifuCustomLabel1_Entregas";
-            this.bunifuCustomLabel1_Entregas.Size = new System.Drawing.Size(65, 17);
+            this.bunifuCustomLabel1_Entregas.Size = new System.Drawing.Size(76, 20);
             this.bunifuCustomLabel1_Entregas.TabIndex = 30;
             this.bunifuCustomLabel1_Entregas.Text = "Entregas";
             // 
-            // frmCadastrar_Entregas
+            // Entregas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 788);
+            this.ClientSize = new System.Drawing.Size(887, 970);
             this.Controls.Add(this.bunifuCustomLabel1_Entregas);
             this.Controls.Add(this.btn_Sair_ENTREGAS);
             this.Controls.Add(this.bunifuLabel1_Motorista_Veiculo);
@@ -1571,7 +1607,8 @@
             this.Controls.Add(this.bunifuShadowPanel1);
             this.Controls.Add(this.lbl_);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmCadastrar_Entregas";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Entregas";
             this.Text = "Cadastrar_Entregas";
             this.bunifuShadowPanel3.ResumeLayout(false);
             this.bunifuShadowPanel3.PerformLayout();

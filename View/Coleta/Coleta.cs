@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View.Coleta
 {
-    public partial class Consultar_Coleta : Form
+    public partial class Coleta : Form
     {
-        public Consultar_Coleta()
+        public Coleta()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace PIM.View.Coleta
 {
-    partial class Consultar_Coleta
+    partial class Coleta
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConsultar_Coleta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Coleta));
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
@@ -167,9 +167,10 @@
             this.bunifuTextBox1_Solicitante.IconRight = null;
             this.bunifuTextBox1_Solicitante.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1_Solicitante.Lines = new string[0];
-            this.bunifuTextBox1_Solicitante.Location = new System.Drawing.Point(411, 25);
+            this.bunifuTextBox1_Solicitante.Location = new System.Drawing.Point(548, 31);
+            this.bunifuTextBox1_Solicitante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox1_Solicitante.MaxLength = 32767;
-            this.bunifuTextBox1_Solicitante.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox1_Solicitante.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox1_Solicitante.Modified = false;
             this.bunifuTextBox1_Solicitante.Multiline = false;
             this.bunifuTextBox1_Solicitante.Name = "bunifuTextBox1_Solicitante";
@@ -202,7 +203,7 @@
             this.bunifuTextBox1_Solicitante.SelectionLength = 0;
             this.bunifuTextBox1_Solicitante.SelectionStart = 0;
             this.bunifuTextBox1_Solicitante.ShortcutsEnabled = true;
-            this.bunifuTextBox1_Solicitante.Size = new System.Drawing.Size(164, 35);
+            this.bunifuTextBox1_Solicitante.Size = new System.Drawing.Size(219, 43);
             this.bunifuTextBox1_Solicitante.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1_Solicitante.TabIndex = 7;
             this.bunifuTextBox1_Solicitante.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -250,7 +251,8 @@
             this.bunifuButton2_Pesquisar_Veiculo.IdleIconLeftImage = null;
             this.bunifuButton2_Pesquisar_Veiculo.IdleIconRightImage = null;
             this.bunifuButton2_Pesquisar_Veiculo.IndicateFocus = false;
-            this.bunifuButton2_Pesquisar_Veiculo.Location = new System.Drawing.Point(279, 61);
+            this.bunifuButton2_Pesquisar_Veiculo.Location = new System.Drawing.Point(372, 75);
+            this.bunifuButton2_Pesquisar_Veiculo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton2_Pesquisar_Veiculo.Name = "bunifuButton2_Pesquisar_Veiculo";
             stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties5.BorderRadius = 3;
@@ -270,7 +272,7 @@
             stateProperties6.IconLeftImage = null;
             stateProperties6.IconRightImage = null;
             this.bunifuButton2_Pesquisar_Veiculo.OnPressedState = stateProperties6;
-            this.bunifuButton2_Pesquisar_Veiculo.Size = new System.Drawing.Size(75, 35);
+            this.bunifuButton2_Pesquisar_Veiculo.Size = new System.Drawing.Size(100, 43);
             this.bunifuButton2_Pesquisar_Veiculo.TabIndex = 19;
             this.bunifuButton2_Pesquisar_Veiculo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton2_Pesquisar_Veiculo.TextMarginLeft = 0;
@@ -313,7 +315,8 @@
             this.bunifuButton1_Pesquisar_Motorista.IdleIconLeftImage = null;
             this.bunifuButton1_Pesquisar_Motorista.IdleIconRightImage = null;
             this.bunifuButton1_Pesquisar_Motorista.IndicateFocus = false;
-            this.bunifuButton1_Pesquisar_Motorista.Location = new System.Drawing.Point(279, 20);
+            this.bunifuButton1_Pesquisar_Motorista.Location = new System.Drawing.Point(372, 25);
+            this.bunifuButton1_Pesquisar_Motorista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton1_Pesquisar_Motorista.Name = "bunifuButton1_Pesquisar_Motorista";
             stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties7.BorderRadius = 3;
@@ -333,7 +336,7 @@
             stateProperties8.IconLeftImage = null;
             stateProperties8.IconRightImage = null;
             this.bunifuButton1_Pesquisar_Motorista.OnPressedState = stateProperties8;
-            this.bunifuButton1_Pesquisar_Motorista.Size = new System.Drawing.Size(75, 35);
+            this.bunifuButton1_Pesquisar_Motorista.Size = new System.Drawing.Size(100, 43);
             this.bunifuButton1_Pesquisar_Motorista.TabIndex = 18;
             this.bunifuButton1_Pesquisar_Motorista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1_Pesquisar_Motorista.TextMarginLeft = 0;
@@ -366,9 +369,10 @@
             this.bunifuTextBox5_Veiculo.IconRight = null;
             this.bunifuTextBox5_Veiculo.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox5_Veiculo.Lines = new string[0];
-            this.bunifuTextBox5_Veiculo.Location = new System.Drawing.Point(68, 61);
+            this.bunifuTextBox5_Veiculo.Location = new System.Drawing.Point(91, 75);
+            this.bunifuTextBox5_Veiculo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox5_Veiculo.MaxLength = 32767;
-            this.bunifuTextBox5_Veiculo.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox5_Veiculo.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox5_Veiculo.Modified = false;
             this.bunifuTextBox5_Veiculo.Multiline = false;
             this.bunifuTextBox5_Veiculo.Name = "bunifuTextBox5_Veiculo";
@@ -401,7 +405,7 @@
             this.bunifuTextBox5_Veiculo.SelectionLength = 0;
             this.bunifuTextBox5_Veiculo.SelectionStart = 0;
             this.bunifuTextBox5_Veiculo.ShortcutsEnabled = true;
-            this.bunifuTextBox5_Veiculo.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox5_Veiculo.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox5_Veiculo.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox5_Veiculo.TabIndex = 16;
             this.bunifuTextBox5_Veiculo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -439,9 +443,10 @@
             this.bunifuTextBox4__Motorista.IconRight = null;
             this.bunifuTextBox4__Motorista.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox4__Motorista.Lines = new string[0];
-            this.bunifuTextBox4__Motorista.Location = new System.Drawing.Point(68, 20);
+            this.bunifuTextBox4__Motorista.Location = new System.Drawing.Point(91, 25);
+            this.bunifuTextBox4__Motorista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox4__Motorista.MaxLength = 32767;
-            this.bunifuTextBox4__Motorista.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox4__Motorista.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox4__Motorista.Modified = false;
             this.bunifuTextBox4__Motorista.Multiline = false;
             this.bunifuTextBox4__Motorista.Name = "bunifuTextBox4__Motorista";
@@ -474,7 +479,7 @@
             this.bunifuTextBox4__Motorista.SelectionLength = 0;
             this.bunifuTextBox4__Motorista.SelectionStart = 0;
             this.bunifuTextBox4__Motorista.ShortcutsEnabled = true;
-            this.bunifuTextBox4__Motorista.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox4__Motorista.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox4__Motorista.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox4__Motorista.TabIndex = 15;
             this.bunifuTextBox4__Motorista.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -512,9 +517,10 @@
             this.bunifuTextBox3_Numero_Nfe.IconRight = null;
             this.bunifuTextBox3_Numero_Nfe.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox3_Numero_Nfe.Lines = new string[0];
-            this.bunifuTextBox3_Numero_Nfe.Location = new System.Drawing.Point(140, 10);
+            this.bunifuTextBox3_Numero_Nfe.Location = new System.Drawing.Point(187, 12);
+            this.bunifuTextBox3_Numero_Nfe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox3_Numero_Nfe.MaxLength = 32767;
-            this.bunifuTextBox3_Numero_Nfe.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox3_Numero_Nfe.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox3_Numero_Nfe.Modified = false;
             this.bunifuTextBox3_Numero_Nfe.Multiline = false;
             this.bunifuTextBox3_Numero_Nfe.Name = "bunifuTextBox3_Numero_Nfe";
@@ -547,7 +553,7 @@
             this.bunifuTextBox3_Numero_Nfe.SelectionLength = 0;
             this.bunifuTextBox3_Numero_Nfe.SelectionStart = 0;
             this.bunifuTextBox3_Numero_Nfe.ShortcutsEnabled = true;
-            this.bunifuTextBox3_Numero_Nfe.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox3_Numero_Nfe.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox3_Numero_Nfe.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox3_Numero_Nfe.TabIndex = 15;
             this.bunifuTextBox3_Numero_Nfe.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -595,7 +601,8 @@
             this.bunifuButton4_Cadastro_Cliente.IdleIconLeftImage = null;
             this.bunifuButton4_Cadastro_Cliente.IdleIconRightImage = null;
             this.bunifuButton4_Cadastro_Cliente.IndicateFocus = false;
-            this.bunifuButton4_Cadastro_Cliente.Location = new System.Drawing.Point(476, 589);
+            this.bunifuButton4_Cadastro_Cliente.Location = new System.Drawing.Point(635, 725);
+            this.bunifuButton4_Cadastro_Cliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton4_Cadastro_Cliente.Name = "bunifuButton4_Cadastro_Cliente";
             stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties21.BorderRadius = 3;
@@ -615,7 +622,7 @@
             stateProperties22.IconLeftImage = null;
             stateProperties22.IconRightImage = null;
             this.bunifuButton4_Cadastro_Cliente.OnPressedState = stateProperties22;
-            this.bunifuButton4_Cadastro_Cliente.Size = new System.Drawing.Size(71, 35);
+            this.bunifuButton4_Cadastro_Cliente.Size = new System.Drawing.Size(95, 43);
             this.bunifuButton4_Cadastro_Cliente.TabIndex = 29;
             this.bunifuButton4_Cadastro_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4_Cadastro_Cliente.TextMarginLeft = 0;
@@ -648,9 +655,10 @@
             this.bunifuTextBox6_Peso_Para_Coleta.IconRight = null;
             this.bunifuTextBox6_Peso_Para_Coleta.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox6_Peso_Para_Coleta.Lines = new string[0];
-            this.bunifuTextBox6_Peso_Para_Coleta.Location = new System.Drawing.Point(140, 96);
+            this.bunifuTextBox6_Peso_Para_Coleta.Location = new System.Drawing.Point(187, 118);
+            this.bunifuTextBox6_Peso_Para_Coleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox6_Peso_Para_Coleta.MaxLength = 32767;
-            this.bunifuTextBox6_Peso_Para_Coleta.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox6_Peso_Para_Coleta.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox6_Peso_Para_Coleta.Modified = false;
             this.bunifuTextBox6_Peso_Para_Coleta.Multiline = false;
             this.bunifuTextBox6_Peso_Para_Coleta.Name = "bunifuTextBox6_Peso_Para_Coleta";
@@ -683,7 +691,7 @@
             this.bunifuTextBox6_Peso_Para_Coleta.SelectionLength = 0;
             this.bunifuTextBox6_Peso_Para_Coleta.SelectionStart = 0;
             this.bunifuTextBox6_Peso_Para_Coleta.ShortcutsEnabled = true;
-            this.bunifuTextBox6_Peso_Para_Coleta.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox6_Peso_Para_Coleta.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox6_Peso_Para_Coleta.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox6_Peso_Para_Coleta.TabIndex = 14;
             this.bunifuTextBox6_Peso_Para_Coleta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -721,9 +729,10 @@
             this.bunifuTextBox4__Expedidor.IconRight = null;
             this.bunifuTextBox4__Expedidor.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox4__Expedidor.Lines = new string[0];
-            this.bunifuTextBox4__Expedidor.Location = new System.Drawing.Point(508, 53);
+            this.bunifuTextBox4__Expedidor.Location = new System.Drawing.Point(677, 65);
+            this.bunifuTextBox4__Expedidor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox4__Expedidor.MaxLength = 32767;
-            this.bunifuTextBox4__Expedidor.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox4__Expedidor.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox4__Expedidor.Modified = false;
             this.bunifuTextBox4__Expedidor.Multiline = false;
             this.bunifuTextBox4__Expedidor.Name = "bunifuTextBox4__Expedidor";
@@ -756,7 +765,7 @@
             this.bunifuTextBox4__Expedidor.SelectionLength = 0;
             this.bunifuTextBox4__Expedidor.SelectionStart = 0;
             this.bunifuTextBox4__Expedidor.ShortcutsEnabled = true;
-            this.bunifuTextBox4__Expedidor.Size = new System.Drawing.Size(126, 35);
+            this.bunifuTextBox4__Expedidor.Size = new System.Drawing.Size(168, 43);
             this.bunifuTextBox4__Expedidor.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox4__Expedidor.TabIndex = 12;
             this.bunifuTextBox4__Expedidor.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -794,9 +803,10 @@
             this.bunifuTextBox2_Descricao_Da_Mercadoria.IconRight = null;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.Lines = new string[0];
-            this.bunifuTextBox2_Descricao_Da_Mercadoria.Location = new System.Drawing.Point(140, 53);
+            this.bunifuTextBox2_Descricao_Da_Mercadoria.Location = new System.Drawing.Point(187, 65);
+            this.bunifuTextBox2_Descricao_Da_Mercadoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox2_Descricao_Da_Mercadoria.MaxLength = 32767;
-            this.bunifuTextBox2_Descricao_Da_Mercadoria.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox2_Descricao_Da_Mercadoria.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox2_Descricao_Da_Mercadoria.Modified = false;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.Multiline = false;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.Name = "bunifuTextBox2_Descricao_Da_Mercadoria";
@@ -829,7 +839,7 @@
             this.bunifuTextBox2_Descricao_Da_Mercadoria.SelectionLength = 0;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.SelectionStart = 0;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.ShortcutsEnabled = true;
-            this.bunifuTextBox2_Descricao_Da_Mercadoria.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox2_Descricao_Da_Mercadoria.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox2_Descricao_Da_Mercadoria.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.TabIndex = 11;
             this.bunifuTextBox2_Descricao_Da_Mercadoria.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -877,7 +887,8 @@
             this.bunifuButton3_Pesquisar_Solicitante.IdleIconLeftImage = null;
             this.bunifuButton3_Pesquisar_Solicitante.IdleIconRightImage = null;
             this.bunifuButton3_Pesquisar_Solicitante.IndicateFocus = false;
-            this.bunifuButton3_Pesquisar_Solicitante.Location = new System.Drawing.Point(563, 25);
+            this.bunifuButton3_Pesquisar_Solicitante.Location = new System.Drawing.Point(751, 31);
+            this.bunifuButton3_Pesquisar_Solicitante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton3_Pesquisar_Solicitante.Name = "bunifuButton3_Pesquisar_Solicitante";
             stateProperties35.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties35.BorderRadius = 3;
@@ -897,7 +908,7 @@
             stateProperties36.IconLeftImage = null;
             stateProperties36.IconRightImage = null;
             this.bunifuButton3_Pesquisar_Solicitante.OnPressedState = stateProperties36;
-            this.bunifuButton3_Pesquisar_Solicitante.Size = new System.Drawing.Size(71, 35);
+            this.bunifuButton3_Pesquisar_Solicitante.Size = new System.Drawing.Size(95, 43);
             this.bunifuButton3_Pesquisar_Solicitante.TabIndex = 20;
             this.bunifuButton3_Pesquisar_Solicitante.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton3_Pesquisar_Solicitante.TextMarginLeft = 0;
@@ -930,9 +941,10 @@
             this.bunifuTextBox2_Nome_Do_Contato.IconRight = null;
             this.bunifuTextBox2_Nome_Do_Contato.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2_Nome_Do_Contato.Lines = new string[0];
-            this.bunifuTextBox2_Nome_Do_Contato.Location = new System.Drawing.Point(104, 124);
+            this.bunifuTextBox2_Nome_Do_Contato.Location = new System.Drawing.Point(139, 153);
+            this.bunifuTextBox2_Nome_Do_Contato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox2_Nome_Do_Contato.MaxLength = 32767;
-            this.bunifuTextBox2_Nome_Do_Contato.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox2_Nome_Do_Contato.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox2_Nome_Do_Contato.Modified = false;
             this.bunifuTextBox2_Nome_Do_Contato.Multiline = false;
             this.bunifuTextBox2_Nome_Do_Contato.Name = "bunifuTextBox2_Nome_Do_Contato";
@@ -965,7 +977,7 @@
             this.bunifuTextBox2_Nome_Do_Contato.SelectionLength = 0;
             this.bunifuTextBox2_Nome_Do_Contato.SelectionStart = 0;
             this.bunifuTextBox2_Nome_Do_Contato.ShortcutsEnabled = true;
-            this.bunifuTextBox2_Nome_Do_Contato.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox2_Nome_Do_Contato.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox2_Nome_Do_Contato.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2_Nome_Do_Contato.TabIndex = 11;
             this.bunifuTextBox2_Nome_Do_Contato.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1003,9 +1015,10 @@
             this.bunifuTextBox2_Data_Da_Coleta.IconRight = null;
             this.bunifuTextBox2_Data_Da_Coleta.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2_Data_Da_Coleta.Lines = new string[0];
-            this.bunifuTextBox2_Data_Da_Coleta.Location = new System.Drawing.Point(411, 72);
+            this.bunifuTextBox2_Data_Da_Coleta.Location = new System.Drawing.Point(548, 89);
+            this.bunifuTextBox2_Data_Da_Coleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox2_Data_Da_Coleta.MaxLength = 32767;
-            this.bunifuTextBox2_Data_Da_Coleta.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox2_Data_Da_Coleta.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox2_Data_Da_Coleta.Modified = false;
             this.bunifuTextBox2_Data_Da_Coleta.Multiline = false;
             this.bunifuTextBox2_Data_Da_Coleta.Name = "bunifuTextBox2_Data_Da_Coleta";
@@ -1038,7 +1051,7 @@
             this.bunifuTextBox2_Data_Da_Coleta.SelectionLength = 0;
             this.bunifuTextBox2_Data_Da_Coleta.SelectionStart = 0;
             this.bunifuTextBox2_Data_Da_Coleta.ShortcutsEnabled = true;
-            this.bunifuTextBox2_Data_Da_Coleta.Size = new System.Drawing.Size(164, 35);
+            this.bunifuTextBox2_Data_Da_Coleta.Size = new System.Drawing.Size(219, 43);
             this.bunifuTextBox2_Data_Da_Coleta.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2_Data_Da_Coleta.TabIndex = 12;
             this.bunifuTextBox2_Data_Da_Coleta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1076,9 +1089,10 @@
             this.bunifuTextBox1_Empresa.IconRight = null;
             this.bunifuTextBox1_Empresa.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1_Empresa.Lines = new string[0];
-            this.bunifuTextBox1_Empresa.Location = new System.Drawing.Point(104, 25);
+            this.bunifuTextBox1_Empresa.Location = new System.Drawing.Point(139, 31);
+            this.bunifuTextBox1_Empresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox1_Empresa.MaxLength = 32767;
-            this.bunifuTextBox1_Empresa.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox1_Empresa.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox1_Empresa.Modified = false;
             this.bunifuTextBox1_Empresa.Multiline = false;
             this.bunifuTextBox1_Empresa.Name = "bunifuTextBox1_Empresa";
@@ -1111,7 +1125,7 @@
             this.bunifuTextBox1_Empresa.SelectionLength = 0;
             this.bunifuTextBox1_Empresa.SelectionStart = 0;
             this.bunifuTextBox1_Empresa.ShortcutsEnabled = true;
-            this.bunifuTextBox1_Empresa.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox1_Empresa.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox1_Empresa.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1_Empresa.TabIndex = 5;
             this.bunifuTextBox1_Empresa.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1149,9 +1163,10 @@
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.IconRight = null;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Lines = new string[0];
-            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Location = new System.Drawing.Point(508, 10);
+            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Location = new System.Drawing.Point(677, 12);
+            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.MaxLength = 32767;
-            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Modified = false;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Multiline = false;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Name = "bunifuTextBox5_Quantidade_Volumes_Para_Coleta";
@@ -1184,7 +1199,7 @@
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.SelectionLength = 0;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.SelectionStart = 0;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.ShortcutsEnabled = true;
-            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Size = new System.Drawing.Size(126, 35);
+            this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Size = new System.Drawing.Size(168, 43);
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.TabIndex = 13;
             this.bunifuTextBox5_Quantidade_Volumes_Para_Coleta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1222,9 +1237,10 @@
             this.bunifuTextBox3_Numero_Coleta.IconRight = null;
             this.bunifuTextBox3_Numero_Coleta.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox3_Numero_Coleta.Lines = new string[0];
-            this.bunifuTextBox3_Numero_Coleta.Location = new System.Drawing.Point(104, 72);
+            this.bunifuTextBox3_Numero_Coleta.Location = new System.Drawing.Point(139, 89);
+            this.bunifuTextBox3_Numero_Coleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox3_Numero_Coleta.MaxLength = 32767;
-            this.bunifuTextBox3_Numero_Coleta.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox3_Numero_Coleta.MinimumSize = new System.Drawing.Size(133, 43);
             this.bunifuTextBox3_Numero_Coleta.Modified = false;
             this.bunifuTextBox3_Numero_Coleta.Multiline = false;
             this.bunifuTextBox3_Numero_Coleta.Name = "bunifuTextBox3_Numero_Coleta";
@@ -1257,7 +1273,7 @@
             this.bunifuTextBox3_Numero_Coleta.SelectionLength = 0;
             this.bunifuTextBox3_Numero_Coleta.SelectionStart = 0;
             this.bunifuTextBox3_Numero_Coleta.ShortcutsEnabled = true;
-            this.bunifuTextBox3_Numero_Coleta.Size = new System.Drawing.Size(214, 35);
+            this.bunifuTextBox3_Numero_Coleta.Size = new System.Drawing.Size(285, 43);
             this.bunifuTextBox3_Numero_Coleta.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox3_Numero_Coleta.TabIndex = 9;
             this.bunifuTextBox3_Numero_Coleta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1277,10 +1293,11 @@
             this.bunifuLabel1_Motorista_Veiculo.CursorType = null;
             this.bunifuLabel1_Motorista_Veiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1_Motorista_Veiculo.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Motorista_Veiculo.Location = new System.Drawing.Point(9, 425);
+            this.bunifuLabel1_Motorista_Veiculo.Location = new System.Drawing.Point(12, 523);
+            this.bunifuLabel1_Motorista_Veiculo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1_Motorista_Veiculo.Name = "bunifuLabel1_Motorista_Veiculo";
             this.bunifuLabel1_Motorista_Veiculo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Motorista_Veiculo.Size = new System.Drawing.Size(163, 31);
+            this.bunifuLabel1_Motorista_Veiculo.Size = new System.Drawing.Size(217, 38);
             this.bunifuLabel1_Motorista_Veiculo.TabIndex = 27;
             this.bunifuLabel1_Motorista_Veiculo.Text = "Motorista/ Veículo";
             this.bunifuLabel1_Motorista_Veiculo.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1295,29 +1312,32 @@
             this.bunifuShadowPanel3.Controls.Add(this.bunifuCustomLabel3_Veiculo);
             this.bunifuShadowPanel3.Controls.Add(this.bunifuTextBox4__Motorista);
             this.bunifuShadowPanel3.Controls.Add(this.bunifuCustomLabel1_Motorista);
-            this.bunifuShadowPanel3.Location = new System.Drawing.Point(9, 455);
+            this.bunifuShadowPanel3.Location = new System.Drawing.Point(12, 560);
+            this.bunifuShadowPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel3.Name = "bunifuShadowPanel3";
             this.bunifuShadowPanel3.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel3.ShadowDept = 2;
             this.bunifuShadowPanel3.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel3.Size = new System.Drawing.Size(646, 116);
+            this.bunifuShadowPanel3.Size = new System.Drawing.Size(861, 143);
             this.bunifuShadowPanel3.TabIndex = 26;
             // 
             // bunifuCustomLabel3_Veiculo
             // 
             this.bunifuCustomLabel3_Veiculo.AutoSize = true;
-            this.bunifuCustomLabel3_Veiculo.Location = new System.Drawing.Point(24, 70);
+            this.bunifuCustomLabel3_Veiculo.Location = new System.Drawing.Point(32, 86);
+            this.bunifuCustomLabel3_Veiculo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel3_Veiculo.Name = "bunifuCustomLabel3_Veiculo";
-            this.bunifuCustomLabel3_Veiculo.Size = new System.Drawing.Size(44, 13);
+            this.bunifuCustomLabel3_Veiculo.Size = new System.Drawing.Size(54, 17);
             this.bunifuCustomLabel3_Veiculo.TabIndex = 17;
             this.bunifuCustomLabel3_Veiculo.Text = "Veículo";
             // 
             // bunifuCustomLabel1_Motorista
             // 
             this.bunifuCustomLabel1_Motorista.AutoSize = true;
-            this.bunifuCustomLabel1_Motorista.Location = new System.Drawing.Point(18, 30);
+            this.bunifuCustomLabel1_Motorista.Location = new System.Drawing.Point(24, 37);
+            this.bunifuCustomLabel1_Motorista.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Motorista.Name = "bunifuCustomLabel1_Motorista";
-            this.bunifuCustomLabel1_Motorista.Size = new System.Drawing.Size(50, 13);
+            this.bunifuCustomLabel1_Motorista.Size = new System.Drawing.Size(66, 17);
             this.bunifuCustomLabel1_Motorista.TabIndex = 15;
             this.bunifuCustomLabel1_Motorista.Text = "Motorista";
             // 
@@ -1330,10 +1350,11 @@
             this.bunifuLabel1_Dados_Da_Mercadoria.CursorType = null;
             this.bunifuLabel1_Dados_Da_Mercadoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1_Dados_Da_Mercadoria.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Location = new System.Drawing.Point(9, 236);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Location = new System.Drawing.Point(12, 290);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1_Dados_Da_Mercadoria.Name = "bunifuLabel1_Dados_Da_Mercadoria";
             this.bunifuLabel1_Dados_Da_Mercadoria.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Size = new System.Drawing.Size(280, 31);
+            this.bunifuLabel1_Dados_Da_Mercadoria.Size = new System.Drawing.Size(373, 38);
             this.bunifuLabel1_Dados_Da_Mercadoria.TabIndex = 25;
             this.bunifuLabel1_Dados_Da_Mercadoria.Text = "Dados da Mercadoria a Coletar";
             this.bunifuLabel1_Dados_Da_Mercadoria.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1352,101 +1373,112 @@
             this.bunifuShadowPanel2.Controls.Add(this.bunifuCustomLabel4_Descricao_Da_Mercadoria);
             this.bunifuShadowPanel2.Controls.Add(this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta);
             this.bunifuShadowPanel2.Controls.Add(this.bunifuCustomLabel1_Expedidor);
-            this.bunifuShadowPanel2.Location = new System.Drawing.Point(9, 267);
+            this.bunifuShadowPanel2.Location = new System.Drawing.Point(12, 329);
+            this.bunifuShadowPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel2.Name = "bunifuShadowPanel2";
             this.bunifuShadowPanel2.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel2.ShadowDept = 2;
             this.bunifuShadowPanel2.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel2.Size = new System.Drawing.Size(646, 142);
+            this.bunifuShadowPanel2.Size = new System.Drawing.Size(861, 175);
             this.bunifuShadowPanel2.TabIndex = 24;
             // 
             // bunifuCustomLabel1_Numero_Nfe
             // 
             this.bunifuCustomLabel1_Numero_Nfe.AutoSize = true;
-            this.bunifuCustomLabel1_Numero_Nfe.Location = new System.Drawing.Point(94, 20);
+            this.bunifuCustomLabel1_Numero_Nfe.Location = new System.Drawing.Point(125, 25);
+            this.bunifuCustomLabel1_Numero_Nfe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Numero_Nfe.Name = "bunifuCustomLabel1_Numero_Nfe";
-            this.bunifuCustomLabel1_Numero_Nfe.Size = new System.Drawing.Size(42, 13);
+            this.bunifuCustomLabel1_Numero_Nfe.Size = new System.Drawing.Size(54, 17);
             this.bunifuCustomLabel1_Numero_Nfe.TabIndex = 16;
             this.bunifuCustomLabel1_Numero_Nfe.Text = "N° NFe";
             // 
             // bunifuCustomLabel5_Peso_Para_Coleta
             // 
             this.bunifuCustomLabel5_Peso_Para_Coleta.AutoSize = true;
-            this.bunifuCustomLabel5_Peso_Para_Coleta.Location = new System.Drawing.Point(45, 106);
+            this.bunifuCustomLabel5_Peso_Para_Coleta.Location = new System.Drawing.Point(60, 130);
+            this.bunifuCustomLabel5_Peso_Para_Coleta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel5_Peso_Para_Coleta.Name = "bunifuCustomLabel5_Peso_Para_Coleta";
-            this.bunifuCustomLabel5_Peso_Para_Coleta.Size = new System.Drawing.Size(89, 13);
+            this.bunifuCustomLabel5_Peso_Para_Coleta.Size = new System.Drawing.Size(118, 17);
             this.bunifuCustomLabel5_Peso_Para_Coleta.TabIndex = 10;
             this.bunifuCustomLabel5_Peso_Para_Coleta.Text = "Peso Para Coleta";
             // 
             // bunifuCustomLabel4_Descricao_Da_Mercadoria
             // 
             this.bunifuCustomLabel4_Descricao_Da_Mercadoria.AutoSize = true;
-            this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Location = new System.Drawing.Point(8, 63);
+            this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Location = new System.Drawing.Point(11, 78);
+            this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Name = "bunifuCustomLabel4_Descricao_Da_Mercadoria";
-            this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Size = new System.Drawing.Size(126, 13);
+            this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Size = new System.Drawing.Size(166, 17);
             this.bunifuCustomLabel4_Descricao_Da_Mercadoria.TabIndex = 9;
             this.bunifuCustomLabel4_Descricao_Da_Mercadoria.Text = "Descrição da Mercadoria";
             // 
             // bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta
             // 
             this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.AutoSize = true;
-            this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Location = new System.Drawing.Point(369, 20);
+            this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Location = new System.Drawing.Point(492, 25);
+            this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Name = "bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta";
-            this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Size = new System.Drawing.Size(133, 13);
+            this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Size = new System.Drawing.Size(176, 17);
             this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.TabIndex = 8;
             this.bunifuCustomLabel3_Quantidade_Volumes_Para_Coleta.Text = "QTD. Volumes Para coleta";
             // 
             // bunifuCustomLabel1_Expedidor
             // 
             this.bunifuCustomLabel1_Expedidor.AutoSize = true;
-            this.bunifuCustomLabel1_Expedidor.Location = new System.Drawing.Point(448, 65);
+            this.bunifuCustomLabel1_Expedidor.Location = new System.Drawing.Point(597, 80);
+            this.bunifuCustomLabel1_Expedidor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Expedidor.Name = "bunifuCustomLabel1_Expedidor";
-            this.bunifuCustomLabel1_Expedidor.Size = new System.Drawing.Size(54, 13);
+            this.bunifuCustomLabel1_Expedidor.Size = new System.Drawing.Size(71, 17);
             this.bunifuCustomLabel1_Expedidor.TabIndex = 7;
             this.bunifuCustomLabel1_Expedidor.Text = "Expedidor";
             // 
             // bunifuCustomLabel1_Data_Da_Coleta
             // 
             this.bunifuCustomLabel1_Data_Da_Coleta.AutoSize = true;
-            this.bunifuCustomLabel1_Data_Da_Coleta.Location = new System.Drawing.Point(327, 82);
+            this.bunifuCustomLabel1_Data_Da_Coleta.Location = new System.Drawing.Point(436, 101);
+            this.bunifuCustomLabel1_Data_Da_Coleta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Data_Da_Coleta.Name = "bunifuCustomLabel1_Data_Da_Coleta";
-            this.bunifuCustomLabel1_Data_Da_Coleta.Size = new System.Drawing.Size(78, 13);
+            this.bunifuCustomLabel1_Data_Da_Coleta.Size = new System.Drawing.Size(102, 17);
             this.bunifuCustomLabel1_Data_Da_Coleta.TabIndex = 11;
             this.bunifuCustomLabel1_Data_Da_Coleta.Text = "Data da Coleta";
             // 
             // bunifuCustomLabel1_Empresa
             // 
             this.bunifuCustomLabel1_Empresa.AutoSize = true;
-            this.bunifuCustomLabel1_Empresa.Location = new System.Drawing.Point(50, 35);
+            this.bunifuCustomLabel1_Empresa.Location = new System.Drawing.Point(67, 43);
+            this.bunifuCustomLabel1_Empresa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Empresa.Name = "bunifuCustomLabel1_Empresa";
-            this.bunifuCustomLabel1_Empresa.Size = new System.Drawing.Size(48, 13);
+            this.bunifuCustomLabel1_Empresa.Size = new System.Drawing.Size(64, 17);
             this.bunifuCustomLabel1_Empresa.TabIndex = 1;
             this.bunifuCustomLabel1_Empresa.Text = "Empresa";
             // 
             // bunifuCustomLabel1_Nome_Do_Contato
             // 
             this.bunifuCustomLabel1_Nome_Do_Contato.AutoSize = true;
-            this.bunifuCustomLabel1_Nome_Do_Contato.Location = new System.Drawing.Point(8, 134);
+            this.bunifuCustomLabel1_Nome_Do_Contato.Location = new System.Drawing.Point(11, 165);
+            this.bunifuCustomLabel1_Nome_Do_Contato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Nome_Do_Contato.Name = "bunifuCustomLabel1_Nome_Do_Contato";
-            this.bunifuCustomLabel1_Nome_Do_Contato.Size = new System.Drawing.Size(90, 13);
+            this.bunifuCustomLabel1_Nome_Do_Contato.Size = new System.Drawing.Size(118, 17);
             this.bunifuCustomLabel1_Nome_Do_Contato.TabIndex = 11;
             this.bunifuCustomLabel1_Nome_Do_Contato.Text = "Nome do Contato";
             // 
             // bunifuCustomLabel1_Solicitante
             // 
             this.bunifuCustomLabel1_Solicitante.AutoSize = true;
-            this.bunifuCustomLabel1_Solicitante.Location = new System.Drawing.Point(349, 35);
+            this.bunifuCustomLabel1_Solicitante.Location = new System.Drawing.Point(465, 43);
+            this.bunifuCustomLabel1_Solicitante.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Solicitante.Name = "bunifuCustomLabel1_Solicitante";
-            this.bunifuCustomLabel1_Solicitante.Size = new System.Drawing.Size(56, 13);
+            this.bunifuCustomLabel1_Solicitante.Size = new System.Drawing.Size(73, 17);
             this.bunifuCustomLabel1_Solicitante.TabIndex = 6;
             this.bunifuCustomLabel1_Solicitante.Text = "Solicitante";
             // 
             // bunifuCustomLabel1_Numero_Coleta
             // 
             this.bunifuCustomLabel1_Numero_Coleta.AutoSize = true;
-            this.bunifuCustomLabel1_Numero_Coleta.Location = new System.Drawing.Point(32, 81);
+            this.bunifuCustomLabel1_Numero_Coleta.Location = new System.Drawing.Point(43, 100);
+            this.bunifuCustomLabel1_Numero_Coleta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1_Numero_Coleta.Name = "bunifuCustomLabel1_Numero_Coleta";
-            this.bunifuCustomLabel1_Numero_Coleta.Size = new System.Drawing.Size(67, 13);
+            this.bunifuCustomLabel1_Numero_Coleta.Size = new System.Drawing.Size(88, 17);
             this.bunifuCustomLabel1_Numero_Coleta.TabIndex = 8;
             this.bunifuCustomLabel1_Numero_Coleta.Text = "N° da Coleta";
             // 
@@ -1464,12 +1496,13 @@
             this.bunifuShadowPanel1.Controls.Add(this.bunifuCustomLabel1_Numero_Coleta);
             this.bunifuShadowPanel1.Controls.Add(this.bunifuTextBox1_Solicitante);
             this.bunifuShadowPanel1.Controls.Add(this.bunifuTextBox3_Numero_Coleta);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(9, 45);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(12, 55);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(646, 175);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(861, 215);
             this.bunifuShadowPanel1.TabIndex = 23;
             // 
             // bunifuLabelDados_da_Coleta
@@ -1481,10 +1514,11 @@
             this.bunifuLabelDados_da_Coleta.CursorType = null;
             this.bunifuLabelDados_da_Coleta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabelDados_da_Coleta.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabelDados_da_Coleta.Location = new System.Drawing.Point(9, 14);
+            this.bunifuLabelDados_da_Coleta.Location = new System.Drawing.Point(12, 17);
+            this.bunifuLabelDados_da_Coleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabelDados_da_Coleta.Name = "bunifuLabelDados_da_Coleta";
             this.bunifuLabelDados_da_Coleta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabelDados_da_Coleta.Size = new System.Drawing.Size(155, 31);
+            this.bunifuLabelDados_da_Coleta.Size = new System.Drawing.Size(206, 38);
             this.bunifuLabelDados_da_Coleta.TabIndex = 22;
             this.bunifuLabelDados_da_Coleta.Text = "Dados da Coleta";
             this.bunifuLabelDados_da_Coleta.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1527,7 +1561,8 @@
             this.bunifuButton4_Excluir.IdleIconLeftImage = null;
             this.bunifuButton4_Excluir.IdleIconRightImage = null;
             this.bunifuButton4_Excluir.IndicateFocus = false;
-            this.bunifuButton4_Excluir.Location = new System.Drawing.Point(289, 588);
+            this.bunifuButton4_Excluir.Location = new System.Drawing.Point(385, 724);
+            this.bunifuButton4_Excluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton4_Excluir.Name = "bunifuButton4_Excluir";
             stateProperties57.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties57.BorderRadius = 3;
@@ -1547,7 +1582,7 @@
             stateProperties58.IconLeftImage = null;
             stateProperties58.IconRightImage = null;
             this.bunifuButton4_Excluir.OnPressedState = stateProperties58;
-            this.bunifuButton4_Excluir.Size = new System.Drawing.Size(74, 36);
+            this.bunifuButton4_Excluir.Size = new System.Drawing.Size(99, 44);
             this.bunifuButton4_Excluir.TabIndex = 40;
             this.bunifuButton4_Excluir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4_Excluir.TextMarginLeft = 0;
@@ -1590,7 +1625,8 @@
             this.bunifuButton3_Pesquisar.IdleIconLeftImage = null;
             this.bunifuButton3_Pesquisar.IdleIconRightImage = null;
             this.bunifuButton3_Pesquisar.IndicateFocus = false;
-            this.bunifuButton3_Pesquisar.Location = new System.Drawing.Point(574, 588);
+            this.bunifuButton3_Pesquisar.Location = new System.Drawing.Point(765, 724);
+            this.bunifuButton3_Pesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton3_Pesquisar.Name = "bunifuButton3_Pesquisar";
             stateProperties59.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties59.BorderRadius = 3;
@@ -1610,7 +1646,7 @@
             stateProperties60.IconLeftImage = null;
             stateProperties60.IconRightImage = null;
             this.bunifuButton3_Pesquisar.OnPressedState = stateProperties60;
-            this.bunifuButton3_Pesquisar.Size = new System.Drawing.Size(81, 36);
+            this.bunifuButton3_Pesquisar.Size = new System.Drawing.Size(108, 44);
             this.bunifuButton3_Pesquisar.TabIndex = 39;
             this.bunifuButton3_Pesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton3_Pesquisar.TextMarginLeft = 0;
@@ -1653,7 +1689,8 @@
             this.bunifuButton1_Voltar.IdleIconLeftImage = null;
             this.bunifuButton1_Voltar.IdleIconRightImage = null;
             this.bunifuButton1_Voltar.IndicateFocus = false;
-            this.bunifuButton1_Voltar.Location = new System.Drawing.Point(12, 589);
+            this.bunifuButton1_Voltar.Location = new System.Drawing.Point(16, 725);
+            this.bunifuButton1_Voltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton1_Voltar.Name = "bunifuButton1_Voltar";
             stateProperties61.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties61.BorderRadius = 3;
@@ -1673,17 +1710,17 @@
             stateProperties62.IconLeftImage = null;
             stateProperties62.IconRightImage = null;
             this.bunifuButton1_Voltar.OnPressedState = stateProperties62;
-            this.bunifuButton1_Voltar.Size = new System.Drawing.Size(59, 35);
+            this.bunifuButton1_Voltar.Size = new System.Drawing.Size(79, 43);
             this.bunifuButton1_Voltar.TabIndex = 37;
             this.bunifuButton1_Voltar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1_Voltar.TextMarginLeft = 0;
             this.bunifuButton1_Voltar.UseDefaultRadiusAndThickness = true;
             // 
-            // frmConsultar_Coleta
+            // Coleta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 636);
+            this.ClientSize = new System.Drawing.Size(887, 783);
             this.Controls.Add(this.bunifuButton4_Excluir);
             this.Controls.Add(this.bunifuButton4_Cadastro_Cliente);
             this.Controls.Add(this.bunifuButton3_Pesquisar);
@@ -1695,7 +1732,8 @@
             this.Controls.Add(this.bunifuShadowPanel1);
             this.Controls.Add(this.bunifuLabelDados_da_Coleta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmConsultar_Coleta";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Coleta";
             this.Text = "Consultar_Coleta";
             this.Load += new System.EventHandler(this.frmConsultar_Coleta_Load);
             this.bunifuShadowPanel3.ResumeLayout(false);

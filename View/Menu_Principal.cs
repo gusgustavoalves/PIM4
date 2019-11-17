@@ -62,7 +62,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Consultar_Coleta
+            _ojbForm = new Coleta
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
@@ -98,6 +98,21 @@ namespace PIM
             _ojbForm?.Close();
 
             _ojbForm = new Cadastro_Veiculo
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
+        }
+
+        private void entregasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            _ojbForm?.Close();
+
+            _ojbForm = new Entregas
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
