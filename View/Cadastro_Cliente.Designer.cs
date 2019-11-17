@@ -85,7 +85,7 @@
             // 
             this.button_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button_Sair.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button_Sair.Location = new System.Drawing.Point(112, 306);
+            this.button_Sair.Location = new System.Drawing.Point(153, 306);
             this.button_Sair.Margin = new System.Windows.Forms.Padding(2);
             this.button_Sair.Name = "button_Sair";
             this.button_Sair.Size = new System.Drawing.Size(73, 24);
