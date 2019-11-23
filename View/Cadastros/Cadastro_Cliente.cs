@@ -79,5 +79,15 @@ namespace PIM.View
         {
 
         }
+
+        private void bunifuLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBoxNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
