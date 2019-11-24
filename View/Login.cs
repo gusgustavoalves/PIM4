@@ -12,12 +12,12 @@ using PIM.Dao;
 
 namespace PIM.View
 {
-    public partial class Tela_Login : Form
+    public partial class frmLogin : Form
     {
         Model.Logar log = new Model.Logar();
         Dao.LoginBD loginbd = new Dao.LoginBD();
-        Sistema Sistema = new Sistema();
-        public Tela_Login()
+        frmSistema Sistema = new frmSistema();
+        public frmLogin()
         {
             InitializeComponent();
         }

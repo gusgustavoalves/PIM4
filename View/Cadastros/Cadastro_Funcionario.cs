@@ -12,9 +12,9 @@ using PIM.Dao;
 
 namespace PIM.View
 {
-    public partial class Cadastro_Cliente : Form
+    public partial class frmCadastro_funcionario : Form
     {
-        public Cadastro_Cliente()
+        public frmCadastro_funcionario()
         {
             InitializeComponent();
         }

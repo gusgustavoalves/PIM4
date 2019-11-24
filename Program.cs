@@ -18,7 +18,7 @@ namespace PIM
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Tela_Login());
-            Application.Run(new Sistema());
+            Application.Run(new frmSistema());
         }
     }
 }

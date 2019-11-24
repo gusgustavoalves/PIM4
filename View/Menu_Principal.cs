@@ -13,10 +13,10 @@ using PIM.View.Cadastros;
 
 namespace PIM
 {
-    public partial class Sistema : Form
+    public partial class frmSistema : Form
     {
         private Form _ojbForm; 
-        public Sistema()
+        public frmSistema()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Cadastro_Cliente
+            _ojbForm = new frmCadastro_funcionario
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
@@ -97,7 +97,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Cadastro_Veiculo
+            _ojbForm = new frmCadastro_Veiculo
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,

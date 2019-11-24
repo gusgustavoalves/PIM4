@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PIM.View.Cadastros
 {
-    public partial class frmCadastro_Veiculo : Form
+    public partial class frmCadastro_Motorista : Form
     {
-        public frmCadastro_Veiculo()
+        public frmCadastro_Motorista()
         {
             InitializeComponent();
-        }
-
-        private void bunifuLabel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
