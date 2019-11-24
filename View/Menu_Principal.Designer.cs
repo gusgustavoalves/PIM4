@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.veiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Coleta = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,7 +40,9 @@
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Sair = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Sistema = new System.Windows.Forms.Panel();
-            this.funcionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.financeiroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contasAPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contasAReceberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +52,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
+            this.financeiroToolStripMenuItem,
             this.ToolStripMenuItem_Coleta,
             this.entregasToolStripMenuItem1,
             this.conexaoToolStripMenuItem,
@@ -56,7 +60,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1045, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1045, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,7 +73,7 @@
             this.usuarioToolStripMenuItem,
             this.veiculosToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 26);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // clienteToolStripMenuItem
@@ -79,6 +83,14 @@
             this.clienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
+            // 
+            // funcionarioToolStripMenuItem
+            // 
+            this.funcionarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.funcionarioToolStripMenuItem.Name = "funcionarioToolStripMenuItem";
+            this.funcionarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.funcionarioToolStripMenuItem.Text = "Funcionario";
+            this.funcionarioToolStripMenuItem.Click += new System.EventHandler(this.funcionarioToolStripMenuItem_Click);
             // 
             // usuarioToolStripMenuItem
             // 
@@ -99,14 +111,14 @@
             // ToolStripMenuItem_Coleta
             // 
             this.ToolStripMenuItem_Coleta.Name = "ToolStripMenuItem_Coleta";
-            this.ToolStripMenuItem_Coleta.Size = new System.Drawing.Size(66, 26);
+            this.ToolStripMenuItem_Coleta.Size = new System.Drawing.Size(66, 24);
             this.ToolStripMenuItem_Coleta.Text = "Coleta";
             this.ToolStripMenuItem_Coleta.Click += new System.EventHandler(this.ToolStripMenuItem_Coleta_Click);
             // 
             // entregasToolStripMenuItem1
             // 
             this.entregasToolStripMenuItem1.Name = "entregasToolStripMenuItem1";
-            this.entregasToolStripMenuItem1.Size = new System.Drawing.Size(80, 26);
+            this.entregasToolStripMenuItem1.Size = new System.Drawing.Size(80, 24);
             this.entregasToolStripMenuItem1.Text = "Entregas";
             this.entregasToolStripMenuItem1.Click += new System.EventHandler(this.entregasToolStripMenuItem1_Click);
             // 
@@ -115,7 +127,7 @@
             this.conexaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem});
             this.conexaoToolStripMenuItem.Name = "conexaoToolStripMenuItem";
-            this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
+            this.conexaoToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.conexaoToolStripMenuItem.Text = "Conexao";
             this.conexaoToolStripMenuItem.Click += new System.EventHandler(this.conexaoToolStripMenuItem_Click);
             // 
@@ -130,7 +142,7 @@
             // ToolStripMenuItem_Sair
             // 
             this.ToolStripMenuItem_Sair.Name = "ToolStripMenuItem_Sair";
-            this.ToolStripMenuItem_Sair.Size = new System.Drawing.Size(48, 26);
+            this.ToolStripMenuItem_Sair.Size = new System.Drawing.Size(48, 24);
             this.ToolStripMenuItem_Sair.Text = "Sair";
             this.ToolStripMenuItem_Sair.Click += new System.EventHandler(this.ToolStripMenuItem_Sair_Click);
             // 
@@ -149,13 +161,30 @@
             this.Panel_Sistema.TabIndex = 1;
             this.Panel_Sistema.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // funcionarioToolStripMenuItem
+            // financeiroToolStripMenuItem
             // 
-            this.funcionarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.funcionarioToolStripMenuItem.Name = "funcionarioToolStripMenuItem";
-            this.funcionarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.funcionarioToolStripMenuItem.Text = "Funcionario";
-            this.funcionarioToolStripMenuItem.Click += new System.EventHandler(this.funcionarioToolStripMenuItem_Click);
+            this.financeiroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contasAPagarToolStripMenuItem,
+            this.contasAReceberToolStripMenuItem});
+            this.financeiroToolStripMenuItem.Name = "financeiroToolStripMenuItem";
+            this.financeiroToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
+            this.financeiroToolStripMenuItem.Text = "Financeiro";
+            // 
+            // contasAPagarToolStripMenuItem
+            // 
+            this.contasAPagarToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.contasAPagarToolStripMenuItem.Name = "contasAPagarToolStripMenuItem";
+            this.contasAPagarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.contasAPagarToolStripMenuItem.Text = "Contas a Pagar";
+            this.contasAPagarToolStripMenuItem.Click += new System.EventHandler(this.contasAPagarToolStripMenuItem_Click);
+            // 
+            // contasAReceberToolStripMenuItem
+            // 
+            this.contasAReceberToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.contasAReceberToolStripMenuItem.Name = "contasAReceberToolStripMenuItem";
+            this.contasAReceberToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.contasAReceberToolStripMenuItem.Text = "Contas a Receber";
+            this.contasAReceberToolStripMenuItem.Click += new System.EventHandler(this.contasAReceberToolStripMenuItem_Click);
             // 
             // frmSistema
             // 
@@ -194,6 +223,9 @@
         private System.Windows.Forms.ToolStripMenuItem veiculosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entregasToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem funcionarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem financeiroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contasAPagarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contasAReceberToolStripMenuItem;
     }
 }
 

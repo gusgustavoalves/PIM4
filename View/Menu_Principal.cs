@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PIM.View;
 using PIM.View.Coleta;
+using PIM.View.Finanças;
 using PIM.View.Cadastros;
 
 namespace PIM
@@ -91,7 +92,17 @@ namespace PIM
 
         private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            _ojbForm?.Close();
 
+            _ojbForm = new Cadastro_Usuario
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
         }
 
         private void veiculosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -129,6 +140,36 @@ namespace PIM
             _ojbForm?.Close();
 
             _ojbForm = new frmCadastro_funcionario
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
+        }
+
+        private void contasAPagarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _ojbForm?.Close();
+
+            _ojbForm = new frmContas_A_Pagar
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
+        }
+
+        private void contasAReceberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _ojbForm?.Close();
+
+            _ojbForm = new frmContas_A_Receber
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
