@@ -94,7 +94,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Cadastro_Usuario
+            _ojbForm = new frmCadastro_Usuario
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
