@@ -55,5 +55,10 @@ namespace PIM.View.Cadastros
         {
             TextBoxUsuario.CharacterCasing = CharacterCasing.Upper;
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

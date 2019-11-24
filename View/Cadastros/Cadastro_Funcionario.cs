@@ -99,5 +99,10 @@ namespace PIM.View
         {
 
         }
+
+        private void bunifuLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

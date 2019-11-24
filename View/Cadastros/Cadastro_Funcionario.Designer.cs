@@ -86,7 +86,6 @@
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties50 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             this.lblSexo = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lblDataNascimento = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
             this.bunifuButton4_Excluir = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton3_Pesquisar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -113,6 +112,7 @@
             this.lblNome = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.TextBoxSexo = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.TextBoxNome = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
+            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,24 +135,6 @@
             this.lblDataNascimento.Size = new System.Drawing.Size(78, 17);
             this.lblDataNascimento.TabIndex = 3;
             this.lblDataNascimento.Text = "Data Nasc.";
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.BackColor = System.Drawing.Color.White;
-            this.bunifuLabel1.CursorType = null;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel1.Location = new System.Drawing.Point(16, 31);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(279, 31);
-            this.bunifuLabel1.TabIndex = 6;
-            this.bunifuLabel1.Text = "Cadastro de Funcionario";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
             // 
             // bunifuShadowPanel1
             // 
@@ -442,7 +424,7 @@
             this.TextBoxID.PasswordChar = '\0';
             this.TextBoxID.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TextBoxID.PlaceholderText = "";
-            this.TextBoxID.ReadOnly = false;
+            this.TextBoxID.ReadOnly = true;
             this.TextBoxID.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.TextBoxID.SelectedText = "";
             this.TextBoxID.SelectionLength = 0;
@@ -1355,14 +1337,32 @@
             this.TextBoxNome.WordWrap = true;
             this.TextBoxNome.TextChanged += new System.EventHandler(this.TextBoxNome_TextChanged);
             // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.BackColor = System.Drawing.Color.White;
+            this.bunifuLabel2.CursorType = null;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel2.Location = new System.Drawing.Point(16, 32);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(279, 31);
+            this.bunifuLabel2.TabIndex = 33;
+            this.bunifuLabel2.Text = "Cadastro de Funcionario";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel2.Click += new System.EventHandler(this.bunifuLabel2_Click);
+            // 
             // frmCadastro_funcionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1081, 858);
+            this.Controls.Add(this.bunifuLabel2);
             this.Controls.Add(this.bunifuShadowPanel1);
-            this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCadastro_funcionario";
@@ -1380,7 +1380,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel lblSexo;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox TextBoxNome;
         private Bunifu.Framework.UI.BunifuCustomLabel lblDataNascimento;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel bunifuShadowPanel1;
         private Bunifu.Framework.UI.BunifuCustomLabel lblEndereco;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox TextBoxEmail;
@@ -1406,5 +1405,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton4_Excluir;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton3_Pesquisar;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1_Voltar;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
     }
 }
