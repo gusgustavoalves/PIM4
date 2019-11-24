@@ -189,11 +189,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dao\Cadastra_ClienteD.cs" />
+    <Compile Include="Dao\Cadastra_FuncionarioD.cs" />
     <Compile Include="Dao\Cadastra_UsuarioD.cs" />
     <Compile Include="Dao\Conexao.cs" />
     <Compile Include="Dao\LoginBD.cs" />
-    <Compile Include="Model\CadastraUsuarioM.cs" />
-    <Compile Include="Model\CadastroFuncionario.cs" />
+    <Compile Include="Model\CadastroUsuarioM.cs" />
+    <Compile Include="Model\CadastroFuncionarioM.cs" />
     <Compile Include="Model\Dados_Da_Coleta.cs" />
     <Compile Include="Model\Logar.cs" />
     <Compile Include="View\Cadastros\Cadastro_Clientes_Fornecedores.cs">

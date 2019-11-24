@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PIM.Model{
-    public class CadastroFuncionario
+    public class CadastroFuncionarioM
     {
         private string Nome;
         private string CPF;
