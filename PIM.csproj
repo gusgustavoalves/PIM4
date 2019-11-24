@@ -249,6 +249,9 @@
     <EmbeddedResource Include="View\Cadastros\Cadastro_Clientes_Fornecedores.resx">
       <DependentUpon>Cadastro_Clientes_Fornecedores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Cadastros\Cadastro_Usuario.resx">
+      <DependentUpon>Cadastro_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Cadastros\Cadastro_Veiculo.resx">
       <DependentUpon>Cadastro_Veiculo.cs</DependentUpon>
     </EmbeddedResource>
