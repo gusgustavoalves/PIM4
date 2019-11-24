@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View.Cadastros
 {
-    public partial class Cadastro_Usuario : Form
+    public partial class frmCadastro_Usuario : Form
     {
-        public Cadastro_Usuario()
+        public frmCadastro_Usuario()
         {
             InitializeComponent();
         }
