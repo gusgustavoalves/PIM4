@@ -16,5 +16,20 @@ namespace PIM.View.Cadastros
         {
             InitializeComponent();
         }
+
+        private void bunifuShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox14_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
