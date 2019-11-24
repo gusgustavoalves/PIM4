@@ -89,5 +89,10 @@ namespace PIM.View
         {
           
         }
+
+        private void btn_Sair_ENTREGAS_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
