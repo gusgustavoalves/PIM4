@@ -681,6 +681,7 @@
             this.TextBoxUsuario.TextPlaceholder = "";
             this.TextBoxUsuario.UseSystemPasswordChar = false;
             this.TextBoxUsuario.WordWrap = true;
+            this.TextBoxUsuario.TextChanged += new System.EventHandler(this.TextBoxUsuario_TextChanged);
             // 
             // label1_PLaca
             // 

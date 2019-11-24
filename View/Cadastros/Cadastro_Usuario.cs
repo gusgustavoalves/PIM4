@@ -50,5 +50,10 @@ namespace PIM.View.Cadastros
                 MessageBox.Show("Senhas não conferem !");
             }
         }
+
+        private void TextBoxUsuario_TextChanged(object sender, EventArgs e)
+        {
+            TextBoxUsuario.CharacterCasing = CharacterCasing.Upper;
+        }
     }
 }
