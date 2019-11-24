@@ -31,15 +31,15 @@ namespace PIM.View
 
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
-            Model.Cadastro cad = new Model.Cadastro();
+            Model.CadastroFuncionario cad = new Model.CadastroFuncionario();
             Dao.Cadastra_Cliente cli = new Dao.Cadastra_Cliente();
                 
-            cad.SetNome(txt_Nome.Text);
-            cad.SetEnd(txt_End.Text);
-            cad.SetCPF(txt_CPF.Text);
+            cad.SetNome(TextBoxNome.Text);
+            cad.SetEnd(TextBoxEndereco.Text);
+            cad.SetCPF(TextBoxCPF.Text);
 
 
-            if (txt_Nome.Text != "" && txt_CPF.Text != "" && txt_End.Text != "")
+            if (TextBoxNome.Text != "" && TextBoxEndereco.Text != "" && TextBoxCPF.Text != "")
             {
                 if (cad.GetCPF() != "" && cad.GetCPF() != null) {
                     if (cli.VerCliente(cad))
