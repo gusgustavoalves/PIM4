@@ -26,5 +26,10 @@ namespace PIM.View.Coleta
         {
             this.Close();
         }
+
+        private void bunifuLabelDados_da_Coleta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
