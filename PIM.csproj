@@ -232,6 +232,18 @@
     <Compile Include="View\Coleta\Coleta.Designer.cs">
       <DependentUpon>Coleta.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Finanças\Contas_A_Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Finanças\Contas_A_Pagar.Designer.cs">
+      <DependentUpon>Contas_A_Pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Finanças\Contas_A_Receber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Finanças\Contas_A_Receber.Designer.cs">
+      <DependentUpon>Contas_A_Receber.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +275,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Entregas\Entregas.resx">
       <DependentUpon>Entregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Contas_A_Pagar.resx">
+      <DependentUpon>Contas_A_Pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Contas_A_Receber.resx">
+      <DependentUpon>Contas_A_Receber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
