@@ -25,7 +25,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frmClientesFornecedores
+            _ojbForm = new frmClienteFornecedores
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
