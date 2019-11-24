@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View
 {
-    public partial class frmEntregas : Form
+    public partial class Entregas : Form
     {
-        public frmEntregas()
+        public Entregas()
         {
             InitializeComponent();
         }
