@@ -30,6 +30,7 @@ namespace PIM
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
                 Dock = DockStyle.Fill
+               
             };
 
             Panel_Sistema.Controls.Add(_ojbForm);
@@ -112,7 +113,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frmEntregas
+            _ojbForm = new Entregas
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
