@@ -16,7 +16,7 @@ namespace PIM.Dao
         private bool Cliente_Exists = false;
 
 
-        public bool VerCliente(Cadastro cad)        //Verifica se CPF ja esta cadastrado no banco de dados
+        public bool VerCliente(CadastroFuncionario cad)        //Verifica se CPF ja esta cadastrado no banco de dados
         {
             if (!Con.Checkconection())
             {
@@ -44,7 +44,7 @@ namespace PIM.Dao
             return Cliente_Exists;
         }
 
-            public void CadastraCliente(Cadastro cad)
+            public void CadastraCliente(CadastroFuncionario cad)
         {
             if (!Con.Checkconection())
             {

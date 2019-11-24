@@ -87,7 +87,7 @@
             this.TextBoxEndereco = new System.Windows.Forms.RichTextBox();
             this.TextBoxCelular = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.lblCelular = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuTextBox6 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
+            this.TextBoxCPF = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.lblCpf = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.TextBoxRG = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.lblRG = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -101,9 +101,10 @@
             // lblSexo
             // 
             this.lblSexo.AutoSize = true;
-            this.lblSexo.Location = new System.Drawing.Point(438, 27);
+            this.lblSexo.Location = new System.Drawing.Point(584, 33);
+            this.lblSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(31, 13);
+            this.lblSexo.Size = new System.Drawing.Size(39, 17);
             this.lblSexo.TabIndex = 0;
             this.lblSexo.Text = "Sexo";
             // 
@@ -134,9 +135,10 @@
             this.TextBoxSexo.IconRight = null;
             this.TextBoxSexo.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxSexo.Lines = new string[0];
-            this.TextBoxSexo.Location = new System.Drawing.Point(475, 17);
+            this.TextBoxSexo.Location = new System.Drawing.Point(633, 21);
+            this.TextBoxSexo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxSexo.MaxLength = 32767;
-            this.TextBoxSexo.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxSexo.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxSexo.Modified = false;
             this.TextBoxSexo.Multiline = false;
             this.TextBoxSexo.Name = "TextBoxSexo";
@@ -169,7 +171,7 @@
             this.TextBoxSexo.SelectionLength = 0;
             this.TextBoxSexo.SelectionStart = 0;
             this.TextBoxSexo.ShortcutsEnabled = true;
-            this.TextBoxSexo.Size = new System.Drawing.Size(105, 35);
+            this.TextBoxSexo.Size = new System.Drawing.Size(140, 43);
             this.TextBoxSexo.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxSexo.TabIndex = 2;
             this.TextBoxSexo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -207,9 +209,10 @@
             this.TextBoxNome.IconRight = null;
             this.TextBoxNome.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxNome.Lines = new string[0];
-            this.TextBoxNome.Location = new System.Drawing.Point(96, 17);
+            this.TextBoxNome.Location = new System.Drawing.Point(128, 21);
+            this.TextBoxNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxNome.MaxLength = 32767;
-            this.TextBoxNome.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxNome.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxNome.Modified = false;
             this.TextBoxNome.Multiline = false;
             this.TextBoxNome.Name = "TextBoxNome";
@@ -242,7 +245,7 @@
             this.TextBoxNome.SelectionLength = 0;
             this.TextBoxNome.SelectionStart = 0;
             this.TextBoxNome.ShortcutsEnabled = true;
-            this.TextBoxNome.Size = new System.Drawing.Size(233, 35);
+            this.TextBoxNome.Size = new System.Drawing.Size(311, 43);
             this.TextBoxNome.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxNome.TabIndex = 4;
             this.TextBoxNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -257,9 +260,10 @@
             // lblDataNascimento
             // 
             this.lblDataNascimento.AutoSize = true;
-            this.lblDataNascimento.Location = new System.Drawing.Point(29, 82);
+            this.lblDataNascimento.Location = new System.Drawing.Point(39, 101);
+            this.lblDataNascimento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataNascimento.Name = "lblDataNascimento";
-            this.lblDataNascimento.Size = new System.Drawing.Size(61, 13);
+            this.lblDataNascimento.Size = new System.Drawing.Size(78, 17);
             this.lblDataNascimento.TabIndex = 3;
             this.lblDataNascimento.Text = "Data Nasc.";
             // 
@@ -270,12 +274,13 @@
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(12, 25);
+            this.bunifuLabel1.Location = new System.Drawing.Point(16, 31);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(176, 27);
+            this.bunifuLabel1.Size = new System.Drawing.Size(279, 31);
             this.bunifuLabel1.TabIndex = 6;
-            this.bunifuLabel1.Text = "Cadastro de Cliente";
+            this.bunifuLabel1.Text = "Cadastro de Funcionario";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
@@ -293,7 +298,7 @@
             this.bunifuShadowPanel1.Controls.Add(this.TextBoxEndereco);
             this.bunifuShadowPanel1.Controls.Add(this.TextBoxCelular);
             this.bunifuShadowPanel1.Controls.Add(this.lblCelular);
-            this.bunifuShadowPanel1.Controls.Add(this.bunifuTextBox6);
+            this.bunifuShadowPanel1.Controls.Add(this.TextBoxCPF);
             this.bunifuShadowPanel1.Controls.Add(this.lblCpf);
             this.bunifuShadowPanel1.Controls.Add(this.TextBoxRG);
             this.bunifuShadowPanel1.Controls.Add(this.lblRG);
@@ -305,12 +310,13 @@
             this.bunifuShadowPanel1.Controls.Add(this.lblSexo);
             this.bunifuShadowPanel1.Controls.Add(this.TextBoxNome);
             this.bunifuShadowPanel1.Controls.Add(this.lblDataNascimento);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(12, 58);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(16, 71);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(787, 557);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(1049, 686);
             this.bunifuShadowPanel1.TabIndex = 8;
             // 
             // TextBoxCNH
@@ -340,9 +346,10 @@
             this.TextBoxCNH.IconRight = null;
             this.TextBoxCNH.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxCNH.Lines = new string[0];
-            this.TextBoxCNH.Location = new System.Drawing.Point(475, 131);
+            this.TextBoxCNH.Location = new System.Drawing.Point(633, 161);
+            this.TextBoxCNH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxCNH.MaxLength = 32767;
-            this.TextBoxCNH.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxCNH.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxCNH.Modified = false;
             this.TextBoxCNH.Multiline = false;
             this.TextBoxCNH.Name = "TextBoxCNH";
@@ -375,7 +382,7 @@
             this.TextBoxCNH.SelectionLength = 0;
             this.TextBoxCNH.SelectionStart = 0;
             this.TextBoxCNH.ShortcutsEnabled = true;
-            this.TextBoxCNH.Size = new System.Drawing.Size(200, 35);
+            this.TextBoxCNH.Size = new System.Drawing.Size(267, 43);
             this.TextBoxCNH.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxCNH.TabIndex = 33;
             this.TextBoxCNH.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -389,9 +396,10 @@
             // lblCnh
             // 
             this.lblCnh.AutoSize = true;
-            this.lblCnh.Location = new System.Drawing.Point(430, 141);
+            this.lblCnh.Location = new System.Drawing.Point(584, 174);
+            this.lblCnh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCnh.Name = "lblCnh";
-            this.lblCnh.Size = new System.Drawing.Size(30, 13);
+            this.lblCnh.Size = new System.Drawing.Size(37, 17);
             this.lblCnh.TabIndex = 32;
             this.lblCnh.Text = "CNH";
             // 
@@ -432,7 +440,8 @@
             this.btn_Sair_ENTREGAS.IdleIconLeftImage = null;
             this.btn_Sair_ENTREGAS.IdleIconRightImage = null;
             this.btn_Sair_ENTREGAS.IndicateFocus = false;
-            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(698, 497);
+            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(931, 612);
+            this.btn_Sair_ENTREGAS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Sair_ENTREGAS.Name = "btn_Sair_ENTREGAS";
             stateProperties53.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties53.BorderRadius = 3;
@@ -452,7 +461,7 @@
             stateProperties54.IconLeftImage = null;
             stateProperties54.IconRightImage = null;
             this.btn_Sair_ENTREGAS.OnPressedState = stateProperties54;
-            this.btn_Sair_ENTREGAS.Size = new System.Drawing.Size(59, 35);
+            this.btn_Sair_ENTREGAS.Size = new System.Drawing.Size(79, 43);
             this.btn_Sair_ENTREGAS.TabIndex = 30;
             this.btn_Sair_ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Sair_ENTREGAS.TextMarginLeft = 0;
@@ -495,7 +504,8 @@
             this.btn_Salvar.IdleIconLeftImage = null;
             this.btn_Salvar.IdleIconRightImage = null;
             this.btn_Salvar.IndicateFocus = false;
-            this.btn_Salvar.Location = new System.Drawing.Point(558, 497);
+            this.btn_Salvar.Location = new System.Drawing.Point(744, 612);
+            this.btn_Salvar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Salvar.Name = "btn_Salvar";
             stateProperties55.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties55.BorderRadius = 3;
@@ -515,7 +525,7 @@
             stateProperties56.IconLeftImage = null;
             stateProperties56.IconRightImage = null;
             this.btn_Salvar.OnPressedState = stateProperties56;
-            this.btn_Salvar.Size = new System.Drawing.Size(59, 35);
+            this.btn_Salvar.Size = new System.Drawing.Size(79, 43);
             this.btn_Salvar.TabIndex = 31;
             this.btn_Salvar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_Salvar.TextMarginLeft = 0;
@@ -524,9 +534,10 @@
             // lblEndereco
             // 
             this.lblEndereco.AutoSize = true;
-            this.lblEndereco.Location = new System.Drawing.Point(37, 306);
+            this.lblEndereco.Location = new System.Drawing.Point(49, 377);
+            this.lblEndereco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEndereco.Name = "lblEndereco";
-            this.lblEndereco.Size = new System.Drawing.Size(53, 13);
+            this.lblEndereco.Size = new System.Drawing.Size(69, 17);
             this.lblEndereco.TabIndex = 20;
             this.lblEndereco.Text = "Endereço";
             // 
@@ -557,9 +568,10 @@
             this.TextBoxEmail.IconRight = null;
             this.TextBoxEmail.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxEmail.Lines = new string[0];
-            this.TextBoxEmail.Location = new System.Drawing.Point(96, 416);
+            this.TextBoxEmail.Location = new System.Drawing.Point(128, 512);
+            this.TextBoxEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxEmail.MaxLength = 32767;
-            this.TextBoxEmail.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxEmail.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxEmail.Modified = false;
             this.TextBoxEmail.Multiline = false;
             this.TextBoxEmail.Name = "TextBoxEmail";
@@ -592,7 +604,7 @@
             this.TextBoxEmail.SelectionLength = 0;
             this.TextBoxEmail.SelectionStart = 0;
             this.TextBoxEmail.ShortcutsEnabled = true;
-            this.TextBoxEmail.Size = new System.Drawing.Size(200, 35);
+            this.TextBoxEmail.Size = new System.Drawing.Size(516, 43);
             this.TextBoxEmail.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxEmail.TabIndex = 19;
             this.TextBoxEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -606,17 +618,19 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(55, 425);
+            this.lblEmail.Location = new System.Drawing.Point(73, 523);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(35, 13);
+            this.lblEmail.Size = new System.Drawing.Size(47, 17);
             this.lblEmail.TabIndex = 18;
             this.lblEmail.Text = "E-mail";
             // 
             // TextBoxEndereco
             // 
-            this.TextBoxEndereco.Location = new System.Drawing.Point(96, 303);
+            this.TextBoxEndereco.Location = new System.Drawing.Point(128, 373);
+            this.TextBoxEndereco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxEndereco.Name = "TextBoxEndereco";
-            this.TextBoxEndereco.Size = new System.Drawing.Size(388, 87);
+            this.TextBoxEndereco.Size = new System.Drawing.Size(516, 106);
             this.TextBoxEndereco.TabIndex = 17;
             this.TextBoxEndereco.Text = "";
             // 
@@ -647,9 +661,10 @@
             this.TextBoxCelular.IconRight = null;
             this.TextBoxCelular.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxCelular.Lines = new string[0];
-            this.TextBoxCelular.Location = new System.Drawing.Point(475, 72);
+            this.TextBoxCelular.Location = new System.Drawing.Point(633, 89);
+            this.TextBoxCelular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxCelular.MaxLength = 32767;
-            this.TextBoxCelular.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxCelular.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxCelular.Modified = false;
             this.TextBoxCelular.Multiline = false;
             this.TextBoxCelular.Name = "TextBoxCelular";
@@ -682,7 +697,7 @@
             this.TextBoxCelular.SelectionLength = 0;
             this.TextBoxCelular.SelectionStart = 0;
             this.TextBoxCelular.ShortcutsEnabled = true;
-            this.TextBoxCelular.Size = new System.Drawing.Size(200, 35);
+            this.TextBoxCelular.Size = new System.Drawing.Size(267, 43);
             this.TextBoxCelular.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxCelular.TabIndex = 14;
             this.TextBoxCelular.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -696,91 +711,94 @@
             // lblCelular
             // 
             this.lblCelular.AutoSize = true;
-            this.lblCelular.Location = new System.Drawing.Point(430, 82);
+            this.lblCelular.Location = new System.Drawing.Point(573, 101);
+            this.lblCelular.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCelular.Name = "lblCelular";
-            this.lblCelular.Size = new System.Drawing.Size(39, 13);
+            this.lblCelular.Size = new System.Drawing.Size(52, 17);
             this.lblCelular.TabIndex = 13;
             this.lblCelular.Text = "Celular";
             // 
-            // bunifuTextBox6
+            // TextBoxCPF
             // 
-            this.bunifuTextBox6.AcceptsReturn = false;
-            this.bunifuTextBox6.AcceptsTab = false;
-            this.bunifuTextBox6.AnimationSpeed = 200;
-            this.bunifuTextBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.bunifuTextBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.bunifuTextBox6.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTextBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox6.BackgroundImage")));
-            this.bunifuTextBox6.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.bunifuTextBox6.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.bunifuTextBox6.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuTextBox6.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox6.BorderRadius = 1;
-            this.bunifuTextBox6.BorderThickness = 1;
-            this.bunifuTextBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.bunifuTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox6.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.bunifuTextBox6.DefaultText = "";
-            this.bunifuTextBox6.FillColor = System.Drawing.Color.White;
-            this.bunifuTextBox6.HideSelection = true;
-            this.bunifuTextBox6.IconLeft = null;
-            this.bunifuTextBox6.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox6.IconPadding = 10;
-            this.bunifuTextBox6.IconRight = null;
-            this.bunifuTextBox6.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox6.Lines = new string[0];
-            this.bunifuTextBox6.Location = new System.Drawing.Point(96, 238);
-            this.bunifuTextBox6.MaxLength = 32767;
-            this.bunifuTextBox6.MinimumSize = new System.Drawing.Size(100, 35);
-            this.bunifuTextBox6.Modified = false;
-            this.bunifuTextBox6.Multiline = false;
-            this.bunifuTextBox6.Name = "bunifuTextBox6";
+            this.TextBoxCPF.AcceptsReturn = false;
+            this.TextBoxCPF.AcceptsTab = false;
+            this.TextBoxCPF.AnimationSpeed = 200;
+            this.TextBoxCPF.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.TextBoxCPF.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.TextBoxCPF.BackColor = System.Drawing.Color.Transparent;
+            this.TextBoxCPF.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TextBoxCPF.BackgroundImage")));
+            this.TextBoxCPF.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TextBoxCPF.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            this.TextBoxCPF.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TextBoxCPF.BorderColorIdle = System.Drawing.Color.Silver;
+            this.TextBoxCPF.BorderRadius = 1;
+            this.TextBoxCPF.BorderThickness = 1;
+            this.TextBoxCPF.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.TextBoxCPF.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxCPF.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.TextBoxCPF.DefaultText = "";
+            this.TextBoxCPF.FillColor = System.Drawing.Color.White;
+            this.TextBoxCPF.HideSelection = true;
+            this.TextBoxCPF.IconLeft = null;
+            this.TextBoxCPF.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxCPF.IconPadding = 10;
+            this.TextBoxCPF.IconRight = null;
+            this.TextBoxCPF.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxCPF.Lines = new string[0];
+            this.TextBoxCPF.Location = new System.Drawing.Point(128, 293);
+            this.TextBoxCPF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBoxCPF.MaxLength = 32767;
+            this.TextBoxCPF.MinimumSize = new System.Drawing.Size(133, 43);
+            this.TextBoxCPF.Modified = false;
+            this.TextBoxCPF.Multiline = false;
+            this.TextBoxCPF.Name = "TextBoxCPF";
             stateProperties65.BorderColor = System.Drawing.Color.DodgerBlue;
             stateProperties65.FillColor = System.Drawing.Color.Empty;
             stateProperties65.ForeColor = System.Drawing.Color.Empty;
             stateProperties65.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox6.OnActiveState = stateProperties65;
+            this.TextBoxCPF.OnActiveState = stateProperties65;
             stateProperties66.BorderColor = System.Drawing.Color.Empty;
             stateProperties66.FillColor = System.Drawing.Color.White;
             stateProperties66.ForeColor = System.Drawing.Color.Empty;
             stateProperties66.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox6.OnDisabledState = stateProperties66;
+            this.TextBoxCPF.OnDisabledState = stateProperties66;
             stateProperties67.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties67.FillColor = System.Drawing.Color.Empty;
             stateProperties67.ForeColor = System.Drawing.Color.Empty;
             stateProperties67.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox6.OnHoverState = stateProperties67;
+            this.TextBoxCPF.OnHoverState = stateProperties67;
             stateProperties68.BorderColor = System.Drawing.Color.Silver;
             stateProperties68.FillColor = System.Drawing.Color.White;
             stateProperties68.ForeColor = System.Drawing.Color.Empty;
             stateProperties68.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox6.OnIdleState = stateProperties68;
-            this.bunifuTextBox6.PasswordChar = '\0';
-            this.bunifuTextBox6.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox6.PlaceholderText = "";
-            this.bunifuTextBox6.ReadOnly = false;
-            this.bunifuTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.bunifuTextBox6.SelectedText = "";
-            this.bunifuTextBox6.SelectionLength = 0;
-            this.bunifuTextBox6.SelectionStart = 0;
-            this.bunifuTextBox6.ShortcutsEnabled = true;
-            this.bunifuTextBox6.Size = new System.Drawing.Size(200, 35);
-            this.bunifuTextBox6.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox6.TabIndex = 12;
-            this.bunifuTextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuTextBox6.TextMarginBottom = 0;
-            this.bunifuTextBox6.TextMarginLeft = 5;
-            this.bunifuTextBox6.TextMarginTop = 0;
-            this.bunifuTextBox6.TextPlaceholder = "";
-            this.bunifuTextBox6.UseSystemPasswordChar = false;
-            this.bunifuTextBox6.WordWrap = true;
+            this.TextBoxCPF.OnIdleState = stateProperties68;
+            this.TextBoxCPF.PasswordChar = '\0';
+            this.TextBoxCPF.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TextBoxCPF.PlaceholderText = "";
+            this.TextBoxCPF.ReadOnly = false;
+            this.TextBoxCPF.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TextBoxCPF.SelectedText = "";
+            this.TextBoxCPF.SelectionLength = 0;
+            this.TextBoxCPF.SelectionStart = 0;
+            this.TextBoxCPF.ShortcutsEnabled = true;
+            this.TextBoxCPF.Size = new System.Drawing.Size(267, 43);
+            this.TextBoxCPF.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
+            this.TextBoxCPF.TabIndex = 12;
+            this.TextBoxCPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.TextBoxCPF.TextMarginBottom = 0;
+            this.TextBoxCPF.TextMarginLeft = 5;
+            this.TextBoxCPF.TextMarginTop = 0;
+            this.TextBoxCPF.TextPlaceholder = "";
+            this.TextBoxCPF.UseSystemPasswordChar = false;
+            this.TextBoxCPF.WordWrap = true;
             // 
             // lblCpf
             // 
             this.lblCpf.AutoSize = true;
-            this.lblCpf.Location = new System.Drawing.Point(63, 250);
+            this.lblCpf.Location = new System.Drawing.Point(84, 308);
+            this.lblCpf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCpf.Name = "lblCpf";
-            this.lblCpf.Size = new System.Drawing.Size(27, 13);
+            this.lblCpf.Size = new System.Drawing.Size(34, 17);
             this.lblCpf.TabIndex = 11;
             this.lblCpf.Text = "CPF";
             // 
@@ -811,9 +829,10 @@
             this.TextBoxRG.IconRight = null;
             this.TextBoxRG.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxRG.Lines = new string[0];
-            this.TextBoxRG.Location = new System.Drawing.Point(96, 176);
+            this.TextBoxRG.Location = new System.Drawing.Point(128, 217);
+            this.TextBoxRG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxRG.MaxLength = 32767;
-            this.TextBoxRG.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxRG.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxRG.Modified = false;
             this.TextBoxRG.Multiline = false;
             this.TextBoxRG.Name = "TextBoxRG";
@@ -846,7 +865,7 @@
             this.TextBoxRG.SelectionLength = 0;
             this.TextBoxRG.SelectionStart = 0;
             this.TextBoxRG.ShortcutsEnabled = true;
-            this.TextBoxRG.Size = new System.Drawing.Size(200, 35);
+            this.TextBoxRG.Size = new System.Drawing.Size(267, 43);
             this.TextBoxRG.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxRG.TabIndex = 10;
             this.TextBoxRG.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -860,9 +879,10 @@
             // lblRG
             // 
             this.lblRG.AutoSize = true;
-            this.lblRG.Location = new System.Drawing.Point(67, 188);
+            this.lblRG.Location = new System.Drawing.Point(89, 231);
+            this.lblRG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRG.Name = "lblRG";
-            this.lblRG.Size = new System.Drawing.Size(23, 13);
+            this.lblRG.Size = new System.Drawing.Size(29, 17);
             this.lblRG.TabIndex = 9;
             this.lblRG.Text = "RG";
             // 
@@ -893,9 +913,10 @@
             this.TextBoxTelefone.IconRight = null;
             this.TextBoxTelefone.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxTelefone.Lines = new string[0];
-            this.TextBoxTelefone.Location = new System.Drawing.Point(96, 120);
+            this.TextBoxTelefone.Location = new System.Drawing.Point(128, 148);
+            this.TextBoxTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxTelefone.MaxLength = 32767;
-            this.TextBoxTelefone.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxTelefone.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxTelefone.Modified = false;
             this.TextBoxTelefone.Multiline = false;
             this.TextBoxTelefone.Name = "TextBoxTelefone";
@@ -928,7 +949,7 @@
             this.TextBoxTelefone.SelectionLength = 0;
             this.TextBoxTelefone.SelectionStart = 0;
             this.TextBoxTelefone.ShortcutsEnabled = true;
-            this.TextBoxTelefone.Size = new System.Drawing.Size(200, 35);
+            this.TextBoxTelefone.Size = new System.Drawing.Size(267, 43);
             this.TextBoxTelefone.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxTelefone.TabIndex = 8;
             this.TextBoxTelefone.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -942,9 +963,10 @@
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(41, 131);
+            this.lblTelefone.Location = new System.Drawing.Point(55, 161);
+            this.lblTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefone.Size = new System.Drawing.Size(64, 17);
             this.lblTelefone.TabIndex = 7;
             this.lblTelefone.Text = "Telefone";
             // 
@@ -975,9 +997,10 @@
             this.TextBoxDataNascimento.IconRight = null;
             this.TextBoxDataNascimento.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxDataNascimento.Lines = new string[0];
-            this.TextBoxDataNascimento.Location = new System.Drawing.Point(96, 72);
+            this.TextBoxDataNascimento.Location = new System.Drawing.Point(128, 89);
+            this.TextBoxDataNascimento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBoxDataNascimento.MaxLength = 32767;
-            this.TextBoxDataNascimento.MinimumSize = new System.Drawing.Size(100, 35);
+            this.TextBoxDataNascimento.MinimumSize = new System.Drawing.Size(133, 43);
             this.TextBoxDataNascimento.Modified = false;
             this.TextBoxDataNascimento.Multiline = false;
             this.TextBoxDataNascimento.Name = "TextBoxDataNascimento";
@@ -1010,7 +1033,7 @@
             this.TextBoxDataNascimento.SelectionLength = 0;
             this.TextBoxDataNascimento.SelectionStart = 0;
             this.TextBoxDataNascimento.ShortcutsEnabled = true;
-            this.TextBoxDataNascimento.Size = new System.Drawing.Size(142, 35);
+            this.TextBoxDataNascimento.Size = new System.Drawing.Size(189, 43);
             this.TextBoxDataNascimento.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxDataNascimento.TabIndex = 6;
             this.TextBoxDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1024,22 +1047,23 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(55, 27);
+            this.lblNome.Location = new System.Drawing.Point(73, 33);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.Size = new System.Drawing.Size(45, 17);
             this.lblNome.TabIndex = 5;
             this.lblNome.Text = "Nome";
             // 
             // frmCadastro_funcionario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(811, 627);
+            this.ClientSize = new System.Drawing.Size(1081, 772);
             this.Controls.Add(this.bunifuShadowPanel1);
             this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCadastro_funcionario";
             this.Text = "Cadastro De Cliente";
             this.Load += new System.EventHandler(this.Form_Cadastro_Cliente_Load);
@@ -1064,7 +1088,7 @@
         private System.Windows.Forms.RichTextBox TextBoxEndereco;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox TextBoxCelular;
         private Bunifu.Framework.UI.BunifuCustomLabel lblCelular;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox bunifuTextBox6;
+        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox TextBoxCPF;
         private Bunifu.Framework.UI.BunifuCustomLabel lblCpf;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox TextBoxRG;
         private Bunifu.Framework.UI.BunifuCustomLabel lblRG;
