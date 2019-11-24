@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View.Cadastros
 {
-    public partial class frmCadastro_Motorista : Form
+    public partial class frmClienteFornecedores : Form
     {
-        public frmCadastro_Motorista()
+        public frmClienteFornecedores()
         {
             InitializeComponent();
         }
