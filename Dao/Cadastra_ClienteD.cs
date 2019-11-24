@@ -10,7 +10,7 @@ using PIM.Model;
 
 namespace PIM.Dao
 {
-    public class Cadastra_Cliente
+    public class Cadastra_ClienteD
     {
         Dao.Conexao Con = new Dao.Conexao();
         private bool Cliente_Exists = false;

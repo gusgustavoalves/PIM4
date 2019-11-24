@@ -32,7 +32,7 @@ namespace PIM.View
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
             Model.CadastroFuncionario cad = new Model.CadastroFuncionario();
-            Dao.Cadastra_Cliente cli = new Dao.Cadastra_Cliente();
+            Dao.Cadastra_ClienteD cli = new Dao.Cadastra_ClienteD();
                 
             cad.SetNome(TextBoxNome.Text);
             cad.SetEnd(TextBoxEndereco.Text);
