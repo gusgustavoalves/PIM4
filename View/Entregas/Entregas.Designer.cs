@@ -128,7 +128,6 @@
             this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lbl_Expedidor_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1_Entregas = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.bunifuShadowPanel3.SuspendLayout();
             this.bunifuShadowPanel1.SuspendLayout();
             this.lbl_.SuspendLayout();
@@ -171,7 +170,7 @@
             this.btn_Sair_ENTREGAS.IdleIconLeftImage = null;
             this.btn_Sair_ENTREGAS.IdleIconRightImage = null;
             this.btn_Sair_ENTREGAS.IndicateFocus = false;
-            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(487, 741);
+            this.btn_Sair_ENTREGAS.Location = new System.Drawing.Point(501, 607);
             this.btn_Sair_ENTREGAS.Name = "btn_Sair_ENTREGAS";
             stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties1.BorderRadius = 3;
@@ -542,7 +541,7 @@
             this.btn_Concluir__ENTREGAS.IdleIconLeftImage = null;
             this.btn_Concluir__ENTREGAS.IdleIconRightImage = null;
             this.btn_Concluir__ENTREGAS.IndicateFocus = false;
-            this.btn_Concluir__ENTREGAS.Location = new System.Drawing.Point(580, 741);
+            this.btn_Concluir__ENTREGAS.Location = new System.Drawing.Point(594, 607);
             this.btn_Concluir__ENTREGAS.Name = "btn_Concluir__ENTREGAS";
             stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties15.BorderRadius = 3;
@@ -1557,20 +1556,11 @@
             this.bunifuCustomLabel1_Entregas.TabIndex = 30;
             this.bunifuCustomLabel1_Entregas.Text = "Entregas";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 741);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(444, 82);
-            this.listBox1.TabIndex = 31;
-            // 
             // Entregas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 788);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(665, 654);
             this.Controls.Add(this.bunifuCustomLabel1_Entregas);
             this.Controls.Add(this.btn_Sair_ENTREGAS);
             this.Controls.Add(this.bunifuLabel1_Motorista_Veiculo);
@@ -1632,6 +1622,5 @@
         private Bunifu.Framework.UI.BunifuCustomLabel lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS;
         private Bunifu.Framework.UI.BunifuCustomLabel lbl_Expedidor_ENTREGAS;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1_Entregas;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }
