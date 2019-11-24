@@ -62,17 +62,21 @@
             // 
             // label_nome
             // 
+            this.label_nome.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_nome.AutoEllipsis = false;
-            this.label_nome.AutoSize = false;
             this.label_nome.CursorType = null;
             this.label_nome.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_nome.Location = new System.Drawing.Point(71, 190);
-            this.label_nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.label_nome.Margin = new System.Windows.Forms.Padding(4);
+            this.label_nome.MaximumSize = new System.Drawing.Size(77, 30);
+            this.label_nome.MinimumSize = new System.Drawing.Size(77, 30);
             this.label_nome.Name = "label_nome";
             this.label_nome.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_nome.Size = new System.Drawing.Size(89, 30);
+            this.label_nome.Size = new System.Drawing.Size(77, 30);
             this.label_nome.TabIndex = 0;
-            this.label_nome.Text = "Usuário:";
+            this.label_nome.Text = "Usuário:   ";
             this.label_nome.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.label_nome.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.label_nome.Click += new System.EventHandler(this.label_Nome_Click);
@@ -84,12 +88,14 @@
             this.label_senha.CursorType = null;
             this.label_senha.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_senha.Location = new System.Drawing.Point(71, 277);
-            this.label_senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.label_senha.Margin = new System.Windows.Forms.Padding(4);
+            this.label_senha.MaximumSize = new System.Drawing.Size(64, 30);
+            this.label_senha.MinimumSize = new System.Drawing.Size(64, 30);
             this.label_senha.Name = "label_senha";
             this.label_senha.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label_senha.Size = new System.Drawing.Size(64, 30);
             this.label_senha.TabIndex = 0;
-            this.label_senha.Text = "Senha:";
+            this.label_senha.Text = "Senha:          ";
             this.label_senha.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.label_senha.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -99,11 +105,12 @@
             this.Version.CursorType = null;
             this.Version.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Version.Location = new System.Drawing.Point(101, 560);
-            this.Version.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Version.Margin = new System.Windows.Forms.Padding(4);
             this.Version.Name = "Version";
             this.Version.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Version.Size = new System.Drawing.Size(145, 17);
-            this.Version.TabIndex = 6;
+            this.Version.TabIndex = 0;
+            this.Version.TabStop = false;
             this.Version.Text = "Versão da aplicação 1.1.0";
             this.Version.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.Version.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -124,7 +131,7 @@
             this.bunifuShadowPanel1.Controls.Add(this.pictureBox1);
             this.bunifuShadowPanel1.Controls.Add(this.button_Logar);
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(16, 15);
-            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
@@ -136,7 +143,7 @@
             // 
             this.pictureBox3.Image = global::PIM.Properties.Resources.lock_sombra;
             this.pictureBox3.Location = new System.Drawing.Point(13, 310);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +154,7 @@
             // 
             this.pictureBox2.Image = global::PIM.Properties.Resources._12124856;
             this.pictureBox2.Location = new System.Drawing.Point(12, 219);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -182,7 +189,7 @@
             this.txt_Usuario.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Usuario.Lines = new string[0];
             this.txt_Usuario.Location = new System.Drawing.Point(65, 219);
-            this.txt_Usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Usuario.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Usuario.MaxLength = 32767;
             this.txt_Usuario.MinimumSize = new System.Drawing.Size(133, 43);
             this.txt_Usuario.Modified = false;
@@ -269,7 +276,7 @@
             this.bunifuButton1_Sair.IdleIconRightImage = null;
             this.bunifuButton1_Sair.IndicateFocus = false;
             this.bunifuButton1_Sair.Location = new System.Drawing.Point(121, 473);
-            this.bunifuButton1_Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton1_Sair.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton1_Sair.Name = "bunifuButton1_Sair";
             stateProperties17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties17.BorderRadius = 5;
@@ -290,7 +297,7 @@
             stateProperties18.IconRightImage = null;
             this.bunifuButton1_Sair.OnPressedState = stateProperties18;
             this.bunifuButton1_Sair.Size = new System.Drawing.Size(128, 48);
-            this.bunifuButton1_Sair.TabIndex = 7;
+            this.bunifuButton1_Sair.TabIndex = 4;
             this.bunifuButton1_Sair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1_Sair.TextMarginLeft = 0;
             this.bunifuButton1_Sair.UseDefaultRadiusAndThickness = true;
@@ -324,7 +331,7 @@
             this.txt_Senha.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Senha.Lines = new string[0];
             this.txt_Senha.Location = new System.Drawing.Point(65, 308);
-            this.txt_Senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Senha.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Senha.MaxLength = 32767;
             this.txt_Senha.MinimumSize = new System.Drawing.Size(133, 43);
             this.txt_Senha.Modified = false;
@@ -374,7 +381,7 @@
             // 
             this.pictureBox1.Image = global::PIM.Properties.Resources.Frota_manager_logo2;
             this.pictureBox1.Location = new System.Drawing.Point(65, 16);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(237, 89);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -421,7 +428,7 @@
             this.button_Logar.IdleIconRightImage = null;
             this.button_Logar.IndicateFocus = false;
             this.button_Logar.Location = new System.Drawing.Point(121, 399);
-            this.button_Logar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Logar.Margin = new System.Windows.Forms.Padding(4);
             this.button_Logar.Name = "button_Logar";
             stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties23.BorderRadius = 5;
@@ -442,7 +449,7 @@
             stateProperties24.IconRightImage = null;
             this.button_Logar.OnPressedState = stateProperties24;
             this.button_Logar.Size = new System.Drawing.Size(128, 48);
-            this.button_Logar.TabIndex = 7;
+            this.button_Logar.TabIndex = 3;
             this.button_Logar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.button_Logar.TextMarginLeft = 0;
             this.button_Logar.UseDefaultRadiusAndThickness = true;
@@ -456,7 +463,7 @@
             this.ClientSize = new System.Drawing.Size(400, 615);
             this.Controls.Add(this.bunifuShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(400, 615);
             this.MinimizeBox = false;
