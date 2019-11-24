@@ -65,10 +65,11 @@
             this.label_nome.AutoEllipsis = false;
             this.label_nome.CursorType = null;
             this.label_nome.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_nome.Location = new System.Drawing.Point(53, 154);
+            this.label_nome.Location = new System.Drawing.Point(71, 190);
+            this.label_nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.label_nome.Name = "label_nome";
             this.label_nome.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_nome.Size = new System.Drawing.Size(62, 23);
+            this.label_nome.Size = new System.Drawing.Size(77, 30);
             this.label_nome.TabIndex = 0;
             this.label_nome.Text = "Usuário:";
             this.label_nome.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -81,10 +82,11 @@
             this.label_senha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.label_senha.CursorType = null;
             this.label_senha.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_senha.Location = new System.Drawing.Point(53, 225);
+            this.label_senha.Location = new System.Drawing.Point(71, 277);
+            this.label_senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.label_senha.Name = "label_senha";
             this.label_senha.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_senha.Size = new System.Drawing.Size(51, 23);
+            this.label_senha.Size = new System.Drawing.Size(64, 30);
             this.label_senha.TabIndex = 0;
             this.label_senha.Text = "Senha:";
             this.label_senha.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -95,10 +97,11 @@
             this.Version.AutoEllipsis = false;
             this.Version.CursorType = null;
             this.Version.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Version.Location = new System.Drawing.Point(76, 455);
+            this.Version.Location = new System.Drawing.Point(101, 560);
+            this.Version.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Version.Name = "Version";
             this.Version.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Version.Size = new System.Drawing.Size(111, 14);
+            this.Version.Size = new System.Drawing.Size(145, 17);
             this.Version.TabIndex = 6;
             this.Version.Text = "Versão da aplicação 1.1.0";
             this.Version.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -119,20 +122,22 @@
             this.bunifuShadowPanel1.Controls.Add(this.pictureBox1);
             this.bunifuShadowPanel1.Controls.Add(this.label_senha);
             this.bunifuShadowPanel1.Controls.Add(this.button_Logar);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(12, 12);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(16, 15);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(276, 476);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(367, 585);
             this.bunifuShadowPanel1.TabIndex = 7;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PIM.Properties.Resources.lock_sombra;
-            this.pictureBox3.Location = new System.Drawing.Point(10, 252);
+            this.pictureBox3.Location = new System.Drawing.Point(13, 310);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(33, 31);
+            this.pictureBox3.Size = new System.Drawing.Size(44, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -140,9 +145,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PIM.Properties.Resources._12124856;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 178);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 219);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 33);
+            this.pictureBox2.Size = new System.Drawing.Size(49, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -174,9 +180,10 @@
             this.txt_Usuario.IconRight = null;
             this.txt_Usuario.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Usuario.Lines = new string[0];
-            this.txt_Usuario.Location = new System.Drawing.Point(49, 178);
+            this.txt_Usuario.Location = new System.Drawing.Point(65, 219);
+            this.txt_Usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Usuario.MaxLength = 32767;
-            this.txt_Usuario.MinimumSize = new System.Drawing.Size(100, 35);
+            this.txt_Usuario.MinimumSize = new System.Drawing.Size(133, 43);
             this.txt_Usuario.Modified = false;
             this.txt_Usuario.Multiline = false;
             this.txt_Usuario.Name = "txt_Usuario";
@@ -209,7 +216,7 @@
             this.txt_Usuario.SelectionLength = 0;
             this.txt_Usuario.SelectionStart = 0;
             this.txt_Usuario.ShortcutsEnabled = true;
-            this.txt_Usuario.Size = new System.Drawing.Size(182, 35);
+            this.txt_Usuario.Size = new System.Drawing.Size(243, 43);
             this.txt_Usuario.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.txt_Usuario.TabIndex = 1;
             this.txt_Usuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -219,6 +226,7 @@
             this.txt_Usuario.TextPlaceholder = "Digite seu Usuario:";
             this.txt_Usuario.UseSystemPasswordChar = false;
             this.txt_Usuario.WordWrap = true;
+            this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged_1);
             // 
             // bunifuButton1_Sair
             // 
@@ -259,7 +267,8 @@
             this.bunifuButton1_Sair.IdleIconLeftImage = null;
             this.bunifuButton1_Sair.IdleIconRightImage = null;
             this.bunifuButton1_Sair.IndicateFocus = false;
-            this.bunifuButton1_Sair.Location = new System.Drawing.Point(91, 384);
+            this.bunifuButton1_Sair.Location = new System.Drawing.Point(121, 473);
+            this.bunifuButton1_Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton1_Sair.Name = "bunifuButton1_Sair";
             stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties5.BorderRadius = 5;
@@ -279,7 +288,7 @@
             stateProperties6.IconLeftImage = null;
             stateProperties6.IconRightImage = null;
             this.bunifuButton1_Sair.OnPressedState = stateProperties6;
-            this.bunifuButton1_Sair.Size = new System.Drawing.Size(96, 39);
+            this.bunifuButton1_Sair.Size = new System.Drawing.Size(128, 48);
             this.bunifuButton1_Sair.TabIndex = 7;
             this.bunifuButton1_Sair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1_Sair.TextMarginLeft = 0;
@@ -313,9 +322,10 @@
             this.txt_Senha.IconRight = null;
             this.txt_Senha.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Senha.Lines = new string[0];
-            this.txt_Senha.Location = new System.Drawing.Point(49, 250);
+            this.txt_Senha.Location = new System.Drawing.Point(65, 308);
+            this.txt_Senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Senha.MaxLength = 32767;
-            this.txt_Senha.MinimumSize = new System.Drawing.Size(100, 35);
+            this.txt_Senha.MinimumSize = new System.Drawing.Size(133, 43);
             this.txt_Senha.Modified = false;
             this.txt_Senha.Multiline = false;
             this.txt_Senha.Name = "txt_Senha";
@@ -348,7 +358,7 @@
             this.txt_Senha.SelectionLength = 0;
             this.txt_Senha.SelectionStart = 0;
             this.txt_Senha.ShortcutsEnabled = true;
-            this.txt_Senha.Size = new System.Drawing.Size(182, 35);
+            this.txt_Senha.Size = new System.Drawing.Size(243, 43);
             this.txt_Senha.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.txt_Senha.TabIndex = 2;
             this.txt_Senha.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -362,9 +372,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PIM.Properties.Resources.Frota_manager_logo2;
-            this.pictureBox1.Location = new System.Drawing.Point(49, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(65, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(237, 89);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -408,7 +419,8 @@
             this.button_Logar.IdleIconLeftImage = null;
             this.button_Logar.IdleIconRightImage = null;
             this.button_Logar.IndicateFocus = false;
-            this.button_Logar.Location = new System.Drawing.Point(91, 324);
+            this.button_Logar.Location = new System.Drawing.Point(121, 399);
+            this.button_Logar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_Logar.Name = "button_Logar";
             stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties11.BorderRadius = 5;
@@ -428,7 +440,7 @@
             stateProperties12.IconLeftImage = null;
             stateProperties12.IconRightImage = null;
             this.button_Logar.OnPressedState = stateProperties12;
-            this.button_Logar.Size = new System.Drawing.Size(96, 39);
+            this.button_Logar.Size = new System.Drawing.Size(128, 48);
             this.button_Logar.TabIndex = 7;
             this.button_Logar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.button_Logar.TextMarginLeft = 0;
@@ -437,16 +449,17 @@
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(300, 500);
+            this.ClientSize = new System.Drawing.Size(400, 615);
             this.Controls.Add(this.bunifuShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(300, 500);
+            this.MaximumSize = new System.Drawing.Size(400, 615);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(300, 460);
+            this.MinimumSize = new System.Drawing.Size(400, 566);
             this.Name = "frmLogin";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
