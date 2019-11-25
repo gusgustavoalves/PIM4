@@ -209,7 +209,7 @@
         11rPOczMzMzMCjt9e1MXAACKxvgA4RneFFtS53YAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_Excluir.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnExcluir.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADkAAAAdCAYAAAAQJcSlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADRSURBVFhH5ZixbcRAEMS2FJXiCtyo409dihpw9A1Y3h8w
@@ -219,7 +219,7 @@
         tBPneQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btn_Pesquisar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnPesquisar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFQAAAAdCAYAAAA0PEtlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADHSURBVGhD7dqxDYJQGEXhtwjgKE7gamAcw9rWUVyAygUe
@@ -229,7 +229,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="btn_Cadastrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnCadastrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEsAAAAdCAYAAADimZEAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC/SURBVGhD7dCxDcJAFATRXwodoLMboAIaJSalAJBFB26A
@@ -238,7 +238,7 @@
         rCSoxEqC6oU1Lo/2qQ3tDlVVf+l308Nt7eO/N0O1c9tD5bJVPQGZ19PpPVW8rgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btn_Sair.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSair.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACUAAAAdCAYAAAAtt6XDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVFhHzZexDYNQFAM9CqNkgiyaOm1GYQGqLBDyYl31

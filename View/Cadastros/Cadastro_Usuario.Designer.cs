@@ -69,7 +69,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.TextBoxUsuario = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.label1_PLaca = new System.Windows.Forms.Label();
-            this.btnVoltar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btnSair = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -88,13 +88,12 @@
             this.bunifuShadowPanel1.Controls.Add(this.label1);
             this.bunifuShadowPanel1.Controls.Add(this.TextBoxUsuario);
             this.bunifuShadowPanel1.Controls.Add(this.label1_PLaca);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(24, 71);
-            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(18, 58);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(683, 468);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(353, 380);
             this.bunifuShadowPanel1.TabIndex = 85;
             // 
             // btnExcluir
@@ -134,8 +133,7 @@
             this.btnExcluir.IdleIconLeftImage = null;
             this.btnExcluir.IdleIconRightImage = null;
             this.btnExcluir.IndicateFocus = false;
-            this.btnExcluir.Location = new System.Drawing.Point(29, 389);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExcluir.Location = new System.Drawing.Point(22, 316);
             this.btnExcluir.Name = "btnExcluir";
             stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties1.BorderRadius = 3;
@@ -155,7 +153,7 @@
             stateProperties2.IconLeftImage = null;
             stateProperties2.IconRightImage = null;
             this.btnExcluir.OnPressedState = stateProperties2;
-            this.btnExcluir.Size = new System.Drawing.Size(76, 36);
+            this.btnExcluir.Size = new System.Drawing.Size(57, 29);
             this.btnExcluir.TabIndex = 88;
             this.btnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnExcluir.TextMarginLeft = 0;
@@ -198,8 +196,7 @@
             this.btnPesquisar.IdleIconLeftImage = null;
             this.btnPesquisar.IdleIconRightImage = null;
             this.btnPesquisar.IndicateFocus = false;
-            this.btnPesquisar.Location = new System.Drawing.Point(288, 389);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPesquisar.Location = new System.Drawing.Point(216, 316);
             this.btnPesquisar.Name = "btnPesquisar";
             stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties3.BorderRadius = 3;
@@ -219,7 +216,7 @@
             stateProperties4.IconLeftImage = null;
             stateProperties4.IconRightImage = null;
             this.btnPesquisar.OnPressedState = stateProperties4;
-            this.btnPesquisar.Size = new System.Drawing.Size(107, 36);
+            this.btnPesquisar.Size = new System.Drawing.Size(80, 29);
             this.btnPesquisar.TabIndex = 87;
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnPesquisar.TextMarginLeft = 0;
@@ -262,8 +259,7 @@
             this.btnCadastrar.IdleIconLeftImage = null;
             this.btnCadastrar.IdleIconRightImage = null;
             this.btnCadastrar.IndicateFocus = false;
-            this.btnCadastrar.Location = new System.Drawing.Point(148, 389);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCadastrar.Location = new System.Drawing.Point(111, 316);
             this.btnCadastrar.Name = "btnCadastrar";
             stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties5.BorderRadius = 3;
@@ -283,7 +279,7 @@
             stateProperties6.IconLeftImage = null;
             stateProperties6.IconRightImage = null;
             this.btnCadastrar.OnPressedState = stateProperties6;
-            this.btnCadastrar.Size = new System.Drawing.Size(100, 36);
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 29);
             this.btnCadastrar.TabIndex = 86;
             this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCadastrar.TextMarginLeft = 0;
@@ -317,10 +313,9 @@
             this.TextBoxID.IconRight = null;
             this.TextBoxID.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxID.Lines = new string[0];
-            this.TextBoxID.Location = new System.Drawing.Point(29, 31);
-            this.TextBoxID.Margin = new System.Windows.Forms.Padding(4);
+            this.TextBoxID.Location = new System.Drawing.Point(22, 25);
             this.TextBoxID.MaxLength = 32767;
-            this.TextBoxID.MinimumSize = new System.Drawing.Size(133, 43);
+            this.TextBoxID.MinimumSize = new System.Drawing.Size(100, 35);
             this.TextBoxID.Modified = false;
             this.TextBoxID.Multiline = false;
             this.TextBoxID.Name = "TextBoxID";
@@ -353,7 +348,7 @@
             this.TextBoxID.SelectionLength = 0;
             this.TextBoxID.SelectionStart = 0;
             this.TextBoxID.ShortcutsEnabled = true;
-            this.TextBoxID.Size = new System.Drawing.Size(133, 43);
+            this.TextBoxID.Size = new System.Drawing.Size(100, 35);
             this.TextBoxID.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxID.TabIndex = 49;
             this.TextBoxID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -367,10 +362,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(28, 11);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(21, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 17);
+            this.label3.Size = new System.Drawing.Size(18, 13);
             this.label3.TabIndex = 48;
             this.label3.Text = "ID";
             // 
@@ -401,10 +395,9 @@
             this.TextBoxConfirmarSenha.IconRight = null;
             this.TextBoxConfirmarSenha.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxConfirmarSenha.Lines = new string[0];
-            this.TextBoxConfirmarSenha.Location = new System.Drawing.Point(29, 305);
-            this.TextBoxConfirmarSenha.Margin = new System.Windows.Forms.Padding(4);
+            this.TextBoxConfirmarSenha.Location = new System.Drawing.Point(22, 248);
             this.TextBoxConfirmarSenha.MaxLength = 32767;
-            this.TextBoxConfirmarSenha.MinimumSize = new System.Drawing.Size(133, 43);
+            this.TextBoxConfirmarSenha.MinimumSize = new System.Drawing.Size(100, 35);
             this.TextBoxConfirmarSenha.Modified = false;
             this.TextBoxConfirmarSenha.Multiline = false;
             this.TextBoxConfirmarSenha.Name = "TextBoxConfirmarSenha";
@@ -437,7 +430,7 @@
             this.TextBoxConfirmarSenha.SelectionLength = 0;
             this.TextBoxConfirmarSenha.SelectionStart = 0;
             this.TextBoxConfirmarSenha.ShortcutsEnabled = true;
-            this.TextBoxConfirmarSenha.Size = new System.Drawing.Size(365, 43);
+            this.TextBoxConfirmarSenha.Size = new System.Drawing.Size(274, 35);
             this.TextBoxConfirmarSenha.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxConfirmarSenha.TabIndex = 47;
             this.TextBoxConfirmarSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -451,10 +444,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 286);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(21, 232);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 17);
+            this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 46;
             this.label2.Text = "Confirmar Senha";
             // 
@@ -485,10 +477,9 @@
             this.TextBoxSenha.IconRight = null;
             this.TextBoxSenha.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxSenha.Lines = new string[0];
-            this.TextBoxSenha.Location = new System.Drawing.Point(29, 214);
-            this.TextBoxSenha.Margin = new System.Windows.Forms.Padding(4);
+            this.TextBoxSenha.Location = new System.Drawing.Point(22, 174);
             this.TextBoxSenha.MaxLength = 32767;
-            this.TextBoxSenha.MinimumSize = new System.Drawing.Size(133, 43);
+            this.TextBoxSenha.MinimumSize = new System.Drawing.Size(100, 35);
             this.TextBoxSenha.Modified = false;
             this.TextBoxSenha.Multiline = false;
             this.TextBoxSenha.Name = "TextBoxSenha";
@@ -521,7 +512,7 @@
             this.TextBoxSenha.SelectionLength = 0;
             this.TextBoxSenha.SelectionStart = 0;
             this.TextBoxSenha.ShortcutsEnabled = true;
-            this.TextBoxSenha.Size = new System.Drawing.Size(365, 43);
+            this.TextBoxSenha.Size = new System.Drawing.Size(274, 35);
             this.TextBoxSenha.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxSenha.TabIndex = 45;
             this.TextBoxSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -535,10 +526,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 194);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(21, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 17);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 44;
             this.label1.Text = "Senha";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -570,10 +560,9 @@
             this.TextBoxUsuario.IconRight = null;
             this.TextBoxUsuario.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TextBoxUsuario.Lines = new string[0];
-            this.TextBoxUsuario.Location = new System.Drawing.Point(29, 117);
-            this.TextBoxUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.TextBoxUsuario.Location = new System.Drawing.Point(22, 95);
             this.TextBoxUsuario.MaxLength = 32767;
-            this.TextBoxUsuario.MinimumSize = new System.Drawing.Size(133, 43);
+            this.TextBoxUsuario.MinimumSize = new System.Drawing.Size(100, 35);
             this.TextBoxUsuario.Modified = false;
             this.TextBoxUsuario.Multiline = false;
             this.TextBoxUsuario.Name = "TextBoxUsuario";
@@ -606,7 +595,7 @@
             this.TextBoxUsuario.SelectionLength = 0;
             this.TextBoxUsuario.SelectionStart = 0;
             this.TextBoxUsuario.ShortcutsEnabled = true;
-            this.TextBoxUsuario.Size = new System.Drawing.Size(365, 43);
+            this.TextBoxUsuario.Size = new System.Drawing.Size(274, 35);
             this.TextBoxUsuario.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.TextBoxUsuario.TabIndex = 43;
             this.TextBoxUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -621,53 +610,51 @@
             // label1_PLaca
             // 
             this.label1_PLaca.AutoSize = true;
-            this.label1_PLaca.Location = new System.Drawing.Point(28, 97);
-            this.label1_PLaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1_PLaca.Location = new System.Drawing.Point(21, 79);
             this.label1_PLaca.Name = "label1_PLaca";
-            this.label1_PLaca.Size = new System.Drawing.Size(57, 17);
+            this.label1_PLaca.Size = new System.Drawing.Size(43, 13);
             this.label1_PLaca.TabIndex = 42;
             this.label1_PLaca.Text = "Usuário";
             // 
-            // btnVoltar
+            // btnSair
             // 
-            this.btnVoltar.AllowToggling = false;
-            this.btnVoltar.AnimationSpeed = 200;
-            this.btnVoltar.AutoGenerateColors = false;
-            this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
-            this.btnVoltar.BackColor1 = System.Drawing.Color.Gray;
-            this.btnVoltar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVoltar.BackgroundImage")));
-            this.btnVoltar.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnVoltar.ButtonText = "X";
-            this.btnVoltar.ButtonTextMarginLeft = 0;
-            this.btnVoltar.ColorContrastOnClick = 45;
-            this.btnVoltar.ColorContrastOnHover = 45;
-            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.AllowToggling = false;
+            this.btnSair.AnimationSpeed = 200;
+            this.btnSair.AutoGenerateColors = false;
+            this.btnSair.BackColor = System.Drawing.Color.Transparent;
+            this.btnSair.BackColor1 = System.Drawing.Color.Red;
+            this.btnSair.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSair.BackgroundImage")));
+            this.btnSair.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSair.ButtonText = "X";
+            this.btnSair.ButtonTextMarginLeft = 0;
+            this.btnSair.ColorContrastOnClick = 45;
+            this.btnSair.ColorContrastOnHover = 45;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             borderEdges4.BottomLeft = true;
             borderEdges4.BottomRight = true;
             borderEdges4.TopLeft = true;
             borderEdges4.TopRight = true;
-            this.btnVoltar.CustomizableEdges = borderEdges4;
-            this.btnVoltar.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnVoltar.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnVoltar.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnVoltar.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnVoltar.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btnVoltar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnVoltar.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVoltar.IconMarginLeft = 11;
-            this.btnVoltar.IconPadding = 10;
-            this.btnVoltar.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVoltar.IdleBorderColor = System.Drawing.Color.Gray;
-            this.btnVoltar.IdleBorderRadius = 3;
-            this.btnVoltar.IdleBorderThickness = 1;
-            this.btnVoltar.IdleFillColor = System.Drawing.Color.Gray;
-            this.btnVoltar.IdleIconLeftImage = null;
-            this.btnVoltar.IdleIconRightImage = null;
-            this.btnVoltar.IndicateFocus = false;
-            this.btnVoltar.Location = new System.Drawing.Point(669, 31);
-            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnVoltar.Name = "btnVoltar";
+            this.btnSair.CustomizableEdges = borderEdges4;
+            this.btnSair.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSair.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnSair.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnSair.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnSair.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.btnSair.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSair.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.IconMarginLeft = 11;
+            this.btnSair.IconPadding = 10;
+            this.btnSair.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.IdleBorderColor = System.Drawing.Color.Red;
+            this.btnSair.IdleBorderRadius = 3;
+            this.btnSair.IdleBorderThickness = 1;
+            this.btnSair.IdleFillColor = System.Drawing.Color.Red;
+            this.btnSair.IdleIconLeftImage = null;
+            this.btnSair.IdleIconRightImage = null;
+            this.btnSair.IndicateFocus = false;
+            this.btnSair.Location = new System.Drawing.Point(337, 12);
+            this.btnSair.Name = "btnSair";
             stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties23.BorderRadius = 3;
             stateProperties23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -676,7 +663,7 @@
             stateProperties23.ForeColor = System.Drawing.Color.White;
             stateProperties23.IconLeftImage = null;
             stateProperties23.IconRightImage = null;
-            this.btnVoltar.onHoverState = stateProperties23;
+            this.btnSair.onHoverState = stateProperties23;
             stateProperties24.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             stateProperties24.BorderRadius = 3;
             stateProperties24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -685,13 +672,13 @@
             stateProperties24.ForeColor = System.Drawing.Color.White;
             stateProperties24.IconLeftImage = null;
             stateProperties24.IconRightImage = null;
-            this.btnVoltar.OnPressedState = stateProperties24;
-            this.btnVoltar.Size = new System.Drawing.Size(38, 36);
-            this.btnVoltar.TabIndex = 85;
-            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnVoltar.TextMarginLeft = 0;
-            this.btnVoltar.UseDefaultRadiusAndThickness = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            this.btnSair.OnPressedState = stateProperties24;
+            this.btnSair.Size = new System.Drawing.Size(34, 29);
+            this.btnSair.TabIndex = 85;
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSair.TextMarginLeft = 0;
+            this.btnSair.UseDefaultRadiusAndThickness = true;
+            this.btnSair.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // bunifuLabel1
             // 
@@ -700,11 +687,10 @@
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel1.Location = new System.Drawing.Point(24, 31);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel1.Location = new System.Drawing.Point(18, 25);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(247, 31);
+            this.bunifuLabel1.Size = new System.Drawing.Size(192, 27);
             this.bunifuLabel1.TabIndex = 86;
             this.bunifuLabel1.Text = "Cadastro de Usuários";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -712,13 +698,12 @@
             // 
             // frmCadastro_Usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(733, 554);
+            this.ClientSize = new System.Drawing.Size(390, 450);
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.bunifuShadowPanel1);
-            this.Controls.Add(this.btnVoltar);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Controls.Add(this.btnSair);
             this.Name = "frmCadastro_Usuario";
             this.Text = "Cadastro_Usuario";
             this.bunifuShadowPanel1.ResumeLayout(false);
@@ -742,6 +727,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnExcluir;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnPesquisar;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnCadastrar;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnVoltar;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSair;
     }
 }
