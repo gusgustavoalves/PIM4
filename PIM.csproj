@@ -196,6 +196,7 @@
     <Compile Include="Model\Cadastro_UsuarioM.cs" />
     <Compile Include="Model\Cadastro_FuncionarioM.cs" />
     <Compile Include="Model\Dados_Da_Coleta.cs" />
+    <Compile Include="Model\Forma_Pagamentos.cs" />
     <Compile Include="Model\Logar.cs" />
     <Compile Include="View\Cadastros\Cadastro_Clientes_Fornecedores.cs">
       <SubType>Form</SubType>
