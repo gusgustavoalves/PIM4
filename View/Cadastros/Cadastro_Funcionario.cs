@@ -94,5 +94,15 @@ namespace PIM.View
         {
             this.Close();
         }
+
+        private void TextBoxSexo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

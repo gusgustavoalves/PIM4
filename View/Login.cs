@@ -71,6 +71,11 @@ namespace PIM.View
                 Application.Exit();
 
         }
+
+        private void txt_Usuario_TextChanged_1(object sender, EventArgs e)
+        {
+            txt_Usuario.CharacterCasing = CharacterCasing.Upper;
+        }
     }
 }
 
