@@ -16,5 +16,10 @@ namespace PIM.View.Cadastros
         {
             InitializeComponent();
         }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
