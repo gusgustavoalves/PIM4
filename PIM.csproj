@@ -350,7 +350,9 @@
   <ItemGroup>
     <None Include="Resources\lock sombra.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\12124856.png" />
   </ItemGroup>
