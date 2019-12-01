@@ -27,11 +27,6 @@ namespace PIM.View.Finanças
 
         }
 
-        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void bunifuShadowPanel1_Paint(object sender, PaintEventArgs e)
         {
             
