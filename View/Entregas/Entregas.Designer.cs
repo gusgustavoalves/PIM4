@@ -1,6 +1,6 @@
 ﻿namespace PIM.View
 {
-    partial class Entregas
+    partial class frmEntregas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,1694 +28,419 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Entregas));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties33 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties34 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties35 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties36 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties37 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties38 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties39 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties40 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties41 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties49 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties50 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties51 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties52 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties53 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties54 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties55 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties56 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties57 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties58 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties59 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties60 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties61 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties62 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            this.btnSair = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuLabel1_Motorista_Veiculo = new Bunifu.UI.WinForms.BunifuLabel();
-            this.btn_Novo_Veiculo_ENTREGAS = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.btn_Novo_Motorista__ENTREGAS = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.textbox_Veiculo_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl__Veiculo_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textbox__Motorista_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl__Motorista_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuShadowPanel3 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
-            this.bunifuLabel1_Dados_Da_Mercadoria = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lbl_Numero_Nfe_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textbox_Numero_Nfe_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.textbox_Peso_Para_Coleta_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.bunifuLabelDados_da_Entrega = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lbl_Data_Coleta_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
-            this.btn_Novo_Solicitante__ENTREGAS = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.textbox_Remetente_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.textbox_Data_Da_Coleta_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl_Empresa_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lbl__Remetente_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textbox_Empresa_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl_Solicitante_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lbl_Numero_Entrega_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textbox_Solicitante_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.textbox_Numero_Entrega_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl_ = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
-            this.textbox_Expedidor_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.lbl__Peso_Para_Coleta_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lbl_Expedidor_ENTREGAS = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel1_Entregas = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnExcluir = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.btnCadastro = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.btnPesquisar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuShadowPanel3.SuspendLayout();
-            this.bunifuShadowPanel1.SuspendLayout();
-            this.lbl_.SuspendLayout();
+            this.textBoxSolicitante = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxRemetente = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBoxDaraColeta = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBoxEmpresa = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxNumeroEntrega = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBoxExpedidor = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.DescricaoMercadoria = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxPesoColeta = new System.Windows.Forms.TextBox();
+            this.textBoxNumeroNfe = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxQuantidadeVolumes = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBoxVeiculo = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBoxMotorista = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.btnPesquisarMotorista = new System.Windows.Forms.Button();
+            this.btnPesquisarVeiculo = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnPesquisarEntregas = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.bntPesquisarSolicitante = new System.Windows.Forms.Button();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // textBoxSolicitante
+            // 
+            this.textBoxSolicitante.Location = new System.Drawing.Point(18, 91);
+            this.textBoxSolicitante.Name = "textBoxSolicitante";
+            this.textBoxSolicitante.Size = new System.Drawing.Size(136, 20);
+            this.textBoxSolicitante.TabIndex = 73;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(15, 75);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(56, 13);
+            this.label10.TabIndex = 72;
+            this.label10.Text = "Solicitante";
+            // 
+            // textBoxRemetente
+            // 
+            this.textBoxRemetente.Location = new System.Drawing.Point(321, 38);
+            this.textBoxRemetente.Name = "textBoxRemetente";
+            this.textBoxRemetente.Size = new System.Drawing.Size(136, 20);
+            this.textBoxRemetente.TabIndex = 71;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(318, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(59, 13);
+            this.label8.TabIndex = 70;
+            this.label8.Text = "Remetente";
+            // 
+            // textBoxDaraColeta
+            // 
+            this.textBoxDaraColeta.Location = new System.Drawing.Point(476, 38);
+            this.textBoxDaraColeta.Name = "textBoxDaraColeta";
+            this.textBoxDaraColeta.Size = new System.Drawing.Size(130, 20);
+            this.textBoxDaraColeta.TabIndex = 69;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(473, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.TabIndex = 68;
+            this.label4.Text = "Data da Coleta";
+            // 
+            // textBoxEmpresa
+            // 
+            this.textBoxEmpresa.Location = new System.Drawing.Point(18, 38);
+            this.textBoxEmpresa.Name = "textBoxEmpresa";
+            this.textBoxEmpresa.Size = new System.Drawing.Size(136, 20);
+            this.textBoxEmpresa.TabIndex = 67;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 13);
+            this.label6.TabIndex = 66;
+            this.label6.Text = "Empresa";
+            // 
+            // textBoxNumeroEntrega
+            // 
+            this.textBoxNumeroEntrega.Location = new System.Drawing.Point(173, 38);
+            this.textBoxNumeroEntrega.Name = "textBoxNumeroEntrega";
+            this.textBoxNumeroEntrega.Size = new System.Drawing.Size(130, 20);
+            this.textBoxNumeroEntrega.TabIndex = 65;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(170, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.TabIndex = 64;
+            this.label3.Text = "Nº de Entrega";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(232, 31);
+            this.label2.TabIndex = 62;
+            this.label2.Text = "Dados da Entrega";
             // 
             // btnSair
             // 
-            this.btnSair.AllowToggling = false;
-            this.btnSair.AnimationSpeed = 200;
-            this.btnSair.AutoGenerateColors = false;
-            this.btnSair.BackColor = System.Drawing.Color.Transparent;
-            this.btnSair.BackColor1 = System.Drawing.Color.Red;
-            this.btnSair.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSair.BackgroundImage")));
-            this.btnSair.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSair.ButtonText = "X";
-            this.btnSair.ButtonTextMarginLeft = 0;
-            this.btnSair.ColorContrastOnClick = 45;
-            this.btnSair.ColorContrastOnHover = 45;
-            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnSair.CustomizableEdges = borderEdges1;
-            this.btnSair.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnSair.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.btnSair.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnSair.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnSair.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnSair.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSair.IconMarginLeft = 11;
-            this.btnSair.IconPadding = 10;
-            this.btnSair.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSair.IdleBorderColor = System.Drawing.Color.Red;
-            this.btnSair.IdleBorderRadius = 3;
-            this.btnSair.IdleBorderThickness = 1;
-            this.btnSair.IdleFillColor = System.Drawing.Color.Red;
-            this.btnSair.IdleIconLeftImage = null;
-            this.btnSair.IdleIconRightImage = null;
-            this.btnSair.IndicateFocus = false;
-            this.btnSair.Location = new System.Drawing.Point(613, 9);
+            this.btnSair.Location = new System.Drawing.Point(590, 9);
             this.btnSair.Name = "btnSair";
-            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties1.BorderRadius = 3;
-            stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties1.BorderThickness = 1;
-            stateProperties1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties1.ForeColor = System.Drawing.Color.White;
-            stateProperties1.IconLeftImage = null;
-            stateProperties1.IconRightImage = null;
-            this.btnSair.onHoverState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties2.BorderRadius = 3;
-            stateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties2.BorderThickness = 1;
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties2.ForeColor = System.Drawing.Color.White;
-            stateProperties2.IconLeftImage = null;
-            stateProperties2.IconRightImage = null;
-            this.btnSair.OnPressedState = stateProperties2;
-            this.btnSair.Size = new System.Drawing.Size(40, 29);
-            this.btnSair.TabIndex = 28;
-            this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSair.TextMarginLeft = 0;
-            this.btnSair.UseDefaultRadiusAndThickness = true;
-            this.btnSair.Click += new System.EventHandler(this.btn_Sair_ENTREGAS_Click);
-            // 
-            // bunifuLabel1_Motorista_Veiculo
-            // 
-            this.bunifuLabel1_Motorista_Veiculo.AutoEllipsis = false;
-            this.bunifuLabel1_Motorista_Veiculo.AutoSize = false;
-            this.bunifuLabel1_Motorista_Veiculo.BackColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Motorista_Veiculo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuLabel1_Motorista_Veiculo.CursorType = null;
-            this.bunifuLabel1_Motorista_Veiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1_Motorista_Veiculo.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel1_Motorista_Veiculo.Location = new System.Drawing.Point(12, 431);
-            this.bunifuLabel1_Motorista_Veiculo.Name = "bunifuLabel1_Motorista_Veiculo";
-            this.bunifuLabel1_Motorista_Veiculo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Motorista_Veiculo.Size = new System.Drawing.Size(185, 27);
-            this.bunifuLabel1_Motorista_Veiculo.TabIndex = 27;
-            this.bunifuLabel1_Motorista_Veiculo.Text = "Motorista/ Veículo";
-            this.bunifuLabel1_Motorista_Veiculo.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1_Motorista_Veiculo.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // btn_Novo_Veiculo_ENTREGAS
-            // 
-            this.btn_Novo_Veiculo_ENTREGAS.AllowToggling = false;
-            this.btn_Novo_Veiculo_ENTREGAS.AnimationSpeed = 200;
-            this.btn_Novo_Veiculo_ENTREGAS.AutoGenerateColors = false;
-            this.btn_Novo_Veiculo_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Novo_Veiculo_ENTREGAS.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Veiculo_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Novo_Veiculo_ENTREGAS.BackgroundImage")));
-            this.btn_Novo_Veiculo_ENTREGAS.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btn_Novo_Veiculo_ENTREGAS.ButtonText = "Novo";
-            this.btn_Novo_Veiculo_ENTREGAS.ButtonTextMarginLeft = 0;
-            this.btn_Novo_Veiculo_ENTREGAS.ColorContrastOnClick = 45;
-            this.btn_Novo_Veiculo_ENTREGAS.ColorContrastOnHover = 45;
-            this.btn_Novo_Veiculo_ENTREGAS.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btn_Novo_Veiculo_ENTREGAS.CustomizableEdges = borderEdges2;
-            this.btn_Novo_Veiculo_ENTREGAS.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_Novo_Veiculo_ENTREGAS.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.btn_Novo_Veiculo_ENTREGAS.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btn_Novo_Veiculo_ENTREGAS.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btn_Novo_Veiculo_ENTREGAS.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btn_Novo_Veiculo_ENTREGAS.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btn_Novo_Veiculo_ENTREGAS.ForeColor = System.Drawing.Color.White;
-            this.btn_Novo_Veiculo_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Veiculo_ENTREGAS.IconMarginLeft = 11;
-            this.btn_Novo_Veiculo_ENTREGAS.IconPadding = 10;
-            this.btn_Novo_Veiculo_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleBorderRadius = 3;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleBorderThickness = 1;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleIconLeftImage = null;
-            this.btn_Novo_Veiculo_ENTREGAS.IdleIconRightImage = null;
-            this.btn_Novo_Veiculo_ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Veiculo_ENTREGAS.Location = new System.Drawing.Point(279, 72);
-            this.btn_Novo_Veiculo_ENTREGAS.Name = "btn_Novo_Veiculo_ENTREGAS";
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.BorderRadius = 3;
-            stateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties3.BorderThickness = 1;
-            stateProperties3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.ForeColor = System.Drawing.Color.White;
-            stateProperties3.IconLeftImage = null;
-            stateProperties3.IconRightImage = null;
-            this.btn_Novo_Veiculo_ENTREGAS.onHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties4.BorderRadius = 3;
-            stateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties4.BorderThickness = 1;
-            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties4.ForeColor = System.Drawing.Color.White;
-            stateProperties4.IconLeftImage = null;
-            stateProperties4.IconRightImage = null;
-            this.btn_Novo_Veiculo_ENTREGAS.OnPressedState = stateProperties4;
-            this.btn_Novo_Veiculo_ENTREGAS.Size = new System.Drawing.Size(59, 35);
-            this.btn_Novo_Veiculo_ENTREGAS.TabIndex = 19;
-            this.btn_Novo_Veiculo_ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Novo_Veiculo_ENTREGAS.TextMarginLeft = 0;
-            this.btn_Novo_Veiculo_ENTREGAS.UseDefaultRadiusAndThickness = true;
-            // 
-            // btn_Novo_Motorista__ENTREGAS
-            // 
-            this.btn_Novo_Motorista__ENTREGAS.AllowToggling = false;
-            this.btn_Novo_Motorista__ENTREGAS.AnimationSpeed = 200;
-            this.btn_Novo_Motorista__ENTREGAS.AutoGenerateColors = false;
-            this.btn_Novo_Motorista__ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Novo_Motorista__ENTREGAS.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Motorista__ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Novo_Motorista__ENTREGAS.BackgroundImage")));
-            this.btn_Novo_Motorista__ENTREGAS.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btn_Novo_Motorista__ENTREGAS.ButtonText = "Novo";
-            this.btn_Novo_Motorista__ENTREGAS.ButtonTextMarginLeft = 0;
-            this.btn_Novo_Motorista__ENTREGAS.ColorContrastOnClick = 45;
-            this.btn_Novo_Motorista__ENTREGAS.ColorContrastOnHover = 45;
-            this.btn_Novo_Motorista__ENTREGAS.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btn_Novo_Motorista__ENTREGAS.CustomizableEdges = borderEdges3;
-            this.btn_Novo_Motorista__ENTREGAS.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_Novo_Motorista__ENTREGAS.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.btn_Novo_Motorista__ENTREGAS.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btn_Novo_Motorista__ENTREGAS.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btn_Novo_Motorista__ENTREGAS.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btn_Novo_Motorista__ENTREGAS.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btn_Novo_Motorista__ENTREGAS.ForeColor = System.Drawing.Color.White;
-            this.btn_Novo_Motorista__ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Motorista__ENTREGAS.IconMarginLeft = 11;
-            this.btn_Novo_Motorista__ENTREGAS.IconPadding = 10;
-            this.btn_Novo_Motorista__ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Motorista__ENTREGAS.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Motorista__ENTREGAS.IdleBorderRadius = 3;
-            this.btn_Novo_Motorista__ENTREGAS.IdleBorderThickness = 1;
-            this.btn_Novo_Motorista__ENTREGAS.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Motorista__ENTREGAS.IdleIconLeftImage = null;
-            this.btn_Novo_Motorista__ENTREGAS.IdleIconRightImage = null;
-            this.btn_Novo_Motorista__ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Motorista__ENTREGAS.Location = new System.Drawing.Point(279, 31);
-            this.btn_Novo_Motorista__ENTREGAS.Name = "btn_Novo_Motorista__ENTREGAS";
-            stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties5.BorderRadius = 3;
-            stateProperties5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties5.BorderThickness = 1;
-            stateProperties5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties5.ForeColor = System.Drawing.Color.White;
-            stateProperties5.IconLeftImage = null;
-            stateProperties5.IconRightImage = null;
-            this.btn_Novo_Motorista__ENTREGAS.onHoverState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties6.BorderRadius = 3;
-            stateProperties6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties6.BorderThickness = 1;
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties6.ForeColor = System.Drawing.Color.White;
-            stateProperties6.IconLeftImage = null;
-            stateProperties6.IconRightImage = null;
-            this.btn_Novo_Motorista__ENTREGAS.OnPressedState = stateProperties6;
-            this.btn_Novo_Motorista__ENTREGAS.Size = new System.Drawing.Size(59, 35);
-            this.btn_Novo_Motorista__ENTREGAS.TabIndex = 18;
-            this.btn_Novo_Motorista__ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Novo_Motorista__ENTREGAS.TextMarginLeft = 0;
-            this.btn_Novo_Motorista__ENTREGAS.UseDefaultRadiusAndThickness = true;
-            // 
-            // textbox_Veiculo_ENTREGAS
-            // 
-            this.textbox_Veiculo_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Veiculo_ENTREGAS.AcceptsTab = false;
-            this.textbox_Veiculo_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Veiculo_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Veiculo_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Veiculo_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Veiculo_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Veiculo_ENTREGAS.BackgroundImage")));
-            this.textbox_Veiculo_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Veiculo_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Veiculo_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Veiculo_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Veiculo_ENTREGAS.BorderRadius = 1;
-            this.textbox_Veiculo_ENTREGAS.BorderThickness = 1;
-            this.textbox_Veiculo_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Veiculo_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Veiculo_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Veiculo_ENTREGAS.DefaultText = "";
-            this.textbox_Veiculo_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Veiculo_ENTREGAS.HideSelection = true;
-            this.textbox_Veiculo_ENTREGAS.IconLeft = null;
-            this.textbox_Veiculo_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Veiculo_ENTREGAS.IconPadding = 10;
-            this.textbox_Veiculo_ENTREGAS.IconRight = null;
-            this.textbox_Veiculo_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Veiculo_ENTREGAS.Lines = new string[0];
-            this.textbox_Veiculo_ENTREGAS.Location = new System.Drawing.Point(68, 72);
-            this.textbox_Veiculo_ENTREGAS.MaxLength = 32767;
-            this.textbox_Veiculo_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Veiculo_ENTREGAS.Modified = false;
-            this.textbox_Veiculo_ENTREGAS.Multiline = false;
-            this.textbox_Veiculo_ENTREGAS.Name = "textbox_Veiculo_ENTREGAS";
-            stateProperties7.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Veiculo_ENTREGAS.OnActiveState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Empty;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Veiculo_ENTREGAS.OnDisabledState = stateProperties8;
-            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Veiculo_ENTREGAS.OnHoverState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.Silver;
-            stateProperties10.FillColor = System.Drawing.Color.White;
-            stateProperties10.ForeColor = System.Drawing.Color.Empty;
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Veiculo_ENTREGAS.OnIdleState = stateProperties10;
-            this.textbox_Veiculo_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Veiculo_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Veiculo_ENTREGAS.PlaceholderText = "";
-            this.textbox_Veiculo_ENTREGAS.ReadOnly = false;
-            this.textbox_Veiculo_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Veiculo_ENTREGAS.SelectedText = "";
-            this.textbox_Veiculo_ENTREGAS.SelectionLength = 0;
-            this.textbox_Veiculo_ENTREGAS.SelectionStart = 0;
-            this.textbox_Veiculo_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Veiculo_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Veiculo_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Veiculo_ENTREGAS.TabIndex = 16;
-            this.textbox_Veiculo_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Veiculo_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Veiculo_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Veiculo_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Veiculo_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Veiculo_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Veiculo_ENTREGAS.WordWrap = true;
-            // 
-            // lbl__Veiculo_ENTREGAS
-            // 
-            this.lbl__Veiculo_ENTREGAS.AutoSize = true;
-            this.lbl__Veiculo_ENTREGAS.Location = new System.Drawing.Point(24, 81);
-            this.lbl__Veiculo_ENTREGAS.Name = "lbl__Veiculo_ENTREGAS";
-            this.lbl__Veiculo_ENTREGAS.Size = new System.Drawing.Size(44, 13);
-            this.lbl__Veiculo_ENTREGAS.TabIndex = 17;
-            this.lbl__Veiculo_ENTREGAS.Text = "Veículo";
-            // 
-            // textbox__Motorista_ENTREGAS
-            // 
-            this.textbox__Motorista_ENTREGAS.AcceptsReturn = false;
-            this.textbox__Motorista_ENTREGAS.AcceptsTab = false;
-            this.textbox__Motorista_ENTREGAS.AnimationSpeed = 200;
-            this.textbox__Motorista_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox__Motorista_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox__Motorista_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox__Motorista_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox__Motorista_ENTREGAS.BackgroundImage")));
-            this.textbox__Motorista_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox__Motorista_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox__Motorista_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox__Motorista_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox__Motorista_ENTREGAS.BorderRadius = 1;
-            this.textbox__Motorista_ENTREGAS.BorderThickness = 1;
-            this.textbox__Motorista_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox__Motorista_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox__Motorista_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox__Motorista_ENTREGAS.DefaultText = "";
-            this.textbox__Motorista_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox__Motorista_ENTREGAS.HideSelection = true;
-            this.textbox__Motorista_ENTREGAS.IconLeft = null;
-            this.textbox__Motorista_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox__Motorista_ENTREGAS.IconPadding = 10;
-            this.textbox__Motorista_ENTREGAS.IconRight = null;
-            this.textbox__Motorista_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox__Motorista_ENTREGAS.Lines = new string[0];
-            this.textbox__Motorista_ENTREGAS.Location = new System.Drawing.Point(68, 31);
-            this.textbox__Motorista_ENTREGAS.MaxLength = 32767;
-            this.textbox__Motorista_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox__Motorista_ENTREGAS.Modified = false;
-            this.textbox__Motorista_ENTREGAS.Multiline = false;
-            this.textbox__Motorista_ENTREGAS.Name = "textbox__Motorista_ENTREGAS";
-            stateProperties11.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox__Motorista_ENTREGAS.OnActiveState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Empty;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox__Motorista_ENTREGAS.OnDisabledState = stateProperties12;
-            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox__Motorista_ENTREGAS.OnHoverState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.Silver;
-            stateProperties14.FillColor = System.Drawing.Color.White;
-            stateProperties14.ForeColor = System.Drawing.Color.Empty;
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox__Motorista_ENTREGAS.OnIdleState = stateProperties14;
-            this.textbox__Motorista_ENTREGAS.PasswordChar = '\0';
-            this.textbox__Motorista_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox__Motorista_ENTREGAS.PlaceholderText = "";
-            this.textbox__Motorista_ENTREGAS.ReadOnly = false;
-            this.textbox__Motorista_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox__Motorista_ENTREGAS.SelectedText = "";
-            this.textbox__Motorista_ENTREGAS.SelectionLength = 0;
-            this.textbox__Motorista_ENTREGAS.SelectionStart = 0;
-            this.textbox__Motorista_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox__Motorista_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox__Motorista_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox__Motorista_ENTREGAS.TabIndex = 15;
-            this.textbox__Motorista_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox__Motorista_ENTREGAS.TextMarginBottom = 0;
-            this.textbox__Motorista_ENTREGAS.TextMarginLeft = 5;
-            this.textbox__Motorista_ENTREGAS.TextMarginTop = 0;
-            this.textbox__Motorista_ENTREGAS.TextPlaceholder = "";
-            this.textbox__Motorista_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox__Motorista_ENTREGAS.WordWrap = true;
-            // 
-            // lbl__Motorista_ENTREGAS
-            // 
-            this.lbl__Motorista_ENTREGAS.AutoSize = true;
-            this.lbl__Motorista_ENTREGAS.Location = new System.Drawing.Point(18, 41);
-            this.lbl__Motorista_ENTREGAS.Name = "lbl__Motorista_ENTREGAS";
-            this.lbl__Motorista_ENTREGAS.Size = new System.Drawing.Size(50, 13);
-            this.lbl__Motorista_ENTREGAS.TabIndex = 15;
-            this.lbl__Motorista_ENTREGAS.Text = "Motorista";
-            // 
-            // bunifuShadowPanel3
-            // 
-            this.bunifuShadowPanel3.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuShadowPanel3.Controls.Add(this.btn_Novo_Veiculo_ENTREGAS);
-            this.bunifuShadowPanel3.Controls.Add(this.btn_Novo_Motorista__ENTREGAS);
-            this.bunifuShadowPanel3.Controls.Add(this.textbox_Veiculo_ENTREGAS);
-            this.bunifuShadowPanel3.Controls.Add(this.lbl__Veiculo_ENTREGAS);
-            this.bunifuShadowPanel3.Controls.Add(this.textbox__Motorista_ENTREGAS);
-            this.bunifuShadowPanel3.Controls.Add(this.lbl__Motorista_ENTREGAS);
-            this.bunifuShadowPanel3.Location = new System.Drawing.Point(12, 461);
-            this.bunifuShadowPanel3.Name = "bunifuShadowPanel3";
-            this.bunifuShadowPanel3.PanelColor = System.Drawing.Color.Empty;
-            this.bunifuShadowPanel3.ShadowDept = 2;
-            this.bunifuShadowPanel3.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel3.Size = new System.Drawing.Size(646, 116);
-            this.bunifuShadowPanel3.TabIndex = 26;
-            // 
-            // bunifuLabel1_Dados_Da_Mercadoria
-            // 
-            this.bunifuLabel1_Dados_Da_Mercadoria.AutoEllipsis = false;
-            this.bunifuLabel1_Dados_Da_Mercadoria.AutoSize = false;
-            this.bunifuLabel1_Dados_Da_Mercadoria.BackColor = System.Drawing.Color.White;
-            this.bunifuLabel1_Dados_Da_Mercadoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuLabel1_Dados_Da_Mercadoria.CursorType = null;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1_Dados_Da_Mercadoria.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Location = new System.Drawing.Point(12, 242);
-            this.bunifuLabel1_Dados_Da_Mercadoria.Name = "bunifuLabel1_Dados_Da_Mercadoria";
-            this.bunifuLabel1_Dados_Da_Mercadoria.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Size = new System.Drawing.Size(296, 27);
-            this.bunifuLabel1_Dados_Da_Mercadoria.TabIndex = 25;
-            this.bunifuLabel1_Dados_Da_Mercadoria.Text = "Dados da Mercadoria a Coletar";
-            this.bunifuLabel1_Dados_Da_Mercadoria.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1_Dados_Da_Mercadoria.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbl_Numero_Nfe_ENTREGAS
-            // 
-            this.lbl_Numero_Nfe_ENTREGAS.AutoSize = true;
-            this.lbl_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(94, 21);
-            this.lbl_Numero_Nfe_ENTREGAS.Name = "lbl_Numero_Nfe_ENTREGAS";
-            this.lbl_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(42, 13);
-            this.lbl_Numero_Nfe_ENTREGAS.TabIndex = 16;
-            this.lbl_Numero_Nfe_ENTREGAS.Text = "N° NFe";
-            // 
-            // textbox_Numero_Nfe_ENTREGAS
-            // 
-            this.textbox_Numero_Nfe_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Numero_Nfe_ENTREGAS.AcceptsTab = false;
-            this.textbox_Numero_Nfe_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Numero_Nfe_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Numero_Nfe_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Numero_Nfe_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Numero_Nfe_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Numero_Nfe_ENTREGAS.BackgroundImage")));
-            this.textbox_Numero_Nfe_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Numero_Nfe_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Numero_Nfe_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Numero_Nfe_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Numero_Nfe_ENTREGAS.BorderRadius = 1;
-            this.textbox_Numero_Nfe_ENTREGAS.BorderThickness = 1;
-            this.textbox_Numero_Nfe_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Numero_Nfe_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Nfe_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Numero_Nfe_ENTREGAS.DefaultText = "";
-            this.textbox_Numero_Nfe_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Numero_Nfe_ENTREGAS.HideSelection = true;
-            this.textbox_Numero_Nfe_ENTREGAS.IconLeft = null;
-            this.textbox_Numero_Nfe_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Nfe_ENTREGAS.IconPadding = 10;
-            this.textbox_Numero_Nfe_ENTREGAS.IconRight = null;
-            this.textbox_Numero_Nfe_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Nfe_ENTREGAS.Lines = new string[0];
-            this.textbox_Numero_Nfe_ENTREGAS.Location = new System.Drawing.Point(140, 11);
-            this.textbox_Numero_Nfe_ENTREGAS.MaxLength = 32767;
-            this.textbox_Numero_Nfe_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Numero_Nfe_ENTREGAS.Modified = false;
-            this.textbox_Numero_Nfe_ENTREGAS.Multiline = false;
-            this.textbox_Numero_Nfe_ENTREGAS.Name = "textbox_Numero_Nfe_ENTREGAS";
-            stateProperties15.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Nfe_ENTREGAS.OnActiveState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Empty;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Numero_Nfe_ENTREGAS.OnDisabledState = stateProperties16;
-            stateProperties17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties17.FillColor = System.Drawing.Color.Empty;
-            stateProperties17.ForeColor = System.Drawing.Color.Empty;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Nfe_ENTREGAS.OnHoverState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.Silver;
-            stateProperties18.FillColor = System.Drawing.Color.White;
-            stateProperties18.ForeColor = System.Drawing.Color.Empty;
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Nfe_ENTREGAS.OnIdleState = stateProperties18;
-            this.textbox_Numero_Nfe_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Numero_Nfe_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Numero_Nfe_ENTREGAS.PlaceholderText = "";
-            this.textbox_Numero_Nfe_ENTREGAS.ReadOnly = false;
-            this.textbox_Numero_Nfe_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Numero_Nfe_ENTREGAS.SelectedText = "";
-            this.textbox_Numero_Nfe_ENTREGAS.SelectionLength = 0;
-            this.textbox_Numero_Nfe_ENTREGAS.SelectionStart = 0;
-            this.textbox_Numero_Nfe_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Numero_Nfe_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Numero_Nfe_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Numero_Nfe_ENTREGAS.TabIndex = 15;
-            this.textbox_Numero_Nfe_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Numero_Nfe_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Numero_Nfe_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Numero_Nfe_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Numero_Nfe_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Numero_Nfe_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Numero_Nfe_ENTREGAS.WordWrap = true;
-            // 
-            // textbox_Peso_Para_Coleta_ENTREGAS
-            // 
-            this.textbox_Peso_Para_Coleta_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.AcceptsTab = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Peso_Para_Coleta_ENTREGAS.BackgroundImage")));
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderRadius = 1;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.BorderThickness = 1;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Peso_Para_Coleta_ENTREGAS.DefaultText = "";
-            this.textbox_Peso_Para_Coleta_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.HideSelection = true;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.IconLeft = null;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.IconPadding = 10;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.IconRight = null;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(140, 97);
-            this.textbox_Peso_Para_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Modified = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Multiline = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Name = "textbox_Peso_Para_Coleta_ENTREGAS";
-            stateProperties19.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties19.FillColor = System.Drawing.Color.Empty;
-            stateProperties19.ForeColor = System.Drawing.Color.Empty;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.OnActiveState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.Empty;
-            stateProperties20.FillColor = System.Drawing.Color.White;
-            stateProperties20.ForeColor = System.Drawing.Color.Empty;
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.OnDisabledState = stateProperties20;
-            stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties21.FillColor = System.Drawing.Color.Empty;
-            stateProperties21.ForeColor = System.Drawing.Color.Empty;
-            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.OnHoverState = stateProperties21;
-            stateProperties22.BorderColor = System.Drawing.Color.Silver;
-            stateProperties22.FillColor = System.Drawing.Color.White;
-            stateProperties22.ForeColor = System.Drawing.Color.Empty;
-            stateProperties22.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.OnIdleState = stateProperties22;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Peso_Para_Coleta_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.PlaceholderText = "";
-            this.textbox_Peso_Para_Coleta_ENTREGAS.ReadOnly = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.SelectedText = "";
-            this.textbox_Peso_Para_Coleta_ENTREGAS.SelectionLength = 0;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.SelectionStart = 0;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Peso_Para_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TabIndex = 14;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Peso_Para_Coleta_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Peso_Para_Coleta_ENTREGAS.WordWrap = true;
-            // 
-            // textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS
-            // 
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.AcceptsTab = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BackgroundImage")));
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderRadius = 1;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.BorderThickness = 1;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.DefaultText = "";
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.HideSelection = true;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconLeft = null;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconPadding = 10;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconRight = null;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(508, 11);
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Modified = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Multiline = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Name = "textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS";
-            stateProperties23.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties23.FillColor = System.Drawing.Color.Empty;
-            stateProperties23.ForeColor = System.Drawing.Color.Empty;
-            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.OnActiveState = stateProperties23;
-            stateProperties24.BorderColor = System.Drawing.Color.Empty;
-            stateProperties24.FillColor = System.Drawing.Color.White;
-            stateProperties24.ForeColor = System.Drawing.Color.Empty;
-            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.OnDisabledState = stateProperties24;
-            stateProperties25.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties25.FillColor = System.Drawing.Color.Empty;
-            stateProperties25.ForeColor = System.Drawing.Color.Empty;
-            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.OnHoverState = stateProperties25;
-            stateProperties26.BorderColor = System.Drawing.Color.Silver;
-            stateProperties26.FillColor = System.Drawing.Color.White;
-            stateProperties26.ForeColor = System.Drawing.Color.Empty;
-            stateProperties26.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.OnIdleState = stateProperties26;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.PlaceholderText = "";
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.ReadOnly = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.SelectedText = "";
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.SelectionLength = 0;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.SelectionStart = 0;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(126, 35);
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TabIndex = 13;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS.WordWrap = true;
-            // 
-            // bunifuLabelDados_da_Entrega
-            // 
-            this.bunifuLabelDados_da_Entrega.AutoEllipsis = false;
-            this.bunifuLabelDados_da_Entrega.AutoSize = false;
-            this.bunifuLabelDados_da_Entrega.BackColor = System.Drawing.Color.White;
-            this.bunifuLabelDados_da_Entrega.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuLabelDados_da_Entrega.CursorType = null;
-            this.bunifuLabelDados_da_Entrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabelDados_da_Entrega.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabelDados_da_Entrega.Location = new System.Drawing.Point(11, 30);
-            this.bunifuLabelDados_da_Entrega.Name = "bunifuLabelDados_da_Entrega";
-            this.bunifuLabelDados_da_Entrega.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabelDados_da_Entrega.Size = new System.Drawing.Size(186, 27);
-            this.bunifuLabelDados_da_Entrega.TabIndex = 22;
-            this.bunifuLabelDados_da_Entrega.Text = "Dados da Entrega";
-            this.bunifuLabelDados_da_Entrega.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabelDados_da_Entrega.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbl_Data_Coleta_ENTREGAS
-            // 
-            this.lbl_Data_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl_Data_Coleta_ENTREGAS.Location = new System.Drawing.Point(320, 81);
-            this.lbl_Data_Coleta_ENTREGAS.Name = "lbl_Data_Coleta_ENTREGAS";
-            this.lbl_Data_Coleta_ENTREGAS.Size = new System.Drawing.Size(78, 13);
-            this.lbl_Data_Coleta_ENTREGAS.TabIndex = 11;
-            this.lbl_Data_Coleta_ENTREGAS.Text = "Data da Coleta";
-            // 
-            // bunifuShadowPanel1
-            // 
-            this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuShadowPanel1.Controls.Add(this.btn_Novo_Solicitante__ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.lbl_Data_Coleta_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.textbox_Remetente_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.textbox_Data_Da_Coleta_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.lbl_Empresa_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.lbl__Remetente_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.textbox_Empresa_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.lbl_Solicitante_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.lbl_Numero_Entrega_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.textbox_Solicitante_ENTREGAS);
-            this.bunifuShadowPanel1.Controls.Add(this.textbox_Numero_Entrega_ENTREGAS);
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(11, 61);
-            this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
-            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
-            this.bunifuShadowPanel1.ShadowDept = 2;
-            this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(646, 175);
-            this.bunifuShadowPanel1.TabIndex = 23;
-            // 
-            // btn_Novo_Solicitante__ENTREGAS
-            // 
-            this.btn_Novo_Solicitante__ENTREGAS.AllowToggling = false;
-            this.btn_Novo_Solicitante__ENTREGAS.AnimationSpeed = 200;
-            this.btn_Novo_Solicitante__ENTREGAS.AutoGenerateColors = false;
-            this.btn_Novo_Solicitante__ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Novo_Solicitante__ENTREGAS.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Solicitante__ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Novo_Solicitante__ENTREGAS.BackgroundImage")));
-            this.btn_Novo_Solicitante__ENTREGAS.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btn_Novo_Solicitante__ENTREGAS.ButtonText = "Novo";
-            this.btn_Novo_Solicitante__ENTREGAS.ButtonTextMarginLeft = 0;
-            this.btn_Novo_Solicitante__ENTREGAS.ColorContrastOnClick = 45;
-            this.btn_Novo_Solicitante__ENTREGAS.ColorContrastOnHover = 45;
-            this.btn_Novo_Solicitante__ENTREGAS.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btn_Novo_Solicitante__ENTREGAS.CustomizableEdges = borderEdges4;
-            this.btn_Novo_Solicitante__ENTREGAS.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_Novo_Solicitante__ENTREGAS.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.btn_Novo_Solicitante__ENTREGAS.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btn_Novo_Solicitante__ENTREGAS.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btn_Novo_Solicitante__ENTREGAS.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btn_Novo_Solicitante__ENTREGAS.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btn_Novo_Solicitante__ENTREGAS.ForeColor = System.Drawing.Color.White;
-            this.btn_Novo_Solicitante__ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Solicitante__ENTREGAS.IconMarginLeft = 11;
-            this.btn_Novo_Solicitante__ENTREGAS.IconPadding = 10;
-            this.btn_Novo_Solicitante__ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleBorderRadius = 3;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleBorderThickness = 1;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleIconLeftImage = null;
-            this.btn_Novo_Solicitante__ENTREGAS.IdleIconRightImage = null;
-            this.btn_Novo_Solicitante__ENTREGAS.IndicateFocus = false;
-            this.btn_Novo_Solicitante__ENTREGAS.Location = new System.Drawing.Point(565, 24);
-            this.btn_Novo_Solicitante__ENTREGAS.Name = "btn_Novo_Solicitante__ENTREGAS";
-            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties27.BorderRadius = 3;
-            stateProperties27.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties27.BorderThickness = 1;
-            stateProperties27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties27.ForeColor = System.Drawing.Color.White;
-            stateProperties27.IconLeftImage = null;
-            stateProperties27.IconRightImage = null;
-            this.btn_Novo_Solicitante__ENTREGAS.onHoverState = stateProperties27;
-            stateProperties28.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties28.BorderRadius = 3;
-            stateProperties28.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties28.BorderThickness = 1;
-            stateProperties28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties28.ForeColor = System.Drawing.Color.White;
-            stateProperties28.IconLeftImage = null;
-            stateProperties28.IconRightImage = null;
-            this.btn_Novo_Solicitante__ENTREGAS.OnPressedState = stateProperties28;
-            this.btn_Novo_Solicitante__ENTREGAS.Size = new System.Drawing.Size(59, 35);
-            this.btn_Novo_Solicitante__ENTREGAS.TabIndex = 20;
-            this.btn_Novo_Solicitante__ENTREGAS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Novo_Solicitante__ENTREGAS.TextMarginLeft = 0;
-            this.btn_Novo_Solicitante__ENTREGAS.UseDefaultRadiusAndThickness = true;
-            // 
-            // textbox_Remetente_ENTREGAS
-            // 
-            this.textbox_Remetente_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Remetente_ENTREGAS.AcceptsTab = false;
-            this.textbox_Remetente_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Remetente_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Remetente_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Remetente_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Remetente_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Remetente_ENTREGAS.BackgroundImage")));
-            this.textbox_Remetente_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Remetente_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Remetente_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Remetente_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Remetente_ENTREGAS.BorderRadius = 1;
-            this.textbox_Remetente_ENTREGAS.BorderThickness = 1;
-            this.textbox_Remetente_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Remetente_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Remetente_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Remetente_ENTREGAS.DefaultText = "";
-            this.textbox_Remetente_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Remetente_ENTREGAS.HideSelection = true;
-            this.textbox_Remetente_ENTREGAS.IconLeft = null;
-            this.textbox_Remetente_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Remetente_ENTREGAS.IconPadding = 10;
-            this.textbox_Remetente_ENTREGAS.IconRight = null;
-            this.textbox_Remetente_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Remetente_ENTREGAS.Lines = new string[0];
-            this.textbox_Remetente_ENTREGAS.Location = new System.Drawing.Point(97, 123);
-            this.textbox_Remetente_ENTREGAS.MaxLength = 32767;
-            this.textbox_Remetente_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Remetente_ENTREGAS.Modified = false;
-            this.textbox_Remetente_ENTREGAS.Multiline = false;
-            this.textbox_Remetente_ENTREGAS.Name = "textbox_Remetente_ENTREGAS";
-            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties29.FillColor = System.Drawing.Color.Empty;
-            stateProperties29.ForeColor = System.Drawing.Color.Empty;
-            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Remetente_ENTREGAS.OnActiveState = stateProperties29;
-            stateProperties30.BorderColor = System.Drawing.Color.Empty;
-            stateProperties30.FillColor = System.Drawing.Color.White;
-            stateProperties30.ForeColor = System.Drawing.Color.Empty;
-            stateProperties30.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Remetente_ENTREGAS.OnDisabledState = stateProperties30;
-            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties31.FillColor = System.Drawing.Color.Empty;
-            stateProperties31.ForeColor = System.Drawing.Color.Empty;
-            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Remetente_ENTREGAS.OnHoverState = stateProperties31;
-            stateProperties32.BorderColor = System.Drawing.Color.Silver;
-            stateProperties32.FillColor = System.Drawing.Color.White;
-            stateProperties32.ForeColor = System.Drawing.Color.Empty;
-            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Remetente_ENTREGAS.OnIdleState = stateProperties32;
-            this.textbox_Remetente_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Remetente_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Remetente_ENTREGAS.PlaceholderText = "";
-            this.textbox_Remetente_ENTREGAS.ReadOnly = false;
-            this.textbox_Remetente_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Remetente_ENTREGAS.SelectedText = "";
-            this.textbox_Remetente_ENTREGAS.SelectionLength = 0;
-            this.textbox_Remetente_ENTREGAS.SelectionStart = 0;
-            this.textbox_Remetente_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Remetente_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Remetente_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Remetente_ENTREGAS.TabIndex = 11;
-            this.textbox_Remetente_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Remetente_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Remetente_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Remetente_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Remetente_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Remetente_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Remetente_ENTREGAS.WordWrap = true;
-            // 
-            // textbox_Data_Da_Coleta_ENTREGAS
-            // 
-            this.textbox_Data_Da_Coleta_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.AcceptsTab = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Data_Da_Coleta_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Data_Da_Coleta_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Data_Da_Coleta_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Data_Da_Coleta_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Data_Da_Coleta_ENTREGAS.BackgroundImage")));
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderRadius = 1;
-            this.textbox_Data_Da_Coleta_ENTREGAS.BorderThickness = 1;
-            this.textbox_Data_Da_Coleta_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Data_Da_Coleta_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Data_Da_Coleta_ENTREGAS.DefaultText = "";
-            this.textbox_Data_Da_Coleta_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Data_Da_Coleta_ENTREGAS.HideSelection = true;
-            this.textbox_Data_Da_Coleta_ENTREGAS.IconLeft = null;
-            this.textbox_Data_Da_Coleta_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Data_Da_Coleta_ENTREGAS.IconPadding = 10;
-            this.textbox_Data_Da_Coleta_ENTREGAS.IconRight = null;
-            this.textbox_Data_Da_Coleta_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Lines = new string[0];
-            this.textbox_Data_Da_Coleta_ENTREGAS.Location = new System.Drawing.Point(404, 71);
-            this.textbox_Data_Da_Coleta_ENTREGAS.MaxLength = 32767;
-            this.textbox_Data_Da_Coleta_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Data_Da_Coleta_ENTREGAS.Modified = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Multiline = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Name = "textbox_Data_Da_Coleta_ENTREGAS";
-            stateProperties33.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties33.FillColor = System.Drawing.Color.Empty;
-            stateProperties33.ForeColor = System.Drawing.Color.Empty;
-            stateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Data_Da_Coleta_ENTREGAS.OnActiveState = stateProperties33;
-            stateProperties34.BorderColor = System.Drawing.Color.Empty;
-            stateProperties34.FillColor = System.Drawing.Color.White;
-            stateProperties34.ForeColor = System.Drawing.Color.Empty;
-            stateProperties34.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Data_Da_Coleta_ENTREGAS.OnDisabledState = stateProperties34;
-            stateProperties35.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties35.FillColor = System.Drawing.Color.Empty;
-            stateProperties35.ForeColor = System.Drawing.Color.Empty;
-            stateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Data_Da_Coleta_ENTREGAS.OnHoverState = stateProperties35;
-            stateProperties36.BorderColor = System.Drawing.Color.Silver;
-            stateProperties36.FillColor = System.Drawing.Color.White;
-            stateProperties36.ForeColor = System.Drawing.Color.Empty;
-            stateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Data_Da_Coleta_ENTREGAS.OnIdleState = stateProperties36;
-            this.textbox_Data_Da_Coleta_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Data_Da_Coleta_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Data_Da_Coleta_ENTREGAS.PlaceholderText = "";
-            this.textbox_Data_Da_Coleta_ENTREGAS.ReadOnly = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Data_Da_Coleta_ENTREGAS.SelectedText = "";
-            this.textbox_Data_Da_Coleta_ENTREGAS.SelectionLength = 0;
-            this.textbox_Data_Da_Coleta_ENTREGAS.SelectionStart = 0;
-            this.textbox_Data_Da_Coleta_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Data_Da_Coleta_ENTREGAS.Size = new System.Drawing.Size(164, 35);
-            this.textbox_Data_Da_Coleta_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TabIndex = 12;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Data_Da_Coleta_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Data_Da_Coleta_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Data_Da_Coleta_ENTREGAS.WordWrap = true;
-            // 
-            // lbl_Empresa_ENTREGAS
-            // 
-            this.lbl_Empresa_ENTREGAS.AutoSize = true;
-            this.lbl_Empresa_ENTREGAS.Location = new System.Drawing.Point(43, 34);
-            this.lbl_Empresa_ENTREGAS.Name = "lbl_Empresa_ENTREGAS";
-            this.lbl_Empresa_ENTREGAS.Size = new System.Drawing.Size(48, 13);
-            this.lbl_Empresa_ENTREGAS.TabIndex = 1;
-            this.lbl_Empresa_ENTREGAS.Text = "Empresa";
-            // 
-            // lbl__Remetente_ENTREGAS
-            // 
-            this.lbl__Remetente_ENTREGAS.AutoSize = true;
-            this.lbl__Remetente_ENTREGAS.Location = new System.Drawing.Point(32, 133);
-            this.lbl__Remetente_ENTREGAS.Name = "lbl__Remetente_ENTREGAS";
-            this.lbl__Remetente_ENTREGAS.Size = new System.Drawing.Size(59, 13);
-            this.lbl__Remetente_ENTREGAS.TabIndex = 11;
-            this.lbl__Remetente_ENTREGAS.Text = "Remetente";
-            // 
-            // textbox_Empresa_ENTREGAS
-            // 
-            this.textbox_Empresa_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Empresa_ENTREGAS.AcceptsTab = false;
-            this.textbox_Empresa_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Empresa_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Empresa_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Empresa_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Empresa_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Empresa_ENTREGAS.BackgroundImage")));
-            this.textbox_Empresa_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Empresa_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Empresa_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Empresa_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Empresa_ENTREGAS.BorderRadius = 1;
-            this.textbox_Empresa_ENTREGAS.BorderThickness = 1;
-            this.textbox_Empresa_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Empresa_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Empresa_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Empresa_ENTREGAS.DefaultText = "";
-            this.textbox_Empresa_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Empresa_ENTREGAS.HideSelection = true;
-            this.textbox_Empresa_ENTREGAS.IconLeft = null;
-            this.textbox_Empresa_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Empresa_ENTREGAS.IconPadding = 10;
-            this.textbox_Empresa_ENTREGAS.IconRight = null;
-            this.textbox_Empresa_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Empresa_ENTREGAS.Lines = new string[0];
-            this.textbox_Empresa_ENTREGAS.Location = new System.Drawing.Point(97, 24);
-            this.textbox_Empresa_ENTREGAS.MaxLength = 32767;
-            this.textbox_Empresa_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Empresa_ENTREGAS.Modified = false;
-            this.textbox_Empresa_ENTREGAS.Multiline = false;
-            this.textbox_Empresa_ENTREGAS.Name = "textbox_Empresa_ENTREGAS";
-            stateProperties37.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties37.FillColor = System.Drawing.Color.Empty;
-            stateProperties37.ForeColor = System.Drawing.Color.Empty;
-            stateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Empresa_ENTREGAS.OnActiveState = stateProperties37;
-            stateProperties38.BorderColor = System.Drawing.Color.Empty;
-            stateProperties38.FillColor = System.Drawing.Color.White;
-            stateProperties38.ForeColor = System.Drawing.Color.Empty;
-            stateProperties38.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Empresa_ENTREGAS.OnDisabledState = stateProperties38;
-            stateProperties39.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties39.FillColor = System.Drawing.Color.Empty;
-            stateProperties39.ForeColor = System.Drawing.Color.Empty;
-            stateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Empresa_ENTREGAS.OnHoverState = stateProperties39;
-            stateProperties40.BorderColor = System.Drawing.Color.Silver;
-            stateProperties40.FillColor = System.Drawing.Color.White;
-            stateProperties40.ForeColor = System.Drawing.Color.Empty;
-            stateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Empresa_ENTREGAS.OnIdleState = stateProperties40;
-            this.textbox_Empresa_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Empresa_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Empresa_ENTREGAS.PlaceholderText = "";
-            this.textbox_Empresa_ENTREGAS.ReadOnly = false;
-            this.textbox_Empresa_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Empresa_ENTREGAS.SelectedText = "";
-            this.textbox_Empresa_ENTREGAS.SelectionLength = 0;
-            this.textbox_Empresa_ENTREGAS.SelectionStart = 0;
-            this.textbox_Empresa_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Empresa_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Empresa_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Empresa_ENTREGAS.TabIndex = 5;
-            this.textbox_Empresa_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Empresa_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Empresa_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Empresa_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Empresa_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Empresa_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Empresa_ENTREGAS.WordWrap = true;
-            // 
-            // lbl_Solicitante_ENTREGAS
-            // 
-            this.lbl_Solicitante_ENTREGAS.AutoSize = true;
-            this.lbl_Solicitante_ENTREGAS.Location = new System.Drawing.Point(342, 34);
-            this.lbl_Solicitante_ENTREGAS.Name = "lbl_Solicitante_ENTREGAS";
-            this.lbl_Solicitante_ENTREGAS.Size = new System.Drawing.Size(56, 13);
-            this.lbl_Solicitante_ENTREGAS.TabIndex = 6;
-            this.lbl_Solicitante_ENTREGAS.Text = "Solicitante";
-            // 
-            // lbl_Numero_Entrega_ENTREGAS
-            // 
-            this.lbl_Numero_Entrega_ENTREGAS.AutoSize = true;
-            this.lbl_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(17, 81);
-            this.lbl_Numero_Entrega_ENTREGAS.Name = "lbl_Numero_Entrega_ENTREGAS";
-            this.lbl_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(74, 13);
-            this.lbl_Numero_Entrega_ENTREGAS.TabIndex = 8;
-            this.lbl_Numero_Entrega_ENTREGAS.Text = "N° da Entrega";
-            // 
-            // textbox_Solicitante_ENTREGAS
-            // 
-            this.textbox_Solicitante_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Solicitante_ENTREGAS.AcceptsTab = false;
-            this.textbox_Solicitante_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Solicitante_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Solicitante_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Solicitante_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Solicitante_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Solicitante_ENTREGAS.BackgroundImage")));
-            this.textbox_Solicitante_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Solicitante_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Solicitante_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Solicitante_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Solicitante_ENTREGAS.BorderRadius = 1;
-            this.textbox_Solicitante_ENTREGAS.BorderThickness = 1;
-            this.textbox_Solicitante_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Solicitante_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Solicitante_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Solicitante_ENTREGAS.DefaultText = "";
-            this.textbox_Solicitante_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Solicitante_ENTREGAS.HideSelection = true;
-            this.textbox_Solicitante_ENTREGAS.IconLeft = null;
-            this.textbox_Solicitante_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Solicitante_ENTREGAS.IconPadding = 10;
-            this.textbox_Solicitante_ENTREGAS.IconRight = null;
-            this.textbox_Solicitante_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Solicitante_ENTREGAS.Lines = new string[0];
-            this.textbox_Solicitante_ENTREGAS.Location = new System.Drawing.Point(404, 24);
-            this.textbox_Solicitante_ENTREGAS.MaxLength = 32767;
-            this.textbox_Solicitante_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Solicitante_ENTREGAS.Modified = false;
-            this.textbox_Solicitante_ENTREGAS.Multiline = false;
-            this.textbox_Solicitante_ENTREGAS.Name = "textbox_Solicitante_ENTREGAS";
-            stateProperties41.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties41.FillColor = System.Drawing.Color.Empty;
-            stateProperties41.ForeColor = System.Drawing.Color.Empty;
-            stateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Solicitante_ENTREGAS.OnActiveState = stateProperties41;
-            stateProperties42.BorderColor = System.Drawing.Color.Empty;
-            stateProperties42.FillColor = System.Drawing.Color.White;
-            stateProperties42.ForeColor = System.Drawing.Color.Empty;
-            stateProperties42.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Solicitante_ENTREGAS.OnDisabledState = stateProperties42;
-            stateProperties43.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties43.FillColor = System.Drawing.Color.Empty;
-            stateProperties43.ForeColor = System.Drawing.Color.Empty;
-            stateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Solicitante_ENTREGAS.OnHoverState = stateProperties43;
-            stateProperties44.BorderColor = System.Drawing.Color.Silver;
-            stateProperties44.FillColor = System.Drawing.Color.White;
-            stateProperties44.ForeColor = System.Drawing.Color.Empty;
-            stateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Solicitante_ENTREGAS.OnIdleState = stateProperties44;
-            this.textbox_Solicitante_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Solicitante_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Solicitante_ENTREGAS.PlaceholderText = "";
-            this.textbox_Solicitante_ENTREGAS.ReadOnly = false;
-            this.textbox_Solicitante_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Solicitante_ENTREGAS.SelectedText = "";
-            this.textbox_Solicitante_ENTREGAS.SelectionLength = 0;
-            this.textbox_Solicitante_ENTREGAS.SelectionStart = 0;
-            this.textbox_Solicitante_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Solicitante_ENTREGAS.Size = new System.Drawing.Size(164, 35);
-            this.textbox_Solicitante_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Solicitante_ENTREGAS.TabIndex = 7;
-            this.textbox_Solicitante_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Solicitante_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Solicitante_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Solicitante_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Solicitante_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Solicitante_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Solicitante_ENTREGAS.WordWrap = true;
-            // 
-            // textbox_Numero_Entrega_ENTREGAS
-            // 
-            this.textbox_Numero_Entrega_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Numero_Entrega_ENTREGAS.AcceptsTab = false;
-            this.textbox_Numero_Entrega_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Numero_Entrega_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Numero_Entrega_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Numero_Entrega_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Numero_Entrega_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Numero_Entrega_ENTREGAS.BackgroundImage")));
-            this.textbox_Numero_Entrega_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Numero_Entrega_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Numero_Entrega_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Numero_Entrega_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Numero_Entrega_ENTREGAS.BorderRadius = 1;
-            this.textbox_Numero_Entrega_ENTREGAS.BorderThickness = 1;
-            this.textbox_Numero_Entrega_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Numero_Entrega_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Entrega_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Numero_Entrega_ENTREGAS.DefaultText = "";
-            this.textbox_Numero_Entrega_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Numero_Entrega_ENTREGAS.HideSelection = true;
-            this.textbox_Numero_Entrega_ENTREGAS.IconLeft = null;
-            this.textbox_Numero_Entrega_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Entrega_ENTREGAS.IconPadding = 10;
-            this.textbox_Numero_Entrega_ENTREGAS.IconRight = null;
-            this.textbox_Numero_Entrega_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Numero_Entrega_ENTREGAS.Lines = new string[0];
-            this.textbox_Numero_Entrega_ENTREGAS.Location = new System.Drawing.Point(97, 71);
-            this.textbox_Numero_Entrega_ENTREGAS.MaxLength = 32767;
-            this.textbox_Numero_Entrega_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Numero_Entrega_ENTREGAS.Modified = false;
-            this.textbox_Numero_Entrega_ENTREGAS.Multiline = false;
-            this.textbox_Numero_Entrega_ENTREGAS.Name = "textbox_Numero_Entrega_ENTREGAS";
-            stateProperties45.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties45.FillColor = System.Drawing.Color.Empty;
-            stateProperties45.ForeColor = System.Drawing.Color.Empty;
-            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Entrega_ENTREGAS.OnActiveState = stateProperties45;
-            stateProperties46.BorderColor = System.Drawing.Color.Empty;
-            stateProperties46.FillColor = System.Drawing.Color.White;
-            stateProperties46.ForeColor = System.Drawing.Color.Empty;
-            stateProperties46.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Numero_Entrega_ENTREGAS.OnDisabledState = stateProperties46;
-            stateProperties47.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties47.FillColor = System.Drawing.Color.Empty;
-            stateProperties47.ForeColor = System.Drawing.Color.Empty;
-            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Entrega_ENTREGAS.OnHoverState = stateProperties47;
-            stateProperties48.BorderColor = System.Drawing.Color.Silver;
-            stateProperties48.FillColor = System.Drawing.Color.White;
-            stateProperties48.ForeColor = System.Drawing.Color.Empty;
-            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Numero_Entrega_ENTREGAS.OnIdleState = stateProperties48;
-            this.textbox_Numero_Entrega_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Numero_Entrega_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Numero_Entrega_ENTREGAS.PlaceholderText = "";
-            this.textbox_Numero_Entrega_ENTREGAS.ReadOnly = false;
-            this.textbox_Numero_Entrega_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Numero_Entrega_ENTREGAS.SelectedText = "";
-            this.textbox_Numero_Entrega_ENTREGAS.SelectionLength = 0;
-            this.textbox_Numero_Entrega_ENTREGAS.SelectionStart = 0;
-            this.textbox_Numero_Entrega_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Numero_Entrega_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Numero_Entrega_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Numero_Entrega_ENTREGAS.TabIndex = 9;
-            this.textbox_Numero_Entrega_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Numero_Entrega_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Numero_Entrega_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Numero_Entrega_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Numero_Entrega_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Numero_Entrega_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Numero_Entrega_ENTREGAS.WordWrap = true;
-            // 
-            // lbl_
-            // 
-            this.lbl_.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_.Controls.Add(this.lbl_Numero_Nfe_ENTREGAS);
-            this.lbl_.Controls.Add(this.textbox_Numero_Nfe_ENTREGAS);
-            this.lbl_.Controls.Add(this.textbox_Peso_Para_Coleta_ENTREGAS);
-            this.lbl_.Controls.Add(this.textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS);
-            this.lbl_.Controls.Add(this.textbox_Expedidor_ENTREGAS);
-            this.lbl_.Controls.Add(this.textbox_Descricao_Da_Mercadoria_ENTREGAS);
-            this.lbl_.Controls.Add(this.lbl__Peso_Para_Coleta_ENTREGAS);
-            this.lbl_.Controls.Add(this.lbl__Descricao_Da_Mercadoria_ENTREGAS);
-            this.lbl_.Controls.Add(this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS);
-            this.lbl_.Controls.Add(this.lbl_Expedidor_ENTREGAS);
-            this.lbl_.Location = new System.Drawing.Point(12, 273);
-            this.lbl_.Name = "lbl_";
-            this.lbl_.PanelColor = System.Drawing.Color.Empty;
-            this.lbl_.ShadowDept = 2;
-            this.lbl_.ShadowTopLeftVisible = false;
-            this.lbl_.Size = new System.Drawing.Size(646, 142);
-            this.lbl_.TabIndex = 24;
-            // 
-            // textbox_Expedidor_ENTREGAS
-            // 
-            this.textbox_Expedidor_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Expedidor_ENTREGAS.AcceptsTab = false;
-            this.textbox_Expedidor_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Expedidor_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Expedidor_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Expedidor_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Expedidor_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Expedidor_ENTREGAS.BackgroundImage")));
-            this.textbox_Expedidor_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Expedidor_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Expedidor_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Expedidor_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Expedidor_ENTREGAS.BorderRadius = 1;
-            this.textbox_Expedidor_ENTREGAS.BorderThickness = 1;
-            this.textbox_Expedidor_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Expedidor_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Expedidor_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Expedidor_ENTREGAS.DefaultText = "";
-            this.textbox_Expedidor_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Expedidor_ENTREGAS.HideSelection = true;
-            this.textbox_Expedidor_ENTREGAS.IconLeft = null;
-            this.textbox_Expedidor_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Expedidor_ENTREGAS.IconPadding = 10;
-            this.textbox_Expedidor_ENTREGAS.IconRight = null;
-            this.textbox_Expedidor_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Expedidor_ENTREGAS.Lines = new string[0];
-            this.textbox_Expedidor_ENTREGAS.Location = new System.Drawing.Point(508, 54);
-            this.textbox_Expedidor_ENTREGAS.MaxLength = 32767;
-            this.textbox_Expedidor_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Expedidor_ENTREGAS.Modified = false;
-            this.textbox_Expedidor_ENTREGAS.Multiline = false;
-            this.textbox_Expedidor_ENTREGAS.Name = "textbox_Expedidor_ENTREGAS";
-            stateProperties49.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties49.FillColor = System.Drawing.Color.Empty;
-            stateProperties49.ForeColor = System.Drawing.Color.Empty;
-            stateProperties49.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Expedidor_ENTREGAS.OnActiveState = stateProperties49;
-            stateProperties50.BorderColor = System.Drawing.Color.Empty;
-            stateProperties50.FillColor = System.Drawing.Color.White;
-            stateProperties50.ForeColor = System.Drawing.Color.Empty;
-            stateProperties50.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Expedidor_ENTREGAS.OnDisabledState = stateProperties50;
-            stateProperties51.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties51.FillColor = System.Drawing.Color.Empty;
-            stateProperties51.ForeColor = System.Drawing.Color.Empty;
-            stateProperties51.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Expedidor_ENTREGAS.OnHoverState = stateProperties51;
-            stateProperties52.BorderColor = System.Drawing.Color.Silver;
-            stateProperties52.FillColor = System.Drawing.Color.White;
-            stateProperties52.ForeColor = System.Drawing.Color.Empty;
-            stateProperties52.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Expedidor_ENTREGAS.OnIdleState = stateProperties52;
-            this.textbox_Expedidor_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Expedidor_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Expedidor_ENTREGAS.PlaceholderText = "";
-            this.textbox_Expedidor_ENTREGAS.ReadOnly = false;
-            this.textbox_Expedidor_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Expedidor_ENTREGAS.SelectedText = "";
-            this.textbox_Expedidor_ENTREGAS.SelectionLength = 0;
-            this.textbox_Expedidor_ENTREGAS.SelectionStart = 0;
-            this.textbox_Expedidor_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Expedidor_ENTREGAS.Size = new System.Drawing.Size(126, 35);
-            this.textbox_Expedidor_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Expedidor_ENTREGAS.TabIndex = 12;
-            this.textbox_Expedidor_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Expedidor_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Expedidor_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Expedidor_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Expedidor_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Expedidor_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Expedidor_ENTREGAS.WordWrap = true;
-            // 
-            // textbox_Descricao_Da_Mercadoria_ENTREGAS
-            // 
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.AcceptsReturn = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.AcceptsTab = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.AnimationSpeed = 200;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BackColor = System.Drawing.Color.Transparent;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textbox_Descricao_Da_Mercadoria_ENTREGAS.BackgroundImage")));
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderColorIdle = System.Drawing.Color.Silver;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderRadius = 1;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.BorderThickness = 1;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.DefaultText = "";
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.FillColor = System.Drawing.Color.White;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.HideSelection = true;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconLeft = null;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconPadding = 10;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconRight = null;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Lines = new string[0];
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(140, 54);
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.MaxLength = 32767;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.MinimumSize = new System.Drawing.Size(100, 35);
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Modified = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Multiline = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Name = "textbox_Descricao_Da_Mercadoria_ENTREGAS";
-            stateProperties53.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties53.FillColor = System.Drawing.Color.Empty;
-            stateProperties53.ForeColor = System.Drawing.Color.Empty;
-            stateProperties53.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.OnActiveState = stateProperties53;
-            stateProperties54.BorderColor = System.Drawing.Color.Empty;
-            stateProperties54.FillColor = System.Drawing.Color.White;
-            stateProperties54.ForeColor = System.Drawing.Color.Empty;
-            stateProperties54.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.OnDisabledState = stateProperties54;
-            stateProperties55.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties55.FillColor = System.Drawing.Color.Empty;
-            stateProperties55.ForeColor = System.Drawing.Color.Empty;
-            stateProperties55.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.OnHoverState = stateProperties55;
-            stateProperties56.BorderColor = System.Drawing.Color.Silver;
-            stateProperties56.FillColor = System.Drawing.Color.White;
-            stateProperties56.ForeColor = System.Drawing.Color.Empty;
-            stateProperties56.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.OnIdleState = stateProperties56;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.PasswordChar = '\0';
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.PlaceholderText = "";
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.ReadOnly = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.SelectedText = "";
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.SelectionLength = 0;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.SelectionStart = 0;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.ShortcutsEnabled = true;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(214, 35);
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TabIndex = 11;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextMarginBottom = 0;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextMarginLeft = 5;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextMarginTop = 0;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.TextPlaceholder = "";
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.UseSystemPasswordChar = false;
-            this.textbox_Descricao_Da_Mercadoria_ENTREGAS.WordWrap = true;
-            // 
-            // lbl__Peso_Para_Coleta_ENTREGAS
-            // 
-            this.lbl__Peso_Para_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(45, 107);
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Name = "lbl__Peso_Para_Coleta_ENTREGAS";
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(89, 13);
-            this.lbl__Peso_Para_Coleta_ENTREGAS.TabIndex = 10;
-            this.lbl__Peso_Para_Coleta_ENTREGAS.Text = "Peso Para Coleta";
-            // 
-            // lbl__Descricao_Da_Mercadoria_ENTREGAS
-            // 
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.AutoSize = true;
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Location = new System.Drawing.Point(8, 64);
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Name = "lbl__Descricao_Da_Mercadoria_ENTREGAS";
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Size = new System.Drawing.Size(126, 13);
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.TabIndex = 9;
-            this.lbl__Descricao_Da_Mercadoria_ENTREGAS.Text = "Descrição da Mercadoria";
-            // 
-            // lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS
-            // 
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.AutoSize = true;
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Location = new System.Drawing.Point(369, 21);
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Name = "lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS";
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Size = new System.Drawing.Size(133, 13);
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.TabIndex = 8;
-            this.lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS.Text = "QTD. Volumes Para coleta";
-            // 
-            // lbl_Expedidor_ENTREGAS
-            // 
-            this.lbl_Expedidor_ENTREGAS.AutoSize = true;
-            this.lbl_Expedidor_ENTREGAS.Location = new System.Drawing.Point(448, 66);
-            this.lbl_Expedidor_ENTREGAS.Name = "lbl_Expedidor_ENTREGAS";
-            this.lbl_Expedidor_ENTREGAS.Size = new System.Drawing.Size(54, 13);
-            this.lbl_Expedidor_ENTREGAS.TabIndex = 7;
-            this.lbl_Expedidor_ENTREGAS.Text = "Expedidor";
-            // 
-            // bunifuCustomLabel1_Entregas
-            // 
-            this.bunifuCustomLabel1_Entregas.AutoSize = true;
-            this.bunifuCustomLabel1_Entregas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1_Entregas.Location = new System.Drawing.Point(9, 9);
-            this.bunifuCustomLabel1_Entregas.Name = "bunifuCustomLabel1_Entregas";
-            this.bunifuCustomLabel1_Entregas.Size = new System.Drawing.Size(65, 17);
-            this.bunifuCustomLabel1_Entregas.TabIndex = 30;
-            this.bunifuCustomLabel1_Entregas.Text = "Entregas";
+            this.btnSair.Size = new System.Drawing.Size(52, 30);
+            this.btnSair.TabIndex = 63;
+            this.btnSair.Text = "X";
+            this.btnSair.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.bntPesquisarSolicitante);
+            this.panel2.Controls.Add(this.textBoxSolicitante);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.textBoxNumeroEntrega);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.textBoxRemetente);
+            this.panel2.Controls.Add(this.textBoxEmpresa);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.textBoxDaraColeta);
+            this.panel2.Location = new System.Drawing.Point(12, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(630, 132);
+            this.panel2.TabIndex = 75;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.textBoxExpedidor);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.DescricaoMercadoria);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.textBoxPesoColeta);
+            this.panel3.Controls.Add(this.textBoxNumeroNfe);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.textBoxQuantidadeVolumes);
+            this.panel3.Location = new System.Drawing.Point(12, 230);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(630, 129);
+            this.panel3.TabIndex = 77;
+            // 
+            // textBoxExpedidor
+            // 
+            this.textBoxExpedidor.Location = new System.Drawing.Point(18, 91);
+            this.textBoxExpedidor.Name = "textBoxExpedidor";
+            this.textBoxExpedidor.Size = new System.Drawing.Size(136, 20);
+            this.textBoxExpedidor.TabIndex = 73;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(170, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(126, 13);
+            this.label1.TabIndex = 64;
+            this.label1.Text = "Descrição da Mercadoria";
+            // 
+            // DescricaoMercadoria
+            // 
+            this.DescricaoMercadoria.Location = new System.Drawing.Point(173, 38);
+            this.DescricaoMercadoria.Name = "DescricaoMercadoria";
+            this.DescricaoMercadoria.Size = new System.Drawing.Size(130, 20);
+            this.DescricaoMercadoria.TabIndex = 65;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 75);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.TabIndex = 72;
+            this.label5.Text = "Expedidor";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 22);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(57, 13);
+            this.label7.TabIndex = 66;
+            this.label7.Text = "Nº da NFe";
+            // 
+            // textBoxPesoColeta
+            // 
+            this.textBoxPesoColeta.Location = new System.Drawing.Point(321, 38);
+            this.textBoxPesoColeta.Name = "textBoxPesoColeta";
+            this.textBoxPesoColeta.Size = new System.Drawing.Size(136, 20);
+            this.textBoxPesoColeta.TabIndex = 71;
+            // 
+            // textBoxNumeroNfe
+            // 
+            this.textBoxNumeroNfe.Location = new System.Drawing.Point(18, 38);
+            this.textBoxNumeroNfe.Name = "textBoxNumeroNfe";
+            this.textBoxNumeroNfe.Size = new System.Drawing.Size(136, 20);
+            this.textBoxNumeroNfe.TabIndex = 67;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(318, 22);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 13);
+            this.label9.TabIndex = 70;
+            this.label9.Text = "Peso para Coleta";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(473, 22);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(133, 13);
+            this.label11.TabIndex = 68;
+            this.label11.Text = "QTD. Volumes para Coleta";
+            // 
+            // textBoxQuantidadeVolumes
+            // 
+            this.textBoxQuantidadeVolumes.Location = new System.Drawing.Point(476, 38);
+            this.textBoxQuantidadeVolumes.Name = "textBoxQuantidadeVolumes";
+            this.textBoxQuantidadeVolumes.Size = new System.Drawing.Size(130, 20);
+            this.textBoxQuantidadeVolumes.TabIndex = 69;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(12, 194);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(389, 31);
+            this.label12.TabIndex = 76;
+            this.label12.Text = "Dados da Mercadoria a Coletar";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnPesquisarVeiculo);
+            this.panel1.Controls.Add(this.btnPesquisarMotorista);
+            this.panel1.Controls.Add(this.textBoxVeiculo);
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.textBoxMotorista);
+            this.panel1.Location = new System.Drawing.Point(12, 410);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(630, 140);
+            this.panel1.TabIndex = 79;
+            // 
+            // textBoxVeiculo
+            // 
+            this.textBoxVeiculo.Location = new System.Drawing.Point(18, 91);
+            this.textBoxVeiculo.Name = "textBoxVeiculo";
+            this.textBoxVeiculo.Size = new System.Drawing.Size(251, 20);
+            this.textBoxVeiculo.TabIndex = 73;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(15, 75);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(44, 13);
+            this.label14.TabIndex = 72;
+            this.label14.Text = "Veículo";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(15, 22);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(50, 13);
+            this.label15.TabIndex = 66;
+            this.label15.Text = "Motorista";
+            // 
+            // textBoxMotorista
+            // 
+            this.textBoxMotorista.Location = new System.Drawing.Point(18, 38);
+            this.textBoxMotorista.Name = "textBoxMotorista";
+            this.textBoxMotorista.Size = new System.Drawing.Size(251, 20);
+            this.textBoxMotorista.TabIndex = 67;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(12, 374);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(230, 31);
+            this.label18.TabIndex = 78;
+            this.label18.Text = "Motorista/ Veículo";
+            // 
+            // btnPesquisarMotorista
+            // 
+            this.btnPesquisarMotorista.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisarMotorista.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisarMotorista.Location = new System.Drawing.Point(275, 38);
+            this.btnPesquisarMotorista.Name = "btnPesquisarMotorista";
+            this.btnPesquisarMotorista.Size = new System.Drawing.Size(75, 22);
+            this.btnPesquisarMotorista.TabIndex = 74;
+            this.btnPesquisarMotorista.Text = "Pesquisar";
+            this.btnPesquisarMotorista.UseVisualStyleBackColor = false;
+            // 
+            // btnPesquisarVeiculo
+            // 
+            this.btnPesquisarVeiculo.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisarVeiculo.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisarVeiculo.Location = new System.Drawing.Point(275, 91);
+            this.btnPesquisarVeiculo.Name = "btnPesquisarVeiculo";
+            this.btnPesquisarVeiculo.Size = new System.Drawing.Size(75, 22);
+            this.btnPesquisarVeiculo.TabIndex = 75;
+            this.btnPesquisarVeiculo.Text = "Pesquisar";
+            this.btnPesquisarVeiculo.UseVisualStyleBackColor = false;
             // 
             // btnExcluir
             // 
-            this.btnExcluir.AllowToggling = false;
-            this.btnExcluir.AnimationSpeed = 200;
-            this.btnExcluir.AutoGenerateColors = false;
-            this.btnExcluir.BackColor = System.Drawing.Color.Transparent;
-            this.btnExcluir.BackColor1 = System.Drawing.Color.Red;
-            this.btnExcluir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExcluir.BackgroundImage")));
-            this.btnExcluir.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnExcluir.ButtonText = "Excluir";
-            this.btnExcluir.ButtonTextMarginLeft = 0;
-            this.btnExcluir.ColorContrastOnClick = 45;
-            this.btnExcluir.ColorContrastOnHover = 45;
-            this.btnExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.btnExcluir.CustomizableEdges = borderEdges5;
-            this.btnExcluir.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnExcluir.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnExcluir.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnExcluir.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnExcluir.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnExcluir.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.btnExcluir.BackColor = System.Drawing.Color.Red;
             this.btnExcluir.ForeColor = System.Drawing.Color.White;
-            this.btnExcluir.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExcluir.IconMarginLeft = 11;
-            this.btnExcluir.IconPadding = 10;
-            this.btnExcluir.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExcluir.IdleBorderColor = System.Drawing.Color.Red;
-            this.btnExcluir.IdleBorderRadius = 3;
-            this.btnExcluir.IdleBorderThickness = 1;
-            this.btnExcluir.IdleFillColor = System.Drawing.Color.Red;
-            this.btnExcluir.IdleIconLeftImage = null;
-            this.btnExcluir.IdleIconRightImage = null;
-            this.btnExcluir.IndicateFocus = false;
-            this.btnExcluir.Location = new System.Drawing.Point(80, 599);
+            this.btnExcluir.Location = new System.Drawing.Point(12, 597);
             this.btnExcluir.Name = "btnExcluir";
-            stateProperties57.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties57.BorderRadius = 3;
-            stateProperties57.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties57.BorderThickness = 1;
-            stateProperties57.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties57.ForeColor = System.Drawing.Color.White;
-            stateProperties57.IconLeftImage = null;
-            stateProperties57.IconRightImage = null;
-            this.btnExcluir.onHoverState = stateProperties57;
-            stateProperties58.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties58.BorderRadius = 3;
-            stateProperties58.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties58.BorderThickness = 1;
-            stateProperties58.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties58.ForeColor = System.Drawing.Color.White;
-            stateProperties58.IconLeftImage = null;
-            stateProperties58.IconRightImage = null;
-            this.btnExcluir.OnPressedState = stateProperties58;
-            this.btnExcluir.Size = new System.Drawing.Size(74, 29);
-            this.btnExcluir.TabIndex = 44;
-            this.btnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnExcluir.TextMarginLeft = 0;
-            this.btnExcluir.UseDefaultRadiusAndThickness = true;
+            this.btnExcluir.Size = new System.Drawing.Size(75, 30);
+            this.btnExcluir.TabIndex = 77;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
             // 
-            // btnCadastro
+            // btnPesquisarEntregas
             // 
-            this.btnCadastro.AllowToggling = false;
-            this.btnCadastro.AnimationSpeed = 200;
-            this.btnCadastro.AutoGenerateColors = false;
-            this.btnCadastro.BackColor = System.Drawing.Color.Transparent;
-            this.btnCadastro.BackColor1 = System.Drawing.Color.LimeGreen;
-            this.btnCadastro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCadastro.BackgroundImage")));
-            this.btnCadastro.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnCadastro.ButtonText = "Cadastrar";
-            this.btnCadastro.ButtonTextMarginLeft = 0;
-            this.btnCadastro.ColorContrastOnClick = 45;
-            this.btnCadastro.ColorContrastOnHover = 45;
-            this.btnCadastro.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btnCadastro.CustomizableEdges = borderEdges6;
-            this.btnCadastro.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnCadastro.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.btnCadastro.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnCadastro.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnCadastro.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnCadastro.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btnCadastro.ForeColor = System.Drawing.Color.White;
-            this.btnCadastro.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastro.IconMarginLeft = 11;
-            this.btnCadastro.IconPadding = 10;
-            this.btnCadastro.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastro.IdleBorderColor = System.Drawing.Color.LimeGreen;
-            this.btnCadastro.IdleBorderRadius = 3;
-            this.btnCadastro.IdleBorderThickness = 1;
-            this.btnCadastro.IdleFillColor = System.Drawing.Color.LimeGreen;
-            this.btnCadastro.IdleIconLeftImage = null;
-            this.btnCadastro.IdleIconRightImage = null;
-            this.btnCadastro.IndicateFocus = false;
-            this.btnCadastro.Location = new System.Drawing.Point(279, 599);
-            this.btnCadastro.Name = "btnCadastro";
-            stateProperties59.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties59.BorderRadius = 3;
-            stateProperties59.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties59.BorderThickness = 1;
-            stateProperties59.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties59.ForeColor = System.Drawing.Color.White;
-            stateProperties59.IconLeftImage = null;
-            stateProperties59.IconRightImage = null;
-            this.btnCadastro.onHoverState = stateProperties59;
-            stateProperties60.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties60.BorderRadius = 3;
-            stateProperties60.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties60.BorderThickness = 1;
-            stateProperties60.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties60.ForeColor = System.Drawing.Color.White;
-            stateProperties60.IconLeftImage = null;
-            stateProperties60.IconRightImage = null;
-            this.btnCadastro.OnPressedState = stateProperties60;
-            this.btnCadastro.Size = new System.Drawing.Size(71, 29);
-            this.btnCadastro.TabIndex = 41;
-            this.btnCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCadastro.TextMarginLeft = 0;
-            this.btnCadastro.UseDefaultRadiusAndThickness = true;
+            this.btnPesquisarEntregas.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisarEntregas.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisarEntregas.Location = new System.Drawing.Point(287, 597);
+            this.btnPesquisarEntregas.Name = "btnPesquisarEntregas";
+            this.btnPesquisarEntregas.Size = new System.Drawing.Size(75, 30);
+            this.btnPesquisarEntregas.TabIndex = 76;
+            this.btnPesquisarEntregas.Text = "Pesquisar";
+            this.btnPesquisarEntregas.UseVisualStyleBackColor = false;
             // 
-            // btnPesquisar
+            // btnSalvar
             // 
-            this.btnPesquisar.AllowToggling = false;
-            this.btnPesquisar.AnimationSpeed = 200;
-            this.btnPesquisar.AutoGenerateColors = false;
-            this.btnPesquisar.BackColor = System.Drawing.Color.Transparent;
-            this.btnPesquisar.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btnPesquisar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.BackgroundImage")));
-            this.btnPesquisar.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnPesquisar.ButtonText = "Pesquisar";
-            this.btnPesquisar.ButtonTextMarginLeft = 0;
-            this.btnPesquisar.ColorContrastOnClick = 45;
-            this.btnPesquisar.ColorContrastOnHover = 45;
-            this.btnPesquisar.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.btnPesquisar.CustomizableEdges = borderEdges7;
-            this.btnPesquisar.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPesquisar.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnPesquisar.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnPesquisar.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnPesquisar.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnPesquisar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisar.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPesquisar.IconMarginLeft = 11;
-            this.btnPesquisar.IconPadding = 10;
-            this.btnPesquisar.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPesquisar.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btnPesquisar.IdleBorderRadius = 3;
-            this.btnPesquisar.IdleBorderThickness = 1;
-            this.btnPesquisar.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btnPesquisar.IdleIconLeftImage = null;
-            this.btnPesquisar.IdleIconRightImage = null;
-            this.btnPesquisar.IndicateFocus = false;
-            this.btnPesquisar.Location = new System.Drawing.Point(477, 599);
-            this.btnPesquisar.Name = "btnPesquisar";
-            stateProperties61.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties61.BorderRadius = 3;
-            stateProperties61.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties61.BorderThickness = 1;
-            stateProperties61.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties61.ForeColor = System.Drawing.Color.White;
-            stateProperties61.IconLeftImage = null;
-            stateProperties61.IconRightImage = null;
-            this.btnPesquisar.onHoverState = stateProperties61;
-            stateProperties62.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties62.BorderRadius = 3;
-            stateProperties62.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties62.BorderThickness = 1;
-            stateProperties62.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties62.ForeColor = System.Drawing.Color.White;
-            stateProperties62.IconLeftImage = null;
-            stateProperties62.IconRightImage = null;
-            this.btnPesquisar.OnPressedState = stateProperties62;
-            this.btnPesquisar.Size = new System.Drawing.Size(81, 29);
-            this.btnPesquisar.TabIndex = 43;
-            this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnPesquisar.TextMarginLeft = 0;
-            this.btnPesquisar.UseDefaultRadiusAndThickness = true;
+            this.btnSalvar.BackColor = System.Drawing.Color.Green;
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(567, 597);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 30);
+            this.btnSalvar.TabIndex = 80;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
-            // Entregas
+            // bntPesquisarSolicitante
+            // 
+            this.bntPesquisarSolicitante.BackColor = System.Drawing.Color.Blue;
+            this.bntPesquisarSolicitante.ForeColor = System.Drawing.Color.White;
+            this.bntPesquisarSolicitante.Location = new System.Drawing.Point(160, 91);
+            this.bntPesquisarSolicitante.Name = "bntPesquisarSolicitante";
+            this.bntPesquisarSolicitante.Size = new System.Drawing.Size(75, 22);
+            this.bntPesquisarSolicitante.TabIndex = 76;
+            this.bntPesquisarSolicitante.Text = "Pesquisar";
+            this.bntPesquisarSolicitante.UseVisualStyleBackColor = false;
+            // 
+            // frmEntregas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(665, 653);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnCadastro);
-            this.Controls.Add(this.btnPesquisar);
-            this.Controls.Add(this.bunifuCustomLabel1_Entregas);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnPesquisarEntregas);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSair);
-            this.Controls.Add(this.bunifuLabel1_Motorista_Veiculo);
-            this.Controls.Add(this.bunifuShadowPanel3);
-            this.Controls.Add(this.bunifuLabel1_Dados_Da_Mercadoria);
-            this.Controls.Add(this.bunifuLabelDados_da_Entrega);
-            this.Controls.Add(this.bunifuShadowPanel1);
-            this.Controls.Add(this.lbl_);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Entregas";
+            this.Name = "frmEntregas";
             this.Text = "Cadastrar_Entregas";
-            this.bunifuShadowPanel3.ResumeLayout(false);
-            this.bunifuShadowPanel3.PerformLayout();
-            this.bunifuShadowPanel1.ResumeLayout(false);
-            this.bunifuShadowPanel1.PerformLayout();
-            this.lbl_.ResumeLayout(false);
-            this.lbl_.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1723,43 +448,42 @@
 
         #endregion
 
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSair;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1_Motorista_Veiculo;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btn_Novo_Veiculo_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btn_Novo_Motorista__ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Veiculo_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl__Veiculo_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox__Motorista_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl__Motorista_ENTREGAS;
-        private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel bunifuShadowPanel3;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1_Dados_Da_Mercadoria;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Numero_Nfe_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Numero_Nfe_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Peso_Para_Coleta_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Quantidade_Volumes_Para_Coleta_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabelDados_da_Entrega;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Data_Coleta_ENTREGAS;
-        private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel bunifuShadowPanel1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btn_Novo_Solicitante__ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Remetente_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Data_Da_Coleta_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Empresa_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl__Remetente_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Empresa_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Solicitante_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Numero_Entrega_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Solicitante_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Numero_Entrega_ENTREGAS;
-        private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel lbl_;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Expedidor_ENTREGAS;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox textbox_Descricao_Da_Mercadoria_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl__Peso_Para_Coleta_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl__Descricao_Da_Mercadoria_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Quantidade_Volumes_Para_Coleta_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel lbl_Expedidor_ENTREGAS;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1_Entregas;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnExcluir;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnCadastro;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnPesquisar;
+        private System.Windows.Forms.TextBox textBoxSolicitante;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBoxRemetente;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBoxDaraColeta;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBoxEmpresa;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxNumeroEntrega;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBoxExpedidor;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox DescricaoMercadoria;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBoxPesoColeta;
+        private System.Windows.Forms.TextBox textBoxNumeroNfe;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBoxQuantidadeVolumes;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBoxVeiculo;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBoxMotorista;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button btnPesquisarVeiculo;
+        private System.Windows.Forms.Button btnPesquisarMotorista;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnPesquisarEntregas;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button bntPesquisarSolicitante;
     }
 }

@@ -124,7 +124,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Entregas
+            _ojbForm = new frmEntregas
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
