@@ -81,7 +81,7 @@
             this.panel1.Controls.Add(this.btnPesquisar);
             this.panel1.Location = new System.Drawing.Point(12, 41);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(897, 549);
+            this.panel1.Size = new System.Drawing.Size(608, 549);
             this.panel1.TabIndex = 0;
             // 
             // textBoxCpf
@@ -227,7 +227,7 @@
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.Green;
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(746, 493);
+            this.btnSalvar.Location = new System.Drawing.Point(507, 493);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 30);
             this.btnSalvar.TabIndex = 45;
@@ -266,7 +266,7 @@
             // 
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(857, 9);
+            this.btnSair.Location = new System.Drawing.Point(568, 9);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(52, 30);
             this.btnSair.TabIndex = 47;
@@ -288,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(921, 608);
+            this.ClientSize = new System.Drawing.Size(634, 608);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSair);

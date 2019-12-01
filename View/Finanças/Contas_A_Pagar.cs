@@ -16,10 +16,5 @@ namespace PIM.View.Finanças
         {
             InitializeComponent();
         }
-
-        private void bunifuLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

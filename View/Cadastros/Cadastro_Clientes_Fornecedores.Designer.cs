@@ -36,8 +36,6 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
-            this.domainUpDownSexo = new System.Windows.Forms.DomainUpDown();
-            this.textBoxTipo = new System.Windows.Forms.DomainUpDown();
             this.richTextBoxEndereco = new System.Windows.Forms.RichTextBox();
             this.textBoxNaturalidade = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -67,6 +65,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
+            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipo = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -114,11 +114,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.comboBoxTipo);
+            this.panel1.Controls.Add(this.comboBoxSexo);
             this.panel1.Controls.Add(this.btnExcluir);
             this.panel1.Controls.Add(this.btnSalvar);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.domainUpDownSexo);
-            this.panel1.Controls.Add(this.textBoxTipo);
             this.panel1.Controls.Add(this.richTextBoxEndereco);
             this.panel1.Controls.Add(this.textBoxNaturalidade);
             this.panel1.Controls.Add(this.btnPesquisar);
@@ -184,23 +184,6 @@
             this.label17.Size = new System.Drawing.Size(53, 13);
             this.label17.TabIndex = 35;
             this.label17.Text = "Endereço";
-            // 
-            // domainUpDownSexo
-            // 
-            this.domainUpDownSexo.Location = new System.Drawing.Point(294, 118);
-            this.domainUpDownSexo.Name = "domainUpDownSexo";
-            this.domainUpDownSexo.Size = new System.Drawing.Size(120, 20);
-            this.domainUpDownSexo.TabIndex = 34;
-            this.domainUpDownSexo.Text = "domainUpDown2";
-            // 
-            // textBoxTipo
-            // 
-            this.textBoxTipo.Location = new System.Drawing.Point(12, 117);
-            this.textBoxTipo.Name = "textBoxTipo";
-            this.textBoxTipo.Size = new System.Drawing.Size(120, 20);
-            this.textBoxTipo.TabIndex = 33;
-            this.textBoxTipo.Text = "domainUpDown1";
-            this.textBoxTipo.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
             // 
             // richTextBoxEndereco
             // 
@@ -441,6 +424,22 @@
             this.btnSair.Text = "X";
             this.btnSair.UseVisualStyleBackColor = false;
             // 
+            // comboBoxSexo
+            // 
+            this.comboBoxSexo.FormattingEnabled = true;
+            this.comboBoxSexo.Location = new System.Drawing.Point(294, 119);
+            this.comboBoxSexo.Name = "comboBoxSexo";
+            this.comboBoxSexo.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSexo.TabIndex = 38;
+            // 
+            // comboBoxTipo
+            // 
+            this.comboBoxTipo.FormattingEnabled = true;
+            this.comboBoxTipo.Location = new System.Drawing.Point(11, 118);
+            this.comboBoxTipo.Name = "comboBoxTipo";
+            this.comboBoxTipo.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTipo.TabIndex = 39;
+            // 
             // frmClienteFornecedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -493,11 +492,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxRazaoSocial;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DomainUpDown textBoxTipo;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.DomainUpDown domainUpDownSexo;
+        private System.Windows.Forms.ComboBox comboBoxTipo;
+        private System.Windows.Forms.ComboBox comboBoxSexo;
     }
 }

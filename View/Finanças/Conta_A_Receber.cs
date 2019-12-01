@@ -16,5 +16,20 @@ namespace PIM.View.Finanças
         {
             InitializeComponent();
         }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void bunifuDropdown2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
     }
 }
