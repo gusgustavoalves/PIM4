@@ -33,39 +33,39 @@
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBoxRazaoSocial = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxCodigo = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBoxID = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBoxDataNascimento = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBoxNomeFantasia = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBoxIdentidade = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxOrgaoExpedidor = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBoxInscricaoEstadual = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.domainUpDownSexo = new System.Windows.Forms.DomainUpDown();
+            this.textBoxTipo = new System.Windows.Forms.DomainUpDown();
+            this.richTextBoxEndereco = new System.Windows.Forms.RichTextBox();
+            this.textBoxNaturalidade = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBoxCelular = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBoxFone = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBoxNaturalidade = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.richTextBoxEndereco = new System.Windows.Forms.RichTextBox();
-            this.textBoxTipo = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDownSexo = new System.Windows.Forms.DomainUpDown();
-            this.label17 = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
+            this.textBoxIdentidade = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxOrgaoExpedidor = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxInscricaoEstadual = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBoxNomeFantasia = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxDataNascimento = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxID = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxCodigo = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBoxRazaoSocial = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -113,6 +113,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Controls.Add(this.btnExcluir);
             this.panel1.Controls.Add(this.btnSalvar);
             this.panel1.Controls.Add(this.label17);
@@ -153,161 +154,77 @@
             this.panel1.Size = new System.Drawing.Size(831, 506);
             this.panel1.TabIndex = 4;
             // 
-            // panel2
+            // btnExcluir
             // 
-            this.panel2.Controls.Add(this.btnSair);
-            this.panel2.Controls.Add(this.panel1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(876, 568);
-            this.panel2.TabIndex = 5;
+            this.btnExcluir.BackColor = System.Drawing.Color.Red;
+            this.btnExcluir.ForeColor = System.Drawing.Color.White;
+            this.btnExcluir.Location = new System.Drawing.Point(12, 462);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(75, 30);
+            this.btnExcluir.TabIndex = 37;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
             // 
-            // textBoxRazaoSocial
+            // btnSalvar
             // 
-            this.textBoxRazaoSocial.Location = new System.Drawing.Point(179, 69);
-            this.textBoxRazaoSocial.Name = "textBoxRazaoSocial";
-            this.textBoxRazaoSocial.Size = new System.Drawing.Size(528, 20);
-            this.textBoxRazaoSocial.TabIndex = 3;
+            this.btnSalvar.BackColor = System.Drawing.Color.Green;
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(742, 462);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 30);
+            this.btnSalvar.TabIndex = 36;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // label17
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(176, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Razão social/ Nome Completo";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(9, 311);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(53, 13);
+            this.label17.TabIndex = 35;
+            this.label17.Text = "Endereço";
             // 
-            // textBoxCodigo
+            // domainUpDownSexo
             // 
-            this.textBoxCodigo.Location = new System.Drawing.Point(729, 69);
-            this.textBoxCodigo.Name = "textBoxCodigo";
-            this.textBoxCodigo.Size = new System.Drawing.Size(88, 20);
-            this.textBoxCodigo.TabIndex = 5;
+            this.domainUpDownSexo.Location = new System.Drawing.Point(294, 118);
+            this.domainUpDownSexo.Name = "domainUpDownSexo";
+            this.domainUpDownSexo.Size = new System.Drawing.Size(120, 20);
+            this.domainUpDownSexo.TabIndex = 34;
+            this.domainUpDownSexo.Text = "domainUpDown2";
             // 
-            // label4
+            // textBoxTipo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(726, 53);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Código";
+            this.textBoxTipo.Location = new System.Drawing.Point(12, 117);
+            this.textBoxTipo.Name = "textBoxTipo";
+            this.textBoxTipo.Size = new System.Drawing.Size(120, 20);
+            this.textBoxTipo.TabIndex = 33;
+            this.textBoxTipo.Text = "domainUpDown1";
+            this.textBoxTipo.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
             // 
-            // textBoxID
+            // richTextBoxEndereco
             // 
-            this.textBoxID.Location = new System.Drawing.Point(12, 21);
-            this.textBoxID.Name = "textBoxID";
-            this.textBoxID.Size = new System.Drawing.Size(91, 20);
-            this.textBoxID.TabIndex = 7;
+            this.richTextBoxEndereco.Location = new System.Drawing.Point(12, 327);
+            this.richTextBoxEndereco.Name = "richTextBoxEndereco";
+            this.richTextBoxEndereco.Size = new System.Drawing.Size(402, 99);
+            this.richTextBoxEndereco.TabIndex = 30;
+            this.richTextBoxEndereco.Text = "";
             // 
-            // label5
+            // textBoxNaturalidade
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 5);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "ID";
+            this.textBoxNaturalidade.Location = new System.Drawing.Point(437, 220);
+            this.textBoxNaturalidade.Name = "textBoxNaturalidade";
+            this.textBoxNaturalidade.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNaturalidade.TabIndex = 29;
             // 
-            // label6
+            // label16
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 101);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(28, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Tipo";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(291, 102);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Sexo";
-            // 
-            // textBoxDataNascimento
-            // 
-            this.textBoxDataNascimento.Location = new System.Drawing.Point(154, 119);
-            this.textBoxDataNascimento.Name = "textBoxDataNascimento";
-            this.textBoxDataNascimento.Size = new System.Drawing.Size(120, 20);
-            this.textBoxDataNascimento.TabIndex = 13;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(150, 103);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Data de Nascimento";
-            // 
-            // textBoxNomeFantasia
-            // 
-            this.textBoxNomeFantasia.Location = new System.Drawing.Point(12, 168);
-            this.textBoxNomeFantasia.Name = "textBoxNomeFantasia";
-            this.textBoxNomeFantasia.Size = new System.Drawing.Size(410, 20);
-            this.textBoxNomeFantasia.TabIndex = 15;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(9, 152);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 13);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Nome Fantasia";
-            // 
-            // textBoxIdentidade
-            // 
-            this.textBoxIdentidade.Location = new System.Drawing.Point(154, 220);
-            this.textBoxIdentidade.Name = "textBoxIdentidade";
-            this.textBoxIdentidade.Size = new System.Drawing.Size(120, 20);
-            this.textBoxIdentidade.TabIndex = 21;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(151, 204);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(57, 13);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Identidade";
-            // 
-            // textBoxOrgaoExpedidor
-            // 
-            this.textBoxOrgaoExpedidor.Location = new System.Drawing.Point(294, 220);
-            this.textBoxOrgaoExpedidor.Name = "textBoxOrgaoExpedidor";
-            this.textBoxOrgaoExpedidor.Size = new System.Drawing.Size(120, 20);
-            this.textBoxOrgaoExpedidor.TabIndex = 19;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(291, 204);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 13);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Orgão Expedidor";
-            // 
-            // textBoxInscricaoEstadual
-            // 
-            this.textBoxInscricaoEstadual.Location = new System.Drawing.Point(12, 220);
-            this.textBoxInscricaoEstadual.Name = "textBoxInscricaoEstadual";
-            this.textBoxInscricaoEstadual.Size = new System.Drawing.Size(120, 20);
-            this.textBoxInscricaoEstadual.TabIndex = 17;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 204);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(94, 13);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Inscrição Estadual";
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(434, 204);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(67, 13);
+            this.label16.TabIndex = 28;
+            this.label16.Text = "Naturalidade";
             // 
             // textBoxEmail
             // 
@@ -357,77 +274,161 @@
             this.label15.TabIndex = 22;
             this.label15.Text = "Fone";
             // 
-            // textBoxNaturalidade
+            // textBoxIdentidade
             // 
-            this.textBoxNaturalidade.Location = new System.Drawing.Point(437, 220);
-            this.textBoxNaturalidade.Name = "textBoxNaturalidade";
-            this.textBoxNaturalidade.Size = new System.Drawing.Size(100, 20);
-            this.textBoxNaturalidade.TabIndex = 29;
+            this.textBoxIdentidade.Location = new System.Drawing.Point(154, 220);
+            this.textBoxIdentidade.Name = "textBoxIdentidade";
+            this.textBoxIdentidade.Size = new System.Drawing.Size(120, 20);
+            this.textBoxIdentidade.TabIndex = 21;
             // 
-            // label16
+            // label10
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(434, 204);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(67, 13);
-            this.label16.TabIndex = 28;
-            this.label16.Text = "Naturalidade";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(151, 204);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(57, 13);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Identidade";
             // 
-            // richTextBoxEndereco
+            // textBoxOrgaoExpedidor
             // 
-            this.richTextBoxEndereco.Location = new System.Drawing.Point(12, 327);
-            this.richTextBoxEndereco.Name = "richTextBoxEndereco";
-            this.richTextBoxEndereco.Size = new System.Drawing.Size(402, 99);
-            this.richTextBoxEndereco.TabIndex = 30;
-            this.richTextBoxEndereco.Text = "";
+            this.textBoxOrgaoExpedidor.Location = new System.Drawing.Point(294, 220);
+            this.textBoxOrgaoExpedidor.Name = "textBoxOrgaoExpedidor";
+            this.textBoxOrgaoExpedidor.Size = new System.Drawing.Size(120, 20);
+            this.textBoxOrgaoExpedidor.TabIndex = 19;
             // 
-            // textBoxTipo
+            // label11
             // 
-            this.textBoxTipo.Location = new System.Drawing.Point(12, 117);
-            this.textBoxTipo.Name = "textBoxTipo";
-            this.textBoxTipo.Size = new System.Drawing.Size(120, 20);
-            this.textBoxTipo.TabIndex = 33;
-            this.textBoxTipo.Text = "domainUpDown1";
-            this.textBoxTipo.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(291, 204);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 13);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Orgão Expedidor";
             // 
-            // domainUpDownSexo
+            // textBoxInscricaoEstadual
             // 
-            this.domainUpDownSexo.Location = new System.Drawing.Point(294, 118);
-            this.domainUpDownSexo.Name = "domainUpDownSexo";
-            this.domainUpDownSexo.Size = new System.Drawing.Size(120, 20);
-            this.domainUpDownSexo.TabIndex = 34;
-            this.domainUpDownSexo.Text = "domainUpDown2";
+            this.textBoxInscricaoEstadual.Location = new System.Drawing.Point(12, 220);
+            this.textBoxInscricaoEstadual.Name = "textBoxInscricaoEstadual";
+            this.textBoxInscricaoEstadual.Size = new System.Drawing.Size(120, 20);
+            this.textBoxInscricaoEstadual.TabIndex = 17;
             // 
-            // label17
+            // label12
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(9, 311);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(53, 13);
-            this.label17.TabIndex = 35;
-            this.label17.Text = "Endereço";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 204);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(94, 13);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Inscrição Estadual";
             // 
-            // btnSalvar
+            // textBoxNomeFantasia
             // 
-            this.btnSalvar.BackColor = System.Drawing.Color.Green;
-            this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(742, 462);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(75, 30);
-            this.btnSalvar.TabIndex = 36;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.textBoxNomeFantasia.Location = new System.Drawing.Point(12, 168);
+            this.textBoxNomeFantasia.Name = "textBoxNomeFantasia";
+            this.textBoxNomeFantasia.Size = new System.Drawing.Size(410, 20);
+            this.textBoxNomeFantasia.TabIndex = 15;
             // 
-            // btnExcluir
+            // label9
             // 
-            this.btnExcluir.BackColor = System.Drawing.Color.Red;
-            this.btnExcluir.ForeColor = System.Drawing.Color.White;
-            this.btnExcluir.Location = new System.Drawing.Point(12, 462);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(75, 30);
-            this.btnExcluir.TabIndex = 37;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = false;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(9, 152);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 13);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Nome Fantasia";
+            // 
+            // textBoxDataNascimento
+            // 
+            this.textBoxDataNascimento.Location = new System.Drawing.Point(154, 119);
+            this.textBoxDataNascimento.Name = "textBoxDataNascimento";
+            this.textBoxDataNascimento.Size = new System.Drawing.Size(120, 20);
+            this.textBoxDataNascimento.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(150, 103);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(104, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Data de Nascimento";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(291, 102);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Sexo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 101);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(28, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Tipo";
+            // 
+            // textBoxID
+            // 
+            this.textBoxID.Location = new System.Drawing.Point(12, 21);
+            this.textBoxID.Name = "textBoxID";
+            this.textBoxID.Size = new System.Drawing.Size(91, 20);
+            this.textBoxID.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 5);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(18, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "ID";
+            // 
+            // textBoxCodigo
+            // 
+            this.textBoxCodigo.Location = new System.Drawing.Point(729, 69);
+            this.textBoxCodigo.Name = "textBoxCodigo";
+            this.textBoxCodigo.Size = new System.Drawing.Size(88, 20);
+            this.textBoxCodigo.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(726, 53);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Código";
+            // 
+            // textBoxRazaoSocial
+            // 
+            this.textBoxRazaoSocial.Location = new System.Drawing.Point(179, 69);
+            this.textBoxRazaoSocial.Name = "textBoxRazaoSocial";
+            this.textBoxRazaoSocial.Size = new System.Drawing.Size(528, 20);
+            this.textBoxRazaoSocial.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(176, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(151, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Razão social/ Nome Completo";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnSair);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(876, 568);
+            this.panel2.TabIndex = 5;
             // 
             // btnSair
             // 
