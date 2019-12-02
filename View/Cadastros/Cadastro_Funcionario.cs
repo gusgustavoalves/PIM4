@@ -31,38 +31,6 @@ namespace PIM.View
 
         private void button_Cadastrar_Click(object sender, EventArgs e)
         {
-            Model.Cadastro_FuncionarioM cad = new Model.Cadastro_FuncionarioM();
-            Dao.Cadastra_ClienteD cli = new Dao.Cadastra_ClienteD();
-                
-            cad.SetNome(TextBoxNome.Text);
-            cad.SetEnd(TextBoxEndereco.Text);
-            cad.SetCPF(TextBoxCPF.Text);
-
-
-            if (TextBoxNome.Text != "" && TextBoxEndereco.Text != "" && TextBoxCPF.Text != "")
-            {
-                if (cad.GetCPF() != "" && cad.GetCPF() != null) {
-                    if (cli.VerCliente(cad))
-                    {
-                        MessageBox.Show("Cliente Ja cadastrado !!!");
-                    }
-                    else
-                    {
-                        cli.CadastraCliente(cad);
-                        MessageBox.Show("Cliente Cadastrado com Sucesso !!!");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Verifique o CPF digitado !!!");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Nenhum campo pode ser vazio !!!!");
-            }
-
-
         }
 
         private void txt_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
@@ -103,6 +71,42 @@ namespace PIM.View
         private void bunifuLabel2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+
+            Model.Cadastro_FuncionarioM cad = new Model.Cadastro_FuncionarioM();
+            Dao.Cadastra_ClienteD cli = new Dao.Cadastra_ClienteD();
+
+            cad.SetNome(textBoxNome.Text);
+            cad.SetEnd(richTextBoxEndereco.Text);
+            cad.SetCPF(textBoxCpf.Text);
+
+
+            if (textBoxNome.Text != "" && richTextBoxEndereco.Text != "" && textBoxCpf.Text != "")
+            {
+                if (cad.GetCPF() != "" && cad.GetCPF() != null)
+                {
+                    if (cli.VerCliente(cad))
+                    {
+                        MessageBox.Show("Cliente Ja cadastrado !!!");
+                    }
+                    else
+                    {
+                        cli.CadastraCliente(cad);
+                        MessageBox.Show("Cliente Cadastrado com Sucesso !!!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Verifique o CPF digitado !!!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nenhum campo pode ser vazio !!!!");
+            }
         }
     }
 }

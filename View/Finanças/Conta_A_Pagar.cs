@@ -10,16 +10,8 @@ using System.Windows.Forms;
 
 namespace PIM.View.Finanças
 {
-    public partial class frmContas_A_Pagar : Form
+    public partial class frmConta_A_Pagar : Form
     {
-        public frmContas_A_Pagar()
-        {
-            InitializeComponent();
-        }
-
-        private void bunifuLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }

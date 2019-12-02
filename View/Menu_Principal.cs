@@ -16,6 +16,7 @@ namespace PIM
 {
     public partial class frmSistema : Form
     {
+        private const string Caption = "Aviso";
         private Form _ojbForm; 
         public frmSistema()
         {
@@ -79,9 +80,10 @@ namespace PIM
 
         private void ToolStripMenuItem_Sair_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja encerrar a aplicação ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-
+            if (MessageBox.Show("Deseja encerrar a aplicação ?", Caption, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
                 Application.Exit();
+            }
         }
 
         private void ToolStripMenuItem_Nova_Coleta_Click(object sender, EventArgs e)
@@ -154,7 +156,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frmContas_A_Pagar
+            _ojbForm = new frmConta_A_Pagar
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
@@ -169,7 +171,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frmContas_A_Receber
+            _ojbForm = new frmConta_A_Receber
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,

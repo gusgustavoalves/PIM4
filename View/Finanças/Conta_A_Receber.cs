@@ -1,35 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PIM.View.Finanças
 {
-    public partial class frmContas_A_Receber : Form
+    public partial class frmConta_A_Receber : Form
     {
-        public frmContas_A_Receber()
+        public frmConta_A_Receber()
         {
             InitializeComponent();
         }
 
-        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void bunifuDropdown2_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuShadowPanel1_Paint(object sender, PaintEventArgs e)
+        private void frmConta_A_Receber_Load(object sender, EventArgs e)
         {
-            
+
         }
+
+
     }
 }
