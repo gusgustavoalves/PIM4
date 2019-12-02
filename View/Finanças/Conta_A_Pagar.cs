@@ -12,6 +12,9 @@ namespace PIM.View.Finanças
 {
     public partial class frmConta_A_Pagar : Form
     {
-     
+        private void frmConta_A_Pagar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

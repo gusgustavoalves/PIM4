@@ -353,6 +353,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmConta_A_Pagar";
             this.Text = "Contas_A_Pagar";
+            this.Load += new System.EventHandler(this.frmConta_A_Pagar_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
