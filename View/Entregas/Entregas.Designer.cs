@@ -41,6 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bntPesquisarSolicitante = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBoxExpedidor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,17 +55,16 @@
             this.textBoxQuantidadeVolumes = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnPesquisarVeiculo = new System.Windows.Forms.Button();
+            this.btnPesquisarMotorista = new System.Windows.Forms.Button();
             this.textBoxVeiculo = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.textBoxMotorista = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.btnPesquisarMotorista = new System.Windows.Forms.Button();
-            this.btnPesquisarVeiculo = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnPesquisarEntregas = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.bntPesquisarSolicitante = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -173,6 +173,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
             this.panel2.Controls.Add(this.bntPesquisarSolicitante);
             this.panel2.Controls.Add(this.textBoxSolicitante);
             this.panel2.Controls.Add(this.label3);
@@ -189,8 +190,20 @@
             this.panel2.Size = new System.Drawing.Size(630, 132);
             this.panel2.TabIndex = 75;
             // 
+            // bntPesquisarSolicitante
+            // 
+            this.bntPesquisarSolicitante.BackColor = System.Drawing.Color.Blue;
+            this.bntPesquisarSolicitante.ForeColor = System.Drawing.Color.White;
+            this.bntPesquisarSolicitante.Location = new System.Drawing.Point(160, 91);
+            this.bntPesquisarSolicitante.Name = "bntPesquisarSolicitante";
+            this.bntPesquisarSolicitante.Size = new System.Drawing.Size(75, 22);
+            this.bntPesquisarSolicitante.TabIndex = 76;
+            this.bntPesquisarSolicitante.Text = "Pesquisar";
+            this.bntPesquisarSolicitante.UseVisualStyleBackColor = false;
+            // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Gainsboro;
             this.panel3.Controls.Add(this.textBoxExpedidor);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.DescricaoMercadoria);
@@ -298,6 +311,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Controls.Add(this.btnPesquisarVeiculo);
             this.panel1.Controls.Add(this.btnPesquisarMotorista);
             this.panel1.Controls.Add(this.textBoxVeiculo);
@@ -308,6 +322,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(630, 140);
             this.panel1.TabIndex = 79;
+            // 
+            // btnPesquisarVeiculo
+            // 
+            this.btnPesquisarVeiculo.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisarVeiculo.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisarVeiculo.Location = new System.Drawing.Point(275, 91);
+            this.btnPesquisarVeiculo.Name = "btnPesquisarVeiculo";
+            this.btnPesquisarVeiculo.Size = new System.Drawing.Size(75, 22);
+            this.btnPesquisarVeiculo.TabIndex = 75;
+            this.btnPesquisarVeiculo.Text = "Pesquisar";
+            this.btnPesquisarVeiculo.UseVisualStyleBackColor = false;
+            // 
+            // btnPesquisarMotorista
+            // 
+            this.btnPesquisarMotorista.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisarMotorista.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisarMotorista.Location = new System.Drawing.Point(275, 38);
+            this.btnPesquisarMotorista.Name = "btnPesquisarMotorista";
+            this.btnPesquisarMotorista.Size = new System.Drawing.Size(75, 22);
+            this.btnPesquisarMotorista.TabIndex = 74;
+            this.btnPesquisarMotorista.Text = "Pesquisar";
+            this.btnPesquisarMotorista.UseVisualStyleBackColor = false;
             // 
             // textBoxVeiculo
             // 
@@ -351,28 +387,6 @@
             this.label18.TabIndex = 78;
             this.label18.Text = "Motorista/ Veículo";
             // 
-            // btnPesquisarMotorista
-            // 
-            this.btnPesquisarMotorista.BackColor = System.Drawing.Color.Blue;
-            this.btnPesquisarMotorista.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisarMotorista.Location = new System.Drawing.Point(275, 38);
-            this.btnPesquisarMotorista.Name = "btnPesquisarMotorista";
-            this.btnPesquisarMotorista.Size = new System.Drawing.Size(75, 22);
-            this.btnPesquisarMotorista.TabIndex = 74;
-            this.btnPesquisarMotorista.Text = "Pesquisar";
-            this.btnPesquisarMotorista.UseVisualStyleBackColor = false;
-            // 
-            // btnPesquisarVeiculo
-            // 
-            this.btnPesquisarVeiculo.BackColor = System.Drawing.Color.Blue;
-            this.btnPesquisarVeiculo.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisarVeiculo.Location = new System.Drawing.Point(275, 91);
-            this.btnPesquisarVeiculo.Name = "btnPesquisarVeiculo";
-            this.btnPesquisarVeiculo.Size = new System.Drawing.Size(75, 22);
-            this.btnPesquisarVeiculo.TabIndex = 75;
-            this.btnPesquisarVeiculo.Text = "Pesquisar";
-            this.btnPesquisarVeiculo.UseVisualStyleBackColor = false;
-            // 
             // btnExcluir
             // 
             this.btnExcluir.BackColor = System.Drawing.Color.Red;
@@ -405,17 +419,6 @@
             this.btnSalvar.TabIndex = 80;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
-            // 
-            // bntPesquisarSolicitante
-            // 
-            this.bntPesquisarSolicitante.BackColor = System.Drawing.Color.Blue;
-            this.bntPesquisarSolicitante.ForeColor = System.Drawing.Color.White;
-            this.bntPesquisarSolicitante.Location = new System.Drawing.Point(160, 91);
-            this.bntPesquisarSolicitante.Name = "bntPesquisarSolicitante";
-            this.bntPesquisarSolicitante.Size = new System.Drawing.Size(75, 22);
-            this.bntPesquisarSolicitante.TabIndex = 76;
-            this.bntPesquisarSolicitante.Text = "Pesquisar";
-            this.bntPesquisarSolicitante.UseVisualStyleBackColor = false;
             // 
             // frmEntregas
             // 

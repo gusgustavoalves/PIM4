@@ -248,6 +248,12 @@
     <Compile Include="View\Coleta\Coleta.Designer.cs">
       <DependentUpon>Coleta.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Estoque De Peças\frmEtoquePeças.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Estoque De Peças\frmEtoquePeças.Designer.cs">
+      <DependentUpon>frmEtoquePeças.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Finanças\Conta_A_Pagar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Entregas\Entregas.resx">
       <DependentUpon>Entregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Estoque De Peças\frmEtoquePeças.resx">
+      <DependentUpon>frmEtoquePeças.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Finanças\Conta_A_Pagar.resx">
       <DependentUpon>Conta_A_Pagar.cs</DependentUpon>
