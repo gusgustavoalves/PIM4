@@ -438,6 +438,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmEntregas";
             this.Text = "Cadastrar_Entregas";
+            this.Load += new System.EventHandler(this.frmEntregas_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);

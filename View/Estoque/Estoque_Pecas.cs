@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace PIM.View.Estoque_De_Peças
 {
-    public partial class frmEtoquePecas : Form
+    public partial class frmEstoquePecas : Form
     {
-        public frmEtoquePecas()
+        public frmEstoquePecas()
         {
             InitializeComponent();
         }
 
         private void label8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmEstoquePecas_Load(object sender, EventArgs e)
         {
 
         }

@@ -21,5 +21,10 @@ namespace PIM.View
         {
             this.Close();
         }
+
+        private void frmEntregas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

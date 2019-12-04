@@ -17,7 +17,7 @@ namespace PIM
     public partial class frmSistema : Form
     {
         private const string Caption = "Aviso";
-        private Form _ojbForm; 
+        private Form _ojbForm;
         public frmSistema()
         {
             InitializeComponent();
@@ -32,7 +32,7 @@ namespace PIM
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
                 Dock = DockStyle.Fill
-               
+
             };
 
             Panel_Sistema.Controls.Add(_ojbForm);
@@ -74,7 +74,7 @@ namespace PIM
 
             Panel_Sistema.Controls.Add(_ojbForm);
             _ojbForm.Show();
-        
+
         }
 
 
@@ -180,6 +180,22 @@ namespace PIM
 
             Panel_Sistema.Controls.Add(_ojbForm);
             _ojbForm.Show();
+        }
+
+        private void estoqueDePeçasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _ojbForm?.Close();
+
+            _ojbForm = new PIM.View.Estoque_De_Peças.frmEstoquePecas
+            {
+                TopLevel = false,
+                FormBorderStyle = FormBorderStyle.None,
+                Dock = DockStyle.Fill
+            };
+            Panel_Sistema.Controls.Add(_ojbForm);
+            _ojbForm.Show();
+
+
         }
     }
 }
