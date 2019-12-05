@@ -33,6 +33,8 @@
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxTipo = new System.Windows.Forms.ComboBox();
+            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
@@ -65,8 +67,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
-            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
-            this.comboBoxTipo = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -153,6 +153,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(831, 506);
             this.panel1.TabIndex = 4;
+            // 
+            // comboBoxTipo
+            // 
+            this.comboBoxTipo.FormattingEnabled = true;
+            this.comboBoxTipo.Location = new System.Drawing.Point(11, 118);
+            this.comboBoxTipo.Name = "comboBoxTipo";
+            this.comboBoxTipo.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTipo.TabIndex = 39;
+            // 
+            // comboBoxSexo
+            // 
+            this.comboBoxSexo.FormattingEnabled = true;
+            this.comboBoxSexo.Location = new System.Drawing.Point(294, 119);
+            this.comboBoxSexo.Name = "comboBoxSexo";
+            this.comboBoxSexo.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSexo.TabIndex = 38;
             // 
             // btnExcluir
             // 
@@ -423,22 +439,7 @@
             this.btnSair.TabIndex = 38;
             this.btnSair.Text = "X";
             this.btnSair.UseVisualStyleBackColor = false;
-            // 
-            // comboBoxSexo
-            // 
-            this.comboBoxSexo.FormattingEnabled = true;
-            this.comboBoxSexo.Location = new System.Drawing.Point(294, 119);
-            this.comboBoxSexo.Name = "comboBoxSexo";
-            this.comboBoxSexo.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxSexo.TabIndex = 38;
-            // 
-            // comboBoxTipo
-            // 
-            this.comboBoxTipo.FormattingEnabled = true;
-            this.comboBoxTipo.Location = new System.Drawing.Point(11, 118);
-            this.comboBoxTipo.Name = "comboBoxTipo";
-            this.comboBoxTipo.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxTipo.TabIndex = 39;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmClienteFornecedores
             // 

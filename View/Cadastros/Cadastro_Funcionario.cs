@@ -108,5 +108,10 @@ namespace PIM.View
                 MessageBox.Show("Nenhum campo pode ser vazio !!!!");
             }
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

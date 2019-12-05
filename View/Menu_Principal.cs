@@ -156,7 +156,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new frmConta_A_Pagar
+            _ojbForm = new PIM.View.Finanças.frmContas_A_Pagar
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,

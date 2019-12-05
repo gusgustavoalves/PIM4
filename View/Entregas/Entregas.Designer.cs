@@ -170,6 +170,7 @@
             this.btnSair.TabIndex = 63;
             this.btnSair.Text = "X";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // panel2
             // 

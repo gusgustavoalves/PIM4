@@ -26,5 +26,10 @@ namespace PIM.View
         {
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

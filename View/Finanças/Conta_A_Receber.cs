@@ -20,6 +20,9 @@ namespace PIM.View.Finanças
 
         }
 
-
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -57,6 +57,8 @@
             this.textBoxVencimentoOriginal = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBoxCliente = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +72,7 @@
             this.btnSair.TabIndex = 41;
             this.btnSair.Text = "X";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // panel1
             // 
@@ -77,6 +80,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.textBoxCliente);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.btnPesquisar);
             this.panel1.Controls.Add(this.textBoxFormaPagamento);
             this.panel1.Controls.Add(this.textBoxDataEmissao);
@@ -105,7 +110,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(723, 496);
+            this.panel1.Size = new System.Drawing.Size(740, 501);
             this.panel1.TabIndex = 40;
             // 
             // btnPesquisar
@@ -339,17 +344,33 @@
             this.label2.TabIndex = 39;
             this.label2.Text = "Contas a Receber";
             // 
+            // textBoxCliente
+            // 
+            this.textBoxCliente.Location = new System.Drawing.Point(12, 27);
+            this.textBoxCliente.Name = "textBoxCliente";
+            this.textBoxCliente.Size = new System.Drawing.Size(579, 20);
+            this.textBoxCliente.TabIndex = 44;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "Cliente";
+            // 
             // frmConta_A_Receber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 568);
+            this.ClientSize = new System.Drawing.Size(764, 586);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmConta_A_Receber";
-            this.Text = "Contas_A_Receber";
+            this.Text = "Contas a Receber";
             this.Load += new System.EventHandler(this.frmConta_A_Receber_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -389,5 +410,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.DomainUpDown textBoxFormaPagamento;
         private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.TextBox textBoxCliente;
+        private System.Windows.Forms.Label label5;
     }
 }

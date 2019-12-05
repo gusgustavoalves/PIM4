@@ -31,5 +31,10 @@ namespace PIM.View.Coleta
         {
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
