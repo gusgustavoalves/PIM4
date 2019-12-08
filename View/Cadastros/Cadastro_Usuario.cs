@@ -73,7 +73,15 @@ namespace PIM.View.Cadastros
         {
             frmPesquisa_Usuario pesusu = new frmPesquisa_Usuario();
 
-            pesusu.Show();
+            //pesusu.Show();
+
+            if (pesusu.ShowDialog() != DialogResult.OK)
+                return;
+
+            textBoxID.Text = pesusu.Id.ToString();
+            textBoxUsuario.Text = pesusu.Usuario;
+            textBoxSenha.Text = pesusu.Senha;
+            textBoxConfirmaSenha.Text = pesusu.Senha;
         }
     }
 }

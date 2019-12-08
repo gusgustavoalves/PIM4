@@ -15,7 +15,10 @@ namespace PIM.View.Cadastros
 {
     public partial class frmPesquisa_Usuario : Form
     {
-         
+        public string Usuario { get; private set; }
+        public string Senha { get; private set; }
+        public int Id { get; private set; }
+
         public void listagridP()
         {
             
@@ -28,6 +31,7 @@ namespace PIM.View.Cadastros
 
             if (Con.Checkconection())
             {
+                GVUsuario.DataSource = null;
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO WHERE USUARIO = @usuario", Con.Traz_Conexao());
@@ -36,6 +40,8 @@ namespace PIM.View.Cadastros
                 adapter.Fill(table);
 
                 GVUsuario.DataSource = table;
+                GVUsuario.Update();
+                GVUsuario.Refresh();
 
                 Con.Desconectar();
             }
@@ -53,6 +59,7 @@ namespace PIM.View.Cadastros
 
             if (Con.Checkconection())
             {
+                GVUsuario.DataSource = null;
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO", Con.Traz_Conexao());
@@ -60,6 +67,8 @@ namespace PIM.View.Cadastros
                 adapter.Fill(table);
 
                 GVUsuario.DataSource = table;
+                GVUsuario.Update();
+                GVUsuario.Refresh();
 
                 Con.Desconectar();
             }
@@ -77,7 +86,12 @@ namespace PIM.View.Cadastros
 
         private void GVUsuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            this.Id = int.Parse(GVUsuario.CurrentRow.Cells[0].Value.ToString());
+            this.Usuario = GVUsuario.CurrentRow.Cells[1].Value.ToString();
+            this.Senha = GVUsuario.CurrentRow.Cells[2].Value.ToString();
 
+            this.DialogResult = DialogResult.OK; // para indicar ao Form chamador que o usuário adicionou um cliente
+            this.Close();
         }
 
         private void frmPesquisa_Usuario_Load(object sender, EventArgs e)
@@ -105,6 +119,21 @@ namespace PIM.View.Cadastros
         private void textBoxUsuario_TextChanged(object sender, EventArgs e)
         {
             textBoxUsuario.CharacterCasing = CharacterCasing.Upper;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BntSelecionar_Click(object sender, EventArgs e)
+        {
+            this.Id = int.Parse(GVUsuario.CurrentRow.Cells[0].Value.ToString());
+            this.Usuario = GVUsuario.CurrentRow.Cells[1].Value.ToString();
+            this.Senha = GVUsuario.CurrentRow.Cells[2].Value.ToString();
+
+            this.DialogResult = DialogResult.OK; // para indicar ao Form chamador que o usuário adicionou um cliente
+            this.Close();
         }
     }
 }

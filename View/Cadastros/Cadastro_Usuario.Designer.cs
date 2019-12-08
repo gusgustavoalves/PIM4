@@ -60,7 +60,7 @@
             this.panel1.Controls.Add(this.btnSalvar);
             this.panel1.Controls.Add(this.btnPesquisar);
             this.panel1.Location = new System.Drawing.Point(36, 49);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(496, 394);
             this.panel1.TabIndex = 0;
@@ -68,10 +68,11 @@
             // textBoxConfirmaSenha
             // 
             this.textBoxConfirmaSenha.Location = new System.Drawing.Point(21, 231);
-            this.textBoxConfirmaSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxConfirmaSenha.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxConfirmaSenha.Name = "textBoxConfirmaSenha";
             this.textBoxConfirmaSenha.Size = new System.Drawing.Size(379, 22);
             this.textBoxConfirmaSenha.TabIndex = 62;
+            this.textBoxConfirmaSenha.UseSystemPasswordChar = true;
             // 
             // label4
             // 
@@ -86,10 +87,11 @@
             // textBoxSenha
             // 
             this.textBoxSenha.Location = new System.Drawing.Point(21, 162);
-            this.textBoxSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSenha.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSenha.Name = "textBoxSenha";
             this.textBoxSenha.Size = new System.Drawing.Size(379, 22);
             this.textBoxSenha.TabIndex = 60;
+            this.textBoxSenha.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -104,7 +106,7 @@
             // textBoxUsuario
             // 
             this.textBoxUsuario.Location = new System.Drawing.Point(21, 95);
-            this.textBoxUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(379, 22);
             this.textBoxUsuario.TabIndex = 58;
@@ -122,7 +124,7 @@
             // textBoxID
             // 
             this.textBoxID.Location = new System.Drawing.Point(21, 27);
-            this.textBoxID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxID.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Size = new System.Drawing.Size(99, 22);
             this.textBoxID.TabIndex = 53;
@@ -142,7 +144,7 @@
             this.btnExcluir.BackColor = System.Drawing.Color.Red;
             this.btnExcluir.ForeColor = System.Drawing.Color.White;
             this.btnExcluir.Location = new System.Drawing.Point(21, 319);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(100, 37);
             this.btnExcluir.TabIndex = 55;
@@ -154,7 +156,7 @@
             this.btnSalvar.BackColor = System.Drawing.Color.Green;
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
             this.btnSalvar.Location = new System.Drawing.Point(301, 319);
-            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(100, 37);
             this.btnSalvar.TabIndex = 54;
@@ -167,7 +169,7 @@
             this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
             this.btnPesquisar.ForeColor = System.Drawing.Color.White;
             this.btnPesquisar.Location = new System.Drawing.Point(163, 319);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(100, 37);
             this.btnPesquisar.TabIndex = 50;
@@ -191,7 +193,7 @@
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
             this.btnSair.Location = new System.Drawing.Point(463, 9);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(69, 37);
             this.btnSair.TabIndex = 56;
@@ -207,7 +209,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnSair);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCadastro_Usuario";
             this.Text = "Cadastro_Usuario";
             this.panel1.ResumeLayout(false);

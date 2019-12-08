@@ -94,7 +94,7 @@ namespace PIM
 
         private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            _ojbForm?.Close();
+            /*_ojbForm?.Close();
 
             _ojbForm = new frmCadastro_Usuario
             {
@@ -104,7 +104,9 @@ namespace PIM
             };
 
             Panel_Sistema.Controls.Add(_ojbForm);
-            _ojbForm.Show();
+            _ojbForm.Show();*/
+            frmCadastro_Usuario cadusu = new frmCadastro_Usuario();
+            cadusu.Show();
         }
 
         private void veiculosToolStripMenuItem_Click(object sender, EventArgs e)
