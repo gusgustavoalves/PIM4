@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PIM.View.Finanças
 {
-    public partial class frmContas_A_Pagar : Form
+    public partial class Form1 : Form
     {
-        public frmContas_A_Pagar()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void btnSair_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }
