@@ -378,6 +378,7 @@
             // btnExcluir
             // 
             this.btnExcluir.BackColor = System.Drawing.Color.Red;
+            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.ForeColor = System.Drawing.Color.White;
             this.btnExcluir.Location = new System.Drawing.Point(12, 597);
             this.btnExcluir.Name = "btnExcluir";

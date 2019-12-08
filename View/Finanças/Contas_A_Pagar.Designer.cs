@@ -1,6 +1,6 @@
 ﻿namespace PIM.View.Finanças
 {
-    partial class Form1
+    partial class Contas_A_Pagar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label2 = new System.Windows.Forms.Label();
             this.textBoxCliente = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.textBoxFormaPagamento = new System.Windows.Forms.DomainUpDown();
@@ -58,17 +58,266 @@
             this.textBoxVencimentoOriginal = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(233, 31);
+            this.label2.TabIndex = 42;
+            this.label2.Text = "Contas a Receber";
+            // 
             // textBoxCliente
             // 
-            this.textBoxCliente.Location = new System.Drawing.Point(16, 57);
-            this.textBoxCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxCliente.Location = new System.Drawing.Point(12, 27);
             this.textBoxCliente.Name = "textBoxCliente";
-            this.textBoxCliente.Size = new System.Drawing.Size(771, 22);
+            this.textBoxCliente.Size = new System.Drawing.Size(579, 20);
             this.textBoxCliente.TabIndex = 44;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "Cliente";
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisar.Location = new System.Drawing.Point(493, 450);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(75, 30);
+            this.btnPesquisar.TabIndex = 42;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            // 
+            // textBoxFormaPagamento
+            // 
+            this.textBoxFormaPagamento.Location = new System.Drawing.Point(12, 339);
+            this.textBoxFormaPagamento.Name = "textBoxFormaPagamento";
+            this.textBoxFormaPagamento.Size = new System.Drawing.Size(120, 20);
+            this.textBoxFormaPagamento.TabIndex = 41;
+            this.textBoxFormaPagamento.Text = "domainUpDown1";
+            // 
+            // textBoxDataEmissao
+            // 
+            this.textBoxDataEmissao.Location = new System.Drawing.Point(403, 88);
+            this.textBoxDataEmissao.Name = "textBoxDataEmissao";
+            this.textBoxDataEmissao.Size = new System.Drawing.Size(113, 20);
+            this.textBoxDataEmissao.TabIndex = 40;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(400, 72);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(87, 13);
+            this.label19.TabIndex = 39;
+            this.label19.Text = "Data de Emissão";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(599, 10);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(123, 13);
+            this.label18.TabIndex = 38;
+            this.label18.Text = "( * ) Campos Obrigatórios";
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.Red;
+            this.btnExcluir.ForeColor = System.Drawing.Color.White;
+            this.btnExcluir.Location = new System.Drawing.Point(12, 450);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(75, 30);
+            this.btnExcluir.TabIndex = 37;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.BackColor = System.Drawing.Color.Green;
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(632, 450);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 30);
+            this.btnSalvar.TabIndex = 36;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(11, 174);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(65, 13);
+            this.label17.TabIndex = 35;
+            this.label17.Text = "Observação";
+            // 
+            // textBoxObservacao
+            // 
+            this.textBoxObservacao.Location = new System.Drawing.Point(12, 190);
+            this.textBoxObservacao.Name = "textBoxObservacao";
+            this.textBoxObservacao.Size = new System.Drawing.Size(504, 99);
+            this.textBoxObservacao.TabIndex = 30;
+            this.textBoxObservacao.Text = "";
+            // 
+            // textBoxOcorrencia
+            // 
+            this.textBoxOcorrencia.Location = new System.Drawing.Point(294, 389);
+            this.textBoxOcorrencia.Name = "textBoxOcorrencia";
+            this.textBoxOcorrencia.Size = new System.Drawing.Size(120, 20);
+            this.textBoxOcorrencia.TabIndex = 27;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(291, 373);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 13);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "Ocorrência";
+            // 
+            // textBoxVendedor
+            // 
+            this.textBoxVendedor.Location = new System.Drawing.Point(12, 389);
+            this.textBoxVendedor.Name = "textBoxVendedor";
+            this.textBoxVendedor.Size = new System.Drawing.Size(262, 20);
+            this.textBoxVendedor.TabIndex = 23;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(9, 373);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(53, 13);
+            this.label15.TabIndex = 22;
+            this.label15.Text = "Vendedor";
+            // 
+            // textBoxPortador
+            // 
+            this.textBoxPortador.Location = new System.Drawing.Point(154, 339);
+            this.textBoxPortador.Name = "textBoxPortador";
+            this.textBoxPortador.Size = new System.Drawing.Size(120, 20);
+            this.textBoxPortador.TabIndex = 21;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(151, 323);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(47, 13);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Portador";
+            // 
+            // textBoxCategoria
+            // 
+            this.textBoxCategoria.Location = new System.Drawing.Point(294, 339);
+            this.textBoxCategoria.Name = "textBoxCategoria";
+            this.textBoxCategoria.Size = new System.Drawing.Size(222, 20);
+            this.textBoxCategoria.TabIndex = 19;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(291, 323);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 13);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Categoria";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 323);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(108, 13);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Forma de Pagamento";
+            // 
+            // textBoxNumeroDocumento
+            // 
+            this.textBoxNumeroDocumento.Location = new System.Drawing.Point(12, 136);
+            this.textBoxNumeroDocumento.Name = "textBoxNumeroDocumento";
+            this.textBoxNumeroDocumento.Size = new System.Drawing.Size(120, 20);
+            this.textBoxNumeroDocumento.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(11, 120);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Nº do Documento";
+            // 
+            // textBoxValor
+            // 
+            this.textBoxValor.Location = new System.Drawing.Point(297, 88);
+            this.textBoxValor.Name = "textBoxValor";
+            this.textBoxValor.Size = new System.Drawing.Size(88, 20);
+            this.textBoxValor.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(294, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Valor";
+            // 
+            // textBoxVencimento
+            // 
+            this.textBoxVencimento.Location = new System.Drawing.Point(154, 88);
+            this.textBoxVencimento.Name = "textBoxVencimento";
+            this.textBoxVencimento.Size = new System.Drawing.Size(125, 20);
+            this.textBoxVencimento.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(151, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Vencimento *";
+            // 
+            // textBoxVencimentoOriginal
+            // 
+            this.textBoxVencimentoOriginal.Location = new System.Drawing.Point(12, 88);
+            this.textBoxVencimentoOriginal.Name = "textBoxVencimentoOriginal";
+            this.textBoxVencimentoOriginal.Size = new System.Drawing.Size(120, 20);
+            this.textBoxVencimentoOriginal.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Venc. Original";
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.Red;
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Location = new System.Drawing.Point(695, 9);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(52, 30);
+            this.btnSair.TabIndex = 44;
+            this.btnSair.Text = "X";
+            this.btnSair.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -104,301 +353,21 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.textBoxVencimentoOriginal);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(48, 94);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(22, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1028, 618);
-            this.panel1.TabIndex = 46;
+            this.panel1.Size = new System.Drawing.Size(731, 509);
+            this.panel1.TabIndex = 43;
             // 
-            // label5
+            // Contas_A_Pagar
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 37);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 17);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "Cliente";
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
-            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisar.Location = new System.Drawing.Point(657, 577);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(100, 37);
-            this.btnPesquisar.TabIndex = 42;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = false;
-            // 
-            // textBoxFormaPagamento
-            // 
-            this.textBoxFormaPagamento.Location = new System.Drawing.Point(16, 441);
-            this.textBoxFormaPagamento.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxFormaPagamento.Name = "textBoxFormaPagamento";
-            this.textBoxFormaPagamento.Size = new System.Drawing.Size(160, 22);
-            this.textBoxFormaPagamento.TabIndex = 41;
-            this.textBoxFormaPagamento.Text = "domainUpDown1";
-            // 
-            // textBoxDataEmissao
-            // 
-            this.textBoxDataEmissao.Location = new System.Drawing.Point(537, 132);
-            this.textBoxDataEmissao.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxDataEmissao.Name = "textBoxDataEmissao";
-            this.textBoxDataEmissao.Size = new System.Drawing.Size(149, 22);
-            this.textBoxDataEmissao.TabIndex = 40;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(533, 112);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(115, 17);
-            this.label19.TabIndex = 39;
-            this.label19.Text = "Data de Emissão";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(799, 36);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(168, 17);
-            this.label18.TabIndex = 38;
-            this.label18.Text = "( * ) Campos Obrigatórios";
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.BackColor = System.Drawing.Color.Red;
-            this.btnExcluir.ForeColor = System.Drawing.Color.White;
-            this.btnExcluir.Location = new System.Drawing.Point(16, 577);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(100, 37);
-            this.btnExcluir.TabIndex = 37;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = false;
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackColor = System.Drawing.Color.Green;
-            this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(843, 577);
-            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(100, 37);
-            this.btnSalvar.TabIndex = 36;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(15, 238);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(85, 17);
-            this.label17.TabIndex = 35;
-            this.label17.Text = "Observação";
-            // 
-            // textBoxObservacao
-            // 
-            this.textBoxObservacao.Location = new System.Drawing.Point(16, 257);
-            this.textBoxObservacao.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxObservacao.Name = "textBoxObservacao";
-            this.textBoxObservacao.Size = new System.Drawing.Size(671, 121);
-            this.textBoxObservacao.TabIndex = 30;
-            this.textBoxObservacao.Text = "";
-            // 
-            // textBoxOcorrencia
-            // 
-            this.textBoxOcorrencia.Location = new System.Drawing.Point(392, 502);
-            this.textBoxOcorrencia.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxOcorrencia.Name = "textBoxOcorrencia";
-            this.textBoxOcorrencia.Size = new System.Drawing.Size(159, 22);
-            this.textBoxOcorrencia.TabIndex = 27;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(388, 482);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(78, 17);
-            this.label13.TabIndex = 26;
-            this.label13.Text = "Ocorrência";
-            // 
-            // textBoxVendedor
-            // 
-            this.textBoxVendedor.Location = new System.Drawing.Point(16, 502);
-            this.textBoxVendedor.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxVendedor.Name = "textBoxVendedor";
-            this.textBoxVendedor.Size = new System.Drawing.Size(348, 22);
-            this.textBoxVendedor.TabIndex = 23;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(12, 482);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 17);
-            this.label15.TabIndex = 22;
-            this.label15.Text = "Vendedor";
-            // 
-            // textBoxPortador
-            // 
-            this.textBoxPortador.Location = new System.Drawing.Point(205, 441);
-            this.textBoxPortador.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxPortador.Name = "textBoxPortador";
-            this.textBoxPortador.Size = new System.Drawing.Size(159, 22);
-            this.textBoxPortador.TabIndex = 21;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(201, 421);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 17);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Portador";
-            // 
-            // textBoxCategoria
-            // 
-            this.textBoxCategoria.Location = new System.Drawing.Point(392, 441);
-            this.textBoxCategoria.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxCategoria.Name = "textBoxCategoria";
-            this.textBoxCategoria.Size = new System.Drawing.Size(295, 22);
-            this.textBoxCategoria.TabIndex = 19;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(388, 421);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(69, 17);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Categoria";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(12, 421);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(144, 17);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Forma de Pagamento";
-            // 
-            // textBoxNumeroDocumento
-            // 
-            this.textBoxNumeroDocumento.Location = new System.Drawing.Point(16, 191);
-            this.textBoxNumeroDocumento.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxNumeroDocumento.Name = "textBoxNumeroDocumento";
-            this.textBoxNumeroDocumento.Size = new System.Drawing.Size(159, 22);
-            this.textBoxNumeroDocumento.TabIndex = 13;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(15, 171);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(119, 17);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Nº do Documento";
-            // 
-            // textBoxValor
-            // 
-            this.textBoxValor.Location = new System.Drawing.Point(396, 132);
-            this.textBoxValor.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxValor.Name = "textBoxValor";
-            this.textBoxValor.Size = new System.Drawing.Size(116, 22);
-            this.textBoxValor.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(392, 112);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 17);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Valor";
-            // 
-            // textBoxVencimento
-            // 
-            this.textBoxVencimento.Location = new System.Drawing.Point(205, 132);
-            this.textBoxVencimento.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxVencimento.Name = "textBoxVencimento";
-            this.textBoxVencimento.Size = new System.Drawing.Size(165, 22);
-            this.textBoxVencimento.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(201, 112);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Vencimento *";
-            // 
-            // textBoxVencimentoOriginal
-            // 
-            this.textBoxVencimentoOriginal.Location = new System.Drawing.Point(16, 132);
-            this.textBoxVencimentoOriginal.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxVencimentoOriginal.Name = "textBoxVencimentoOriginal";
-            this.textBoxVencimentoOriginal.Size = new System.Drawing.Size(159, 22);
-            this.textBoxVencimentoOriginal.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 112);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Venc. Original";
-            // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.Red;
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(1007, 52);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(69, 37);
-            this.btnSair.TabIndex = 47;
-            this.btnSair.Text = "X";
-            this.btnSair.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 52);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(253, 39);
-            this.label2.TabIndex = 45;
-            this.label2.Text = "Contas a Pagar";
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 765);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnSair);
+            this.ClientSize = new System.Drawing.Size(936, 564);
             this.Controls.Add(this.label2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.panel1);
+            this.Name = "Contas_A_Pagar";
+            this.Text = "Contas_A_Pagar";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -408,8 +377,8 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxCliente;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.DomainUpDown textBoxFormaPagamento;
@@ -438,6 +407,6 @@
         private System.Windows.Forms.TextBox textBoxVencimentoOriginal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
