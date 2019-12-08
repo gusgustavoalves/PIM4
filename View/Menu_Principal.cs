@@ -11,6 +11,7 @@ using PIM.View;
 using PIM.View.Coleta;
 using PIM.View.Finanças;
 using PIM.View.Cadastros;
+using PIM.View.Coleta;
 
 namespace PIM
 {
@@ -65,7 +66,7 @@ namespace PIM
         {
             _ojbForm?.Close();
 
-            _ojbForm = new Coleta
+            _ojbForm = new frmColeta
             {
                 TopLevel = false,
                 FormBorderStyle = FormBorderStyle.None,
@@ -74,6 +75,7 @@ namespace PIM
 
             Panel_Sistema.Controls.Add(_ojbForm);
             _ojbForm.Show();
+            
 
         }
 
@@ -111,7 +113,7 @@ namespace PIM
 
         private void veiculosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            _ojbForm?.Close();
+            /*_ojbForm?.Close();
 
             _ojbForm = new frmCadastro_Veiculo
             {
@@ -121,7 +123,9 @@ namespace PIM
             };
 
             Panel_Sistema.Controls.Add(_ojbForm);
-            _ojbForm.Show();
+            _ojbForm.Show();*/
+            frmCadastro_Veiculo veiculo = new frmCadastro_Veiculo();
+            veiculo.Show();
         }
 
         private void entregasToolStripMenuItem1_Click(object sender, EventArgs e)

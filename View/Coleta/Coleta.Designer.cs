@@ -1,6 +1,6 @@
 ﻿namespace PIM.View.Coleta
 {
-    partial class Coleta
+    partial class frmColeta
     {
         /// <summary>
         /// Required designer variable.
@@ -429,7 +429,7 @@
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
             // 
-            // Coleta
+            // frmColeta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -445,7 +445,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Coleta";
+            this.Name = "frmColeta";
             this.Text = "Consultar_Coleta";
             this.Load += new System.EventHandler(this.frmConsultar_Coleta_Load);
             this.panel1.ResumeLayout(false);
