@@ -1,6 +1,6 @@
-﻿namespace PIM.View.Finanças
+﻿namespace PIM.View.Entregas
 {
-    partial class frmContas_A_Pagar
+    partial class frmPesquisa_Entregas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewResultadoContasAPagar = new System.Windows.Forms.DataGridView();
+            this.dataGridViewResultadoConsultasEntregas = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxPesquisar = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBoxCredito = new System.Windows.Forms.CheckBox();
-            this.checkBoxDinheiro = new System.Windows.Forms.CheckBox();
-            this.checkBoxBoleto = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasAPagar)).BeginInit();
+            this.checkBoxNfe = new System.Windows.Forms.CheckBox();
+            this.checkBoxNumeroEntrega = new System.Windows.Forms.CheckBox();
+            this.checkBoxEmpresa = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoConsultasEntregas)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridViewResultadoContasAPagar
+            // dataGridViewResultadoConsultasEntregas
             // 
-            this.dataGridViewResultadoContasAPagar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResultadoContasAPagar.Location = new System.Drawing.Point(12, 104);
-            this.dataGridViewResultadoContasAPagar.Name = "dataGridViewResultadoContasAPagar";
-            this.dataGridViewResultadoContasAPagar.Size = new System.Drawing.Size(895, 422);
-            this.dataGridViewResultadoContasAPagar.TabIndex = 2;
+            this.dataGridViewResultadoConsultasEntregas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResultadoConsultasEntregas.Location = new System.Drawing.Point(12, 104);
+            this.dataGridViewResultadoConsultasEntregas.Name = "dataGridViewResultadoConsultasEntregas";
+            this.dataGridViewResultadoConsultasEntregas.Size = new System.Drawing.Size(895, 422);
+            this.dataGridViewResultadoConsultasEntregas.TabIndex = 2;
             // 
             // label1
             // 
@@ -70,57 +70,17 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.checkBoxCredito);
-            this.panel1.Controls.Add(this.checkBoxDinheiro);
-            this.panel1.Controls.Add(this.checkBoxBoleto);
+            this.panel1.Controls.Add(this.checkBoxNfe);
+            this.panel1.Controls.Add(this.checkBoxNumeroEntrega);
+            this.panel1.Controls.Add(this.checkBoxEmpresa);
             this.panel1.Controls.Add(this.btnPesquisar);
-            this.panel1.Controls.Add(this.dataGridViewResultadoContasAPagar);
+            this.panel1.Controls.Add(this.dataGridViewResultadoConsultasEntregas);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBoxPesquisar);
-            this.panel1.Location = new System.Drawing.Point(12, 53);
+            this.panel1.Location = new System.Drawing.Point(12, 49);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(922, 538);
+            this.panel1.Size = new System.Drawing.Size(922, 539);
             this.panel1.TabIndex = 50;
-            // 
-            // checkBoxCredito
-            // 
-            this.checkBoxCredito.AutoSize = true;
-            this.checkBoxCredito.Location = new System.Drawing.Point(362, 22);
-            this.checkBoxCredito.Name = "checkBoxCredito";
-            this.checkBoxCredito.Size = new System.Drawing.Size(59, 17);
-            this.checkBoxCredito.TabIndex = 46;
-            this.checkBoxCredito.Text = "Crédito";
-            this.checkBoxCredito.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxDinheiro
-            // 
-            this.checkBoxDinheiro.AutoSize = true;
-            this.checkBoxDinheiro.Location = new System.Drawing.Point(489, 22);
-            this.checkBoxDinheiro.Name = "checkBoxDinheiro";
-            this.checkBoxDinheiro.Size = new System.Drawing.Size(63, 17);
-            this.checkBoxDinheiro.TabIndex = 45;
-            this.checkBoxDinheiro.Text = "dinheiro";
-            this.checkBoxDinheiro.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxBoleto
-            // 
-            this.checkBoxBoleto.AutoSize = true;
-            this.checkBoxBoleto.Location = new System.Drawing.Point(427, 22);
-            this.checkBoxBoleto.Name = "checkBoxBoleto";
-            this.checkBoxBoleto.Size = new System.Drawing.Size(56, 17);
-            this.checkBoxBoleto.TabIndex = 44;
-            this.checkBoxBoleto.Text = "Boleto";
-            this.checkBoxBoleto.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 31);
-            this.label2.TabIndex = 51;
-            this.label2.Text = "Contas a Pagar";
             // 
             // btnPesquisar
             // 
@@ -134,26 +94,66 @@
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 31);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "Entregas";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(292, 18);
+            this.label3.Location = new System.Drawing.Point(309, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 25);
-            this.label3.TabIndex = 49;
+            this.label3.TabIndex = 53;
             this.label3.Text = "Filtros";
             // 
-            // frmContas_A_Pagar
+            // checkBoxNfe
+            // 
+            this.checkBoxNfe.AutoSize = true;
+            this.checkBoxNfe.Location = new System.Drawing.Point(379, 27);
+            this.checkBoxNfe.Name = "checkBoxNfe";
+            this.checkBoxNfe.Size = new System.Drawing.Size(46, 17);
+            this.checkBoxNfe.TabIndex = 52;
+            this.checkBoxNfe.Text = "NFe";
+            this.checkBoxNfe.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxNumeroEntrega
+            // 
+            this.checkBoxNumeroEntrega.AutoSize = true;
+            this.checkBoxNumeroEntrega.Location = new System.Drawing.Point(517, 27);
+            this.checkBoxNumeroEntrega.Name = "checkBoxNumeroEntrega";
+            this.checkBoxNumeroEntrega.Size = new System.Drawing.Size(93, 17);
+            this.checkBoxNumeroEntrega.TabIndex = 51;
+            this.checkBoxNumeroEntrega.Text = "Nº de Entrega";
+            this.checkBoxNumeroEntrega.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxEmpresa
+            // 
+            this.checkBoxEmpresa.AutoSize = true;
+            this.checkBoxEmpresa.Location = new System.Drawing.Point(444, 27);
+            this.checkBoxEmpresa.Name = "checkBoxEmpresa";
+            this.checkBoxEmpresa.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxEmpresa.TabIndex = 50;
+            this.checkBoxEmpresa.Text = "Empresa";
+            this.checkBoxEmpresa.UseVisualStyleBackColor = true;
+            // 
+            // frmPesquisa_Entregas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 603);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
-            this.Name = "frmContas_A_Pagar";
-            this.Text = "Grid_Contas_A_Pagar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasAPagar)).EndInit();
+            this.Name = "frmPesquisa_Entregas";
+            this.Text = "Pesquisa Entregas";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoConsultasEntregas)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -163,15 +163,15 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewResultadoContasAPagar;
+        private System.Windows.Forms.DataGridView dataGridViewResultadoConsultasEntregas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxPesquisar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox checkBoxCredito;
-        private System.Windows.Forms.CheckBox checkBoxDinheiro;
-        private System.Windows.Forms.CheckBox checkBoxBoleto;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBoxNfe;
+        private System.Windows.Forms.CheckBox checkBoxNumeroEntrega;
+        private System.Windows.Forms.CheckBox checkBoxEmpresa;
     }
 }

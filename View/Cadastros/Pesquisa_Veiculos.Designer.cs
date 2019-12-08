@@ -38,6 +38,7 @@
             this.btnSair = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBoxCor = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoConsulta)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,7 @@
             // checkBoxPlaca
             // 
             this.checkBoxPlaca.AutoSize = true;
-            this.checkBoxPlaca.Location = new System.Drawing.Point(601, 15);
+            this.checkBoxPlaca.Location = new System.Drawing.Point(305, 23);
             this.checkBoxPlaca.Name = "checkBoxPlaca";
             this.checkBoxPlaca.Size = new System.Drawing.Size(53, 17);
             this.checkBoxPlaca.TabIndex = 16;
@@ -70,7 +71,7 @@
             // checkBoxMarca
             // 
             this.checkBoxMarca.AutoSize = true;
-            this.checkBoxMarca.Location = new System.Drawing.Point(601, 38);
+            this.checkBoxMarca.Location = new System.Drawing.Point(376, 23);
             this.checkBoxMarca.Name = "checkBoxMarca";
             this.checkBoxMarca.Size = new System.Drawing.Size(56, 17);
             this.checkBoxMarca.TabIndex = 15;
@@ -100,7 +101,7 @@
             // checkBoxModelo
             // 
             this.checkBoxModelo.AutoSize = true;
-            this.checkBoxModelo.Location = new System.Drawing.Point(696, 38);
+            this.checkBoxModelo.Location = new System.Drawing.Point(438, 23);
             this.checkBoxModelo.Name = "checkBoxModelo";
             this.checkBoxModelo.Size = new System.Drawing.Size(61, 17);
             this.checkBoxModelo.TabIndex = 12;
@@ -121,6 +122,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.checkBoxCor);
             this.panel1.Controls.Add(this.dataGridViewResultadoConsulta);
             this.panel1.Controls.Add(this.checkBoxPlaca);
@@ -137,12 +139,22 @@
             // checkBoxCor
             // 
             this.checkBoxCor.AutoSize = true;
-            this.checkBoxCor.Location = new System.Drawing.Point(696, 15);
+            this.checkBoxCor.Location = new System.Drawing.Point(509, 23);
             this.checkBoxCor.Name = "checkBoxCor";
             this.checkBoxCor.Size = new System.Drawing.Size(42, 17);
             this.checkBoxCor.TabIndex = 17;
             this.checkBoxCor.Text = "Cor";
             this.checkBoxCor.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(235, 17);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "Filtros";
             // 
             // frmConsulta_Veiculos
             // 
@@ -172,5 +184,6 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBoxCor;
+        private System.Windows.Forms.Label label3;
     }
 }

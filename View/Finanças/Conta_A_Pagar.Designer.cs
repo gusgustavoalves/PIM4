@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+           // this.label2 = new System.Windows.Forms.Label();
             this.textBoxCliente = new System.Windows.Forms.TextBox();
-            this.btnPesquisar = new System.Windows.Forms.Button();
+          //  this.btnPesquisar = new System.Windows.Forms.Button();
             this.textBoxFormaPagamento = new System.Windows.Forms.DomainUpDown();
             this.textBoxDataEmissao = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -53,13 +53,13 @@
             this.textBoxValor = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxVencimento = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+           // this.label3 = new System.Windows.Forms.Label();
             this.textBoxVencimentoOriginal = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+           // this.label1 = new System.Windows.Forms.Label();
+          //  this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+           // this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label5
@@ -73,13 +73,13 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(-1, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 31);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Contas a Pagar";
+            //this.label2.AutoSize = true;
+            //this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.label2.Location = new System.Drawing.Point(-1, 18);
+           // this.label2.Name = "label2";
+           // this.label2.Size = new System.Drawing.Size(202, 31);
+           // this.label2.TabIndex = 42;
+           // this.label2.Text = "Contas a Pagar";
             // 
             // textBoxCliente
             // 

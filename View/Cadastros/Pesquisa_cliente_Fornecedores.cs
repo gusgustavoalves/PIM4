@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View.Cadastros
 {
-    public partial class frmPesquisa_cliente_Fornecedores : Form
+    public partial class frmPesquisa_clientes_Fornecedores : Form
     {
-        public frmPesquisa_cliente_Fornecedores()
+        public frmPesquisa_clientes_Fornecedores()
         {
             InitializeComponent();
         }

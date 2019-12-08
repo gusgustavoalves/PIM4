@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIM.View.Finanças
+namespace PIM.View.Entregas
 {
-    public partial class Contas_a_pagar_2 : Form
+    public partial class frmPesquisa_Entregas : Form
     {
-        public Contas_a_pagar_2()
+        public frmPesquisa_Entregas()
         {
             InitializeComponent();
         }

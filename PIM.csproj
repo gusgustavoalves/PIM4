@@ -230,11 +230,11 @@
     <Compile Include="View\Cadastros\Cadastro_Veiculo.Designer.cs">
       <DependentUpon>Cadastro_Veiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Cadastros\Consulta_Veiculos.cs">
+    <Compile Include="View\Cadastros\Pesquisa_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Cadastros\Consulta_Veiculos.Designer.cs">
-      <DependentUpon>Consulta_Veiculos.cs</DependentUpon>
+    <Compile Include="View\Cadastros\Pesquisa_Veiculos.Designer.cs">
+      <DependentUpon>Pesquisa_Veiculos.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Cadastros\Pesquisa_Cliente_Fornecedores.cs">
       <SubType>Form</SubType>
@@ -253,6 +253,12 @@
     </Compile>
     <Compile Include="View\Cadastros\Pesquisa_Usuario.Designer.cs">
       <DependentUpon>Pesquisa_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Entregas\Pesquisa_Entregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Entregas\Pesquisa_Entregas.Designer.cs">
+      <DependentUpon>Pesquisa_Entregas.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Entregas\Entregas.cs">
       <SubType>Form</SubType>
@@ -277,12 +283,6 @@
     </Compile>
     <Compile Include="View\Estoque\Estoque_Pecas.Designer.cs">
       <DependentUpon>Estoque_Pecas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Finanças\Contas a pagar 2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Finanças\Contas a pagar 2.Designer.cs">
-      <DependentUpon>Contas a pagar 2.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Finanças\Conta_A_Pagar.cs">
       <SubType>Form</SubType>
@@ -334,8 +334,8 @@
     <EmbeddedResource Include="View\Cadastros\Cadastro_Funcionario.resx">
       <DependentUpon>Cadastro_Funcionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Cadastros\Consulta_Veiculos.resx">
-      <DependentUpon>Consulta_Veiculos.cs</DependentUpon>
+    <EmbeddedResource Include="View\Cadastros\Pesquisa_Veiculos.resx">
+      <DependentUpon>Pesquisa_Veiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Cadastros\Pesquisa_Cliente_Fornecedores.resx">
       <DependentUpon>Pesquisa_Cliente_Fornecedores.cs</DependentUpon>
@@ -352,11 +352,11 @@
     <EmbeddedResource Include="View\Entregas\Entregas.resx">
       <DependentUpon>Entregas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Entregas\Pesquisa_Entregas.resx">
+      <DependentUpon>Pesquisa_Entregas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Estoque\Estoque_Pecas.resx">
       <DependentUpon>Estoque_Pecas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Finanças\Contas a pagar 2.resx">
-      <DependentUpon>Contas a pagar 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Finanças\Conta_A_Pagar.resx">
       <DependentUpon>Conta_A_Pagar.cs</DependentUpon>
