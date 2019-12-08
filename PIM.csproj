@@ -278,6 +278,12 @@
     <Compile Include="View\Estoque\Estoque_Pecas.Designer.cs">
       <DependentUpon>Estoque_Pecas.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Finanças\Contas a pagar 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Finanças\Contas a pagar 2.Designer.cs">
+      <DependentUpon>Contas a pagar 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Finanças\Conta_A_Pagar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -336,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Estoque\Estoque_Pecas.resx">
       <DependentUpon>Estoque_Pecas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Contas a pagar 2.resx">
+      <DependentUpon>Contas a pagar 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Finanças\Conta_A_Pagar.resx">
       <DependentUpon>Conta_A_Pagar.cs</DependentUpon>

@@ -15,7 +15,8 @@ namespace PIM.View.Cadastros
 {
     public partial class frmPesquisa_Usuario : Form
     {
-         
+        public int MyProperty { get; set; }
+
         public void listagridP()
         {
             
@@ -77,6 +78,11 @@ namespace PIM.View.Cadastros
 
         private void GVUsuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if(GVUsuario.Rows.Count < 0)
+            {
+                MessageBox.Show("Nao ha linha selecionada");
+                return;
+            }
 
         }
 

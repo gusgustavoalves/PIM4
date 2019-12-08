@@ -73,8 +73,10 @@
             this.GVUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GVUsuario.Location = new System.Drawing.Point(21, 124);
             this.GVUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.GVUsuario.MultiSelect = false;
             this.GVUsuario.Name = "GVUsuario";
             this.GVUsuario.RowHeadersWidth = 51;
+            this.GVUsuario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.GVUsuario.Size = new System.Drawing.Size(623, 329);
             this.GVUsuario.TabIndex = 59;
             this.GVUsuario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GVUsuario_CellContentClick);
