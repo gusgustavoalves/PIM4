@@ -41,7 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bntPesquisarSolicitante = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBoxExpedidor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -175,7 +174,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel2.Controls.Add(this.bntPesquisarSolicitante);
             this.panel2.Controls.Add(this.textBoxSolicitante);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.textBoxNumeroEntrega);
@@ -190,17 +188,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(630, 132);
             this.panel2.TabIndex = 75;
-            // 
-            // bntPesquisarSolicitante
-            // 
-            this.bntPesquisarSolicitante.BackColor = System.Drawing.Color.Blue;
-            this.bntPesquisarSolicitante.ForeColor = System.Drawing.Color.White;
-            this.bntPesquisarSolicitante.Location = new System.Drawing.Point(160, 91);
-            this.bntPesquisarSolicitante.Name = "bntPesquisarSolicitante";
-            this.bntPesquisarSolicitante.Size = new System.Drawing.Size(75, 22);
-            this.bntPesquisarSolicitante.TabIndex = 76;
-            this.bntPesquisarSolicitante.Text = "Pesquisar";
-            this.bntPesquisarSolicitante.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -489,6 +476,5 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnPesquisarEntregas;
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Button bntPesquisarSolicitante;
     }
 }
