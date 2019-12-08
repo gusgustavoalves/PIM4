@@ -296,6 +296,18 @@
     <Compile Include="View\Finanças\Conta_A_Receber.Designer.cs">
       <DependentUpon>Conta_A_Receber.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Finanças\Grid_Contas_A_Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Finanças\Grid_Contas_A_Pagar.Designer.cs">
+      <DependentUpon>Grid_Contas_A_Pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Finanças\Grid_Contas_A_Receber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Finanças\Grid_Contas_A_Receber.Designer.cs">
+      <DependentUpon>Grid_Contas_A_Receber.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -351,6 +363,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Finanças\Conta_A_Receber.resx">
       <DependentUpon>Conta_A_Receber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Grid_Contas_A_Pagar.resx">
+      <DependentUpon>Grid_Contas_A_Pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Grid_Contas_A_Receber.resx">
+      <DependentUpon>Grid_Contas_A_Receber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>

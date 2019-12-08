@@ -73,6 +73,16 @@ namespace PIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1212562 {
+            get {
+                object obj = ResourceManager.GetObject("1212562", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2268453 {
             get {
                 object obj = ResourceManager.GetObject("2268453", resourceCulture);

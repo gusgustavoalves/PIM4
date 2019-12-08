@@ -30,6 +30,8 @@
         {
             this.btnSair = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBoxCliente = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.textBoxFormaPagamento = new System.Windows.Forms.DomainUpDown();
             this.textBoxDataEmissao = new System.Windows.Forms.TextBox();
@@ -57,8 +59,6 @@
             this.textBoxVencimentoOriginal = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBoxCliente = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,8 +110,24 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(740, 501);
+            this.panel1.Size = new System.Drawing.Size(768, 481);
             this.panel1.TabIndex = 40;
+            // 
+            // textBoxCliente
+            // 
+            this.textBoxCliente.Location = new System.Drawing.Point(12, 27);
+            this.textBoxCliente.Name = "textBoxCliente";
+            this.textBoxCliente.Size = new System.Drawing.Size(579, 20);
+            this.textBoxCliente.TabIndex = 44;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "Cliente";
             // 
             // btnPesquisar
             // 
@@ -344,27 +360,11 @@
             this.label2.TabIndex = 39;
             this.label2.Text = "Contas a Receber";
             // 
-            // textBoxCliente
-            // 
-            this.textBoxCliente.Location = new System.Drawing.Point(12, 27);
-            this.textBoxCliente.Name = "textBoxCliente";
-            this.textBoxCliente.Size = new System.Drawing.Size(579, 20);
-            this.textBoxCliente.TabIndex = 44;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 11);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "Cliente";
-            // 
             // frmConta_A_Receber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(764, 586);
+            this.ClientSize = new System.Drawing.Size(792, 566);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
