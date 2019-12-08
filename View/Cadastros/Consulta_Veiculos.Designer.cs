@@ -37,6 +37,7 @@
             this.checkBoxModelo = new System.Windows.Forms.CheckBox();
             this.btnSair = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBoxCor = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoConsulta)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -110,7 +111,7 @@
             // 
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(756, -24);
+            this.btnSair.Location = new System.Drawing.Point(756, 14);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(52, 30);
             this.btnSair.TabIndex = 62;
@@ -120,6 +121,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.checkBoxCor);
             this.panel1.Controls.Add(this.dataGridViewResultadoConsulta);
             this.panel1.Controls.Add(this.checkBoxPlaca);
             this.panel1.Controls.Add(this.textBoxTextoParaProcura);
@@ -127,16 +129,26 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnPesquisar);
             this.panel1.Controls.Add(this.checkBoxModelo);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(12, 50);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(796, 479);
             this.panel1.TabIndex = 61;
+            // 
+            // checkBoxCor
+            // 
+            this.checkBoxCor.AutoSize = true;
+            this.checkBoxCor.Location = new System.Drawing.Point(696, 15);
+            this.checkBoxCor.Name = "checkBoxCor";
+            this.checkBoxCor.Size = new System.Drawing.Size(42, 17);
+            this.checkBoxCor.TabIndex = 17;
+            this.checkBoxCor.Text = "Cor";
+            this.checkBoxCor.UseVisualStyleBackColor = true;
             // 
             // frmConsulta_Veiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(828, 508);
+            this.ClientSize = new System.Drawing.Size(828, 541);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panel1);
             this.Name = "frmConsulta_Veiculos";
@@ -159,5 +171,6 @@
         private System.Windows.Forms.CheckBox checkBoxModelo;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.CheckBox checkBoxCor;
     }
 }
