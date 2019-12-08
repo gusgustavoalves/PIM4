@@ -48,7 +48,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.textBoxTipoVeiculo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBoxCarmaModelo = new System.Windows.Forms.TextBox();
+            this.textBoxMarca = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxTipoCarroceria = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -64,6 +64,8 @@
             this.textBoxCidade = new System.Windows.Forms.TextBox();
             this.btnSair = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBoxModelo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,6 +89,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.textBoxModelo);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.textBoxCiot);
             this.panel1.Controls.Add(this.label14);
@@ -104,7 +108,7 @@
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.textBoxTipoVeiculo);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBoxCarmaModelo);
+            this.panel1.Controls.Add(this.textBoxMarca);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.textBoxTipoCarroceria);
             this.panel1.Controls.Add(this.label1);
@@ -120,7 +124,7 @@
             this.panel1.Controls.Add(this.textBoxCidade);
             this.panel1.Location = new System.Drawing.Point(12, 42);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(727, 353);
+            this.panel1.Size = new System.Drawing.Size(767, 353);
             this.panel1.TabIndex = 0;
             // 
             // label13
@@ -190,7 +194,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(463, 132);
+            this.label9.Location = new System.Drawing.Point(603, 129);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(53, 13);
             this.label9.TabIndex = 62;
@@ -198,7 +202,7 @@
             // 
             // textBoxRenavam
             // 
-            this.textBoxRenavam.Location = new System.Drawing.Point(466, 148);
+            this.textBoxRenavam.Location = new System.Drawing.Point(606, 145);
             this.textBoxRenavam.Name = "textBoxRenavam";
             this.textBoxRenavam.Size = new System.Drawing.Size(123, 20);
             this.textBoxRenavam.TabIndex = 63;
@@ -206,7 +210,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(10, 132);
+            this.label10.Location = new System.Drawing.Point(150, 129);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(23, 13);
             this.label10.TabIndex = 56;
@@ -214,7 +218,7 @@
             // 
             // textBoxCor
             // 
-            this.textBoxCor.Location = new System.Drawing.Point(13, 148);
+            this.textBoxCor.Location = new System.Drawing.Point(153, 145);
             this.textBoxCor.Name = "textBoxCor";
             this.textBoxCor.Size = new System.Drawing.Size(118, 20);
             this.textBoxCor.TabIndex = 57;
@@ -222,7 +226,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(150, 132);
+            this.label11.Location = new System.Drawing.Point(290, 129);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(97, 13);
             this.label11.TabIndex = 58;
@@ -230,7 +234,7 @@
             // 
             // textBoxAnoFabricacao
             // 
-            this.textBoxAnoFabricacao.Location = new System.Drawing.Point(153, 148);
+            this.textBoxAnoFabricacao.Location = new System.Drawing.Point(293, 145);
             this.textBoxAnoFabricacao.Name = "textBoxAnoFabricacao";
             this.textBoxAnoFabricacao.Size = new System.Drawing.Size(143, 20);
             this.textBoxAnoFabricacao.TabIndex = 59;
@@ -238,7 +242,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(312, 132);
+            this.label12.Location = new System.Drawing.Point(452, 129);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(72, 13);
             this.label12.TabIndex = 60;
@@ -246,7 +250,7 @@
             // 
             // textBoxTipoVeiculo
             // 
-            this.textBoxTipoVeiculo.Location = new System.Drawing.Point(315, 148);
+            this.textBoxTipoVeiculo.Location = new System.Drawing.Point(455, 145);
             this.textBoxTipoVeiculo.Name = "textBoxTipoVeiculo";
             this.textBoxTipoVeiculo.Size = new System.Drawing.Size(128, 20);
             this.textBoxTipoVeiculo.TabIndex = 61;
@@ -256,16 +260,16 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(556, 72);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 13);
+            this.label7.Size = new System.Drawing.Size(37, 13);
             this.label7.TabIndex = 54;
-            this.label7.Text = "Marca/ Modelo";
+            this.label7.Text = "Marca";
             // 
-            // textBoxCarmaModelo
+            // textBoxMarca
             // 
-            this.textBoxCarmaModelo.Location = new System.Drawing.Point(559, 88);
-            this.textBoxCarmaModelo.Name = "textBoxCarmaModelo";
-            this.textBoxCarmaModelo.Size = new System.Drawing.Size(123, 20);
-            this.textBoxCarmaModelo.TabIndex = 55;
+            this.textBoxMarca.Location = new System.Drawing.Point(559, 88);
+            this.textBoxMarca.Name = "textBoxMarca";
+            this.textBoxMarca.Size = new System.Drawing.Size(123, 20);
+            this.textBoxMarca.TabIndex = 55;
             // 
             // label6
             // 
@@ -384,7 +388,7 @@
             // 
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(687, 6);
+            this.btnSair.Location = new System.Drawing.Point(727, 6);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(52, 30);
             this.btnSair.TabIndex = 51;
@@ -402,11 +406,27 @@
             this.label2.TabIndex = 43;
             this.label2.Text = "Cadastro de Veículos";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(10, 129);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(42, 13);
+            this.label8.TabIndex = 74;
+            this.label8.Text = "Modelo";
+            // 
+            // textBoxModelo
+            // 
+            this.textBoxModelo.Location = new System.Drawing.Point(13, 145);
+            this.textBoxModelo.Name = "textBoxModelo";
+            this.textBoxModelo.Size = new System.Drawing.Size(118, 20);
+            this.textBoxModelo.TabIndex = 75;
+            // 
             // frmCadastro_Veiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 413);
+            this.ClientSize = new System.Drawing.Size(791, 413);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSair);
@@ -440,7 +460,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBoxTipoVeiculo;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBoxCarmaModelo;
+        private System.Windows.Forms.TextBox textBoxMarca;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxTipoCarroceria;
         private System.Windows.Forms.Label label1;
@@ -456,5 +476,7 @@
         private System.Windows.Forms.TextBox textBoxCidade;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBoxModelo;
     }
 }
