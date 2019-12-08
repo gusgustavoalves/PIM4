@@ -30,15 +30,15 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxPesquisar = new System.Windows.Forms.TextBox();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewResultadoContasARecebr = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             this.checkBoxBoleto = new System.Windows.Forms.CheckBox();
             this.checkBoxDinheiro = new System.Windows.Forms.CheckBox();
             this.checkBoxCredito = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,13 +58,13 @@
             this.textBoxPesquisar.Size = new System.Drawing.Size(819, 20);
             this.textBoxPesquisar.TabIndex = 1;
             // 
-            // dataGridView
+            // dataGridViewResultadoContasARecebr
             // 
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(12, 104);
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(895, 422);
-            this.dataGridView.TabIndex = 2;
+            this.dataGridViewResultadoContasARecebr.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResultadoContasARecebr.Location = new System.Drawing.Point(12, 104);
+            this.dataGridViewResultadoContasARecebr.Name = "dataGridViewResultadoContasARecebr";
+            this.dataGridViewResultadoContasARecebr.Size = new System.Drawing.Size(895, 422);
+            this.dataGridViewResultadoContasARecebr.TabIndex = 2;
             // 
             // panel1
             // 
@@ -74,25 +74,13 @@
             this.panel1.Controls.Add(this.checkBoxDinheiro);
             this.panel1.Controls.Add(this.checkBoxBoleto);
             this.panel1.Controls.Add(this.btnPesquisar);
-            this.panel1.Controls.Add(this.dataGridView);
+            this.panel1.Controls.Add(this.dataGridViewResultadoContasARecebr);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBoxPesquisar);
             this.panel1.Location = new System.Drawing.Point(12, 52);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(922, 530);
+            this.panel1.Size = new System.Drawing.Size(922, 539);
             this.panel1.TabIndex = 3;
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
-            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisar.Image = global::PIM.Properties.Resources._1212562;
-            this.btnPesquisar.Location = new System.Drawing.Point(832, 72);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(75, 30);
-            this.btnPesquisar.TabIndex = 43;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
             // checkBoxBoleto
             // 
@@ -139,9 +127,21 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 31);
+            this.label2.Size = new System.Drawing.Size(233, 31);
             this.label2.TabIndex = 49;
-            this.label2.Text = "Contas a Pagar";
+            this.label2.Text = "Contas a Receber";
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
+            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisar.Image = global::PIM.Properties.Resources._1212562;
+            this.btnPesquisar.Location = new System.Drawing.Point(832, 72);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(75, 30);
+            this.btnPesquisar.TabIndex = 43;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
             // Grid_Contas_A_Receber
             // 
@@ -152,7 +152,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Grid_Contas_A_Receber";
             this.Text = "Grid_Contas_A_Receber";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -164,7 +164,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxPesquisar;
-        private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.DataGridView dataGridViewResultadoContasARecebr;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.CheckBox checkBoxCredito;

@@ -355,6 +355,9 @@
     <EmbeddedResource Include="View\Finanças\Conta_A_Receber.resx">
       <DependentUpon>Conta_A_Receber.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Finanças\Grid_Contas_A_Pagar.resx">
+      <DependentUpon>Grid_Contas_A_Pagar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Finanças\Grid_Contas_A_Receber.resx">
       <DependentUpon>Grid_Contas_A_Receber.cs</DependentUpon>
     </EmbeddedResource>
