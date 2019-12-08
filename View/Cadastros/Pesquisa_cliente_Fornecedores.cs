@@ -16,5 +16,10 @@ namespace PIM.View.Cadastros
         {
             InitializeComponent();
         }
+
+        private void frmPesquisa_cliente_Fornecedores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

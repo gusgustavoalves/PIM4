@@ -26,5 +26,11 @@ namespace PIM.View.Cadastros
         {
             Close();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisa_cliente_Fornecedores cli = new frmPesquisa_cliente_Fornecedores();
+            cli.Show();
+        }
     }
 }

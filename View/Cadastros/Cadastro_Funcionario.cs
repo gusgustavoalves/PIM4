@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PIM.Model;
 using PIM.Dao;
+using PIM;
+using PIM.View;
+using PIM.View.Cadastros;
 
 namespace PIM.View
 {
@@ -112,6 +115,12 @@ namespace PIM.View
         private void btnSair_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisa_Funcionario fun = new View.frmPesquisa_Funcionario();
+            fun.Show();
         }
     }
 }

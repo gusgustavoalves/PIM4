@@ -49,18 +49,20 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBoxTextoParaProcura);
             this.panel1.Controls.Add(this.dataGridViewResultadoConsulta);
-            this.panel1.Location = new System.Drawing.Point(12, 48);
+            this.panel1.Location = new System.Drawing.Point(16, 59);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(776, 426);
+            this.panel1.Size = new System.Drawing.Size(1035, 524);
             this.panel1.TabIndex = 0;
             // 
             // btnPesquisar
             // 
             this.btnPesquisar.BackColor = System.Drawing.Color.Blue;
             this.btnPesquisar.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisar.Location = new System.Drawing.Point(688, 67);
+            this.btnPesquisar.Location = new System.Drawing.Point(917, 82);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(75, 21);
+            this.btnPesquisar.Size = new System.Drawing.Size(100, 26);
             this.btnPesquisar.TabIndex = 14;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = false;
@@ -68,9 +70,10 @@
             // checkBox2Codigo
             // 
             this.checkBox2Codigo.AutoSize = true;
-            this.checkBox2Codigo.Location = new System.Drawing.Point(688, 15);
+            this.checkBox2Codigo.Location = new System.Drawing.Point(917, 18);
+            this.checkBox2Codigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox2Codigo.Name = "checkBox2Codigo";
-            this.checkBox2Codigo.Size = new System.Drawing.Size(59, 17);
+            this.checkBox2Codigo.Size = new System.Drawing.Size(74, 21);
             this.checkBox2Codigo.TabIndex = 13;
             this.checkBox2Codigo.Text = "Código";
             this.checkBox2Codigo.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             // checkBox1Nome
             // 
             this.checkBox1Nome.AutoSize = true;
-            this.checkBox1Nome.Location = new System.Drawing.Point(688, 38);
+            this.checkBox1Nome.Location = new System.Drawing.Point(917, 47);
+            this.checkBox1Nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1Nome.Name = "checkBox1Nome";
-            this.checkBox1Nome.Size = new System.Drawing.Size(54, 17);
+            this.checkBox1Nome.Size = new System.Drawing.Size(67, 21);
             this.checkBox1Nome.TabIndex = 12;
             this.checkBox1Nome.Text = "Nome";
             this.checkBox1Nome.UseVisualStyleBackColor = true;
@@ -88,47 +92,54 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 52);
+            this.label1.Location = new System.Drawing.Point(12, 64);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
+            this.label1.Size = new System.Drawing.Size(129, 17);
             this.label1.TabIndex = 11;
             this.label1.Text = "Texto para procura";
             // 
             // textBoxTextoParaProcura
             // 
-            this.textBoxTextoParaProcura.Location = new System.Drawing.Point(9, 68);
+            this.textBoxTextoParaProcura.Location = new System.Drawing.Point(12, 84);
+            this.textBoxTextoParaProcura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxTextoParaProcura.Name = "textBoxTextoParaProcura";
-            this.textBoxTextoParaProcura.Size = new System.Drawing.Size(672, 20);
+            this.textBoxTextoParaProcura.Size = new System.Drawing.Size(895, 22);
             this.textBoxTextoParaProcura.TabIndex = 10;
             // 
             // dataGridViewResultadoConsulta
             // 
             this.dataGridViewResultadoConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResultadoConsulta.Location = new System.Drawing.Point(9, 94);
+            this.dataGridViewResultadoConsulta.Location = new System.Drawing.Point(12, 116);
+            this.dataGridViewResultadoConsulta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewResultadoConsulta.Name = "dataGridViewResultadoConsulta";
-            this.dataGridViewResultadoConsulta.Size = new System.Drawing.Size(759, 317);
+            this.dataGridViewResultadoConsulta.RowHeadersWidth = 51;
+            this.dataGridViewResultadoConsulta.Size = new System.Drawing.Size(1012, 390);
             this.dataGridViewResultadoConsulta.TabIndex = 9;
             // 
             // btnSair
             // 
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(736, 12);
+            this.btnSair.Location = new System.Drawing.Point(981, 15);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(52, 30);
+            this.btnSair.Size = new System.Drawing.Size(69, 37);
             this.btnSair.TabIndex = 60;
             this.btnSair.Text = "X";
             this.btnSair.UseVisualStyleBackColor = false;
             // 
             // frmPesquisa_Funcionario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 485);
+            this.ClientSize = new System.Drawing.Size(1067, 597);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmPesquisa_Funcionario";
             this.Text = "Pesquisa_Funcionario";
+            this.Load += new System.EventHandler(this.frmPesquisa_Funcionario_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoConsulta)).EndInit();

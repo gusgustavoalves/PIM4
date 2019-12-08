@@ -26,5 +26,11 @@ namespace PIM.View.Cadastros
         {
             Close();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmConsulta_Veiculos vei = new frmConsulta_Veiculos();
+            vei.Show();
+        }
     }
 }
