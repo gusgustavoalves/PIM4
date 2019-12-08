@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnPesquisarSolicitante = new System.Windows.Forms.Button();
             this.textBoxDataColeta = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBoxNomeContato = new System.Windows.Forms.TextBox();
@@ -75,7 +74,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel1.Controls.Add(this.btnPesquisarSolicitante);
             this.panel1.Controls.Add(this.textBoxDataColeta);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.textBoxNomeContato);
@@ -90,17 +88,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(641, 165);
             this.panel1.TabIndex = 0;
-            // 
-            // btnPesquisarSolicitante
-            // 
-            this.btnPesquisarSolicitante.BackColor = System.Drawing.Color.Blue;
-            this.btnPesquisarSolicitante.ForeColor = System.Drawing.Color.White;
-            this.btnPesquisarSolicitante.Location = new System.Drawing.Point(554, 26);
-            this.btnPesquisarSolicitante.Name = "btnPesquisarSolicitante";
-            this.btnPesquisarSolicitante.Size = new System.Drawing.Size(75, 23);
-            this.btnPesquisarSolicitante.TabIndex = 40;
-            this.btnPesquisarSolicitante.Text = "Pesquisar";
-            this.btnPesquisarSolicitante.UseVisualStyleBackColor = false;
             // 
             // textBoxDataColeta
             // 
@@ -501,7 +488,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxQuantidadeVolume;
-        private System.Windows.Forms.Button btnPesquisarSolicitante;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.RichTextBox richTextBoxObservacao;
         private System.Windows.Forms.Button brnPesquisarVeiculo;
