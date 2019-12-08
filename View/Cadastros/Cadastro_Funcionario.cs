@@ -119,7 +119,7 @@ namespace PIM.View
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            frmPesquisa_Funcionario fun = new View.frmPesquisa_Funcionario();
+            frmPesquisa_Funcionario fun = new frmPesquisa_Funcionario();
             fun.Show();
         }
     }
