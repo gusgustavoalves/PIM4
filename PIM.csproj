@@ -236,6 +236,12 @@
     <Compile Include="View\Cadastros\Pesquisa_cliente_Fornecedores.Designer.cs">
       <DependentUpon>Pesquisa_cliente_Fornecedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Cadastros\Pesquisa_Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cadastros\Pesquisa_Funcionario.Designer.cs">
+      <DependentUpon>Pesquisa_Funcionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Cadastros\Pesquisa_Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -306,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Cadastros\Pesquisa_cliente_Fornecedores.resx">
       <DependentUpon>Pesquisa_cliente_Fornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cadastros\Pesquisa_Funcionario.resx">
+      <DependentUpon>Pesquisa_Funcionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Cadastros\Pesquisa_Usuario.resx">
       <DependentUpon>Pesquisa_Usuario.cs</DependentUpon>
