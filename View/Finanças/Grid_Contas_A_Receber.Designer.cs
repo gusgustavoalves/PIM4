@@ -1,6 +1,6 @@
 ﻿namespace PIM.View.Finanças
 {
-    partial class frmContas_A_Receber
+    partial class frmGridContas_A_Receber
     {
         /// <summary>
         /// Required designer variable.
@@ -32,12 +32,12 @@
             this.textBoxPesquisar = new System.Windows.Forms.TextBox();
             this.dataGridViewResultadoContasARecebr = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBoxBoleto = new System.Windows.Forms.CheckBox();
-            this.checkBoxDinheiro = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnPesquisar = new System.Windows.Forms.Button();
-            this.checkBoxNfe = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.checkBoxNfe = new System.Windows.Forms.CheckBox();
+            this.checkBoxDinheiro = new System.Windows.Forms.CheckBox();
+            this.checkBoxBoleto = new System.Windows.Forms.CheckBox();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -82,15 +82,25 @@
             this.panel1.Size = new System.Drawing.Size(922, 539);
             this.panel1.TabIndex = 3;
             // 
-            // checkBoxBoleto
+            // label3
             // 
-            this.checkBoxBoleto.AutoSize = true;
-            this.checkBoxBoleto.Location = new System.Drawing.Point(427, 22);
-            this.checkBoxBoleto.Name = "checkBoxBoleto";
-            this.checkBoxBoleto.Size = new System.Drawing.Size(56, 17);
-            this.checkBoxBoleto.TabIndex = 44;
-            this.checkBoxBoleto.Text = "Boleto";
-            this.checkBoxBoleto.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(292, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "Filtros";
+            // 
+            // checkBoxNfe
+            // 
+            this.checkBoxNfe.AutoSize = true;
+            this.checkBoxNfe.Location = new System.Drawing.Point(362, 22);
+            this.checkBoxNfe.Name = "checkBoxNfe";
+            this.checkBoxNfe.Size = new System.Drawing.Size(59, 17);
+            this.checkBoxNfe.TabIndex = 46;
+            this.checkBoxNfe.Text = "Crédito";
+            this.checkBoxNfe.UseVisualStyleBackColor = true;
             // 
             // checkBoxDinheiro
             // 
@@ -102,15 +112,15 @@
             this.checkBoxDinheiro.Text = "dinheiro";
             this.checkBoxDinheiro.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // checkBoxBoleto
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(233, 31);
-            this.label2.TabIndex = 49;
-            this.label2.Text = "Contas a Receber";
+            this.checkBoxBoleto.AutoSize = true;
+            this.checkBoxBoleto.Location = new System.Drawing.Point(427, 22);
+            this.checkBoxBoleto.Name = "checkBoxBoleto";
+            this.checkBoxBoleto.Size = new System.Drawing.Size(56, 17);
+            this.checkBoxBoleto.TabIndex = 44;
+            this.checkBoxBoleto.Text = "Boleto";
+            this.checkBoxBoleto.UseVisualStyleBackColor = true;
             // 
             // btnPesquisar
             // 
@@ -124,34 +134,24 @@
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
-            // checkBoxNfe
+            // label2
             // 
-            this.checkBoxNfe.AutoSize = true;
-            this.checkBoxNfe.Location = new System.Drawing.Point(362, 22);
-            this.checkBoxNfe.Name = "checkBoxNfe";
-            this.checkBoxNfe.Size = new System.Drawing.Size(59, 17);
-            this.checkBoxNfe.TabIndex = 46;
-            this.checkBoxNfe.Text = "Crédito";
-            this.checkBoxNfe.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(233, 31);
+            this.label2.TabIndex = 49;
+            this.label2.Text = "Contas a Receber";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(292, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "Filtros";
-            // 
-            // frmContas_A_Receber
+            // frmGridContas_A_Receber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 603);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Name = "frmContas_A_Receber";
+            this.Name = "frmGridContas_A_Receber";
             this.Text = "Grid_Contas_A_Receber";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).EndInit();
             this.panel1.ResumeLayout(false);

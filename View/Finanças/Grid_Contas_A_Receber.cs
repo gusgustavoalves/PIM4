@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIM.View.Finanças
 {
-    public partial class frmContas_A_Receber : Form
+    public partial class frmGridContas_A_Receber : Form
     {
-        public frmContas_A_Receber()
+        public frmGridContas_A_Receber()
         {
             InitializeComponent();
         }
