@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PIM.Dao
 {
-    class Cadastra_FuncionarioD
+    public class Cadastra_FuncionarioD
     {
     }
 }

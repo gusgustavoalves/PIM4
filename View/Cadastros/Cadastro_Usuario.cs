@@ -68,5 +68,12 @@ namespace PIM.View.Cadastros
         {
             Close();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisa_Usuario pesusu = new frmPesquisa_Usuario();
+
+            pesusu.Show();
+        }
     }
 }

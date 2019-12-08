@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PIM.Model
 {
-    class Cadastro_UsuarioM
+    public class Cadastro_UsuarioM
     {
         private string usuario;
         private string senha;

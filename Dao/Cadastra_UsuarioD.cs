@@ -5,17 +5,19 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using PIM.Model;
 
 namespace PIM.Dao
 {
-    class Cadastra_UsuarioD
+    public class Cadastra_UsuarioD
     {
         Conexao Con = new Conexao();
         Model.Cadastro_UsuarioM U = new Model.Cadastro_UsuarioM();
         LoginBD l = new LoginBD();
         private bool Usuario_Exists = false;
 
-        public bool Validausuario(Model.Cadastro_UsuarioM cad)
+        public bool Validausuario(Cadastro_UsuarioM cad)
         {
             if (!Con.Checkconection())
             {
@@ -48,7 +50,7 @@ namespace PIM.Dao
 
 
 
-        public void CadastraUsuario(Model.Cadastro_UsuarioM cad)
+        public void CadastraUsuario(Cadastro_UsuarioM cad)
         {
             if (!Con.Checkconection())
             {
@@ -66,10 +68,5 @@ namespace PIM.Dao
 
             }
         }
-
-
-
-
-
     }
 }
