@@ -45,22 +45,28 @@ namespace PIM.View.Cadastros
             {
                 if (textBoxSenha.Text == textBoxConfirmaSenha.Text)
                 {
-                    musu.SetUsuario(textBoxUsuario.Text);
-                    musu.SetSenha(textBoxSenha.Text);
-                    if (!dusu.Validausuario(musu))
+                    if (textBoxSenha.Text != "" && textBoxConfirmaSenha.Text != "" && textBoxUsuario.Text != "")
                     {
-                        dusu.CadastraUsuario(musu);
-                        MessageBox.Show("Usuario cadastrado com sucesso !!!");
-                        textBoxID.Clear();
-                        textBoxUsuario.Clear();
-                        textBoxSenha.Clear();
-                        textBoxConfirmaSenha.Clear();
+                        musu.SetUsuario(textBoxUsuario.Text);
+                        musu.SetSenha(textBoxSenha.Text);
+                        if (!dusu.Validausuario(musu))
+                        {
+                            dusu.CadastraUsuario(musu);
+                            MessageBox.Show("Usuario cadastrado com sucesso !!!");
+                            textBoxID.Clear();
+                            textBoxUsuario.Clear();
+                            textBoxSenha.Clear();
+                            textBoxConfirmaSenha.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Usuario ja cadastrado !!!");
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("Usuario ja cadastrado !!!");
+                        MessageBox.Show("Campos nao podem ser vazios !!");
                     }
-
                 }
                 else
                 {
