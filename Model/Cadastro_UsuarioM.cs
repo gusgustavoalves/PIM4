@@ -10,8 +10,17 @@ namespace PIM.Model
     {
         private string usuario;
         private string senha;
+        private string id;
 
+        public string GetId()
+        {
+            return id;
+        }
 
+        public void SetId(string value)
+        {
+            id = value;
+        }
 
         public void SetUsuario(string usuario)
         {

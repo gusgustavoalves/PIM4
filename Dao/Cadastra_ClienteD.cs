@@ -53,7 +53,7 @@ namespace PIM.Dao
 
             if (Con.Checkconection())
             {
-                DataTable table = new DataTable();
+                
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 MySqlCommand command = new MySqlCommand("INSERT INTO cliente (NOME, CPF, END) VALUES (@nome, @cpf, @end)", Con.Traz_Conexao());
                 command.Parameters.Add("@nome", MySqlDbType.VarChar, 80).Value = cad.GetNome();

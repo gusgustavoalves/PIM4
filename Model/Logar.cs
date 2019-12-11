@@ -11,9 +11,7 @@ namespace PIM.Model
     {
         private string usuario;
         private string senha;
-
         
-
         public void SetUsuario(string usuario)
         {
             this.usuario = usuario;

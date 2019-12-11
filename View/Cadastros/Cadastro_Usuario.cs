@@ -40,21 +40,46 @@ namespace PIM.View.Cadastros
             Dao.Cadastra_UsuarioD dusu = new Dao.Cadastra_UsuarioD();
             Dao.LoginBD l = new Dao.LoginBD();
 
-            musu.SetUsuario(textBoxUsuario.Text);
-            if (textBoxSenha.Text == textBoxConfirmaSenha.Text)
+            
+            if (textBoxID.Text=="")
             {
-                musu.SetSenha(textBoxSenha.Text);
-                if (!dusu.Validausuario(musu))
+                if (textBoxSenha.Text == textBoxConfirmaSenha.Text)
                 {
-                    dusu.CadastraUsuario(musu);
-                    MessageBox.Show("Usuario cadastrado com sucesso !!!");
-                    textBoxUsuario.Clear();
+                    musu.SetUsuario(textBoxUsuario.Text);
+                    musu.SetSenha(textBoxSenha.Text);
+                    if (!dusu.Validausuario(musu))
+                    {
+                        dusu.CadastraUsuario(musu);
+                        MessageBox.Show("Usuario cadastrado com sucesso !!!");
+                        textBoxID.Clear();
+                        textBoxUsuario.Clear();
+                        textBoxSenha.Clear();
+                        textBoxConfirmaSenha.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario ja cadastrado !!!");
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Senhas não conferem !");
+                }
+            }
+            else if(textBoxSenha.Text == textBoxConfirmaSenha.Text)
+            {
+                if (textBoxSenha.Text != "" && textBoxConfirmaSenha.Text != "") {
+                    musu.SetId(textBoxID.Text);
+                    musu.SetSenha(textBoxSenha.Text);
+                    dusu.AlterarUsuario(musu);
+                    MessageBox.Show("Senha Alterada com Sucesso !!!");
                     textBoxSenha.Clear();
                     textBoxConfirmaSenha.Clear();
                 }
                 else
                 {
-                    MessageBox.Show("Usuario ja cadastrado !!!");
+                    MessageBox.Show("Senhas não podem ser vazias !!");
                 }
 
             }
@@ -82,6 +107,38 @@ namespace PIM.View.Cadastros
             textBoxUsuario.Text = pesusu.Usuario;
             textBoxSenha.Text = pesusu.Senha;
             textBoxConfirmaSenha.Text = pesusu.Senha;
+        }
+
+        private void textBoxUsuario_TextChanged_1(object sender, EventArgs e)
+        {
+            textBoxUsuario.CharacterCasing = CharacterCasing.Upper;
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            Model.Cadastro_UsuarioM musu = new Model.Cadastro_UsuarioM();
+            Dao.Cadastra_UsuarioD dusu = new Dao.Cadastra_UsuarioD();
+            Dao.LoginBD l = new Dao.LoginBD();
+
+            if (textBoxID.Text != "" && textBoxUsuario.Text != "")
+            {
+                musu.SetId(textBoxID.Text);
+                dusu.ExcluiUsuario(musu);
+                MessageBox.Show("Usuario excluido com Sucesso !!!");
+                textBoxID.Clear();
+                textBoxUsuario.Clear();
+                textBoxSenha.Clear();
+                textBoxConfirmaSenha.Clear();
+
+            }
+        }
+
+        private void frmCadastro_Usuario_Load(object sender, EventArgs e)
+        {
+            textBoxID.Clear();
+            textBoxUsuario.Clear();
+            textBoxSenha.Clear();
+            textBoxConfirmaSenha.Clear();
         }
     }
 }
