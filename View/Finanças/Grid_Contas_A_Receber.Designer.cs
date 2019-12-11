@@ -32,14 +32,14 @@
             this.textBoxPesquisar = new System.Windows.Forms.TextBox();
             this.dataGridViewResultadoContasARecebr = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.checkBoxNfe = new System.Windows.Forms.CheckBox();
             this.checkBoxDinheiro = new System.Windows.Forms.CheckBox();
             this.checkBoxBoleto = new System.Windows.Forms.CheckBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,25 +48,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 62);
+            this.label1.Location = new System.Drawing.Point(12, 76);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "PESQUISAR";
             // 
             // textBoxPesquisar
             // 
-            this.textBoxPesquisar.Location = new System.Drawing.Point(12, 78);
+            this.textBoxPesquisar.Location = new System.Drawing.Point(16, 96);
+            this.textBoxPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxPesquisar.Name = "textBoxPesquisar";
-            this.textBoxPesquisar.Size = new System.Drawing.Size(1201, 20);
+            this.textBoxPesquisar.Size = new System.Drawing.Size(1600, 22);
             this.textBoxPesquisar.TabIndex = 1;
             // 
             // dataGridViewResultadoContasARecebr
             // 
             this.dataGridViewResultadoContasARecebr.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResultadoContasARecebr.Location = new System.Drawing.Point(12, 104);
+            this.dataGridViewResultadoContasARecebr.Location = new System.Drawing.Point(16, 128);
+            this.dataGridViewResultadoContasARecebr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewResultadoContasARecebr.Name = "dataGridViewResultadoContasARecebr";
-            this.dataGridViewResultadoContasARecebr.Size = new System.Drawing.Size(1303, 469);
+            this.dataGridViewResultadoContasARecebr.RowHeadersWidth = 51;
+            this.dataGridViewResultadoContasARecebr.Size = new System.Drawing.Size(1737, 577);
             this.dataGridViewResultadoContasARecebr.TabIndex = 2;
             // 
             // panel1
@@ -82,18 +86,47 @@
             this.panel1.Controls.Add(this.dataGridViewResultadoContasARecebr);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBoxPesquisar);
-            this.panel1.Location = new System.Drawing.Point(12, 52);
+            this.panel1.Location = new System.Drawing.Point(16, 64);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1336, 685);
+            this.panel1.Size = new System.Drawing.Size(1781, 843);
             this.panel1.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1583, 9);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(171, 37);
+            this.button2.TabIndex = 51;
+            this.button2.Text = "+ INCLUIR CONTA";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1440, 9);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 37);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "EXCLUIR";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 0);
+            this.label3.Location = new System.Drawing.Point(9, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(82, 29);
             this.label3.TabIndex = 49;
             this.label3.Text = "Filtros";
             // 
@@ -101,9 +134,10 @@
             // 
             this.checkBoxNfe.AutoSize = true;
             this.checkBoxNfe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxNfe.Location = new System.Drawing.Point(77, 7);
+            this.checkBoxNfe.Location = new System.Drawing.Point(103, 9);
+            this.checkBoxNfe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBoxNfe.Name = "checkBoxNfe";
-            this.checkBoxNfe.Size = new System.Drawing.Size(66, 17);
+            this.checkBoxNfe.Size = new System.Drawing.Size(82, 21);
             this.checkBoxNfe.TabIndex = 46;
             this.checkBoxNfe.Text = "Crédito";
             this.checkBoxNfe.UseVisualStyleBackColor = true;
@@ -112,9 +146,10 @@
             // 
             this.checkBoxDinheiro.AutoSize = true;
             this.checkBoxDinheiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxDinheiro.Location = new System.Drawing.Point(204, 7);
+            this.checkBoxDinheiro.Location = new System.Drawing.Point(272, 9);
+            this.checkBoxDinheiro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBoxDinheiro.Name = "checkBoxDinheiro";
-            this.checkBoxDinheiro.Size = new System.Drawing.Size(71, 17);
+            this.checkBoxDinheiro.Size = new System.Drawing.Size(89, 21);
             this.checkBoxDinheiro.TabIndex = 45;
             this.checkBoxDinheiro.Text = "dinheiro";
             this.checkBoxDinheiro.UseVisualStyleBackColor = true;
@@ -123,9 +158,10 @@
             // 
             this.checkBoxBoleto.AutoSize = true;
             this.checkBoxBoleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxBoleto.Location = new System.Drawing.Point(142, 7);
+            this.checkBoxBoleto.Location = new System.Drawing.Point(189, 9);
+            this.checkBoxBoleto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBoxBoleto.Name = "checkBoxBoleto";
-            this.checkBoxBoleto.Size = new System.Drawing.Size(62, 17);
+            this.checkBoxBoleto.Size = new System.Drawing.Size(76, 21);
             this.checkBoxBoleto.TabIndex = 44;
             this.checkBoxBoleto.Text = "Boleto";
             this.checkBoxBoleto.UseVisualStyleBackColor = true;
@@ -136,9 +172,10 @@
             this.btnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisar.ForeColor = System.Drawing.Color.White;
             this.btnPesquisar.Image = global::PIM.Properties.Resources._1212562;
-            this.btnPesquisar.Location = new System.Drawing.Point(1219, 72);
+            this.btnPesquisar.Location = new System.Drawing.Point(1625, 89);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(96, 30);
+            this.btnPesquisar.Size = new System.Drawing.Size(128, 37);
             this.btnPesquisar.TabIndex = 43;
             this.btnPesquisar.Text = "PESQUISAR";
             this.btnPesquisar.UseVisualStyleBackColor = false;
@@ -148,43 +185,22 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Location = new System.Drawing.Point(16, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(233, 31);
+            this.label2.Size = new System.Drawing.Size(291, 39);
             this.label2.TabIndex = 49;
             this.label2.Text = "Contas a Receber";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1080, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 30);
-            this.button1.TabIndex = 50;
-            this.button1.Text = "EXCLUIR";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1187, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 30);
-            this.button2.TabIndex = 51;
-            this.button2.Text = "+ INCLUIR CONTA";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // frmGridContas_A_Receber
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1827, 922);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmGridContas_A_Receber";
             this.Text = "Grid_Contas_A_Receber";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultadoContasARecebr)).EndInit();

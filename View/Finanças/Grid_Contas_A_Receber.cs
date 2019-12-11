@@ -21,5 +21,11 @@ namespace PIM.View.Finanças
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmConta_A_Receber cr = new frmConta_A_Receber();
+            cr.Show();
+        }
     }
 }

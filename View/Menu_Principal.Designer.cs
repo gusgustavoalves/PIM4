@@ -39,9 +39,9 @@
             this.contasAReceberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Coleta = new System.Windows.Forms.ToolStripMenuItem();
             this.entregasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estoqueDePeçasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conexaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.estoqueDePeçasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Sair = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Sistema = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
@@ -82,7 +82,7 @@
             // 
             this.clienteToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -90,7 +90,7 @@
             // 
             this.funcionarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.funcionarioToolStripMenuItem.Name = "funcionarioToolStripMenuItem";
-            this.funcionarioToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.funcionarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.funcionarioToolStripMenuItem.Text = "Funcionario";
             this.funcionarioToolStripMenuItem.Click += new System.EventHandler(this.funcionarioToolStripMenuItem_Click);
             // 
@@ -98,7 +98,7 @@
             // 
             this.usuarioToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             this.usuarioToolStripMenuItem.Click += new System.EventHandler(this.usuarioToolStripMenuItem_Click);
             // 
@@ -106,7 +106,7 @@
             // 
             this.veiculosToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.veiculosToolStripMenuItem.Name = "veiculosToolStripMenuItem";
-            this.veiculosToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.veiculosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.veiculosToolStripMenuItem.Text = "Veiculos";
             this.veiculosToolStripMenuItem.Click += new System.EventHandler(this.veiculosToolStripMenuItem_Click);
             // 
@@ -123,7 +123,7 @@
             // 
             this.contasAPagarToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.contasAPagarToolStripMenuItem.Name = "contasAPagarToolStripMenuItem";
-            this.contasAPagarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.contasAPagarToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.contasAPagarToolStripMenuItem.Text = "Contas a Pagar";
             this.contasAPagarToolStripMenuItem.Click += new System.EventHandler(this.contasAPagarToolStripMenuItem_Click);
             // 
@@ -131,7 +131,7 @@
             // 
             this.contasAReceberToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.contasAReceberToolStripMenuItem.Name = "contasAReceberToolStripMenuItem";
-            this.contasAReceberToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.contasAReceberToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.contasAReceberToolStripMenuItem.Text = "Contas a Receber";
             this.contasAReceberToolStripMenuItem.Click += new System.EventHandler(this.contasAReceberToolStripMenuItem_Click);
             // 
@@ -149,6 +149,13 @@
             this.entregasToolStripMenuItem1.Text = "Entregas";
             this.entregasToolStripMenuItem1.Click += new System.EventHandler(this.entregasToolStripMenuItem1_Click);
             // 
+            // estoqueDePeçasToolStripMenuItem
+            // 
+            this.estoqueDePeçasToolStripMenuItem.Name = "estoqueDePeçasToolStripMenuItem";
+            this.estoqueDePeçasToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
+            this.estoqueDePeçasToolStripMenuItem.Text = "Estoque de Peças";
+            this.estoqueDePeçasToolStripMenuItem.Click += new System.EventHandler(this.estoqueDePeçasToolStripMenuItem_Click);
+            // 
             // conexaoToolStripMenuItem
             // 
             this.conexaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -165,13 +172,6 @@
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(353, 26);
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Text = "Teste de conexao com Banco de Dados";
             this.testeDeConexaoComBancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.testeDeConexaoComBancoDeDadosToolStripMenuItem_Click);
-            // 
-            // estoqueDePeçasToolStripMenuItem
-            // 
-            this.estoqueDePeçasToolStripMenuItem.Name = "estoqueDePeçasToolStripMenuItem";
-            this.estoqueDePeçasToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
-            this.estoqueDePeçasToolStripMenuItem.Text = "Estoque de Peças";
-            this.estoqueDePeçasToolStripMenuItem.Click += new System.EventHandler(this.estoqueDePeçasToolStripMenuItem_Click);
             // 
             // ToolStripMenuItem_Sair
             // 
@@ -203,6 +203,7 @@
             this.ClientSize = new System.Drawing.Size(1045, 690);
             this.Controls.Add(this.Panel_Sistema);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimumSize = new System.Drawing.Size(794, 478);

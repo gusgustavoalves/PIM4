@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PIM.View.Entregas;
 
 namespace PIM.View
 {
@@ -30,6 +31,12 @@ namespace PIM.View
         private void btnSair_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnPesquisarEntregas_Click(object sender, EventArgs e)
+        {
+            frmPesquisa_Entregas pent = new frmPesquisa_Entregas();
+            pent.Show();
         }
     }
 }

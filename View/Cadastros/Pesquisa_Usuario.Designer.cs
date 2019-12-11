@@ -30,12 +30,11 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BntSelecionar = new System.Windows.Forms.Button();
             this.GVUsuario = new System.Windows.Forms.DataGridView();
             this.textBoxUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
-            this.BntSelecionar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GVUsuario)).BeginInit();
             this.SuspendLayout();
@@ -65,6 +64,19 @@
             this.panel1.Size = new System.Drawing.Size(663, 451);
             this.panel1.TabIndex = 57;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // BntSelecionar
+            // 
+            this.BntSelecionar.BackColor = System.Drawing.Color.Green;
+            this.BntSelecionar.ForeColor = System.Drawing.Color.White;
+            this.BntSelecionar.Location = new System.Drawing.Point(544, 410);
+            this.BntSelecionar.Margin = new System.Windows.Forms.Padding(4);
+            this.BntSelecionar.Name = "BntSelecionar";
+            this.BntSelecionar.Size = new System.Drawing.Size(100, 37);
+            this.BntSelecionar.TabIndex = 60;
+            this.BntSelecionar.Text = "Selecionar";
+            this.BntSelecionar.UseVisualStyleBackColor = false;
+            this.BntSelecionar.Click += new System.EventHandler(this.BntSelecionar_Click);
             // 
             // GVUsuario
             // 
@@ -114,32 +126,6 @@
             this.btnPesquisar.UseVisualStyleBackColor = false;
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.Red;
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(451, 11);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(69, 37);
-            this.btnSair.TabIndex = 59;
-            this.btnSair.Text = "X";
-            this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // BntSelecionar
-            // 
-            this.BntSelecionar.BackColor = System.Drawing.Color.Green;
-            this.BntSelecionar.ForeColor = System.Drawing.Color.White;
-            this.BntSelecionar.Location = new System.Drawing.Point(544, 410);
-            this.BntSelecionar.Margin = new System.Windows.Forms.Padding(4);
-            this.BntSelecionar.Name = "BntSelecionar";
-            this.BntSelecionar.Size = new System.Drawing.Size(100, 37);
-            this.BntSelecionar.TabIndex = 60;
-            this.BntSelecionar.Text = "Selecionar";
-            this.BntSelecionar.UseVisualStyleBackColor = false;
-            this.BntSelecionar.Click += new System.EventHandler(this.BntSelecionar_Click);
-            // 
             // frmPesquisa_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -147,7 +133,7 @@
             this.ClientSize = new System.Drawing.Size(703, 583);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnSair);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPesquisa_Usuario";
             this.Text = "Pesquisa_Usuario";
@@ -168,7 +154,6 @@
         private System.Windows.Forms.TextBox textBoxUsuario;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPesquisar;
-        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button BntSelecionar;
     }
 }

@@ -24,5 +24,11 @@ namespace PIM.View.Finanças
         {
             Close();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmGridContas_A_Receber gb = new frmGridContas_A_Receber();
+            gb.Show();
+        }
     }
 }

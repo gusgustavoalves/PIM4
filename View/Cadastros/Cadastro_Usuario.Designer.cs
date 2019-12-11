@@ -41,7 +41,6 @@
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnSair = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,19 +187,6 @@
             this.label2.TabIndex = 51;
             this.label2.Text = "Cadastro de Usuários";
             // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.Red;
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(463, 9);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(69, 37);
-            this.btnSair.TabIndex = 56;
-            this.btnSair.Text = "X";
-            this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
             // frmCadastro_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -208,7 +194,7 @@
             this.ClientSize = new System.Drawing.Size(564, 475);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnSair);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCadastro_Usuario";
             this.Text = "Cadastro_Usuario";
@@ -234,6 +220,5 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnSair;
     }
 }
